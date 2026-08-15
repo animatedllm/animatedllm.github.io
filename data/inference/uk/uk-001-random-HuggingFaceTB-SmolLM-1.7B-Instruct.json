@@ -1,0 +1,5161 @@
+{
+  "id": "generated_20260815_224253",
+  "prompt": "Хто ти?",
+  "language": "uk",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+    "num_layers": 24,
+    "hidden_size": 2048,
+    "num_attention_heads": 32,
+    "vocab_size": 49152
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "What",
+            "token_id": 1780,
+            "logprob": -1.5703,
+            "prob": 0.208
+          },
+          {
+            "token": "�",
+            "token_id": 155,
+            "logprob": -2.3125,
+            "prob": 0.0981
+          },
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -2.4375,
+            "prob": 0.0869
+          },
+          {
+            "token": "The",
+            "token_id": 504,
+            "logprob": -2.5625,
+            "prob": 0.0767
+          },
+          {
+            "token": "(",
+            "token_id": 24,
+            "logprob": -3.0625,
+            "prob": 0.0464
+          },
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -3.1875,
+            "prob": 0.041
+          },
+          {
+            "token": "You",
+            "token_id": 2683,
+            "logprob": -3.4375,
+            "prob": 0.032
+          },
+          {
+            "token": "Hello",
+            "token_id": 19556,
+            "logprob": -3.4375,
+            "prob": 0.032
+          },
+          {
+            "token": "That",
+            "token_id": 5195,
+            "logprob": -3.6875,
+            "prob": 0.0249
+          },
+          {
+            "token": "T",
+            "token_id": 68,
+            "logprob": -3.9375,
+            "prob": 0.0194
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "�",
+        "token_id": 155,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>�",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "�",
+            "token_id": 115,
+            "logprob": -0.0258,
+            "prob": 0.9766
+          },
+          {
+            "token": "�",
+            "token_id": 124,
+            "logprob": -5.7812,
+            "prob": 0.0031
+          },
+          {
+            "token": "�",
+            "token_id": 112,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "�",
+            "token_id": 249,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "�",
+            "token_id": 113,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "�",
+            "token_id": 117,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "�",
+            "token_id": 241,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "�",
+            "token_id": 111,
+            "logprob": -6.4062,
+            "prob": 0.0017
+          },
+          {
+            "token": "�",
+            "token_id": 247,
+            "logprob": -6.7812,
+            "prob": 0.0011
+          },
+          {
+            "token": "�",
+            "token_id": 251,
+            "logprob": -6.9062,
+            "prob": 0.001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "�",
+        "token_id": 115,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "т",
+            "token_id": 8355,
+            "logprob": -0.0483,
+            "prob": 0.9531
+          },
+          {
+            "token": "от",
+            "token_id": 43129,
+            "logprob": -4.1875,
+            "prob": 0.0154
+          },
+          {
+            "token": "Ġт",
+            "token_id": 38106,
+            "logprob": -5.125,
+            "prob": 0.006
+          },
+          {
+            "token": "а",
+            "token_id": 6511,
+            "logprob": -5.3125,
+            "prob": 0.005
+          },
+          {
+            "token": "у",
+            "token_id": 14714,
+            "logprob": -5.5,
+            "prob": 0.0042
+          },
+          {
+            "token": "к",
+            "token_id": 13760,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "�",
+            "token_id": 155,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          },
+          {
+            "token": "ит",
+            "token_id": 36529,
+            "logprob": -6.5625,
+            "prob": 0.0014
+          },
+          {
+            "token": "о",
+            "token_id": 6485,
+            "logprob": -6.6875,
+            "prob": 0.0013
+          },
+          {
+            "token": "в",
+            "token_id": 16464,
+            "logprob": -6.9375,
+            "prob": 0.001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġт",
+        "token_id": 38106,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х т",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "и",
+            "token_id": 7872,
+            "logprob": -0.0298,
+            "prob": 0.9688
+          },
+          {
+            "token": "о",
+            "token_id": 6485,
+            "logprob": -4.2812,
+            "prob": 0.0139
+          },
+          {
+            "token": "ы",
+            "token_id": 18408,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "е",
+            "token_id": 6643,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "а",
+            "token_id": 6511,
+            "logprob": -6.5938,
+            "prob": 0.0014
+          },
+          {
+            "token": "ит",
+            "token_id": 36529,
+            "logprob": -6.7188,
+            "prob": 0.0012
+          },
+          {
+            "token": "ой",
+            "token_id": 46973,
+            "logprob": -6.8438,
+            "prob": 0.0011
+          },
+          {
+            "token": "я",
+            "token_id": 16885,
+            "logprob": -6.9062,
+            "prob": 0.001
+          },
+          {
+            "token": "ь",
+            "token_id": 19884,
+            "logprob": -7.0938,
+            "prob": 0.0008
+          },
+          {
+            "token": "у",
+            "token_id": 14714,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ы",
+        "token_id": 18408,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "?",
+            "token_id": 47,
+            "logprob": -1.2969,
+            "prob": 0.2734
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -1.3594,
+            "prob": 0.2578
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -1.9844,
+            "prob": 0.1377
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 731,
+            "logprob": -2.3594,
+            "prob": 0.0947
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -2.7969,
+            "prob": 0.061
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -3.3594,
+            "prob": 0.0349
+          },
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -3.6719,
+            "prob": 0.0255
+          },
+          {
+            "token": "?!",
+            "token_id": 17593,
+            "logprob": -3.9844,
+            "prob": 0.0187
+          },
+          {
+            "token": "Ġ�",
+            "token_id": 5470,
+            "logprob": -4.9688,
+            "prob": 0.0069
+          },
+          {
+            "token": ":",
+            "token_id": 42,
+            "logprob": -5.2188,
+            "prob": 0.0053
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "?!",
+        "token_id": 17593,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?!",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -0.6992,
+            "prob": 0.4961
+          },
+          {
+            "token": "ĠThat",
+            "token_id": 1848,
+            "logprob": -2.0781,
+            "prob": 0.126
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -2.5156,
+            "prob": 0.0811
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 731,
+            "logprob": -3.0781,
+            "prob": 0.0461
+          },
+          {
+            "token": "ĠThis",
+            "token_id": 669,
+            "logprob": -3.3281,
+            "prob": 0.0359
+          },
+          {
+            "token": "ĠIt",
+            "token_id": 657,
+            "logprob": -3.5781,
+            "prob": 0.0281
+          },
+          {
+            "token": "Ġ�",
+            "token_id": 5470,
+            "logprob": -4.1875,
+            "prob": 0.015
+          },
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -4.5,
+            "prob": 0.011
+          },
+          {
+            "token": "ĠWhat",
+            "token_id": 1812,
+            "logprob": -4.5,
+            "prob": 0.011
+          },
+          {
+            "token": "ĠIn",
+            "token_id": 533,
+            "logprob": -4.8125,
+            "prob": 0.0081
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠThat",
+        "token_id": 1848,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "'s",
+            "token_id": 506,
+            "logprob": -0.1001,
+            "prob": 0.9062
+          },
+          {
+            "token": "Ġmeans",
+            "token_id": 1530,
+            "logprob": -2.9688,
+            "prob": 0.051
+          },
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -4.0312,
+            "prob": 0.0177
+          },
+          {
+            "token": "Ġsounds",
+            "token_id": 4598,
+            "logprob": -5.2188,
+            "prob": 0.0054
+          },
+          {
+            "token": "Ġtranslates",
+            "token_id": 18419,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 416,
+            "logprob": -6.0938,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 436,
+            "logprob": -6.4062,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġphrase",
+            "token_id": 8715,
+            "logprob": -6.5938,
+            "prob": 0.0014
+          },
+          {
+            "token": "Ġwould",
+            "token_id": 736,
+            "logprob": -6.6562,
+            "prob": 0.0013
+          },
+          {
+            "token": "’",
+            "token_id": 417,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmeans",
+        "token_id": 1530,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ\"",
+            "token_id": 476,
+            "logprob": -0.0339,
+            "prob": 0.9648
+          },
+          {
+            "token": "Ġsomething",
+            "token_id": 1488,
+            "logprob": -4.7188,
+            "prob": 0.0089
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -5.1562,
+            "prob": 0.0057
+          },
+          {
+            "token": "Ġ'",
+            "token_id": 637,
+            "logprob": -5.9688,
+            "prob": 0.0025
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": "Ġwhat",
+            "token_id": 732,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -6.4688,
+            "prob": 0.0015
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -6.5312,
+            "prob": 0.0014
+          },
+          {
+            "token": "Ġit",
+            "token_id": 357,
+            "logprob": -6.5312,
+            "prob": 0.0014
+          },
+          {
+            "token": "...",
+            "token_id": 2026,
+            "logprob": -7.0938,
+            "prob": 0.0008
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ\"",
+        "token_id": 476,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\""
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "what",
+            "token_id": 5588,
+            "logprob": -0.9688,
+            "prob": 0.3809
+          },
+          {
+            "token": "What",
+            "token_id": 1780,
+            "logprob": -1.8438,
+            "prob": 0.1582
+          },
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -2.5938,
+            "prob": 0.0747
+          },
+          {
+            "token": "it",
+            "token_id": 269,
+            "logprob": -2.7188,
+            "prob": 0.0659
+          },
+          {
+            "token": "yes",
+            "token_id": 10407,
+            "logprob": -2.9688,
+            "prob": 0.0515
+          },
+          {
+            "token": "Hello",
+            "token_id": 19556,
+            "logprob": -3.4688,
+            "prob": 0.0311
+          },
+          {
+            "token": "you",
+            "token_id": 8320,
+            "logprob": -3.7188,
+            "prob": 0.0243
+          },
+          {
+            "token": "hello",
+            "token_id": 28120,
+            "logprob": -3.7188,
+            "prob": 0.0243
+          },
+          {
+            "token": "It",
+            "token_id": 1589,
+            "logprob": -3.8438,
+            "prob": 0.0215
+          },
+          {
+            "token": "How",
+            "token_id": 2020,
+            "logprob": -4.4688,
+            "prob": 0.0115
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "It",
+        "token_id": 1589,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -0.5898,
+            "prob": 0.5547
+          },
+          {
+            "token": "'s",
+            "token_id": 506,
+            "logprob": -0.8398,
+            "prob": 0.4316
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 436,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -7.4062,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġgoes",
+            "token_id": 3935,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġdoes",
+            "token_id": 1072,
+            "logprob": -7.5938,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġworks",
+            "token_id": 1806,
+            "logprob": -7.8438,
+            "prob": 0.0004
+          },
+          {
+            "token": "/",
+            "token_id": 31,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġit",
+            "token_id": 357,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "'s",
+        "token_id": 506,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġme",
+            "token_id": 549,
+            "logprob": -0.2451,
+            "prob": 0.7812
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -2.1875,
+            "prob": 0.1128
+          },
+          {
+            "token": "Ġtime",
+            "token_id": 655,
+            "logprob": -4.625,
+            "prob": 0.0098
+          },
+          {
+            "token": "Ġnice",
+            "token_id": 9239,
+            "logprob": -4.8125,
+            "prob": 0.0082
+          },
+          {
+            "token": "Ġabout",
+            "token_id": 563,
+            "logprob": -5.0,
+            "prob": 0.0068
+          },
+          {
+            "token": "Ġyour",
+            "token_id": 469,
+            "logprob": -5.25,
+            "prob": 0.0053
+          },
+          {
+            "token": "Ġgreat",
+            "token_id": 1109,
+            "logprob": -5.375,
+            "prob": 0.0047
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -5.4375,
+            "prob": 0.0044
+          },
+          {
+            "token": "Ġso",
+            "token_id": 588,
+            "logprob": -5.5,
+            "prob": 0.0041
+          },
+          {
+            "token": "Ġmy",
+            "token_id": 957,
+            "logprob": -5.5,
+            "prob": 0.0041
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġso",
+        "token_id": 588,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!\"",
+            "token_id": 6653,
+            "logprob": -0.5508,
+            "prob": 0.5781
+          },
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -2.0469,
+            "prob": 0.1289
+          },
+          {
+            "token": "Ġgood",
+            "token_id": 1123,
+            "logprob": -2.9219,
+            "prob": 0.0537
+          },
+          {
+            "token": "Ġmuch",
+            "token_id": 1083,
+            "logprob": -3.2344,
+            "prob": 0.0393
+          },
+          {
+            "token": "Ġgreat",
+            "token_id": 1109,
+            "logprob": -3.8594,
+            "prob": 0.021
+          },
+          {
+            "token": "...\"",
+            "token_id": 19110,
+            "logprob": -3.9219,
+            "prob": 0.0198
+          },
+          {
+            "token": ".\"",
+            "token_id": 1270,
+            "logprob": -4.125,
+            "prob": 0.0164
+          },
+          {
+            "token": "-",
+            "token_id": 29,
+            "logprob": -4.25,
+            "prob": 0.0145
+          },
+          {
+            "token": "Ġfunny",
+            "token_id": 17025,
+            "logprob": -4.3125,
+            "prob": 0.0135
+          },
+          {
+            "token": "Ġnice",
+            "token_id": 9239,
+            "logprob": -4.8125,
+            "prob": 0.0082
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġgreat",
+        "token_id": 1109,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!\"",
+            "token_id": 6653,
+            "logprob": -0.2812,
+            "prob": 0.7539
+          },
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -2.0312,
+            "prob": 0.1309
+          },
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -2.9062,
+            "prob": 0.0547
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -3.9062,
+            "prob": 0.0201
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -4.4062,
+            "prob": 0.0122
+          },
+          {
+            "token": "!\",",
+            "token_id": 38500,
+            "logprob": -4.7812,
+            "prob": 0.0084
+          },
+          {
+            "token": "/",
+            "token_id": 31,
+            "logprob": -4.8438,
+            "prob": 0.0079
+          },
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": ".\"",
+            "token_id": 1270,
+            "logprob": -6.5312,
+            "prob": 0.0015
+          },
+          {
+            "token": ",\"",
+            "token_id": 1627,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "!\"",
+        "token_id": 6653,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\"",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\""
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -0.7148,
+            "prob": 0.4902
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -0.8398,
+            "prob": 0.4316
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -3.9688,
+            "prob": 0.0189
+          },
+          {
+            "token": "ĠIn",
+            "token_id": 533,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -5.4062,
+            "prob": 0.0045
+          },
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -5.5938,
+            "prob": 0.0037
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -5.5938,
+            "prob": 0.0037
+          },
+          {
+            "token": "ĠIt",
+            "token_id": 657,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 731,
+            "logprob": -5.7812,
+            "prob": 0.0031
+          },
+          {
+            "token": "Ġbut",
+            "token_id": 564,
+            "logprob": -5.9062,
+            "prob": 0.0027
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġbut",
+        "token_id": 564,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġit",
+            "token_id": 357,
+            "logprob": -1.2188,
+            "prob": 0.2969
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -2.0938,
+            "prob": 0.1235
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -2.4688,
+            "prob": 0.085
+          },
+          {
+            "token": "Ġwhat",
+            "token_id": 732,
+            "logprob": -3.0938,
+            "prob": 0.0454
+          },
+          {
+            "token": "Ġalso",
+            "token_id": 597,
+            "logprob": -3.3438,
+            "prob": 0.0354
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 351,
+            "logprob": -3.4688,
+            "prob": 0.0312
+          },
+          {
+            "token": "Ġthere",
+            "token_id": 665,
+            "logprob": -3.5312,
+            "prob": 0.0294
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -3.7188,
+            "prob": 0.0243
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 416,
+            "logprob": -3.7188,
+            "prob": 0.0243
+          },
+          {
+            "token": "Ġnot",
+            "token_id": 441,
+            "logprob": -3.9062,
+            "prob": 0.0201
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġwith",
+        "token_id": 351,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -0.1279,
+            "prob": 0.8789
+          },
+          {
+            "token": "Ġan",
+            "token_id": 354,
+            "logprob": -3.0,
+            "prob": 0.0496
+          },
+          {
+            "token": "Ġsome",
+            "token_id": 634,
+            "logprob": -3.75,
+            "prob": 0.0234
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -4.1875,
+            "prob": 0.0151
+          },
+          {
+            "token": "Ġdifferent",
+            "token_id": 896,
+            "logprob": -5.3125,
+            "prob": 0.0049
+          },
+          {
+            "token": "Ġmore",
+            "token_id": 540,
+            "logprob": -5.625,
+            "prob": 0.0036
+          },
+          {
+            "token": "Ġall",
+            "token_id": 511,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġno",
+            "token_id": 787,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġtwo",
+            "token_id": 827,
+            "logprob": -6.8125,
+            "prob": 0.0011
+          },
+          {
+            "token": "ĠRussian",
+            "token_id": 6103,
+            "logprob": -6.8125,
+            "prob": 0.0011
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġno",
+        "token_id": 787,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġspecific",
+            "token_id": 1678,
+            "logprob": -1.7578,
+            "prob": 0.1729
+          },
+          {
+            "token": "Ġcontext",
+            "token_id": 2468,
+            "logprob": -2.0625,
+            "prob": 0.126
+          },
+          {
+            "token": "Ġparticular",
+            "token_id": 1542,
+            "logprob": -3.3125,
+            "prob": 0.0361
+          },
+          {
+            "token": "Ġactual",
+            "token_id": 4277,
+            "logprob": -3.375,
+            "prob": 0.0339
+          },
+          {
+            "token": "Ġquestion",
+            "token_id": 1962,
+            "logprob": -3.6875,
+            "prob": 0.0249
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 476,
+            "logprob": -3.8125,
+            "prob": 0.022
+          },
+          {
+            "token": "Ġresponse",
+            "token_id": 2426,
+            "logprob": -3.8125,
+            "prob": 0.022
+          },
+          {
+            "token": "Ġindication",
+            "token_id": 14663,
+            "logprob": -3.875,
+            "prob": 0.0206
+          },
+          {
+            "token": "Ġone",
+            "token_id": 582,
+            "logprob": -4.0,
+            "prob": 0.0182
+          },
+          {
+            "token": "Ġverb",
+            "token_id": 6936,
+            "logprob": -4.1875,
+            "prob": 0.0151
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġactual",
+        "token_id": 4277,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmeaning",
+            "token_id": 2455,
+            "logprob": -1.5234,
+            "prob": 0.2178
+          },
+          {
+            "token": "Ġcontext",
+            "token_id": 2468,
+            "logprob": -2.6562,
+            "prob": 0.0708
+          },
+          {
+            "token": "Ġcontent",
+            "token_id": 2627,
+            "logprob": -2.7812,
+            "prob": 0.0625
+          },
+          {
+            "token": "Ġwords",
+            "token_id": 1924,
+            "logprob": -2.8438,
+            "prob": 0.0586
+          },
+          {
+            "token": "Ġtranslation",
+            "token_id": 8483,
+            "logprob": -3.0938,
+            "prob": 0.0457
+          },
+          {
+            "token": "ĠEnglish",
+            "token_id": 2321,
+            "logprob": -3.4062,
+            "prob": 0.0334
+          },
+          {
+            "token": "Ġsentence",
+            "token_id": 6330,
+            "logprob": -3.4062,
+            "prob": 0.0334
+          },
+          {
+            "token": "Ġsubject",
+            "token_id": 2138,
+            "logprob": -3.4062,
+            "prob": 0.0334
+          },
+          {
+            "token": "Ġword",
+            "token_id": 2229,
+            "logprob": -3.5312,
+            "prob": 0.0294
+          },
+          {
+            "token": "Ġresponse",
+            "token_id": 2426,
+            "logprob": -3.6562,
+            "prob": 0.026
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmeaning",
+        "token_id": 2455,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -0.6289,
+            "prob": 0.5312
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -2.125,
+            "prob": 0.1187
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -2.5,
+            "prob": 0.0815
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -2.625,
+            "prob": 0.0723
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -2.875,
+            "prob": 0.0562
+          },
+          {
+            "token": "Ġbehind",
+            "token_id": 2893,
+            "logprob": -3.25,
+            "prob": 0.0386
+          },
+          {
+            "token": "Ġbeyond",
+            "token_id": 3070,
+            "logprob": -4.0,
+            "prob": 0.0182
+          },
+          {
+            "token": "Ġattached",
+            "token_id": 7064,
+            "logprob": -4.75,
+            "prob": 0.0086
+          },
+          {
+            "token": "Ġother",
+            "token_id": 550,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -5.125,
+            "prob": 0.0059
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġor",
+        "token_id": 355,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġcontext",
+            "token_id": 2468,
+            "logprob": -1.0625,
+            "prob": 0.3457
+          },
+          {
+            "token": "Ġtranslation",
+            "token_id": 8483,
+            "logprob": -2.5625,
+            "prob": 0.0771
+          },
+          {
+            "token": "Ġgrammar",
+            "token_id": 10560,
+            "logprob": -2.875,
+            "prob": 0.0564
+          },
+          {
+            "token": "Ġconnection",
+            "token_id": 3890,
+            "logprob": -3.0625,
+            "prob": 0.0469
+          },
+          {
+            "token": "Ġsignificance",
+            "token_id": 5017,
+            "logprob": -3.5625,
+            "prob": 0.0284
+          },
+          {
+            "token": "Ġgrammatical",
+            "token_id": 24376,
+            "logprob": -3.6875,
+            "prob": 0.025
+          },
+          {
+            "token": "Ġsentence",
+            "token_id": 6330,
+            "logprob": -3.875,
+            "prob": 0.0208
+          },
+          {
+            "token": "Ġfunction",
+            "token_id": 1517,
+            "logprob": -3.875,
+            "prob": 0.0208
+          },
+          {
+            "token": "Ġintention",
+            "token_id": 9320,
+            "logprob": -3.875,
+            "prob": 0.0208
+          },
+          {
+            "token": "Ġpurpose",
+            "token_id": 3446,
+            "logprob": -4.0625,
+            "prob": 0.0172
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpurpose",
+        "token_id": 3446,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -0.248,
+            "prob": 0.7812
+          },
+          {
+            "token": "Ġbehind",
+            "token_id": 2893,
+            "logprob": -2.625,
+            "prob": 0.0728
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -3.375,
+            "prob": 0.0342
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -3.625,
+            "prob": 0.0267
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -3.875,
+            "prob": 0.0208
+          },
+          {
+            "token": "Ġbeyond",
+            "token_id": 3070,
+            "logprob": -4.25,
+            "prob": 0.0143
+          },
+          {
+            "token": "Ġother",
+            "token_id": 550,
+            "logprob": -4.375,
+            "prob": 0.0126
+          },
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "Ġattached",
+            "token_id": 7064,
+            "logprob": -5.75,
+            "prob": 0.0032
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġother",
+        "token_id": 550,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġthan",
+            "token_id": 670,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 338,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "than",
+            "token_id": 15452,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġthen",
+            "token_id": 965,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "...",
+            "token_id": 2026,
+            "logprob": -14.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠThan",
+            "token_id": 24988,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfrom",
+            "token_id": 429,
+            "logprob": -14.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġthen",
+        "token_id": 965,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -0.7969,
+            "prob": 0.4492
+          },
+          {
+            "token": "Ġbeing",
+            "token_id": 1036,
+            "logprob": -2.0469,
+            "prob": 0.1289
+          },
+          {
+            "token": "Ġjust",
+            "token_id": 915,
+            "logprob": -3.1094,
+            "prob": 0.0444
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -3.2969,
+            "prob": 0.0369
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -3.4219,
+            "prob": 0.0325
+          },
+          {
+            "token": "Ġit",
+            "token_id": 357,
+            "logprob": -3.6094,
+            "prob": 0.027
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 476,
+            "logprob": -3.7344,
+            "prob": 0.0238
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 338,
+            "logprob": -3.7969,
+            "prob": 0.0223
+          },
+          {
+            "token": "Ġexpressing",
+            "token_id": 11974,
+            "logprob": -3.9219,
+            "prob": 0.0198
+          },
+          {
+            "token": "Ġfor",
+            "token_id": 327,
+            "logprob": -3.9844,
+            "prob": 0.0186
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ\"",
+        "token_id": 476,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\""
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "it",
+            "token_id": 269,
+            "logprob": -1.4141,
+            "prob": 0.2432
+          },
+          {
+            "token": "It",
+            "token_id": 1589,
+            "logprob": -1.4141,
+            "prob": 0.2432
+          },
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -1.7891,
+            "prob": 0.167
+          },
+          {
+            "token": "great",
+            "token_id": 18680,
+            "logprob": -3.6562,
+            "prob": 0.0256
+          },
+          {
+            "token": "good",
+            "token_id": 12018,
+            "logprob": -3.7812,
+            "prob": 0.0227
+          },
+          {
+            "token": "Wow",
+            "token_id": 32373,
+            "logprob": -4.0312,
+            "prob": 0.0177
+          },
+          {
+            "token": "Hey",
+            "token_id": 22234,
+            "logprob": -4.0312,
+            "prob": 0.0177
+          },
+          {
+            "token": "Oh",
+            "token_id": 16912,
+            "logprob": -4.1562,
+            "prob": 0.0156
+          },
+          {
+            "token": "This",
+            "token_id": 1348,
+            "logprob": -4.4062,
+            "prob": 0.0121
+          },
+          {
+            "token": "That",
+            "token_id": 5195,
+            "logprob": -4.5312,
+            "prob": 0.0107
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "good",
+        "token_id": 12018,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 24,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -1.4609,
+            "prob": 0.2324
+          },
+          {
+            "token": "\".",
+            "token_id": 2227,
+            "logprob": -1.7109,
+            "prob": 0.1807
+          },
+          {
+            "token": "ness",
+            "token_id": 924,
+            "logprob": -2.4531,
+            "prob": 0.0854
+          },
+          {
+            "token": "Ġjob",
+            "token_id": 2288,
+            "logprob": -2.7656,
+            "prob": 0.0625
+          },
+          {
+            "token": "Ġv",
+            "token_id": 386,
+            "logprob": -2.8281,
+            "prob": 0.0588
+          },
+          {
+            "token": "Ġnews",
+            "token_id": 3661,
+            "logprob": -3.2656,
+            "prob": 0.0378
+          },
+          {
+            "token": "bye",
+            "token_id": 25257,
+            "logprob": -3.6406,
+            "prob": 0.0261
+          },
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -3.7031,
+            "prob": 0.0245
+          },
+          {
+            "token": ".\"",
+            "token_id": 1270,
+            "logprob": -3.8906,
+            "prob": 0.0203
+          },
+          {
+            "token": "Ġfeeling",
+            "token_id": 4330,
+            "logprob": -4.0938,
+            "prob": 0.0168
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".\"",
+        "token_id": 1270,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 25,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\"",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\""
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠIt",
+            "token_id": 657,
+            "logprob": -1.1328,
+            "prob": 0.3223
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -2.375,
+            "prob": 0.0928
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -2.5625,
+            "prob": 0.0767
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -2.6875,
+            "prob": 0.0679
+          },
+          {
+            "token": "ĠThis",
+            "token_id": 669,
+            "logprob": -3.5625,
+            "prob": 0.0282
+          },
+          {
+            "token": "ĠIn",
+            "token_id": 533,
+            "logprob": -3.75,
+            "prob": 0.0234
+          },
+          {
+            "token": "ĠYou",
+            "token_id": 1206,
+            "logprob": -3.75,
+            "prob": 0.0234
+          },
+          {
+            "token": "ĠThere",
+            "token_id": 1385,
+            "logprob": -3.9375,
+            "prob": 0.0194
+          },
+          {
+            "token": "ĠThe",
+            "token_id": 378,
+            "logprob": -4.0625,
+            "prob": 0.0171
+          },
+          {
+            "token": "ĠSo",
+            "token_id": 1644,
+            "logprob": -4.125,
+            "prob": 0.0161
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠYou",
+        "token_id": 1206,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 26,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġcan",
+            "token_id": 416,
+            "logprob": -0.9297,
+            "prob": 0.3945
+          },
+          {
+            "token": "Ġcould",
+            "token_id": 856,
+            "logprob": -1.9297,
+            "prob": 0.1455
+          },
+          {
+            "token": "'re",
+            "token_id": 2316,
+            "logprob": -2.6875,
+            "prob": 0.0684
+          },
+          {
+            "token": "Ġmight",
+            "token_id": 1124,
+            "logprob": -2.6875,
+            "prob": 0.0684
+          },
+          {
+            "token": "Ġsee",
+            "token_id": 963,
+            "logprob": -2.8125,
+            "prob": 0.0605
+          },
+          {
+            "token": "Ġknow",
+            "token_id": 699,
+            "logprob": -2.9375,
+            "prob": 0.0535
+          },
+          {
+            "token": "'d",
+            "token_id": 6737,
+            "logprob": -3.5625,
+            "prob": 0.0286
+          },
+          {
+            "token": "'ll",
+            "token_id": 3060,
+            "logprob": -4.0625,
+            "prob": 0.0173
+          },
+          {
+            "token": "Ġwould",
+            "token_id": 736,
+            "logprob": -4.1875,
+            "prob": 0.0153
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 457,
+            "logprob": -4.3125,
+            "prob": 0.0135
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "'d",
+        "token_id": 6737,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 27,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You'd",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou",
+        "'d"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206,
+        6737
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġbe",
+            "token_id": 325,
+            "logprob": -1.5,
+            "prob": 0.2236
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 457,
+            "logprob": -1.625,
+            "prob": 0.1973
+          },
+          {
+            "token": "Ġneed",
+            "token_id": 737,
+            "logprob": -1.75,
+            "prob": 0.1738
+          },
+          {
+            "token": "Ġbetter",
+            "token_id": 1365,
+            "logprob": -2.375,
+            "prob": 0.0933
+          },
+          {
+            "token": "Ġthink",
+            "token_id": 1510,
+            "logprob": -2.5,
+            "prob": 0.082
+          },
+          {
+            "token": "Ġsay",
+            "token_id": 1643,
+            "logprob": -3.625,
+            "prob": 0.0267
+          },
+          {
+            "token": "Ġuse",
+            "token_id": 722,
+            "logprob": -3.75,
+            "prob": 0.0236
+          },
+          {
+            "token": "Ġnever",
+            "token_id": 2093,
+            "logprob": -3.75,
+            "prob": 0.0236
+          },
+          {
+            "token": "Ġget",
+            "token_id": 820,
+            "logprob": -3.875,
+            "prob": 0.0208
+          },
+          {
+            "token": "Ġprobably",
+            "token_id": 3105,
+            "logprob": -4.25,
+            "prob": 0.0143
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġnever",
+        "token_id": 2093,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 28,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You'd never",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou",
+        "'d",
+        "Ġnever"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206,
+        6737,
+        2093
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġhear",
+            "token_id": 4875,
+            "logprob": -1.9141,
+            "prob": 0.1475
+          },
+          {
+            "token": "Ġknow",
+            "token_id": 699,
+            "logprob": -2.0469,
+            "prob": 0.1299
+          },
+          {
+            "token": "Ġuse",
+            "token_id": 722,
+            "logprob": -2.2969,
+            "prob": 0.1016
+          },
+          {
+            "token": "Ġsay",
+            "token_id": 1643,
+            "logprob": -2.2969,
+            "prob": 0.1016
+          },
+          {
+            "token": "Ġreally",
+            "token_id": 2159,
+            "logprob": -2.4219,
+            "prob": 0.0894
+          },
+          {
+            "token": "Ġunderstand",
+            "token_id": 1044,
+            "logprob": -2.9219,
+            "prob": 0.0542
+          },
+          {
+            "token": "Ġbe",
+            "token_id": 325,
+            "logprob": -2.9219,
+            "prob": 0.0542
+          },
+          {
+            "token": "Ġget",
+            "token_id": 820,
+            "logprob": -3.1719,
+            "prob": 0.0422
+          },
+          {
+            "token": "Ġactually",
+            "token_id": 2390,
+            "logprob": -3.1719,
+            "prob": 0.0422
+          },
+          {
+            "token": "Ġneed",
+            "token_id": 737,
+            "logprob": -3.7969,
+            "prob": 0.0226
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġhear",
+        "token_id": 4875,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 29,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You'd never hear",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou",
+        "'d",
+        "Ġnever",
+        "Ġhear"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206,
+        6737,
+        2093,
+        4875
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġit",
+            "token_id": 357,
+            "logprob": -1.2344,
+            "prob": 0.291
+          },
+          {
+            "token": "Ġsomeone",
+            "token_id": 2206,
+            "logprob": -1.6719,
+            "prob": 0.1875
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 338,
+            "logprob": -2.2344,
+            "prob": 0.1069
+          },
+          {
+            "token": "Ġanyone",
+            "token_id": 4325,
+            "logprob": -2.4844,
+            "prob": 0.083
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -2.5469,
+            "prob": 0.0781
+          },
+          {
+            "token": "Ġthis",
+            "token_id": 451,
+            "logprob": -2.7344,
+            "prob": 0.0649
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 476,
+            "logprob": -3.0469,
+            "prob": 0.0474
+          },
+          {
+            "token": "Ġpeople",
+            "token_id": 701,
+            "logprob": -3.7344,
+            "prob": 0.0238
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -4.25,
+            "prob": 0.0145
+          },
+          {
+            "token": "Ġme",
+            "token_id": 549,
+            "logprob": -4.3125,
+            "prob": 0.0136
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġthis",
+        "token_id": 451,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 30,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You'd never hear this",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou",
+        "'d",
+        "Ġnever",
+        "Ġhear",
+        "Ġthis"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206,
+        6737,
+        2093,
+        4875,
+        451
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġphrase",
+            "token_id": 8715,
+            "logprob": -0.6992,
+            "prob": 0.4961
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -1.9531,
+            "prob": 0.1426
+          },
+          {
+            "token": "Ġsentence",
+            "token_id": 6330,
+            "logprob": -2.2656,
+            "prob": 0.104
+          },
+          {
+            "token": "Ġword",
+            "token_id": 2229,
+            "logprob": -2.4531,
+            "prob": 0.0864
+          },
+          {
+            "token": "Ġanywhere",
+            "token_id": 8471,
+            "logprob": -3.6406,
+            "prob": 0.0262
+          },
+          {
+            "token": "Ġexpression",
+            "token_id": 4352,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġused",
+            "token_id": 804,
+            "logprob": -4.5625,
+            "prob": 0.0103
+          },
+          {
+            "token": "Ġresponse",
+            "token_id": 2426,
+            "logprob": -4.6875,
+            "prob": 0.0091
+          },
+          {
+            "token": "Ġfrom",
+            "token_id": 429,
+            "logprob": -4.8125,
+            "prob": 0.008
+          },
+          {
+            "token": "Ġone",
+            "token_id": 582,
+            "logprob": -4.875,
+            "prob": 0.0075
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsentence",
+        "token_id": 6330,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 31,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You'd never hear this sentence",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou",
+        "'d",
+        "Ġnever",
+        "Ġhear",
+        "Ġthis",
+        "Ġsentence"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206,
+        6737,
+        2093,
+        4875,
+        451,
+        6330
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -0.5234,
+            "prob": 0.5938
+          },
+          {
+            "token": "Ġused",
+            "token_id": 804,
+            "logprob": -2.6562,
+            "prob": 0.0708
+          },
+          {
+            "token": "Ġanywhere",
+            "token_id": 8471,
+            "logprob": -3.0312,
+            "prob": 0.0486
+          },
+          {
+            "token": "Ġout",
+            "token_id": 578,
+            "logprob": -3.1562,
+            "prob": 0.043
+          },
+          {
+            "token": "Ġoutside",
+            "token_id": 2856,
+            "logprob": -3.5312,
+            "prob": 0.0295
+          },
+          {
+            "token": "Ġspoken",
+            "token_id": 9235,
+            "logprob": -3.5312,
+            "prob": 0.0295
+          },
+          {
+            "token": "Ġbefore",
+            "token_id": 1092,
+            "logprob": -3.6562,
+            "prob": 0.026
+          },
+          {
+            "token": "Ġbeing",
+            "token_id": 1036,
+            "logprob": -4.0312,
+            "prob": 0.0179
+          },
+          {
+            "token": "Ġuttered",
+            "token_id": 48977,
+            "logprob": -4.1562,
+            "prob": 0.0157
+          },
+          {
+            "token": "Ġwithout",
+            "token_id": 1355,
+            "logprob": -4.2812,
+            "prob": 0.0139
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġin",
+        "token_id": 281,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 32,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You'd never hear this sentence in",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou",
+        "'d",
+        "Ġnever",
+        "Ġhear",
+        "Ġthis",
+        "Ġsentence",
+        "Ġin"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206,
+        6737,
+        2093,
+        4875,
+        451,
+        6330,
+        281
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -0.8477,
+            "prob": 0.4297
+          },
+          {
+            "token": "Ġeveryday",
+            "token_id": 6389,
+            "logprob": -1.6562,
+            "prob": 0.1904
+          },
+          {
+            "token": "Ġany",
+            "token_id": 750,
+            "logprob": -2.5938,
+            "prob": 0.0747
+          },
+          {
+            "token": "Ġreal",
+            "token_id": 1345,
+            "logprob": -2.6562,
+            "prob": 0.0698
+          },
+          {
+            "token": "Ġan",
+            "token_id": 354,
+            "logprob": -3.5938,
+            "prob": 0.0275
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -3.5938,
+            "prob": 0.0275
+          },
+          {
+            "token": "ĠRussian",
+            "token_id": 6103,
+            "logprob": -3.8438,
+            "prob": 0.0214
+          },
+          {
+            "token": "Ġspoken",
+            "token_id": 9235,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "Ġconversation",
+            "token_id": 6634,
+            "logprob": -4.2812,
+            "prob": 0.0138
+          },
+          {
+            "token": "ĠEnglish",
+            "token_id": 2321,
+            "logprob": -4.5938,
+            "prob": 0.0101
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠRussian",
+        "token_id": 6103,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 33,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You'd never hear this sentence in Russian",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou",
+        "'d",
+        "Ġnever",
+        "Ġhear",
+        "Ġthis",
+        "Ġsentence",
+        "Ġin",
+        "ĠRussian"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206,
+        6737,
+        2093,
+        4875,
+        451,
+        6330,
+        281,
+        6103
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -1.2344,
+            "prob": 0.291
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -1.8594,
+            "prob": 0.1553
+          },
+          {
+            "token": "Ġculture",
+            "token_id": 2517,
+            "logprob": -2.8594,
+            "prob": 0.0574
+          },
+          {
+            "token": "Ġunless",
+            "token_id": 6365,
+            "logprob": -2.8594,
+            "prob": 0.0574
+          },
+          {
+            "token": "Ġbefore",
+            "token_id": 1092,
+            "logprob": -2.8594,
+            "prob": 0.0574
+          },
+          {
+            "token": "Ġlanguage",
+            "token_id": 1789,
+            "logprob": -3.2344,
+            "prob": 0.0393
+          },
+          {
+            "token": "Ġwithout",
+            "token_id": 1355,
+            "logprob": -3.4219,
+            "prob": 0.0327
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -3.6719,
+            "prob": 0.0254
+          },
+          {
+            "token": "Ġbecause",
+            "token_id": 975,
+            "logprob": -3.9219,
+            "prob": 0.0198
+          },
+          {
+            "token": "Ġas",
+            "token_id": 347,
+            "logprob": -3.9844,
+            "prob": 0.0186
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 30,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 34,
+      "input_text": "<|im_start|>userХто ти?<|im_end|>Х ты?! That means \"It's so great!\" but with no actual meaning or purpose other then \"good.\" You'd never hear this sentence in Russian.",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "�",
+        "�",
+        "т",
+        "о",
+        "Ġт",
+        "и",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "�",
+        "�",
+        "Ġт",
+        "ы",
+        "?!",
+        "ĠThat",
+        "Ġmeans",
+        "Ġ\"",
+        "It",
+        "'s",
+        "Ġso",
+        "Ġgreat",
+        "!\"",
+        "Ġbut",
+        "Ġwith",
+        "Ġno",
+        "Ġactual",
+        "Ġmeaning",
+        "Ġor",
+        "Ġpurpose",
+        "Ġother",
+        "Ġthen",
+        "Ġ\"",
+        "good",
+        ".\"",
+        "ĠYou",
+        "'d",
+        "Ġnever",
+        "Ġhear",
+        "Ġthis",
+        "Ġsentence",
+        "Ġin",
+        "ĠRussian",
+        "."
+      ],
+      "token_ids": [
+        1,
+        4093,
+        155,
+        115,
+        8355,
+        6485,
+        38106,
+        7872,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        155,
+        115,
+        38106,
+        18408,
+        17593,
+        1848,
+        1530,
+        476,
+        1589,
+        506,
+        588,
+        1109,
+        6653,
+        564,
+        351,
+        787,
+        4277,
+        2455,
+        355,
+        3446,
+        550,
+        965,
+        476,
+        12018,
+        1270,
+        1206,
+        6737,
+        2093,
+        4875,
+        451,
+        6330,
+        281,
+        6103,
+        30
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -1.5,
+            "prob": 0.2236
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -1.875,
+            "prob": 0.1543
+          },
+          {
+            "token": "ĠIt",
+            "token_id": 657,
+            "logprob": -2.125,
+            "prob": 0.1201
+          },
+          {
+            "token": "ĠIn",
+            "token_id": 533,
+            "logprob": -3.0625,
+            "prob": 0.0469
+          },
+          {
+            "token": "ĠHowever",
+            "token_id": 1423,
+            "logprob": -3.1875,
+            "prob": 0.0415
+          },
+          {
+            "token": "ĠThe",
+            "token_id": 378,
+            "logprob": -3.3125,
+            "prob": 0.0366
+          },
+          {
+            "token": "ĠSo",
+            "token_id": 1644,
+            "logprob": -3.875,
+            "prob": 0.0209
+          },
+          {
+            "token": "ĠInstead",
+            "token_id": 4736,
+            "logprob": -3.9375,
+            "prob": 0.0195
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -4.0,
+            "prob": 0.0184
+          },
+          {
+            "token": "ĠBut",
+            "token_id": 1249,
+            "logprob": -4.0,
+            "prob": 0.0184
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<|im_end|>",
+        "token_id": 2,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

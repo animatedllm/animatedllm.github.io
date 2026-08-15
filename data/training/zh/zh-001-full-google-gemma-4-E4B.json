@@ -1,0 +1,3788 @@
+{
+  "id": "training_20260815_231425",
+  "type": "training",
+  "text": "大型语言模型（英語：large language model，LLM），也称大语言模型，简称大模型，是一種基於人工神经网络的语言模型。",
+  "source": "https://zh.wikipedia.org/wiki/大型语言模型",
+  "tokens": [
+    "<bos>",
+    "大型",
+    "语言",
+    "模型",
+    "（",
+    "英語",
+    "：",
+    "large",
+    "Ġlanguage",
+    "Ġmodel",
+    "，",
+    "LL",
+    "M",
+    "），",
+    "也",
+    "称",
+    "大",
+    "语言",
+    "模型",
+    "，",
+    "简称",
+    "大",
+    "模型",
+    "，",
+    "是一種",
+    "基",
+    "於",
+    "人工",
+    "神经网络",
+    "的",
+    "语言",
+    "模型",
+    "。"
+  ],
+  "token_ids": [
+    2,
+    56762,
+    37557,
+    26609,
+    237221,
+    44839,
+    237184,
+    20619,
+    5192,
+    2028,
+    236900,
+    2182,
+    236792,
+    19612,
+    237349,
+    238438,
+    237110,
+    37557,
+    26609,
+    236900,
+    123601,
+    237110,
+    26609,
+    236900,
+    192922,
+    237722,
+    238299,
+    66447,
+    124530,
+    236918,
+    37557,
+    26609,
+    236924
+  ],
+  "special_idx": [
+    0
+  ],
+  "num_tokens": 33,
+  "model_info": {
+    "name": "google/gemma-4-E4B",
+    "architecture": "gemma4",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144,
+    "max_position_embeddings": 131072,
+    "intermediate_size": 10240,
+    "total_parameters": 7941100832,
+    "pretrained": true
+  },
+  "training_steps": [
+    {
+      "step": 0,
+      "input_tokens": [],
+      "input_token_ids": [],
+      "target_token": "<bos>",
+      "target_token_id": 2,
+      "predictions": [
+        {
+          "token": "<h1>",
+          "token_id": 184,
+          "logprob": -2.7656,
+          "prob": 0.063
+        },
+        {
+          "token": "<strong>",
+          "token_id": 198,
+          "logprob": -2.7656,
+          "prob": 0.063
+        },
+        {
+          "token": "<h2>",
+          "token_id": 185,
+          "logprob": -2.8906,
+          "prob": 0.0554
+        },
+        {
+          "token": "The",
+          "token_id": 818,
+          "logprob": -3.1406,
+          "prob": 0.0432
+        },
+        {
+          "token": "<h3>",
+          "token_id": 186,
+          "logprob": -3.6406,
+          "prob": 0.0262
+        },
+        {
+          "token": "<b>",
+          "token_id": 200,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "I",
+          "token_id": 236777,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "[",
+          "token_id": 236840,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "This",
+          "token_id": 2094,
+          "logprob": -4.1562,
+          "prob": 0.0159
+        },
+        {
+          "token": "A",
+          "token_id": 236776,
+          "logprob": -4.1562,
+          "prob": 0.0159
+        }
+      ],
+      "target_token_prediction": {
+        "token": "<bos>",
+        "token_id": 2,
+        "logprob": -17.375,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -17.375,
+      "loss": 17.375
+    },
+    {
+      "step": 1,
+      "input_tokens": [
+        "<bos>"
+      ],
+      "input_token_ids": [
+        2
+      ],
+      "target_token": "大型",
+      "target_token_id": 56762,
+      "predictions": [
+        {
+          "token": "<h1>",
+          "token_id": 184,
+          "logprob": -2.7656,
+          "prob": 0.063
+        },
+        {
+          "token": "<strong>",
+          "token_id": 198,
+          "logprob": -2.7656,
+          "prob": 0.063
+        },
+        {
+          "token": "<h2>",
+          "token_id": 185,
+          "logprob": -2.8906,
+          "prob": 0.0554
+        },
+        {
+          "token": "The",
+          "token_id": 818,
+          "logprob": -3.1406,
+          "prob": 0.0432
+        },
+        {
+          "token": "<h3>",
+          "token_id": 186,
+          "logprob": -3.6406,
+          "prob": 0.0262
+        },
+        {
+          "token": "<b>",
+          "token_id": 200,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "I",
+          "token_id": 236777,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "[",
+          "token_id": 236840,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "This",
+          "token_id": 2094,
+          "logprob": -4.1562,
+          "prob": 0.0159
+        },
+        {
+          "token": "A",
+          "token_id": 236776,
+          "logprob": -4.1562,
+          "prob": 0.0159
+        }
+      ],
+      "target_token_prediction": {
+        "token": "大型",
+        "token_id": 56762,
+        "logprob": -12.5625,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -12.5625,
+      "loss": 12.5625
+    },
+    {
+      "step": 2,
+      "input_tokens": [
+        "<bos>",
+        "大型"
+      ],
+      "input_token_ids": [
+        2,
+        56762
+      ],
+      "target_token": "语言",
+      "target_token_id": 37557,
+      "predictions": [
+        {
+          "token": "連",
+          "token_id": 238466,
+          "logprob": -3.0156,
+          "prob": 0.0491
+        },
+        {
+          "token": "の",
+          "token_id": 236945,
+          "logprob": -3.0156,
+          "prob": 0.0491
+        },
+        {
+          "token": "犬",
+          "token_id": 240464,
+          "logprob": -4.0625,
+          "prob": 0.017
+        },
+        {
+          "token": "トラック",
+          "token_id": 158931,
+          "logprob": -4.1875,
+          "prob": 0.015
+        },
+        {
+          "token": "で",
+          "token_id": 237007,
+          "logprob": -4.25,
+          "prob": 0.014
+        },
+        {
+          "token": "台風",
+          "token_id": 189118,
+          "logprob": -4.4375,
+          "prob": 0.0117
+        },
+        {
+          "token": "商",
+          "token_id": 237738,
+          "logprob": -4.4375,
+          "prob": 0.0117
+        },
+        {
+          "token": "连",
+          "token_id": 238536,
+          "logprob": -4.6875,
+          "prob": 0.0091
+        },
+        {
+          "token": "车",
+          "token_id": 238029,
+          "logprob": -4.875,
+          "prob": 0.0075
+        },
+        {
+          "token": "客",
+          "token_id": 238133,
+          "logprob": -4.9375,
+          "prob": 0.0071
+        }
+      ],
+      "target_token_prediction": {
+        "token": "语言",
+        "token_id": 37557,
+        "logprob": -5.3125,
+        "prob": 0.0049
+      },
+      "target_prob": 0.0049,
+      "target_logprob": -5.3125,
+      "loss": 5.3125
+    },
+    {
+      "step": 3,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557
+      ],
+      "target_token": "模型",
+      "target_token_id": 26609,
+      "predictions": [
+        {
+          "token": "模型",
+          "token_id": 26609,
+          "logprob": -0.1035,
+          "prob": 0.9023
+        },
+        {
+          "token": "模型的",
+          "token_id": 139919,
+          "logprob": -2.4844,
+          "prob": 0.084
+        },
+        {
+          "token": "大",
+          "token_id": 237110,
+          "logprob": -5.0938,
+          "prob": 0.0061
+        },
+        {
+          "token": "AI",
+          "token_id": 12553,
+          "logprob": -7.1562,
+          "prob": 0.0008
+        },
+        {
+          "token": "建模",
+          "token_id": 156976,
+          "logprob": -7.9062,
+          "prob": 0.0004
+        },
+        {
+          "token": "生成",
+          "token_id": 25352,
+          "logprob": -7.9062,
+          "prob": 0.0004
+        },
+        {
+          "token": "模式",
+          "token_id": 24773,
+          "logprob": -7.9062,
+          "prob": 0.0004
+        },
+        {
+          "token": "语言",
+          "token_id": 37557,
+          "logprob": -8.1875,
+          "prob": 0.0003
+        },
+        {
+          "token": "<strong>",
+          "token_id": 198,
+          "logprob": -8.5625,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġ模型",
+          "token_id": 228546,
+          "logprob": -8.5625,
+          "prob": 0.0002
+        }
+      ],
+      "target_token_prediction": {
+        "token": "模型",
+        "token_id": 26609,
+        "logprob": -0.1035,
+        "prob": 0.9023
+      },
+      "target_prob": 0.9023,
+      "target_logprob": -0.1035,
+      "loss": 0.1035
+    },
+    {
+      "step": 4,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609
+      ],
+      "target_token": "（",
+      "target_token_id": 237221,
+      "predictions": [
+        {
+          "token": "（",
+          "token_id": 237221,
+          "logprob": -0.5391,
+          "prob": 0.582
+        },
+        {
+          "token": "(",
+          "token_id": 236769,
+          "logprob": -2.5469,
+          "prob": 0.0786
+        },
+        {
+          "token": "Ġ(",
+          "token_id": 568,
+          "logprob": -3.1719,
+          "prob": 0.0422
+        },
+        {
+          "token": "在",
+          "token_id": 237075,
+          "logprob": -3.4219,
+          "prob": 0.033
+        },
+        {
+          "token": "，",
+          "token_id": 236900,
+          "logprob": -4.0312,
+          "prob": 0.0176
+        },
+        {
+          "token": "是",
+          "token_id": 237026,
+          "logprob": -4.5312,
+          "prob": 0.0107
+        },
+        {
+          "token": "和",
+          "token_id": 237206,
+          "logprob": -4.7812,
+          "prob": 0.0083
+        },
+        {
+          "token": "已经",
+          "token_id": 14409,
+          "logprob": -4.7812,
+          "prob": 0.0083
+        },
+        {
+          "token": "正在",
+          "token_id": 34775,
+          "logprob": -5.0312,
+          "prob": 0.0065
+        },
+        {
+          "token": "是一种",
+          "token_id": 59013,
+          "logprob": -5.1562,
+          "prob": 0.0057
+        }
+      ],
+      "target_token_prediction": {
+        "token": "（",
+        "token_id": 237221,
+        "logprob": -0.5391,
+        "prob": 0.582
+      },
+      "target_prob": 0.582,
+      "target_logprob": -0.5391,
+      "loss": 0.5391
+    },
+    {
+      "step": 5,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221
+      ],
+      "target_token": "英語",
+      "target_token_id": 44839,
+      "predictions": [
+        {
+          "token": "LL",
+          "token_id": 2182,
+          "logprob": -0.4883,
+          "prob": 0.6133
+        },
+        {
+          "token": "Large",
+          "token_id": 31534,
+          "logprob": -1.3672,
+          "prob": 0.2559
+        },
+        {
+          "token": "如",
+          "token_id": 237433,
+          "logprob": -2.6094,
+          "prob": 0.0732
+        },
+        {
+          "token": "large",
+          "token_id": 20619,
+          "logprob": -4.625,
+          "prob": 0.0099
+        },
+        {
+          "token": "例如",
+          "token_id": 34313,
+          "logprob": -4.625,
+          "prob": 0.0099
+        },
+        {
+          "token": "Language",
+          "token_id": 28040,
+          "logprob": -5.375,
+          "prob": 0.0047
+        },
+        {
+          "token": "LM",
+          "token_id": 42476,
+          "logprob": -5.75,
+          "prob": 0.0032
+        },
+        {
+          "token": "L",
+          "token_id": 236798,
+          "logprob": -5.75,
+          "prob": 0.0032
+        },
+        {
+          "token": "<strong>",
+          "token_id": 198,
+          "logprob": -5.9375,
+          "prob": 0.0027
+        },
+        {
+          "token": "ĠLarge",
+          "token_id": 25093,
+          "logprob": -6.3125,
+          "prob": 0.0018
+        }
+      ],
+      "target_token_prediction": {
+        "token": "英語",
+        "token_id": 44839,
+        "logprob": -13.5,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -13.5,
+      "loss": 13.5
+    },
+    {
+      "step": 6,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839
+      ],
+      "target_token": "：",
+      "target_token_id": 237184,
+      "predictions": [
+        {
+          "token": "：",
+          "token_id": 237184,
+          "logprob": -0.2773,
+          "prob": 0.7578
+        },
+        {
+          "token": ":",
+          "token_id": 236787,
+          "logprob": -1.5312,
+          "prob": 0.2168
+        },
+        {
+          "token": "で",
+          "token_id": 237007,
+          "logprob": -5.5312,
+          "prob": 0.004
+        },
+        {
+          "token": "名",
+          "token_id": 237518,
+          "logprob": -6.5312,
+          "prob": 0.0015
+        },
+        {
+          "token": "Ġ：",
+          "token_id": 48574,
+          "logprob": -6.5312,
+          "prob": 0.0015
+        },
+        {
+          "token": "Ġ:",
+          "token_id": 1017,
+          "logprob": -6.6562,
+          "prob": 0.0013
+        },
+        {
+          "token": "）",
+          "token_id": 237214,
+          "logprob": -6.7812,
+          "prob": 0.0011
+        },
+        {
+          "token": "に",
+          "token_id": 237000,
+          "logprob": -7.1562,
+          "prob": 0.0008
+        },
+        {
+          "token": "、",
+          "token_id": 236951,
+          "logprob": -7.2812,
+          "prob": 0.0007
+        },
+        {
+          "token": "名称",
+          "token_id": 32671,
+          "logprob": -7.7188,
+          "prob": 0.0004
+        }
+      ],
+      "target_token_prediction": {
+        "token": "：",
+        "token_id": 237184,
+        "logprob": -0.2773,
+        "prob": 0.7578
+      },
+      "target_prob": 0.7578,
+      "target_logprob": -0.2773,
+      "loss": 0.2773
+    },
+    {
+      "step": 7,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "："
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184
+      ],
+      "target_token": "large",
+      "target_token_id": 20619,
+      "predictions": [
+        {
+          "token": "Large",
+          "token_id": 31534,
+          "logprob": -0.2598,
+          "prob": 0.7734
+        },
+        {
+          "token": "ĠLarge",
+          "token_id": 25093,
+          "logprob": -2.3906,
+          "prob": 0.0923
+        },
+        {
+          "token": "large",
+          "token_id": 20619,
+          "logprob": -3.0156,
+          "prob": 0.0493
+        },
+        {
+          "token": "大型",
+          "token_id": 56762,
+          "logprob": -4.625,
+          "prob": 0.0097
+        },
+        {
+          "token": "Language",
+          "token_id": 28040,
+          "logprob": -4.75,
+          "prob": 0.0085
+        },
+        {
+          "token": "Ġlarge",
+          "token_id": 2455,
+          "logprob": -5.0625,
+          "prob": 0.0063
+        },
+        {
+          "token": "Gener",
+          "token_id": 5991,
+          "logprob": -5.25,
+          "prob": 0.0052
+        },
+        {
+          "token": "<b>",
+          "token_id": 200,
+          "logprob": -5.3125,
+          "prob": 0.0049
+        },
+        {
+          "token": "<strong>",
+          "token_id": 198,
+          "logprob": -6.0625,
+          "prob": 0.0023
+        },
+        {
+          "token": "LL",
+          "token_id": 2182,
+          "logprob": -6.0625,
+          "prob": 0.0023
+        }
+      ],
+      "target_token_prediction": {
+        "token": "large",
+        "token_id": 20619,
+        "logprob": -3.0156,
+        "prob": 0.0493
+      },
+      "target_prob": 0.0493,
+      "target_logprob": -3.0156,
+      "loss": 3.0156
+    },
+    {
+      "step": 8,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619
+      ],
+      "target_token": "Ġlanguage",
+      "target_token_id": 5192,
+      "predictions": [
+        {
+          "token": "Ġlanguage",
+          "token_id": 5192,
+          "logprob": -0.0167,
+          "prob": 0.9844
+        },
+        {
+          "token": "-",
+          "token_id": 236772,
+          "logprob": -5.5312,
+          "prob": 0.004
+        },
+        {
+          "token": "ĠLanguage",
+          "token_id": 22160,
+          "logprob": -5.7188,
+          "prob": 0.0033
+        },
+        {
+          "token": "Ġlang",
+          "token_id": 8738,
+          "logprob": -7.2188,
+          "prob": 0.0007
+        },
+        {
+          "token": "Ġlangu",
+          "token_id": 104266,
+          "logprob": -7.4688,
+          "prob": 0.0006
+        },
+        {
+          "token": "Ġlan",
+          "token_id": 21389,
+          "logprob": -7.9062,
+          "prob": 0.0004
+        },
+        {
+          "token": "Language",
+          "token_id": 28040,
+          "logprob": -7.9062,
+          "prob": 0.0004
+        },
+        {
+          "token": "Ġmodel",
+          "token_id": 2028,
+          "logprob": -7.9062,
+          "prob": 0.0004
+        },
+        {
+          "token": "language",
+          "token_id": 19859,
+          "logprob": -8.0625,
+          "prob": 0.0003
+        },
+        {
+          "token": "）",
+          "token_id": 237214,
+          "logprob": -8.125,
+          "prob": 0.0003
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġlanguage",
+        "token_id": 5192,
+        "logprob": -0.0167,
+        "prob": 0.9844
+      },
+      "target_prob": 0.9844,
+      "target_logprob": -0.0167,
+      "loss": 0.0167
+    },
+    {
+      "step": 9,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192
+      ],
+      "target_token": "Ġmodel",
+      "target_token_id": 2028,
+      "predictions": [
+        {
+          "token": "Ġmodel",
+          "token_id": 2028,
+          "logprob": -0.0591,
+          "prob": 0.9414
+        },
+        {
+          "token": "Ġmodels",
+          "token_id": 4681,
+          "logprob": -2.9375,
+          "prob": 0.0532
+        },
+        {
+          "token": "ĠModel",
+          "token_id": 9483,
+          "logprob": -7.5,
+          "prob": 0.0006
+        },
+        {
+          "token": "模型",
+          "token_id": 26609,
+          "logprob": -8.1875,
+          "prob": 0.0003
+        },
+        {
+          "token": "\n",
+          "token_id": 107,
+          "logprob": -8.25,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġmodeling",
+          "token_id": 21379,
+          "logprob": -8.25,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġmode",
+          "token_id": 5354,
+          "logprob": -8.3125,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġmod",
+          "token_id": 1120,
+          "logprob": -8.4375,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġmo",
+          "token_id": 3152,
+          "logprob": -8.5625,
+          "prob": 0.0002
+        },
+        {
+          "token": "model",
+          "token_id": 4368,
+          "logprob": -8.75,
+          "prob": 0.0002
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġmodel",
+        "token_id": 2028,
+        "logprob": -0.0591,
+        "prob": 0.9414
+      },
+      "target_prob": 0.9414,
+      "target_logprob": -0.0591,
+      "loss": 0.0591
+    },
+    {
+      "step": 10,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028
+      ],
+      "target_token": "，",
+      "target_token_id": 236900,
+      "predictions": [
+        {
+          "token": "，",
+          "token_id": 236900,
+          "logprob": -0.4043,
+          "prob": 0.668
+        },
+        {
+          "token": "）",
+          "token_id": 237214,
+          "logprob": -2.0312,
+          "prob": 0.1318
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -3.0312,
+          "prob": 0.0483
+        },
+        {
+          "token": "），",
+          "token_id": 19612,
+          "logprob": -3.0312,
+          "prob": 0.0483
+        },
+        {
+          "token": "、",
+          "token_id": 236951,
+          "logprob": -3.5312,
+          "prob": 0.0293
+        },
+        {
+          "token": "Ġ，",
+          "token_id": 27221,
+          "logprob": -4.0312,
+          "prob": 0.0178
+        },
+        {
+          "token": "；",
+          "token_id": 237996,
+          "logprob": -4.0312,
+          "prob": 0.0178
+        },
+        {
+          "token": "（",
+          "token_id": 237221,
+          "logprob": -5.6562,
+          "prob": 0.0035
+        },
+        {
+          "token": ";",
+          "token_id": 236793,
+          "logprob": -5.6562,
+          "prob": 0.0035
+        },
+        {
+          "token": "）（",
+          "token_id": 99879,
+          "logprob": -5.6562,
+          "prob": 0.0035
+        }
+      ],
+      "target_token_prediction": {
+        "token": "，",
+        "token_id": 236900,
+        "logprob": -0.4043,
+        "prob": 0.668
+      },
+      "target_prob": 0.668,
+      "target_logprob": -0.4043,
+      "loss": 0.4043
+    },
+    {
+      "step": 11,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900
+      ],
+      "target_token": "LL",
+      "target_token_id": 2182,
+      "predictions": [
+        {
+          "token": "简称",
+          "token_id": 123601,
+          "logprob": -1.5078,
+          "prob": 0.2217
+        },
+        {
+          "token": "缩",
+          "token_id": 240120,
+          "logprob": -1.6328,
+          "prob": 0.1953
+        },
+        {
+          "token": "簡",
+          "token_id": 239309,
+          "logprob": -1.6328,
+          "prob": 0.1953
+        },
+        {
+          "token": "縮",
+          "token_id": 240520,
+          "logprob": -1.7578,
+          "prob": 0.1729
+        },
+        {
+          "token": "LL",
+          "token_id": 2182,
+          "logprob": -2.75,
+          "prob": 0.0635
+        },
+        {
+          "token": "通常",
+          "token_id": 30346,
+          "logprob": -3.875,
+          "prob": 0.0206
+        },
+        {
+          "token": "简",
+          "token_id": 238686,
+          "logprob": -4.25,
+          "prob": 0.0142
+        },
+        {
+          "token": "英語",
+          "token_id": 44839,
+          "logprob": -4.625,
+          "prob": 0.0097
+        },
+        {
+          "token": "略",
+          "token_id": 238914,
+          "logprob": -4.625,
+          "prob": 0.0097
+        },
+        {
+          "token": "或",
+          "token_id": 237800,
+          "logprob": -4.875,
+          "prob": 0.0076
+        }
+      ],
+      "target_token_prediction": {
+        "token": "LL",
+        "token_id": 2182,
+        "logprob": -2.75,
+        "prob": 0.0635
+      },
+      "target_prob": 0.0635,
+      "target_logprob": -2.75,
+      "loss": 2.75
+    },
+    {
+      "step": 12,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182
+      ],
+      "target_token": "M",
+      "target_token_id": 236792,
+      "predictions": [
+        {
+          "token": "M",
+          "token_id": 236792,
+          "logprob": -0.0188,
+          "prob": 0.9805
+        },
+        {
+          "token": "Ms",
+          "token_id": 21706,
+          "logprob": -4.0312,
+          "prob": 0.0179
+        },
+        {
+          "token": "m",
+          "token_id": 236757,
+          "logprob": -9.5,
+          "prob": 0.0001
+        },
+        {
+          "token": "MS",
+          "token_id": 5352,
+          "logprob": -9.5625,
+          "prob": 0.0001
+        },
+        {
+          "token": "a",
+          "token_id": 236746,
+          "logprob": -9.625,
+          "prob": 0.0001
+        },
+        {
+          "token": "ĠM",
+          "token_id": 587,
+          "logprob": -10.0,
+          "prob": 0.0
+        },
+        {
+          "token": "）",
+          "token_id": 237214,
+          "logprob": -10.3125,
+          "prob": 0.0
+        },
+        {
+          "token": "Model",
+          "token_id": 4968,
+          "logprob": -10.375,
+          "prob": 0.0
+        },
+        {
+          "token": "ML",
+          "token_id": 3620,
+          "logprob": -10.375,
+          "prob": 0.0
+        },
+        {
+          "token": "LM",
+          "token_id": 42476,
+          "logprob": -10.625,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "M",
+        "token_id": 236792,
+        "logprob": -0.0188,
+        "prob": 0.9805
+      },
+      "target_prob": 0.9805,
+      "target_logprob": -0.0188,
+      "loss": 0.0188
+    },
+    {
+      "step": 13,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792
+      ],
+      "target_token": "），",
+      "target_token_id": 19612,
+      "predictions": [
+        {
+          "token": "）",
+          "token_id": 237214,
+          "logprob": -0.3008,
+          "prob": 0.7422
+        },
+        {
+          "token": "），",
+          "token_id": 19612,
+          "logprob": -1.6719,
+          "prob": 0.1875
+        },
+        {
+          "token": "，",
+          "token_id": 236900,
+          "logprob": -3.9219,
+          "prob": 0.0198
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -4.6875,
+          "prob": 0.0093
+        },
+        {
+          "token": "；",
+          "token_id": 237996,
+          "logprob": -4.8125,
+          "prob": 0.0082
+        },
+        {
+          "token": "）、",
+          "token_id": 31180,
+          "logprob": -5.0625,
+          "prob": 0.0064
+        },
+        {
+          "token": ")，",
+          "token_id": 47092,
+          "logprob": -5.4375,
+          "prob": 0.0044
+        },
+        {
+          "token": "Ġ）",
+          "token_id": 67545,
+          "logprob": -5.5625,
+          "prob": 0.0039
+        },
+        {
+          "token": "或",
+          "token_id": 237800,
+          "logprob": -5.5625,
+          "prob": 0.0039
+        },
+        {
+          "token": "）。",
+          "token_id": 21719,
+          "logprob": -6.1875,
+          "prob": 0.0021
+        }
+      ],
+      "target_token_prediction": {
+        "token": "），",
+        "token_id": 19612,
+        "logprob": -1.6719,
+        "prob": 0.1875
+      },
+      "target_prob": 0.1875,
+      "target_logprob": -1.6719,
+      "loss": 1.6719
+    },
+    {
+      "step": 14,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612
+      ],
+      "target_token": "也",
+      "target_token_id": 237349,
+      "predictions": [
+        {
+          "token": "又",
+          "token_id": 238145,
+          "logprob": -1.5312,
+          "prob": 0.2158
+        },
+        {
+          "token": "也",
+          "token_id": 237349,
+          "logprob": -2.1562,
+          "prob": 0.1157
+        },
+        {
+          "token": "是",
+          "token_id": 237026,
+          "logprob": -2.4062,
+          "prob": 0.0898
+        },
+        {
+          "token": "或",
+          "token_id": 237800,
+          "logprob": -2.7812,
+          "prob": 0.0618
+        },
+        {
+          "token": "是一种",
+          "token_id": 59013,
+          "logprob": -2.7812,
+          "prob": 0.0618
+        },
+        {
+          "token": "是一種",
+          "token_id": 192922,
+          "logprob": -3.0312,
+          "prob": 0.0481
+        },
+        {
+          "token": "是指",
+          "token_id": 92427,
+          "logprob": -3.1562,
+          "prob": 0.0425
+        },
+        {
+          "token": "亦",
+          "token_id": 240185,
+          "logprob": -3.9062,
+          "prob": 0.02
+        },
+        {
+          "token": "也被",
+          "token_id": 131214,
+          "logprob": -3.9062,
+          "prob": 0.02
+        },
+        {
+          "token": "通常",
+          "token_id": 30346,
+          "logprob": -3.9062,
+          "prob": 0.02
+        }
+      ],
+      "target_token_prediction": {
+        "token": "也",
+        "token_id": 237349,
+        "logprob": -2.1562,
+        "prob": 0.1157
+      },
+      "target_prob": 0.1157,
+      "target_logprob": -2.1562,
+      "loss": 2.1562
+    },
+    {
+      "step": 15,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349
+      ],
+      "target_token": "称",
+      "target_token_id": 238438,
+      "predictions": [
+        {
+          "token": "称为",
+          "token_id": 62830,
+          "logprob": -0.9297,
+          "prob": 0.3945
+        },
+        {
+          "token": "稱為",
+          "token_id": 140563,
+          "logprob": -1.3047,
+          "prob": 0.2715
+        },
+        {
+          "token": "称",
+          "token_id": 238438,
+          "logprob": -1.8047,
+          "prob": 0.165
+        },
+        {
+          "token": "稱",
+          "token_id": 240098,
+          "logprob": -2.5469,
+          "prob": 0.0776
+        },
+        {
+          "token": "叫",
+          "token_id": 239138,
+          "logprob": -3.2969,
+          "prob": 0.0366
+        },
+        {
+          "token": "叫做",
+          "token_id": 100083,
+          "logprob": -4.4375,
+          "prob": 0.0119
+        },
+        {
+          "token": "常",
+          "token_id": 237659,
+          "logprob": -4.6875,
+          "prob": 0.0093
+        },
+        {
+          "token": "译",
+          "token_id": 239924,
+          "logprob": -5.8125,
+          "prob": 0.003
+        },
+        {
+          "token": "簡",
+          "token_id": 239309,
+          "logprob": -5.9375,
+          "prob": 0.0027
+        },
+        {
+          "token": "简",
+          "token_id": 238686,
+          "logprob": -6.1875,
+          "prob": 0.0021
+        }
+      ],
+      "target_token_prediction": {
+        "token": "称",
+        "token_id": 238438,
+        "logprob": -1.8047,
+        "prob": 0.165
+      },
+      "target_prob": 0.165,
+      "target_logprob": -1.8047,
+      "loss": 1.8047
+    },
+    {
+      "step": 16,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438
+      ],
+      "target_token": "大",
+      "target_token_id": 237110,
+      "predictions": [
+        {
+          "token": "大型",
+          "token_id": 56762,
+          "logprob": -1.6953,
+          "prob": 0.1836
+        },
+        {
+          "token": "大",
+          "token_id": 237110,
+          "logprob": -2.2031,
+          "prob": 0.1113
+        },
+        {
+          "token": "作",
+          "token_id": 237284,
+          "logprob": -2.4531,
+          "prob": 0.0869
+        },
+        {
+          "token": "之为",
+          "token_id": 228611,
+          "logprob": -2.5781,
+          "prob": 0.0767
+        },
+        {
+          "token": "巨",
+          "token_id": 239617,
+          "logprob": -2.7031,
+          "prob": 0.0674
+        },
+        {
+          "token": "语言",
+          "token_id": 37557,
+          "logprob": -2.9531,
+          "prob": 0.0525
+        },
+        {
+          "token": "大规模",
+          "token_id": 196091,
+          "logprob": -2.9531,
+          "prob": 0.0525
+        },
+        {
+          "token": "“",
+          "token_id": 236913,
+          "logprob": -3.4531,
+          "prob": 0.032
+        },
+        {
+          "token": "大規模",
+          "token_id": 200498,
+          "logprob": -3.7031,
+          "prob": 0.0248
+        },
+        {
+          "token": "「",
+          "token_id": 237374,
+          "logprob": -3.7031,
+          "prob": 0.0248
+        }
+      ],
+      "target_token_prediction": {
+        "token": "大",
+        "token_id": 237110,
+        "logprob": -2.2031,
+        "prob": 0.1113
+      },
+      "target_prob": 0.1113,
+      "target_logprob": -2.2031,
+      "loss": 2.2031
+    },
+    {
+      "step": 17,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110
+      ],
+      "target_token": "语言",
+      "target_token_id": 37557,
+      "predictions": [
+        {
+          "token": "语言",
+          "token_id": 37557,
+          "logprob": -0.1406,
+          "prob": 0.8672
+        },
+        {
+          "token": "模型",
+          "token_id": 26609,
+          "logprob": -2.6406,
+          "prob": 0.0713
+        },
+        {
+          "token": "語言",
+          "token_id": 146569,
+          "logprob": -3.0156,
+          "prob": 0.0491
+        },
+        {
+          "token": "型",
+          "token_id": 237731,
+          "logprob": -6.125,
+          "prob": 0.0022
+        },
+        {
+          "token": "词",
+          "token_id": 239275,
+          "logprob": -6.875,
+          "prob": 0.001
+        },
+        {
+          "token": "参数",
+          "token_id": 21036,
+          "logprob": -7.25,
+          "prob": 0.0007
+        },
+        {
+          "token": "容量",
+          "token_id": 54062,
+          "logprob": -7.375,
+          "prob": 0.0006
+        },
+        {
+          "token": "自然",
+          "token_id": 22841,
+          "logprob": -7.375,
+          "prob": 0.0006
+        },
+        {
+          "token": "语",
+          "token_id": 238384,
+          "logprob": -7.625,
+          "prob": 0.0005
+        },
+        {
+          "token": "言語",
+          "token_id": 151816,
+          "logprob": -7.75,
+          "prob": 0.0004
+        }
+      ],
+      "target_token_prediction": {
+        "token": "语言",
+        "token_id": 37557,
+        "logprob": -0.1406,
+        "prob": 0.8672
+      },
+      "target_prob": 0.8672,
+      "target_logprob": -0.1406,
+      "loss": 0.1406
+    },
+    {
+      "step": 18,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557
+      ],
+      "target_token": "模型",
+      "target_token_id": 26609,
+      "predictions": [
+        {
+          "token": "模型",
+          "token_id": 26609,
+          "logprob": -0.0165,
+          "prob": 0.9844
+        },
+        {
+          "token": "学习",
+          "token_id": 23486,
+          "logprob": -6.0312,
+          "prob": 0.0024
+        },
+        {
+          "token": "模式",
+          "token_id": 24773,
+          "logprob": -6.6562,
+          "prob": 0.0013
+        },
+        {
+          "token": "对",
+          "token_id": 237392,
+          "logprob": -6.9062,
+          "prob": 0.001
+        },
+        {
+          "token": "（",
+          "token_id": 237221,
+          "logprob": -7.2812,
+          "prob": 0.0007
+        },
+        {
+          "token": "预测",
+          "token_id": 65988,
+          "logprob": -7.4062,
+          "prob": 0.0006
+        },
+        {
+          "token": "预",
+          "token_id": 238794,
+          "logprob": -7.5312,
+          "prob": 0.0005
+        },
+        {
+          "token": "语言",
+          "token_id": 37557,
+          "logprob": -7.6562,
+          "prob": 0.0005
+        },
+        {
+          "token": "生成",
+          "token_id": 25352,
+          "logprob": -7.7812,
+          "prob": 0.0004
+        },
+        {
+          "token": "类",
+          "token_id": 237975,
+          "logprob": -7.7812,
+          "prob": 0.0004
+        }
+      ],
+      "target_token_prediction": {
+        "token": "模型",
+        "token_id": 26609,
+        "logprob": -0.0165,
+        "prob": 0.9844
+      },
+      "target_prob": 0.9844,
+      "target_logprob": -0.0165,
+      "loss": 0.0165
+    },
+    {
+      "step": 19,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609
+      ],
+      "target_token": "，",
+      "target_token_id": 236900,
+      "predictions": [
+        {
+          "token": "，",
+          "token_id": 236900,
+          "logprob": -0.6758,
+          "prob": 0.5078
+        },
+        {
+          "token": "（",
+          "token_id": 237221,
+          "logprob": -1.6797,
+          "prob": 0.1865
+        },
+        {
+          "token": "、",
+          "token_id": 236951,
+          "logprob": -2.0469,
+          "prob": 0.1289
+        },
+        {
+          "token": "或",
+          "token_id": 237800,
+          "logprob": -2.2969,
+          "prob": 0.1001
+        },
+        {
+          "token": "。",
+          "token_id": 236924,
+          "logprob": -3.7969,
+          "prob": 0.0223
+        },
+        {
+          "token": "(",
+          "token_id": 236769,
+          "logprob": -5.0625,
+          "prob": 0.0064
+        },
+        {
+          "token": "或者",
+          "token_id": 19489,
+          "logprob": -5.3125,
+          "prob": 0.005
+        },
+        {
+          "token": "<sup>",
+          "token_id": 205,
+          "logprob": -5.4375,
+          "prob": 0.0044
+        },
+        {
+          "token": "Ġ(",
+          "token_id": 568,
+          "logprob": -5.8125,
+          "prob": 0.003
+        },
+        {
+          "token": "和",
+          "token_id": 237206,
+          "logprob": -5.8125,
+          "prob": 0.003
+        }
+      ],
+      "target_token_prediction": {
+        "token": "，",
+        "token_id": 236900,
+        "logprob": -0.6758,
+        "prob": 0.5078
+      },
+      "target_prob": 0.5078,
+      "target_logprob": -0.6758,
+      "loss": 0.6758
+    },
+    {
+      "step": 20,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900
+      ],
+      "target_token": "简称",
+      "target_token_id": 123601,
+      "predictions": [
+        {
+          "token": "是一种",
+          "token_id": 59013,
+          "logprob": -1.2578,
+          "prob": 0.2832
+        },
+        {
+          "token": "是",
+          "token_id": 237026,
+          "logprob": -1.5078,
+          "prob": 0.2207
+        },
+        {
+          "token": "是指",
+          "token_id": 92427,
+          "logprob": -2.2656,
+          "prob": 0.1045
+        },
+        {
+          "token": "是一",
+          "token_id": 16884,
+          "logprob": -3.1406,
+          "prob": 0.0435
+        },
+        {
+          "token": "是大",
+          "token_id": 182011,
+          "logprob": -3.5156,
+          "prob": 0.0299
+        },
+        {
+          "token": "是一个",
+          "token_id": 33813,
+          "logprob": -3.6406,
+          "prob": 0.0264
+        },
+        {
+          "token": "是由",
+          "token_id": 81049,
+          "logprob": -3.7656,
+          "prob": 0.0233
+        },
+        {
+          "token": "指",
+          "token_id": 237833,
+          "logprob": -3.8906,
+          "prob": 0.0205
+        },
+        {
+          "token": "是一種",
+          "token_id": 192922,
+          "logprob": -3.8906,
+          "prob": 0.0205
+        },
+        {
+          "token": "指的是",
+          "token_id": 186549,
+          "logprob": -4.125,
+          "prob": 0.016
+        }
+      ],
+      "target_token_prediction": {
+        "token": "简称",
+        "token_id": 123601,
+        "logprob": -5.0,
+        "prob": 0.0067
+      },
+      "target_prob": 0.0067,
+      "target_logprob": -5.0,
+      "loss": 5.0
+    },
+    {
+      "step": 21,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601
+      ],
+      "target_token": "大",
+      "target_token_id": 237110,
+      "predictions": [
+        {
+          "token": "大",
+          "token_id": 237110,
+          "logprob": -1.0078,
+          "prob": 0.3652
+        },
+        {
+          "token": "LL",
+          "token_id": 2182,
+          "logprob": -1.1328,
+          "prob": 0.3223
+        },
+        {
+          "token": "“",
+          "token_id": 236913,
+          "logprob": -2.6406,
+          "prob": 0.0718
+        },
+        {
+          "token": "语言",
+          "token_id": 37557,
+          "logprob": -3.1406,
+          "prob": 0.0435
+        },
+        {
+          "token": "ĠLL",
+          "token_id": 32050,
+          "logprob": -3.1406,
+          "prob": 0.0435
+        },
+        {
+          "token": "大型",
+          "token_id": 56762,
+          "logprob": -3.2656,
+          "prob": 0.0383
+        },
+        {
+          "token": "「",
+          "token_id": 237374,
+          "logprob": -3.8906,
+          "prob": 0.0205
+        },
+        {
+          "token": "：",
+          "token_id": 237184,
+          "logprob": -4.125,
+          "prob": 0.016
+        },
+        {
+          "token": "LM",
+          "token_id": 42476,
+          "logprob": -4.25,
+          "prob": 0.0141
+        },
+        {
+          "token": "巨",
+          "token_id": 239617,
+          "logprob": -5.0,
+          "prob": 0.0067
+        }
+      ],
+      "target_token_prediction": {
+        "token": "大",
+        "token_id": 237110,
+        "logprob": -1.0078,
+        "prob": 0.3652
+      },
+      "target_prob": 0.3652,
+      "target_logprob": -1.0078,
+      "loss": 1.0078
+    },
+    {
+      "step": 22,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110
+      ],
+      "target_token": "模型",
+      "target_token_id": 26609,
+      "predictions": [
+        {
+          "token": "模型",
+          "token_id": 26609,
+          "logprob": -0.02,
+          "prob": 0.9805
+        },
+        {
+          "token": "模",
+          "token_id": 237978,
+          "logprob": -4.6562,
+          "prob": 0.0096
+        },
+        {
+          "token": "语言",
+          "token_id": 37557,
+          "logprob": -4.9062,
+          "prob": 0.0075
+        },
+        {
+          "token": "模型的",
+          "token_id": 139919,
+          "logprob": -6.9062,
+          "prob": 0.001
+        },
+        {
+          "token": "LL",
+          "token_id": 2182,
+          "logprob": -8.375,
+          "prob": 0.0002
+        },
+        {
+          "token": "model",
+          "token_id": 4368,
+          "logprob": -9.0625,
+          "prob": 0.0001
+        },
+        {
+          "token": "M",
+          "token_id": 236792,
+          "logprob": -9.4375,
+          "prob": 0.0001
+        },
+        {
+          "token": "Model",
+          "token_id": 4968,
+          "logprob": -9.5625,
+          "prob": 0.0001
+        },
+        {
+          "token": "mo",
+          "token_id": 1289,
+          "logprob": -9.5625,
+          "prob": 0.0001
+        },
+        {
+          "token": "蓝",
+          "token_id": 240123,
+          "logprob": -9.8125,
+          "prob": 0.0001
+        }
+      ],
+      "target_token_prediction": {
+        "token": "模型",
+        "token_id": 26609,
+        "logprob": -0.02,
+        "prob": 0.9805
+      },
+      "target_prob": 0.9805,
+      "target_logprob": -0.02,
+      "loss": 0.02
+    },
+    {
+      "step": 23,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609
+      ],
+      "target_token": "，",
+      "target_token_id": 236900,
+      "predictions": [
+        {
+          "token": "，",
+          "token_id": 236900,
+          "logprob": -0.5625,
+          "prob": 0.5703
+        },
+        {
+          "token": "。",
+          "token_id": 236924,
+          "logprob": -1.6875,
+          "prob": 0.1846
+        },
+        {
+          "token": "（",
+          "token_id": 237221,
+          "logprob": -1.9375,
+          "prob": 0.1436
+        },
+        {
+          "token": "或",
+          "token_id": 237800,
+          "logprob": -3.5625,
+          "prob": 0.0283
+        },
+        {
+          "token": "、",
+          "token_id": 236951,
+          "logprob": -3.9375,
+          "prob": 0.0194
+        },
+        {
+          "token": "<sup>",
+          "token_id": 205,
+          "logprob": -4.9375,
+          "prob": 0.0072
+        },
+        {
+          "token": "(",
+          "token_id": 236769,
+          "logprob": -5.1875,
+          "prob": 0.0056
+        },
+        {
+          "token": "[",
+          "token_id": 236840,
+          "logprob": -5.3125,
+          "prob": 0.0049
+        },
+        {
+          "token": "；",
+          "token_id": 237996,
+          "logprob": -5.4375,
+          "prob": 0.0043
+        },
+        {
+          "token": "\n\n",
+          "token_id": 108,
+          "logprob": -5.5625,
+          "prob": 0.0038
+        }
+      ],
+      "target_token_prediction": {
+        "token": "，",
+        "token_id": 236900,
+        "logprob": -0.5625,
+        "prob": 0.5703
+      },
+      "target_prob": 0.5703,
+      "target_logprob": -0.5625,
+      "loss": 0.5625
+    },
+    {
+      "step": 24,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900
+      ],
+      "target_token": "是一種",
+      "target_token_id": 192922,
+      "predictions": [
+        {
+          "token": "是一种",
+          "token_id": 59013,
+          "logprob": -1.2422,
+          "prob": 0.2891
+        },
+        {
+          "token": "是",
+          "token_id": 237026,
+          "logprob": -1.7422,
+          "prob": 0.1758
+        },
+        {
+          "token": "是指",
+          "token_id": 92427,
+          "logprob": -1.9922,
+          "prob": 0.1367
+        },
+        {
+          "token": "指",
+          "token_id": 237833,
+          "logprob": -3.3594,
+          "prob": 0.0347
+        },
+        {
+          "token": "是一",
+          "token_id": 16884,
+          "logprob": -3.3594,
+          "prob": 0.0347
+        },
+        {
+          "token": "是由",
+          "token_id": 81049,
+          "logprob": -3.4844,
+          "prob": 0.0305
+        },
+        {
+          "token": "指的是",
+          "token_id": 186549,
+          "logprob": -3.6094,
+          "prob": 0.0269
+        },
+        {
+          "token": "是大",
+          "token_id": 182011,
+          "logprob": -3.7344,
+          "prob": 0.0238
+        },
+        {
+          "token": "是一个",
+          "token_id": 33813,
+          "logprob": -3.9844,
+          "prob": 0.0186
+        },
+        {
+          "token": "通常",
+          "token_id": 30346,
+          "logprob": -4.375,
+          "prob": 0.0127
+        }
+      ],
+      "target_token_prediction": {
+        "token": "是一種",
+        "token_id": 192922,
+        "logprob": -4.625,
+        "prob": 0.0099
+      },
+      "target_prob": 0.0099,
+      "target_logprob": -4.625,
+      "loss": 4.625
+    },
+    {
+      "step": 25,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，",
+        "是一種"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900,
+        192922
+      ],
+      "target_token": "基",
+      "target_token_id": 237722,
+      "predictions": [
+        {
+          "token": "基于",
+          "token_id": 39738,
+          "logprob": -1.9609,
+          "prob": 0.1406
+        },
+        {
+          "token": "基",
+          "token_id": 237722,
+          "logprob": -2.3281,
+          "prob": 0.0967
+        },
+        {
+          "token": "使用",
+          "token_id": 5938,
+          "logprob": -2.7031,
+          "prob": 0.0664
+        },
+        {
+          "token": "深度",
+          "token_id": 70126,
+          "logprob": -2.7031,
+          "prob": 0.0664
+        },
+        {
+          "token": "人工智能",
+          "token_id": 136119,
+          "logprob": -3.2031,
+          "prob": 0.0403
+        },
+        {
+          "token": "利用",
+          "token_id": 16465,
+          "logprob": -3.4531,
+          "prob": 0.0315
+        },
+        {
+          "token": "人工",
+          "token_id": 66447,
+          "logprob": -3.5781,
+          "prob": 0.0277
+        },
+        {
+          "token": "通过",
+          "token_id": 12982,
+          "logprob": -3.5781,
+          "prob": 0.0277
+        },
+        {
+          "token": "具有",
+          "token_id": 27151,
+          "logprob": -3.7031,
+          "prob": 0.0245
+        },
+        {
+          "token": "自然",
+          "token_id": 22841,
+          "logprob": -3.8281,
+          "prob": 0.0216
+        }
+      ],
+      "target_token_prediction": {
+        "token": "基",
+        "token_id": 237722,
+        "logprob": -2.3281,
+        "prob": 0.0967
+      },
+      "target_prob": 0.0967,
+      "target_logprob": -2.3281,
+      "loss": 2.3281
+    },
+    {
+      "step": 26,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，",
+        "是一種",
+        "基"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900,
+        192922,
+        237722
+      ],
+      "target_token": "於",
+      "target_token_id": 238299,
+      "predictions": [
+        {
+          "token": "於",
+          "token_id": 238299,
+          "logprob": -0.0041,
+          "prob": 0.9961
+        },
+        {
+          "token": "在",
+          "token_id": 237075,
+          "logprob": -7.5,
+          "prob": 0.0005
+        },
+        {
+          "token": "Ġ于",
+          "token_id": 131494,
+          "logprob": -7.875,
+          "prob": 0.0004
+        },
+        {
+          "token": "數",
+          "token_id": 238819,
+          "logprob": -8.0,
+          "prob": 0.0003
+        },
+        {
+          "token": "底",
+          "token_id": 238596,
+          "logprob": -8.0,
+          "prob": 0.0003
+        },
+        {
+          "token": "数",
+          "token_id": 237311,
+          "logprob": -8.1875,
+          "prob": 0.0003
+        },
+        {
+          "token": "于",
+          "token_id": 237412,
+          "logprob": -8.625,
+          "prob": 0.0002
+        },
+        {
+          "token": "准",
+          "token_id": 238474,
+          "logprob": -8.8125,
+          "prob": 0.0001
+        },
+        {
+          "token": "与",
+          "token_id": 237658,
+          "logprob": -9.3125,
+          "prob": 0.0001
+        },
+        {
+          "token": "元",
+          "token_id": 237798,
+          "logprob": -9.3125,
+          "prob": 0.0001
+        }
+      ],
+      "target_token_prediction": {
+        "token": "於",
+        "token_id": 238299,
+        "logprob": -0.0041,
+        "prob": 0.9961
+      },
+      "target_prob": 0.9961,
+      "target_logprob": -0.0041,
+      "loss": 0.0041
+    },
+    {
+      "step": 27,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，",
+        "是一種",
+        "基",
+        "於"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900,
+        192922,
+        237722,
+        238299
+      ],
+      "target_token": "人工",
+      "target_token_id": 66447,
+      "predictions": [
+        {
+          "token": "深度",
+          "token_id": 70126,
+          "logprob": -0.6406,
+          "prob": 0.5273
+        },
+        {
+          "token": "大規模",
+          "token_id": 200498,
+          "logprob": -2.8906,
+          "prob": 0.0554
+        },
+        {
+          "token": "人工",
+          "token_id": 66447,
+          "logprob": -3.2656,
+          "prob": 0.0381
+        },
+        {
+          "token": "神",
+          "token_id": 237936,
+          "logprob": -3.2656,
+          "prob": 0.0381
+        },
+        {
+          "token": "人工智能",
+          "token_id": 136119,
+          "logprob": -3.6406,
+          "prob": 0.0262
+        },
+        {
+          "token": "自然",
+          "token_id": 22841,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "Transformer",
+          "token_id": 86313,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "大型",
+          "token_id": 56762,
+          "logprob": -4.0312,
+          "prob": 0.0181
+        },
+        {
+          "token": "深",
+          "token_id": 238330,
+          "logprob": -4.1562,
+          "prob": 0.0159
+        },
+        {
+          "token": "巨",
+          "token_id": 239617,
+          "logprob": -4.1562,
+          "prob": 0.0159
+        }
+      ],
+      "target_token_prediction": {
+        "token": "人工",
+        "token_id": 66447,
+        "logprob": -3.2656,
+        "prob": 0.0381
+      },
+      "target_prob": 0.0381,
+      "target_logprob": -3.2656,
+      "loss": 3.2656
+    },
+    {
+      "step": 28,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，",
+        "是一種",
+        "基",
+        "於",
+        "人工"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900,
+        192922,
+        237722,
+        238299,
+        66447
+      ],
+      "target_token": "神经网络",
+      "target_token_id": 124530,
+      "predictions": [
+        {
+          "token": "智慧",
+          "token_id": 65854,
+          "logprob": -0.3086,
+          "prob": 0.7344
+        },
+        {
+          "token": "神经网络",
+          "token_id": 124530,
+          "logprob": -2.25,
+          "prob": 0.106
+        },
+        {
+          "token": "神",
+          "token_id": 237936,
+          "logprob": -2.4375,
+          "prob": 0.0879
+        },
+        {
+          "token": "智",
+          "token_id": 238897,
+          "logprob": -4.4375,
+          "prob": 0.0118
+        },
+        {
+          "token": "通用",
+          "token_id": 100282,
+          "logprob": -4.6875,
+          "prob": 0.0092
+        },
+        {
+          "token": "智能",
+          "token_id": 33455,
+          "logprob": -4.6875,
+          "prob": 0.0092
+        },
+        {
+          "token": "神经",
+          "token_id": 64708,
+          "logprob": -5.5,
+          "prob": 0.0041
+        },
+        {
+          "token": "大",
+          "token_id": 237110,
+          "logprob": -5.6875,
+          "prob": 0.0034
+        },
+        {
+          "token": "深度",
+          "token_id": 70126,
+          "logprob": -7.0625,
+          "prob": 0.0009
+        },
+        {
+          "token": "Ġ",
+          "token_id": 236743,
+          "logprob": -7.0625,
+          "prob": 0.0009
+        }
+      ],
+      "target_token_prediction": {
+        "token": "神经网络",
+        "token_id": 124530,
+        "logprob": -2.25,
+        "prob": 0.106
+      },
+      "target_prob": 0.106,
+      "target_logprob": -2.25,
+      "loss": 2.25
+    },
+    {
+      "step": 29,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，",
+        "是一種",
+        "基",
+        "於",
+        "人工",
+        "神经网络"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900,
+        192922,
+        237722,
+        238299,
+        66447,
+        124530
+      ],
+      "target_token": "的",
+      "target_token_id": 236918,
+      "predictions": [
+        {
+          "token": "的",
+          "token_id": 236918,
+          "logprob": -0.6562,
+          "prob": 0.5195
+        },
+        {
+          "token": "的新",
+          "token_id": 49452,
+          "logprob": -2.75,
+          "prob": 0.064
+        },
+        {
+          "token": "（",
+          "token_id": 237221,
+          "logprob": -3.3125,
+          "prob": 0.0364
+        },
+        {
+          "token": "训练",
+          "token_id": 42883,
+          "logprob": -3.5781,
+          "prob": 0.028
+        },
+        {
+          "token": "和",
+          "token_id": 237206,
+          "logprob": -3.6406,
+          "prob": 0.0262
+        },
+        {
+          "token": "的多",
+          "token_id": 121233,
+          "logprob": -3.875,
+          "prob": 0.0208
+        },
+        {
+          "token": "的人",
+          "token_id": 14726,
+          "logprob": -4.25,
+          "prob": 0.0145
+        },
+        {
+          "token": "学习",
+          "token_id": 23486,
+          "logprob": -4.2812,
+          "prob": 0.014
+        },
+        {
+          "token": "构建",
+          "token_id": 61803,
+          "logprob": -4.3438,
+          "prob": 0.013
+        },
+        {
+          "token": "、",
+          "token_id": 236951,
+          "logprob": -4.375,
+          "prob": 0.0126
+        }
+      ],
+      "target_token_prediction": {
+        "token": "的",
+        "token_id": 236918,
+        "logprob": -0.6562,
+        "prob": 0.5195
+      },
+      "target_prob": 0.5195,
+      "target_logprob": -0.6562,
+      "loss": 0.6562
+    },
+    {
+      "step": 30,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，",
+        "是一種",
+        "基",
+        "於",
+        "人工",
+        "神经网络",
+        "的"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900,
+        192922,
+        237722,
+        238299,
+        66447,
+        124530,
+        236918
+      ],
+      "target_token": "语言",
+      "target_token_id": 37557,
+      "predictions": [
+        {
+          "token": "深度",
+          "token_id": 70126,
+          "logprob": -0.7656,
+          "prob": 0.4648
+        },
+        {
+          "token": "语言",
+          "token_id": 37557,
+          "logprob": -2.6406,
+          "prob": 0.0713
+        },
+        {
+          "token": "机器学习",
+          "token_id": 202589,
+          "logprob": -3.1406,
+          "prob": 0.0432
+        },
+        {
+          "token": "自然",
+          "token_id": 22841,
+          "logprob": -3.2656,
+          "prob": 0.0381
+        },
+        {
+          "token": "深",
+          "token_id": 238330,
+          "logprob": -3.8906,
+          "prob": 0.0204
+        },
+        {
+          "token": "通用",
+          "token_id": 100282,
+          "logprob": -4.125,
+          "prob": 0.0159
+        },
+        {
+          "token": "生成",
+          "token_id": 25352,
+          "logprob": -4.25,
+          "prob": 0.014
+        },
+        {
+          "token": "庞",
+          "token_id": 242260,
+          "logprob": -4.25,
+          "prob": 0.014
+        },
+        {
+          "token": "語言",
+          "token_id": 146569,
+          "logprob": -4.25,
+          "prob": 0.014
+        },
+        {
+          "token": "非常",
+          "token_id": 13869,
+          "logprob": -4.5,
+          "prob": 0.0109
+        }
+      ],
+      "target_token_prediction": {
+        "token": "语言",
+        "token_id": 37557,
+        "logprob": -2.6406,
+        "prob": 0.0713
+      },
+      "target_prob": 0.0713,
+      "target_logprob": -2.6406,
+      "loss": 2.6406
+    },
+    {
+      "step": 31,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，",
+        "是一種",
+        "基",
+        "於",
+        "人工",
+        "神经网络",
+        "的",
+        "语言"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900,
+        192922,
+        237722,
+        238299,
+        66447,
+        124530,
+        236918,
+        37557
+      ],
+      "target_token": "模型",
+      "target_token_id": 26609,
+      "predictions": [
+        {
+          "token": "模型",
+          "token_id": 26609,
+          "logprob": -0.2031,
+          "prob": 0.8164
+        },
+        {
+          "token": "处理",
+          "token_id": 19157,
+          "logprob": -2.3281,
+          "prob": 0.0977
+        },
+        {
+          "token": "生成",
+          "token_id": 25352,
+          "logprob": -3.4531,
+          "prob": 0.0317
+        },
+        {
+          "token": "處理",
+          "token_id": 93521,
+          "logprob": -4.9688,
+          "prob": 0.007
+        },
+        {
+          "token": "学习",
+          "token_id": 23486,
+          "logprob": -5.2188,
+          "prob": 0.0055
+        },
+        {
+          "token": "理解",
+          "token_id": 29666,
+          "logprob": -5.3438,
+          "prob": 0.0049
+        },
+        {
+          "token": "建模",
+          "token_id": 156976,
+          "logprob": -5.4688,
+          "prob": 0.0043
+        },
+        {
+          "token": "模式",
+          "token_id": 24773,
+          "logprob": -5.7188,
+          "prob": 0.0033
+        },
+        {
+          "token": "モデル",
+          "token_id": 35128,
+          "logprob": -5.7188,
+          "prob": 0.0033
+        },
+        {
+          "token": "模型的",
+          "token_id": 139919,
+          "logprob": -6.0938,
+          "prob": 0.0023
+        }
+      ],
+      "target_token_prediction": {
+        "token": "模型",
+        "token_id": 26609,
+        "logprob": -0.2031,
+        "prob": 0.8164
+      },
+      "target_prob": 0.8164,
+      "target_logprob": -0.2031,
+      "loss": 0.2031
+    },
+    {
+      "step": 32,
+      "input_tokens": [
+        "<bos>",
+        "大型",
+        "语言",
+        "模型",
+        "（",
+        "英語",
+        "：",
+        "large",
+        "Ġlanguage",
+        "Ġmodel",
+        "，",
+        "LL",
+        "M",
+        "），",
+        "也",
+        "称",
+        "大",
+        "语言",
+        "模型",
+        "，",
+        "简称",
+        "大",
+        "模型",
+        "，",
+        "是一種",
+        "基",
+        "於",
+        "人工",
+        "神经网络",
+        "的",
+        "语言",
+        "模型"
+      ],
+      "input_token_ids": [
+        2,
+        56762,
+        37557,
+        26609,
+        237221,
+        44839,
+        237184,
+        20619,
+        5192,
+        2028,
+        236900,
+        2182,
+        236792,
+        19612,
+        237349,
+        238438,
+        237110,
+        37557,
+        26609,
+        236900,
+        123601,
+        237110,
+        26609,
+        236900,
+        192922,
+        237722,
+        238299,
+        66447,
+        124530,
+        236918,
+        37557,
+        26609
+      ],
+      "target_token": "。",
+      "target_token_id": 236924,
+      "predictions": [
+        {
+          "token": "，",
+          "token_id": 236900,
+          "logprob": -0.459,
+          "prob": 0.6328
+        },
+        {
+          "token": "。",
+          "token_id": 236924,
+          "logprob": -1.3359,
+          "prob": 0.2637
+        },
+        {
+          "token": "（",
+          "token_id": 237221,
+          "logprob": -3.7031,
+          "prob": 0.0245
+        },
+        {
+          "token": "[",
+          "token_id": 236840,
+          "logprob": -4.0938,
+          "prob": 0.0168
+        },
+        {
+          "token": "<sup>",
+          "token_id": 205,
+          "logprob": -4.4688,
+          "prob": 0.0115
+        },
+        {
+          "token": "。[",
+          "token_id": 171742,
+          "logprob": -5.4688,
+          "prob": 0.0042
+        },
+        {
+          "token": "技术",
+          "token_id": 16472,
+          "logprob": -5.4688,
+          "prob": 0.0042
+        },
+        {
+          "token": "模型",
+          "token_id": 26609,
+          "logprob": -5.5938,
+          "prob": 0.0038
+        },
+        {
+          "token": "和",
+          "token_id": 237206,
+          "logprob": -5.8438,
+          "prob": 0.0029
+        },
+        {
+          "token": "技術",
+          "token_id": 36236,
+          "logprob": -6.2188,
+          "prob": 0.002
+        }
+      ],
+      "target_token_prediction": {
+        "token": "。",
+        "token_id": 236924,
+        "logprob": -1.3359,
+        "prob": 0.2637
+      },
+      "target_prob": 0.2637,
+      "target_logprob": -1.3359,
+      "loss": 1.3359
+    }
+  ]
+}

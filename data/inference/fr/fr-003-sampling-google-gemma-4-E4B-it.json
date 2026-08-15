@@ -1,0 +1,1186 @@
+{
+  "id": "generated_20260815_222751",
+  "prompt": "La capitale de la France est",
+  "language": "fr",
+  "temperature": 1.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "La",
+            "token_id": 4967,
+            "logprob": -0.0023,
+            "prob": 0.9961
+          },
+          {
+            "token": "Paris",
+            "token_id": 50429,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Le",
+            "token_id": 3258,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "L",
+            "token_id": 236798,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Par",
+            "token_id": 3128,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLa",
+            "token_id": 2774,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Elle",
+            "token_id": 99247,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Olymp",
+            "token_id": 96226,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Cap",
+            "token_id": 16295,
+            "logprob": -14.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "La",
+        "token_id": 4967,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġcapitale",
+            "token_id": 90207,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġcapital",
+            "token_id": 5279,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠCapit",
+            "token_id": 99668,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcapit",
+            "token_id": 36250,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcapitaine",
+            "token_id": 230905,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġville",
+            "token_id": 28480,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcapacité",
+            "token_id": 81735,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġplus",
+            "token_id": 2915,
+            "logprob": -20.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġprincipale",
+            "token_id": 52635,
+            "logprob": -21.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġcapitale",
+        "token_id": 90207,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La capitale",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La",
+        "Ġcapitale"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967,
+        90207
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġfrançaise",
+            "token_id": 64859,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdu",
+            "token_id": 1747,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġd",
+            "token_id": 513,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdes",
+            "token_id": 853,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġest",
+            "token_id": 1009,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġla",
+            "token_id": 759,
+            "logprob": -20.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġda",
+            "token_id": 1776,
+            "logprob": -20.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġde",
+        "token_id": 569,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La capitale de",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La",
+        "Ġcapitale",
+        "Ġde"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967,
+        90207,
+        569
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġla",
+            "token_id": 759,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -23.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠFrance",
+            "token_id": 7001,
+            "logprob": -24.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLa",
+            "token_id": 2774,
+            "logprob": -24.25,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -25.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -25.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsa",
+            "token_id": 890,
+            "logprob": -25.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġson",
+            "token_id": 2369,
+            "logprob": -25.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġla",
+        "token_id": 759,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La capitale de la",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967,
+        90207,
+        569,
+        759
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠFrance",
+            "token_id": 7001,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -14.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "France",
+            "token_id": 31756,
+            "logprob": -18.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠФранции",
+            "token_id": 131450,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġفرنسا",
+            "token_id": 184962,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠFrankreich",
+            "token_id": 99930,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġフランス",
+            "token_id": 233903,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġré",
+            "token_id": 3990,
+            "logprob": -21.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfrance",
+            "token_id": 61034,
+            "logprob": -21.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠRépublique",
+            "token_id": 91729,
+            "logprob": -21.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠFrance",
+        "token_id": 7001,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La capitale de la France",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967,
+        90207,
+        569,
+        759,
+        7001
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġest",
+            "token_id": 1009,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "est",
+            "token_id": 598,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġè",
+            "token_id": 4478,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġes",
+            "token_id": 1115,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠEst",
+            "token_id": 4892,
+            "logprob": -21.375,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -21.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġاست",
+            "token_id": 5981,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -22.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġest",
+        "token_id": 1009,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La capitale de la France est",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ***",
+            "token_id": 27435,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġà",
+            "token_id": 1608,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠParis",
+            "token_id": 9079,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "<strong>",
+            "token_id": 198,
+            "logprob": -19.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ**",
+        "token_id": 5213,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La capitale de la France est **",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "Ġ**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        5213
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Paris",
+            "token_id": 50429,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Par",
+            "token_id": 3128,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠParis",
+            "token_id": 9079,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "巴黎",
+            "token_id": 142253,
+            "logprob": -20.875,
+            "prob": 0.0
+          },
+          {
+            "token": "le",
+            "token_id": 519,
+            "logprob": -21.75,
+            "prob": 0.0
+          },
+          {
+            "token": "(",
+            "token_id": 236769,
+            "logprob": -22.5,
+            "prob": 0.0
+          },
+          {
+            "token": "_",
+            "token_id": 236779,
+            "logprob": -22.625,
+            "prob": 0.0
+          },
+          {
+            "token": "[",
+            "token_id": 236840,
+            "logprob": -22.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Па",
+            "token_id": 49873,
+            "logprob": -23.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Paris",
+        "token_id": 50429,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La capitale de la France est **Paris",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "Ġ**",
+        "Paris"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        5213,
+        50429
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**.",
+            "token_id": 84750,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠBac",
+            "token_id": 46808,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġblanc",
+            "token_id": 33077,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "s",
+            "token_id": 236751,
+            "logprob": -22.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfinale",
+            "token_id": 31488,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "t",
+            "token_id": 236745,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ته",
+            "token_id": 9112,
+            "logprob": -22.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġgen",
+            "token_id": 2824,
+            "logprob": -22.375,
+            "prob": 0.0
+          },
+          {
+            "token": "\\}$.",
+            "token_id": 27885,
+            "logprob": -22.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**.",
+        "token_id": 84750,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userLa capitale de la France est<turn|>La capitale de la France est **Paris**.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "La",
+        "Ġcapitale",
+        "Ġde",
+        "Ġla",
+        "ĠFrance",
+        "Ġest",
+        "Ġ**",
+        "Paris",
+        "**."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        106,
+        105,
+        4368,
+        4967,
+        90207,
+        569,
+        759,
+        7001,
+        1009,
+        5213,
+        50429,
+        84750
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0006,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ❤️",
+            "token_id": 64813,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ✨",
+            "token_id": 73687,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "<eos>",
+            "token_id": 1,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "<|channel>",
+            "token_id": 100,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ?",
+            "token_id": 2360,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -17.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "id": "generated_20260815_222835",
+  "prompt": "中国的首都是",
+  "language": "zh",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>user中国的首都是<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "中国的",
+        "首",
+        "都是",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        110323,
+        238317,
+        15310,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "中国的",
+            "token_id": 110323,
+            "logprob": -0.002,
+            "prob": 0.9961
+          },
+          {
+            "token": "中国",
+            "token_id": 11064,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "中华人民共和国",
+            "token_id": 152335,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "北京",
+            "token_id": 32707,
+            "logprob": -10.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "我的",
+            "token_id": 21480,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "{",
+            "token_id": 236782,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "###",
+            "token_id": 10354,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "东",
+            "token_id": 238397,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "*",
+            "token_id": 236829,
+            "logprob": -15.0625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "中国的",
+        "token_id": 110323,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>user中国的首都是<turn|>中国的",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "中国的",
+        "首",
+        "都是",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "中国的"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        110323,
+        238317,
+        15310,
+        106,
+        105,
+        4368,
+        110323
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "首",
+            "token_id": 238317,
+            "logprob": -0.0262,
+            "prob": 0.9727
+          },
+          {
+            "token": "首都",
+            "token_id": 120211,
+            "logprob": -3.6562,
+            "prob": 0.026
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "都",
+            "token_id": 237413,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "国",
+            "token_id": 237341,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ首",
+            "token_id": 183556,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "都是",
+            "token_id": 15310,
+            "logprob": -20.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġthủ",
+            "token_id": 41370,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "政治",
+            "token_id": 44368,
+            "logprob": -21.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "首",
+        "token_id": 238317,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>user中国的首都是<turn|>中国的首",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "中国的",
+        "首",
+        "都是",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "中国的",
+        "首"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        110323,
+        238317,
+        15310,
+        106,
+        105,
+        4368,
+        110323,
+        238317
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "都是",
+            "token_id": 15310,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "都在",
+            "token_id": 56285,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "�",
+            "token_id": 464,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "发",
+            "token_id": 237428,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcapital",
+            "token_id": 5279,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "都有",
+            "token_id": 36144,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "都被",
+            "token_id": 117446,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "是",
+            "token_id": 237026,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "首都",
+            "token_id": 120211,
+            "logprob": -18.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "都是",
+        "token_id": 15310,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>user中国的首都是<turn|>中国的首都是",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "中国的",
+        "首",
+        "都是",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "中国的",
+        "首",
+        "都是"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        110323,
+        238317,
+        15310,
+        106,
+        105,
+        4368,
+        110323,
+        238317,
+        15310
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -0.3477,
+            "prob": 0.707
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -1.2266,
+            "prob": 0.2949
+          },
+          {
+            "token": "北京",
+            "token_id": 32707,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "<strong>",
+            "token_id": 198,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -13.5,
+            "prob": 0.0
+          },
+          {
+            "token": "：",
+            "token_id": 237184,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "\\",
+            "token_id": 236785,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "中华人民共和国",
+            "token_id": 152335,
+            "logprob": -15.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**",
+        "token_id": 1018,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>user中国的首都是<turn|>中国的首都是**",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "中国的",
+        "首",
+        "都是",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "中国的",
+        "首",
+        "都是",
+        "**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        110323,
+        238317,
+        15310,
+        106,
+        105,
+        4368,
+        110323,
+        238317,
+        15310,
+        1018
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "北京",
+            "token_id": 32707,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "北京市",
+            "token_id": 201154,
+            "logprob": -10.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "在北京",
+            "token_id": 214775,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "中华人民共和国",
+            "token_id": 152335,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ北京",
+            "token_id": 169418,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "中国",
+            "token_id": 11064,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Beijing",
+            "token_id": 146332,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠBeijing",
+            "token_id": 30530,
+            "logprob": -20.0,
+            "prob": 0.0
+          },
+          {
+            "token": "人民",
+            "token_id": 32161,
+            "logprob": -20.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "北京",
+        "token_id": 32707,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>user中国的首都是<turn|>中国的首都是**北京",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "中国的",
+        "首",
+        "都是",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "中国的",
+        "首",
+        "都是",
+        "**",
+        "北京"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        110323,
+        238317,
+        15310,
+        106,
+        105,
+        4368,
+        110323,
+        238317,
+        15310,
+        1018,
+        32707
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -0.0028,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -5.875,
+            "prob": 0.0028
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "(",
+            "token_id": 236769,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "́",
+            "token_id": 238288,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "</strong>",
+            "token_id": 207,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "土",
+            "token_id": 238501,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "้",
+            "token_id": 237072,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "语",
+            "token_id": 238384,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "**(",
+            "token_id": 177906,
+            "logprob": -16.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**",
+        "token_id": 1018,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>user中国的首都是<turn|>中国的首都是**北京**",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "中国的",
+        "首",
+        "都是",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "中国的",
+        "首",
+        "都是",
+        "**",
+        "北京",
+        "**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        110323,
+        238317,
+        15310,
+        106,
+        105,
+        4368,
+        110323,
+        238317,
+        15310,
+        1018,
+        32707,
+        1018
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -0.0043,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -5.5,
+            "prob": 0.0041
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "。(",
+            "token_id": 75134,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ($\\",
+            "token_id": 77891,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "。（",
+            "token_id": 38853,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "市",
+            "token_id": 237594,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "🌍",
+            "token_id": 244906,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "是",
+            "token_id": 237026,
+            "logprob": -14.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "。",
+        "token_id": 236924,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>user中国的首都是<turn|>中国的首都是**北京**。",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "中国的",
+        "首",
+        "都是",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "中国的",
+        "首",
+        "都是",
+        "**",
+        "北京",
+        "**",
+        "。"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        110323,
+        238317,
+        15310,
+        106,
+        105,
+        4368,
+        110323,
+        238317,
+        15310,
+        1018,
+        32707,
+        1018,
+        236924
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0008,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "😊",
+            "token_id": 240782,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "^(",
+            "token_id": 39568,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "<eos>",
+            "token_id": 1,
+            "logprob": -15.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

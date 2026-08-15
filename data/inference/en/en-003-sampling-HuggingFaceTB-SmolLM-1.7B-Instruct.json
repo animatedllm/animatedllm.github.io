@@ -1,0 +1,3769 @@
+{
+  "id": "generated_20260815_224410",
+  "prompt": "The capital of the United Kingdom is",
+  "language": "en",
+  "temperature": 1.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+    "num_layers": 24,
+    "hidden_size": 2048,
+    "num_attention_heads": 32,
+    "vocab_size": 49152
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "The",
+            "token_id": 504,
+            "logprob": -0.3008,
+            "prob": 0.7422
+          },
+          {
+            "token": "That",
+            "token_id": 5195,
+            "logprob": -2.5469,
+            "prob": 0.0781
+          },
+          {
+            "token": "London",
+            "token_id": 21253,
+            "logprob": -3.0469,
+            "prob": 0.0474
+          },
+          {
+            "token": "What",
+            "token_id": 1780,
+            "logprob": -3.6719,
+            "prob": 0.0254
+          },
+          {
+            "token": "**",
+            "token_id": 828,
+            "logprob": -4.5625,
+            "prob": 0.0106
+          },
+          {
+            "token": "Yes",
+            "token_id": 10539,
+            "logprob": -4.9375,
+            "prob": 0.0073
+          },
+          {
+            "token": "A",
+            "token_id": 49,
+            "logprob": -5.1875,
+            "prob": 0.0056
+          },
+          {
+            "token": "You",
+            "token_id": 2683,
+            "logprob": -5.4375,
+            "prob": 0.0044
+          },
+          {
+            "token": "One",
+            "token_id": 2705,
+            "logprob": -5.6875,
+            "prob": 0.0034
+          },
+          {
+            "token": "Here",
+            "token_id": 4590,
+            "logprob": -5.9375,
+            "prob": 0.0027
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "The",
+        "token_id": 504,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġcapital",
+            "token_id": 3575,
+            "logprob": -0.1377,
+            "prob": 0.8711
+          },
+          {
+            "token": "ĠUnited",
+            "token_id": 1797,
+            "logprob": -2.4531,
+            "prob": 0.0864
+          },
+          {
+            "token": "Ġofficial",
+            "token_id": 5326,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "ĠUK",
+            "token_id": 4664,
+            "logprob": -5.125,
+            "prob": 0.0059
+          },
+          {
+            "token": "Ġanswer",
+            "token_id": 2988,
+            "logprob": -5.9375,
+            "prob": 0.0026
+          },
+          {
+            "token": "ĠCapital",
+            "token_id": 14937,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġcity",
+            "token_id": 2240,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġhead",
+            "token_id": 1680,
+            "logprob": -6.6875,
+            "prob": 0.0012
+          },
+          {
+            "token": "ĠCity",
+            "token_id": 4206,
+            "logprob": -6.6875,
+            "prob": 0.0012
+          },
+          {
+            "token": "ĠBritish",
+            "token_id": 2938,
+            "logprob": -6.75,
+            "prob": 0.0012
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġcapital",
+        "token_id": 3575,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -0.1445,
+            "prob": 0.8672
+          },
+          {
+            "token": "Ġcity",
+            "token_id": 2240,
+            "logprob": -2.0156,
+            "prob": 0.1328
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -6.7812,
+            "prob": 0.0012
+          },
+          {
+            "token": "Ġcities",
+            "token_id": 4199,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "ĠCity",
+            "token_id": 4206,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -9.6875,
+            "prob": 0.0001
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -10.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "of",
+            "token_id": 1714,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtown",
+            "token_id": 3102,
+            "logprob": -11.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġof",
+        "token_id": 282,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -0.0033,
+            "prob": 0.9961
+          },
+          {
+            "token": "ĠGreat",
+            "token_id": 3756,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "ĠEngland",
+            "token_id": 3996,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          },
+          {
+            "token": "ĠUnited",
+            "token_id": 1797,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "ĠThe",
+            "token_id": 378,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠScotland",
+            "token_id": 9291,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠWales",
+            "token_id": 11097,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġany",
+            "token_id": 750,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠBritain",
+            "token_id": 5679,
+            "logprob": -10.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġthe",
+        "token_id": 260,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠUnited",
+            "token_id": 1797,
+            "logprob": -0.0007,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠUK",
+            "token_id": 4664,
+            "logprob": -7.8125,
+            "prob": 0.0004
+          },
+          {
+            "token": "United",
+            "token_id": 19246,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠKingdom",
+            "token_id": 8378,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġunited",
+            "token_id": 12787,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠBritish",
+            "token_id": 2938,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠUn",
+            "token_id": 810,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġworld",
+            "token_id": 905,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠUnion",
+            "token_id": 4353,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -12.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠUnited",
+        "token_id": 1797,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠKingdom",
+            "token_id": 8378,
+            "logprob": -0.0005,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠKing",
+            "token_id": 3261,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "ĠStates",
+            "token_id": 1918,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "ĠKind",
+            "token_id": 15098,
+            "logprob": -10.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġkingdom",
+            "token_id": 10054,
+            "logprob": -11.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠK",
+            "token_id": 659,
+            "logprob": -11.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠUK",
+            "token_id": 4664,
+            "logprob": -11.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "King",
+            "token_id": 19787,
+            "logprob": -12.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠNations",
+            "token_id": 6950,
+            "logprob": -12.8125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠKingdom",
+        "token_id": 8378,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -0.0471,
+            "prob": 0.9531
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -3.6719,
+            "prob": 0.0254
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -4.5625,
+            "prob": 0.0106
+          },
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -5.3125,
+            "prob": 0.005
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -7.3125,
+            "prob": 0.0007
+          },
+          {
+            "token": "?",
+            "token_id": 47,
+            "logprob": -7.5625,
+            "prob": 0.0005
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 731,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 436,
+            "logprob": -8.625,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġis",
+        "token_id": 314,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠLondon",
+            "token_id": 4528,
+            "logprob": -0.0586,
+            "prob": 0.9414
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -4.3125,
+            "prob": 0.0134
+          },
+          {
+            "token": "Ġnot",
+            "token_id": 441,
+            "logprob": -5.25,
+            "prob": 0.0053
+          },
+          {
+            "token": "ĠWestminster",
+            "token_id": 27906,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": ":",
+            "token_id": 42,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġlocated",
+            "token_id": 3807,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          },
+          {
+            "token": "...",
+            "token_id": 2026,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -6.4375,
+            "prob": 0.0016
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠLondon",
+        "token_id": 4528,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -0.5547,
+            "prob": 0.5742
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -1.0547,
+            "prob": 0.3477
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -3.5625,
+            "prob": 0.0286
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -3.5625,
+            "prob": 0.0286
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -4.5625,
+            "prob": 0.0105
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -5.6875,
+            "prob": 0.0034
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġ,",
+            "token_id": 3297,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": ";",
+            "token_id": 43,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ.",
+            "token_id": 1673,
+            "logprob": -8.25,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 28,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London,",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ","
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġwhich",
+            "token_id": 527,
+            "logprob": -0.6055,
+            "prob": 0.5469
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -2.1094,
+            "prob": 0.1221
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -2.8594,
+            "prob": 0.0576
+          },
+          {
+            "token": "Ġalso",
+            "token_id": 597,
+            "logprob": -3.2344,
+            "prob": 0.0396
+          },
+          {
+            "token": "Ġlocated",
+            "token_id": 3807,
+            "logprob": -3.4844,
+            "prob": 0.0308
+          },
+          {
+            "token": "ĠEngland",
+            "token_id": 3996,
+            "logprob": -3.5469,
+            "prob": 0.0289
+          },
+          {
+            "token": "Ġbut",
+            "token_id": 564,
+            "logprob": -3.8594,
+            "prob": 0.0211
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -3.9219,
+            "prob": 0.0199
+          },
+          {
+            "token": "Ġspecifically",
+            "token_id": 4170,
+            "logprob": -4.0312,
+            "prob": 0.0176
+          },
+          {
+            "token": "Ġofficially",
+            "token_id": 11574,
+            "logprob": -4.4062,
+            "prob": 0.0121
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġand",
+        "token_id": 284,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġit",
+            "token_id": 357,
+            "logprob": -0.21,
+            "prob": 0.8125
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -3.2031,
+            "prob": 0.0403
+          },
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -3.7031,
+            "prob": 0.0245
+          },
+          {
+            "token": "ĠLondon",
+            "token_id": 4528,
+            "logprob": -3.7656,
+            "prob": 0.0229
+          },
+          {
+            "token": "Ġits",
+            "token_id": 624,
+            "logprob": -3.7656,
+            "prob": 0.0229
+          },
+          {
+            "token": "Ġthis",
+            "token_id": 451,
+            "logprob": -4.6562,
+            "prob": 0.0096
+          },
+          {
+            "token": "Ġas",
+            "token_id": 347,
+            "logprob": -5.2188,
+            "prob": 0.0055
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 436,
+            "logprob": -5.4062,
+            "prob": 0.0045
+          },
+          {
+            "token": "Ġhere",
+            "token_id": 1535,
+            "logprob": -5.4062,
+            "prob": 0.0045
+          },
+          {
+            "token": "Ġthere",
+            "token_id": 665,
+            "logprob": -5.4688,
+            "prob": 0.0042
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠLondon",
+        "token_id": 4528,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -0.1211,
+            "prob": 0.8867
+          },
+          {
+            "token": "Ġhas",
+            "token_id": 553,
+            "logprob": -2.75,
+            "prob": 0.064
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 436,
+            "logprob": -4.8125,
+            "prob": 0.0082
+          },
+          {
+            "token": "'s",
+            "token_id": 506,
+            "logprob": -4.875,
+            "prob": 0.0077
+          },
+          {
+            "token": "Ġitself",
+            "token_id": 2581,
+            "logprob": -5.4375,
+            "prob": 0.0044
+          },
+          {
+            "token": "ĠCity",
+            "token_id": 4206,
+            "logprob": -5.6875,
+            "prob": 0.0034
+          },
+          {
+            "token": "ĠCounty",
+            "token_id": 4392,
+            "logprob": -6.0625,
+            "prob": 0.0023
+          },
+          {
+            "token": "Ġserves",
+            "token_id": 5860,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġstands",
+            "token_id": 6443,
+            "logprob": -6.6875,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġcity",
+            "token_id": 2240,
+            "logprob": -6.875,
+            "prob": 0.001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġis",
+        "token_id": 314,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -1.2031,
+            "prob": 0.3008
+          },
+          {
+            "token": "Ġalso",
+            "token_id": 597,
+            "logprob": -1.3281,
+            "prob": 0.2656
+          },
+          {
+            "token": "Ġlocated",
+            "token_id": 3807,
+            "logprob": -2.2031,
+            "prob": 0.1108
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -2.5781,
+            "prob": 0.0762
+          },
+          {
+            "token": "Ġone",
+            "token_id": 582,
+            "logprob": -3.2031,
+            "prob": 0.0408
+          },
+          {
+            "token": "Ġsituated",
+            "token_id": 13010,
+            "logprob": -3.2031,
+            "prob": 0.0408
+          },
+          {
+            "token": "Ġnot",
+            "token_id": 441,
+            "logprob": -3.4531,
+            "prob": 0.0317
+          },
+          {
+            "token": "Ġoften",
+            "token_id": 1129,
+            "logprob": -3.7031,
+            "prob": 0.0248
+          },
+          {
+            "token": "Ġknown",
+            "token_id": 1343,
+            "logprob": -4.5625,
+            "prob": 0.0103
+          },
+          {
+            "token": "Ġconsidered",
+            "token_id": 2500,
+            "logprob": -4.8125,
+            "prob": 0.0081
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġthe",
+        "token_id": 260,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġlargest",
+            "token_id": 3995,
+            "logprob": -0.6836,
+            "prob": 0.5039
+          },
+          {
+            "token": "Ġmost",
+            "token_id": 768,
+            "logprob": -1.7422,
+            "prob": 0.1748
+          },
+          {
+            "token": "Ġcapital",
+            "token_id": 3575,
+            "logprob": -2.75,
+            "prob": 0.0645
+          },
+          {
+            "token": "Ġseat",
+            "token_id": 8952,
+            "logprob": -3.125,
+            "prob": 0.0442
+          },
+          {
+            "token": "Ġcity",
+            "token_id": 2240,
+            "logprob": -3.3125,
+            "prob": 0.0366
+          },
+          {
+            "token": "Ġonly",
+            "token_id": 805,
+            "logprob": -3.375,
+            "prob": 0.0344
+          },
+          {
+            "token": "Ġcountry",
+            "token_id": 1798,
+            "logprob": -3.75,
+            "prob": 0.0237
+          },
+          {
+            "token": "Ġfinancial",
+            "token_id": 3216,
+            "logprob": -5.0625,
+            "prob": 0.0063
+          },
+          {
+            "token": "ĠCity",
+            "token_id": 4206,
+            "logprob": -5.0625,
+            "prob": 0.0063
+          },
+          {
+            "token": "Ġsecond",
+            "token_id": 1796,
+            "logprob": -5.1875,
+            "prob": 0.0056
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġlargest",
+        "token_id": 3995,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġcity",
+            "token_id": 2240,
+            "logprob": -0.166,
+            "prob": 0.8477
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -2.6719,
+            "prob": 0.0693
+          },
+          {
+            "token": "Ġmetropolitan",
+            "token_id": 22962,
+            "logprob": -3.7969,
+            "prob": 0.0226
+          },
+          {
+            "token": "Ġfinancial",
+            "token_id": 3216,
+            "logprob": -4.2188,
+            "prob": 0.0146
+          },
+          {
+            "token": "Ġcountry",
+            "token_id": 1798,
+            "logprob": -4.6562,
+            "prob": 0.0094
+          },
+          {
+            "token": "Ġurban",
+            "token_id": 4343,
+            "logprob": -4.7812,
+            "prob": 0.0083
+          },
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "Ġmetropolis",
+            "token_id": 39228,
+            "logprob": -6.2188,
+            "prob": 0.002
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ġcapital",
+            "token_id": 3575,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġcity",
+        "token_id": 2240,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -0.2227,
+            "prob": 0.8008
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -1.9766,
+            "prob": 0.1387
+          },
+          {
+            "token": "Ġby",
+            "token_id": 411,
+            "logprob": -3.5938,
+            "prob": 0.0273
+          },
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -4.4688,
+            "prob": 0.0114
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -4.4688,
+            "prob": 0.0114
+          },
+          {
+            "token": "Ġon",
+            "token_id": 335,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "Ġwithin",
+            "token_id": 1127,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -7.0312,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġboth",
+            "token_id": 1062,
+            "logprob": -7.2188,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 338,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġin",
+        "token_id": 281,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -0.0923,
+            "prob": 0.9102
+          },
+          {
+            "token": "ĠEngland",
+            "token_id": 3996,
+            "logprob": -3.0938,
+            "prob": 0.0454
+          },
+          {
+            "token": "Ġboth",
+            "token_id": 1062,
+            "logprob": -4.0938,
+            "prob": 0.0167
+          },
+          {
+            "token": "ĠEurope",
+            "token_id": 1910,
+            "logprob": -4.7188,
+            "prob": 0.0089
+          },
+          {
+            "token": "ĠGreat",
+            "token_id": 3756,
+            "logprob": -5.5312,
+            "prob": 0.004
+          },
+          {
+            "token": "ĠBritain",
+            "token_id": 5679,
+            "logprob": -5.7188,
+            "prob": 0.0033
+          },
+          {
+            "token": "ĠLondon",
+            "token_id": 4528,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġterms",
+            "token_id": 2656,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "ĠUK",
+            "token_id": 4664,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġnot",
+            "token_id": 441,
+            "logprob": -7.7188,
+            "prob": 0.0004
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġthe",
+        "token_id": 260,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠUK",
+            "token_id": 4664,
+            "logprob": -0.5156,
+            "prob": 0.5977
+          },
+          {
+            "token": "ĠUnited",
+            "token_id": 1797,
+            "logprob": -1.3906,
+            "prob": 0.249
+          },
+          {
+            "token": "Ġcountry",
+            "token_id": 1798,
+            "logprob": -2.0156,
+            "prob": 0.1328
+          },
+          {
+            "token": "Ġworld",
+            "token_id": 905,
+            "logprob": -4.4375,
+            "prob": 0.0117
+          },
+          {
+            "token": "ĠU",
+            "token_id": 514,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "ĠBritish",
+            "token_id": 2938,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġkingdom",
+            "token_id": 10054,
+            "logprob": -7.3125,
+            "prob": 0.0007
+          },
+          {
+            "token": "ĠKingdom",
+            "token_id": 8378,
+            "logprob": -7.8125,
+            "prob": 0.0004
+          },
+          {
+            "token": "ĠEuropean",
+            "token_id": 3284,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġnation",
+            "token_id": 3442,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠUK",
+        "token_id": 4664,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -0.918,
+            "prob": 0.4004
+          },
+          {
+            "token": "Ġby",
+            "token_id": 411,
+            "logprob": -1.2891,
+            "prob": 0.2754
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -1.6641,
+            "prob": 0.1895
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -2.1719,
+            "prob": 0.1147
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -5.1562,
+            "prob": 0.0057
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 351,
+            "logprob": -5.5312,
+            "prob": 0.0039
+          },
+          {
+            "token": "Ġboth",
+            "token_id": 1062,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "Ġas",
+            "token_id": 347,
+            "logprob": -6.4062,
+            "prob": 0.0016
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -6.6562,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -6.7812,
+            "prob": 0.0011
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġby",
+        "token_id": 411,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK by",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK",
+        "Ġby"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664,
+        411
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpopulation",
+            "token_id": 2155,
+            "logprob": -0.5156,
+            "prob": 0.5977
+          },
+          {
+            "token": "Ġboth",
+            "token_id": 1062,
+            "logprob": -1.1406,
+            "prob": 0.3203
+          },
+          {
+            "token": "Ġfar",
+            "token_id": 1869,
+            "logprob": -3.7656,
+            "prob": 0.0232
+          },
+          {
+            "token": "Ġarea",
+            "token_id": 1557,
+            "logprob": -4.25,
+            "prob": 0.014
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -4.6875,
+            "prob": 0.0091
+          },
+          {
+            "token": "Ġan",
+            "token_id": 354,
+            "logprob": -4.875,
+            "prob": 0.0075
+          },
+          {
+            "token": "Ġgeographic",
+            "token_id": 13052,
+            "logprob": -5.625,
+            "prob": 0.0036
+          },
+          {
+            "token": "Ġsome",
+            "token_id": 634,
+            "logprob": -5.8125,
+            "prob": 0.0029
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġmetro",
+            "token_id": 38356,
+            "logprob": -6.6875,
+            "prob": 0.0012
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpopulation",
+        "token_id": 2155,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK by population",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK",
+        "Ġby",
+        "Ġpopulation"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664,
+        411,
+        2155
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -0.832,
+            "prob": 0.4355
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -1.0781,
+            "prob": 0.3398
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -1.5781,
+            "prob": 0.2061
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -4.9688,
+            "prob": 0.007
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 351,
+            "logprob": -5.4688,
+            "prob": 0.0043
+          },
+          {
+            "token": "Ġas",
+            "token_id": 347,
+            "logprob": -6.4688,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġsize",
+            "token_id": 2203,
+            "logprob": -6.4688,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġdensity",
+            "token_id": 6759,
+            "logprob": -7.2188,
+            "prob": 0.0007
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -7.2188,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -7.7188,
+            "prob": 0.0005
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġand",
+        "token_id": 284,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK by population and",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK",
+        "Ġby",
+        "Ġpopulation",
+        "Ġand"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664,
+        411,
+        2155,
+        284
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -1.1094,
+            "prob": 0.3301
+          },
+          {
+            "token": "Ġarea",
+            "token_id": 1557,
+            "logprob": -2.1094,
+            "prob": 0.1216
+          },
+          {
+            "token": "Ġeconomic",
+            "token_id": 2536,
+            "logprob": -2.7344,
+            "prob": 0.0649
+          },
+          {
+            "token": "Ġby",
+            "token_id": 411,
+            "logprob": -2.8594,
+            "prob": 0.0574
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -2.8594,
+            "prob": 0.0574
+          },
+          {
+            "token": "Ġgeographic",
+            "token_id": 13052,
+            "logprob": -3.1719,
+            "prob": 0.042
+          },
+          {
+            "token": "Ġland",
+            "token_id": 1666,
+            "logprob": -3.1719,
+            "prob": 0.042
+          },
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -3.3594,
+            "prob": 0.0349
+          },
+          {
+            "token": "Ġcultural",
+            "token_id": 2642,
+            "logprob": -3.4844,
+            "prob": 0.0308
+          },
+          {
+            "token": "Ġeconomy",
+            "token_id": 4118,
+            "logprob": -3.6094,
+            "prob": 0.0271
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġa",
+        "token_id": 253,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK by population and a",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK",
+        "Ġby",
+        "Ġpopulation",
+        "Ġand",
+        "Ġa"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664,
+        411,
+        2155,
+        284,
+        253
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmajor",
+            "token_id": 1739,
+            "logprob": -0.3262,
+            "prob": 0.7227
+          },
+          {
+            "token": "Ġsignificant",
+            "token_id": 1546,
+            "logprob": -2.3281,
+            "prob": 0.0977
+          },
+          {
+            "token": "Ġglobal",
+            "token_id": 2224,
+            "logprob": -2.4531,
+            "prob": 0.0864
+          },
+          {
+            "token": "Ġkey",
+            "token_id": 1646,
+            "logprob": -4.375,
+            "prob": 0.0125
+          },
+          {
+            "token": "Ġfinancial",
+            "token_id": 3216,
+            "logprob": -4.8125,
+            "prob": 0.008
+          },
+          {
+            "token": "Ġleading",
+            "token_id": 2899,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "Ġmain",
+            "token_id": 1085,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "Ġpopular",
+            "token_id": 2378,
+            "logprob": -5.5,
+            "prob": 0.004
+          },
+          {
+            "token": "Ġformer",
+            "token_id": 4302,
+            "logprob": -5.5625,
+            "prob": 0.0038
+          },
+          {
+            "token": "Ġcity",
+            "token_id": 2240,
+            "logprob": -5.625,
+            "prob": 0.0036
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmajor",
+        "token_id": 1739,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK by population and a major",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK",
+        "Ġby",
+        "Ġpopulation",
+        "Ġand",
+        "Ġa",
+        "Ġmajor"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664,
+        411,
+        2155,
+        284,
+        253,
+        1739
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġfinancial",
+            "token_id": 3216,
+            "logprob": -1.2578,
+            "prob": 0.2832
+          },
+          {
+            "token": "Ġinternational",
+            "token_id": 3113,
+            "logprob": -1.2578,
+            "prob": 0.2832
+          },
+          {
+            "token": "Ġeconomic",
+            "token_id": 2536,
+            "logprob": -1.8828,
+            "prob": 0.1523
+          },
+          {
+            "token": "Ġglobal",
+            "token_id": 2224,
+            "logprob": -2.0156,
+            "prob": 0.1338
+          },
+          {
+            "token": "Ġbusiness",
+            "token_id": 1861,
+            "logprob": -3.7656,
+            "prob": 0.0233
+          },
+          {
+            "token": "Ġcommercial",
+            "token_id": 4713,
+            "logprob": -3.8906,
+            "prob": 0.0205
+          },
+          {
+            "token": "Ġcultural",
+            "token_id": 2642,
+            "logprob": -4.3125,
+            "prob": 0.0133
+          },
+          {
+            "token": "Ġcity",
+            "token_id": 2240,
+            "logprob": -4.4375,
+            "prob": 0.0117
+          },
+          {
+            "token": "Ġworld",
+            "token_id": 905,
+            "logprob": -4.4375,
+            "prob": 0.0117
+          },
+          {
+            "token": "Ġcenter",
+            "token_id": 3712,
+            "logprob": -4.625,
+            "prob": 0.0097
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġeconomic",
+        "token_id": 2536,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 24,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK by population and a major economic",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK",
+        "Ġby",
+        "Ġpopulation",
+        "Ġand",
+        "Ġa",
+        "Ġmajor",
+        "Ġeconomic"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664,
+        411,
+        2155,
+        284,
+        253,
+        1739,
+        2536
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġcentre",
+            "token_id": 8560,
+            "logprob": -0.6797,
+            "prob": 0.5078
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -1.4297,
+            "prob": 0.2393
+          },
+          {
+            "token": "Ġcenter",
+            "token_id": 3712,
+            "logprob": -1.6797,
+            "prob": 0.1865
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -3.4219,
+            "prob": 0.0325
+          },
+          {
+            "token": "Ġhub",
+            "token_id": 14157,
+            "logprob": -3.6719,
+            "prob": 0.0253
+          },
+          {
+            "token": "Ġpowerhouse",
+            "token_id": 45595,
+            "logprob": -5.9375,
+            "prob": 0.0027
+          },
+          {
+            "token": "Ġpower",
+            "token_id": 1149,
+            "logprob": -6.0625,
+            "prob": 0.0023
+          },
+          {
+            "token": "Ġengine",
+            "token_id": 2327,
+            "logprob": -6.9375,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġcapital",
+            "token_id": 3575,
+            "logprob": -7.4375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġforce",
+            "token_id": 3075,
+            "logprob": -7.5625,
+            "prob": 0.0005
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġcentre",
+        "token_id": 8560,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 25,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK by population and a major economic centre",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK",
+        "Ġby",
+        "Ġpopulation",
+        "Ġand",
+        "Ġa",
+        "Ġmajor",
+        "Ġeconomic",
+        "Ġcentre"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664,
+        411,
+        2155,
+        284,
+        253,
+        1739,
+        2536,
+        8560
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -0.0928,
+            "prob": 0.9102
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -2.8438,
+            "prob": 0.0583
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -4.4688,
+            "prob": 0.0115
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          },
+          {
+            "token": "Ġfor",
+            "token_id": 327,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġof",
+            "token_id": 282,
+            "logprob": -6.0938,
+            "prob": 0.0023
+          },
+          {
+            "token": "Ġinternationally",
+            "token_id": 17630,
+            "logprob": -6.9688,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġas",
+            "token_id": 347,
+            "logprob": -6.9688,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 351,
+            "logprob": -7.0938,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġglobally",
+            "token_id": 11565,
+            "logprob": -7.0938,
+            "prob": 0.0008
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 30,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 26,
+      "input_text": "<|im_start|>userThe capital of the United Kingdom is<|im_end|>The capital of the United Kingdom is London, and London is the largest city in the UK by population and a major economic centre.",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "Ġcapital",
+        "Ġof",
+        "Ġthe",
+        "ĠUnited",
+        "ĠKingdom",
+        "Ġis",
+        "ĠLondon",
+        ",",
+        "Ġand",
+        "ĠLondon",
+        "Ġis",
+        "Ġthe",
+        "Ġlargest",
+        "Ġcity",
+        "Ġin",
+        "Ġthe",
+        "ĠUK",
+        "Ġby",
+        "Ġpopulation",
+        "Ġand",
+        "Ġa",
+        "Ġmajor",
+        "Ġeconomic",
+        "Ġcentre",
+        "."
+      ],
+      "token_ids": [
+        1,
+        4093,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        3575,
+        282,
+        260,
+        1797,
+        8378,
+        314,
+        4528,
+        28,
+        284,
+        4528,
+        314,
+        260,
+        3995,
+        2240,
+        281,
+        260,
+        4664,
+        411,
+        2155,
+        284,
+        253,
+        1739,
+        2536,
+        8560,
+        30
+      ],
+      "special_idx": [
+        0,
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -0.2148,
+            "prob": 0.8047
+          },
+          {
+            "token": "ĠIt",
+            "token_id": 657,
+            "logprob": -2.9688,
+            "prob": 0.0515
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -3.0938,
+            "prob": 0.0454
+          },
+          {
+            "token": "ĠThe",
+            "token_id": 378,
+            "logprob": -3.8438,
+            "prob": 0.0215
+          },
+          {
+            "token": "ĠLondon",
+            "token_id": 4528,
+            "logprob": -4.2188,
+            "prob": 0.0148
+          },
+          {
+            "token": "ĠHowever",
+            "token_id": 1423,
+            "logprob": -4.4688,
+            "prob": 0.0115
+          },
+          {
+            "token": "ĠHere",
+            "token_id": 3726,
+            "logprob": -5.4062,
+            "prob": 0.0045
+          },
+          {
+            "token": "ĠOther",
+            "token_id": 3550,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "ĠAs",
+            "token_id": 1032,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": "ĠThere",
+            "token_id": 1385,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<|im_end|>",
+        "token_id": 2,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

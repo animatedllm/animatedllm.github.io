@@ -1,0 +1,2446 @@
+{
+  "id": "generated_20260815_222901",
+  "prompt": "“谢谢”里有多少个“谢”字？",
+  "language": "zh",
+  "temperature": 1.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "在",
+            "token_id": 237075,
+            "logprob": -0.2031,
+            "prob": 0.8164
+          },
+          {
+            "token": "“",
+            "token_id": 236913,
+            "logprob": -1.7031,
+            "prob": 0.1826
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -7.8125,
+            "prob": 0.0004
+          },
+          {
+            "token": "在这个",
+            "token_id": 89340,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "在一个",
+            "token_id": 118397,
+            "logprob": -8.9375,
+            "prob": 0.0001
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "答案",
+            "token_id": 56996,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "在中国",
+            "token_id": 125147,
+            "logprob": -9.6875,
+            "prob": 0.0001
+          },
+          {
+            "token": "这是一个",
+            "token_id": 120509,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "请",
+            "token_id": 238350,
+            "logprob": -11.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "在",
+        "token_id": 237075,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "“",
+            "token_id": 236913,
+            "logprob": -0.0074,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġ“",
+            "token_id": 999,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "中文",
+            "token_id": 55041,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "汉",
+            "token_id": 239908,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "词",
+            "token_id": 239275,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "短",
+            "token_id": 238906,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "您",
+            "token_id": 238602,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "你的",
+            "token_id": 22276,
+            "logprob": -11.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "“",
+        "token_id": 236913,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "谢谢",
+            "token_id": 101367,
+            "logprob": -0.006,
+            "prob": 0.9922
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -5.125,
+            "prob": 0.0059
+          },
+          {
+            "token": "謝謝",
+            "token_id": 139546,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "感谢",
+            "token_id": 88951,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "谢",
+            "token_id": 239648,
+            "logprob": -13.125,
+            "prob": 0.0
+          },
+          {
+            "token": "$\\",
+            "token_id": 3292,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "请",
+            "token_id": 238350,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "我们",
+            "token_id": 6932,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "thank",
+            "token_id": 55153,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -16.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "谢谢",
+        "token_id": 101367,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "”",
+            "token_id": 236919,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "”（",
+            "token_id": 109596,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "”，",
+            "token_id": 19601,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "」",
+            "token_id": 237377,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "“",
+            "token_id": 236913,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ”",
+            "token_id": 13085,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "”。",
+            "token_id": 24517,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "\\\"",
+            "token_id": 8455,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "}",
+            "token_id": 236783,
+            "logprob": -19.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "”",
+        "token_id": 236919,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "这个",
+            "token_id": 10180,
+            "logprob": -0.3965,
+            "prob": 0.6719
+          },
+          {
+            "token": "里",
+            "token_id": 237652,
+            "logprob": -1.1484,
+            "prob": 0.3184
+          },
+          {
+            "token": "中",
+            "token_id": 237103,
+            "logprob": -5.1562,
+            "prob": 0.0058
+          },
+          {
+            "token": "里面",
+            "token_id": 46682,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "这两个",
+            "token_id": 115796,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "的",
+            "token_id": 236918,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "这",
+            "token_id": 237227,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "字",
+            "token_id": 237871,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "两个",
+            "token_id": 22213,
+            "logprob": -10.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "二",
+            "token_id": 237725,
+            "logprob": -10.5625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "这个",
+        "token_id": 10180,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "词",
+            "token_id": 239275,
+            "logprob": -0.0008,
+            "prob": 1.0
+          },
+          {
+            "token": "字",
+            "token_id": 237871,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "汉",
+            "token_id": 239908,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "两个",
+            "token_id": 22213,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "中文",
+            "token_id": 55041,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "詞",
+            "token_id": 240438,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "双",
+            "token_id": 238925,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "二",
+            "token_id": 237725,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "完整的",
+            "token_id": 127451,
+            "logprob": -12.9375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "词",
+        "token_id": 239275,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "里",
+            "token_id": 237652,
+            "logprob": -0.2021,
+            "prob": 0.8164
+          },
+          {
+            "token": "语",
+            "token_id": 238384,
+            "logprob": -2.2031,
+            "prob": 0.1104
+          },
+          {
+            "token": "中",
+            "token_id": 237103,
+            "logprob": -2.8281,
+            "prob": 0.0591
+          },
+          {
+            "token": "里面",
+            "token_id": 46682,
+            "logprob": -4.3125,
+            "prob": 0.0132
+          },
+          {
+            "token": "组",
+            "token_id": 238193,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "的",
+            "token_id": 236918,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "中有",
+            "token_id": 92662,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "汇",
+            "token_id": 240433,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "子里",
+            "token_id": 118049,
+            "logprob": -12.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "里",
+        "token_id": 237652,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "，",
+            "token_id": 236900,
+            "logprob": -0.1133,
+            "prob": 0.8945
+          },
+          {
+            "token": "有",
+            "token_id": 237078,
+            "logprob": -2.2344,
+            "prob": 0.1064
+          },
+          {
+            "token": "有一个",
+            "token_id": 55010,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "，“",
+            "token_id": 23913,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "，$",
+            "token_id": 162692,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "有两个",
+            "token_id": 170281,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "包含",
+            "token_id": 37250,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "是",
+            "token_id": 237026,
+            "logprob": -13.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "，",
+        "token_id": 236900,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "有",
+            "token_id": 237078,
+            "logprob": -0.0121,
+            "prob": 0.9883
+          },
+          {
+            "token": "有一个",
+            "token_id": 55010,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -5.75,
+            "prob": 0.0031
+          },
+          {
+            "token": "有两个",
+            "token_id": 170281,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "包含",
+            "token_id": 37250,
+            "logprob": -9.6875,
+            "prob": 0.0001
+          },
+          {
+            "token": "一",
+            "token_id": 237009,
+            "logprob": -10.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "มี",
+            "token_id": 10285,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "是",
+            "token_id": 237026,
+            "logprob": -10.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "只有一个",
+            "token_id": 176268,
+            "logprob": -10.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "正好",
+            "token_id": 145004,
+            "logprob": -10.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "有",
+        "token_id": 237078,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -0.062,
+            "prob": 0.9414
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -2.8125,
+            "prob": 0.0601
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "<strong>",
+            "token_id": 198,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "1",
+            "token_id": 236770,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "可以",
+            "token_id": 5157,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "它",
+            "token_id": 238010,
+            "logprob": -15.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "：",
+            "token_id": 237184,
+            "logprob": -15.375,
+            "prob": 0.0
+          },
+          {
+            "token": "2",
+            "token_id": 236778,
+            "logprob": -15.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ**",
+        "token_id": 5213,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有 **",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有",
+        "Ġ**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078,
+        5213
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "一个",
+            "token_id": 5095,
+            "logprob": -0.0226,
+            "prob": 0.9766
+          },
+          {
+            "token": "1",
+            "token_id": 236770,
+            "logprob": -4.1562,
+            "prob": 0.0157
+          },
+          {
+            "token": "两个",
+            "token_id": 22213,
+            "logprob": -5.2812,
+            "prob": 0.0051
+          },
+          {
+            "token": "2",
+            "token_id": 236778,
+            "logprob": -6.6562,
+            "prob": 0.0013
+          },
+          {
+            "token": "一",
+            "token_id": 237009,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "两",
+            "token_id": 237982,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "一个是",
+            "token_id": 206471,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "一个小",
+            "token_id": 208737,
+            "logprob": -12.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "一次",
+            "token_id": 25532,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "二",
+            "token_id": 237725,
+            "logprob": -13.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "一个",
+        "token_id": 5095,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有 **一个",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有",
+        "Ġ**",
+        "一个"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078,
+        5213,
+        5095
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -10.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "“",
+            "token_id": 236913,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ“",
+            "token_id": 999,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(“",
+            "token_id": 27415,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "”",
+            "token_id": 236919,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ($\\",
+            "token_id": 77891,
+            "logprob": -16.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**",
+        "token_id": 1018,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有 **一个**",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有",
+        "Ġ**",
+        "一个",
+        "**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078,
+        5213,
+        5095,
+        1018
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ“",
+            "token_id": 999,
+            "logprob": -0.0039,
+            "prob": 0.9961
+          },
+          {
+            "token": "“",
+            "token_id": 236913,
+            "logprob": -5.625,
+            "prob": 0.0036
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ个",
+            "token_id": 68413,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ的",
+            "token_id": 10363,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\\\"",
+            "token_id": 7339,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "，“",
+            "token_id": 23913,
+            "logprob": -14.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ“",
+        "token_id": 999,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有 **一个** “",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有",
+        "Ġ**",
+        "一个",
+        "**",
+        "Ġ“"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078,
+        5213,
+        5095,
+        1018,
+        999
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "谢",
+            "token_id": 239648,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "谢谢",
+            "token_id": 101367,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "謝",
+            "token_id": 239901,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "x",
+            "token_id": 236781,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ谢",
+            "token_id": 219364,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "X",
+            "token_id": 236917,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "的",
+            "token_id": 236918,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "写",
+            "token_id": 238214,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "xie",
+            "token_id": 183689,
+            "logprob": -19.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "谢",
+        "token_id": 239648,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有 **一个** “谢",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有",
+        "Ġ**",
+        "一个",
+        "**",
+        "Ġ“",
+        "谢"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078,
+        5213,
+        5095,
+        1018,
+        999,
+        239648
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "”",
+            "token_id": 236919,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "”（",
+            "token_id": 109596,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "”。",
+            "token_id": 24517,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "」",
+            "token_id": 237377,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "”，",
+            "token_id": 19601,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "”(",
+            "token_id": 148093,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "“",
+            "token_id": 236913,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "่",
+            "token_id": 237045,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "`",
+            "token_id": 236929,
+            "logprob": -18.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "”",
+        "token_id": 236919,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有 **一个** “谢”",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有",
+        "Ġ**",
+        "一个",
+        "**",
+        "Ġ“",
+        "谢",
+        "”"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078,
+        5213,
+        5095,
+        1018,
+        999,
+        239648,
+        236919
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "字",
+            "token_id": 237871,
+            "logprob": -0.0017,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ字",
+            "token_id": 178500,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "字的",
+            "token_id": 233173,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "的",
+            "token_id": 236918,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "子",
+            "token_id": 237313,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "这个",
+            "token_id": 10180,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -19.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "字",
+        "token_id": 237871,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有 **一个** “谢”字",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有",
+        "Ġ**",
+        "一个",
+        "**",
+        "Ġ“",
+        "谢",
+        "”",
+        "字"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078,
+        5213,
+        5095,
+        1018,
+        999,
+        239648,
+        236919,
+        237871
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "。（",
+            "token_id": 38853,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "，",
+            "token_id": 236900,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "哦",
+            "token_id": 240275,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "和",
+            "token_id": 237206,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ($\\",
+            "token_id": 77891,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "。(",
+            "token_id": 75134,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "了",
+            "token_id": 237089,
+            "logprob": -14.9375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "。",
+        "token_id": 236924,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>user“谢谢”里有多少个“谢”字？<turn|>在“谢谢”这个词里，有 **一个** “谢”字。",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "“",
+        "谢谢",
+        "”",
+        "里",
+        "有多少",
+        "个",
+        "“",
+        "谢",
+        "”",
+        "字",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "在",
+        "“",
+        "谢谢",
+        "”",
+        "这个",
+        "词",
+        "里",
+        "，",
+        "有",
+        "Ġ**",
+        "一个",
+        "**",
+        "Ġ“",
+        "谢",
+        "”",
+        "字",
+        "。"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236913,
+        101367,
+        236919,
+        237652,
+        150663,
+        237189,
+        236913,
+        239648,
+        236919,
+        237871,
+        237536,
+        106,
+        105,
+        4368,
+        237075,
+        236913,
+        101367,
+        236919,
+        10180,
+        239275,
+        237652,
+        236900,
+        237078,
+        5213,
+        5095,
+        1018,
+        999,
+        239648,
+        236919,
+        237871,
+        236924
+      ],
+      "special_idx": [
+        0,
+        1,
+        13,
+        14,
+        15
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0034,
+            "prob": 0.9961
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "😊",
+            "token_id": 240782,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "😄",
+            "token_id": 242850,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "👍",
+            "token_id": 240493,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -15.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

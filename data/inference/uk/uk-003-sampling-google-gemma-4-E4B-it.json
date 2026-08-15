@@ -1,0 +1,1166 @@
+{
+  "id": "generated_20260815_222931",
+  "prompt": "Столиця України це",
+  "language": "uk",
+  "temperature": 1.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userСтолиця України це<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Сто",
+            "token_id": 127677,
+            "logprob": -0.0208,
+            "prob": 0.9805
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -4.0312,
+            "prob": 0.0179
+          },
+          {
+            "token": "Ста",
+            "token_id": 21892,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "С",
+            "token_id": 237117,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ва",
+            "token_id": 51869,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ско",
+            "token_id": 124650,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "СТО",
+            "token_id": 220289,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "В",
+            "token_id": 237146,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "сто",
+            "token_id": 2933,
+            "logprob": -12.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Сто",
+        "token_id": 127677,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сто",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ли",
+            "token_id": 1245,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "лица",
+            "token_id": 189729,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "лич",
+            "token_id": 22657,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "лі",
+            "token_id": 5992,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "сто",
+            "token_id": 2933,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġстоли",
+            "token_id": 98656,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "лиш",
+            "token_id": 51285,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ЛИ",
+            "token_id": 98173,
+            "logprob": -21.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ро",
+            "token_id": 1038,
+            "logprob": -21.875,
+            "prob": 0.0
+          },
+          {
+            "token": "λη",
+            "token_id": 23962,
+            "logprob": -22.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ли",
+        "token_id": 1245,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userСтолиця України це<turn|>Столи",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто",
+        "ли"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677,
+        1245
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ця",
+            "token_id": 44910,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "це",
+            "token_id": 4953,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "цю",
+            "token_id": 53633,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "ці",
+            "token_id": 6849,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "ц",
+            "token_id": 236993,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "́",
+            "token_id": 238288,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ниця",
+            "token_id": 163550,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "чною",
+            "token_id": 223859,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "цей",
+            "token_id": 91850,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "чне",
+            "token_id": 61163,
+            "logprob": -21.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ця",
+        "token_id": 44910,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userСтолиця України це<turn|>Столиця",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто",
+        "ли",
+        "ця"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677,
+        1245,
+        44910
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠУкраїни",
+            "token_id": 38266,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠУкраї",
+            "token_id": 27030,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠУкраїні",
+            "token_id": 107231,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠУкраины",
+            "token_id": 79996,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠУ",
+            "token_id": 6991,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Укра",
+            "token_id": 141896,
+            "logprob": -18.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠУкраїн",
+            "token_id": 127100,
+            "logprob": -20.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġв",
+            "token_id": 909,
+            "logprob": -20.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠУкраїни",
+        "token_id": 38266,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userСтолиця України це<turn|>Столиця України",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677,
+        1245,
+        44910,
+        38266
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġце",
+            "token_id": 12646,
+            "logprob": -0.9766,
+            "prob": 0.377
+          },
+          {
+            "token": "Ġ—",
+            "token_id": 2192,
+            "logprob": -0.9766,
+            "prob": 0.377
+          },
+          {
+            "token": "Ġ–",
+            "token_id": 1271,
+            "logprob": -1.6016,
+            "prob": 0.2012
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 753,
+            "logprob": -3.1094,
+            "prob": 0.0449
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -7.5938,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġ$-$",
+            "token_id": 29603,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -14.5625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ—",
+        "token_id": 2192,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userСтолиця України це<turn|>Столиця України —",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġ—"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677,
+        1245,
+        44910,
+        38266,
+        2192
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -0.0557,
+            "prob": 0.9453
+          },
+          {
+            "token": "Ġце",
+            "token_id": 12646,
+            "logprob": -2.9375,
+            "prob": 0.0535
+          },
+          {
+            "token": "ĠКиїв",
+            "token_id": 138799,
+            "logprob": -7.0625,
+            "prob": 0.0009
+          },
+          {
+            "token": "ĠХарків",
+            "token_id": 195868,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмісто",
+            "token_id": 218163,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "�",
+            "token_id": 432,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -14.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠКиє",
+            "token_id": 175974,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġм",
+            "token_id": 1318,
+            "logprob": -15.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ**",
+        "token_id": 5213,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userСтолиця України це<turn|>Столиця України — **",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġ—",
+        "Ġ**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677,
+        1245,
+        44910,
+        38266,
+        2192,
+        5213
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ки",
+            "token_id": 87793,
+            "logprob": -0.0008,
+            "prob": 1.0
+          },
+          {
+            "token": "Ky",
+            "token_id": 53843,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "К",
+            "token_id": 237180,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "КИ",
+            "token_id": 98983,
+            "logprob": -11.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠКиїв",
+            "token_id": 138799,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ки",
+            "token_id": 1617,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "_",
+            "token_id": 236779,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "키",
+            "token_id": 239415,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "кі",
+            "token_id": 10897,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "у",
+            "token_id": 236876,
+            "logprob": -17.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ки",
+        "token_id": 87793,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userСтолиця України це<turn|>Столиця України — **Ки",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġ—",
+        "Ġ**",
+        "Ки"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677,
+        1245,
+        44910,
+        38266,
+        2192,
+        5213,
+        87793
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "їв",
+            "token_id": 67663,
+            "logprob": -0.0003,
+            "prob": 1.0
+          },
+          {
+            "token": "ї",
+            "token_id": 237468,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "ев",
+            "token_id": 14885,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "є",
+            "token_id": 237693,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "يف",
+            "token_id": 14149,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ів",
+            "token_id": 6522,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "́",
+            "token_id": 238288,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "я",
+            "token_id": 236895,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "й",
+            "token_id": 236934,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ය",
+            "token_id": 237583,
+            "logprob": -20.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "їв",
+        "token_id": 67663,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userСтолиця України це<turn|>Столиця України — **Київ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġ—",
+        "Ġ**",
+        "Ки",
+        "їв"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677,
+        1245,
+        44910,
+        38266,
+        2192,
+        5213,
+        87793,
+        67663
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**.",
+            "token_id": 84750,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ський",
+            "token_id": 43878,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "́",
+            "token_id": 238288,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -15.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "ня",
+            "token_id": 3046,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ท์",
+            "token_id": 79803,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": ".**",
+            "token_id": 99382,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ная",
+            "token_id": 6008,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "**,",
+            "token_id": 125546,
+            "logprob": -18.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**.",
+        "token_id": 84750,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userСтолиця України це<turn|>Столиця України — **Київ**.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġ—",
+        "Ġ**",
+        "Ки",
+        "їв",
+        "**."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        127677,
+        1245,
+        44910,
+        38266,
+        2192,
+        5213,
+        87793,
+        67663,
+        84750
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "<eos>",
+            "token_id": 1,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "<|channel>",
+            "token_id": 100,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ💪",
+            "token_id": 172181,
+            "logprob": -17.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

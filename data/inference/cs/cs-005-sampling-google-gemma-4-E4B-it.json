@@ -1,0 +1,3382 @@
+{
+  "id": "generated_20260815_223100",
+  "prompt": "Kolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?",
+  "language": "cs",
+  "temperature": 1.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ve",
+            "token_id": 32541,
+            "logprob": -0.2295,
+            "prob": 0.7969
+          },
+          {
+            "token": "V",
+            "token_id": 236847,
+            "logprob": -1.6016,
+            "prob": 0.2012
+          },
+          {
+            "token": "S",
+            "token_id": 236773,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "Ne",
+            "token_id": 6855,
+            "logprob": -7.9688,
+            "prob": 0.0003
+          },
+          {
+            "token": "M",
+            "token_id": 236792,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Pokud",
+            "token_id": 230276,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "Je",
+            "token_id": 18109,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "ve",
+            "token_id": 560,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Z",
+            "token_id": 236953,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Vo",
+            "token_id": 26586,
+            "logprob": -10.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ve",
+        "token_id": 32541,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġslov",
+            "token_id": 134188,
+            "logprob": -0.0006,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġslo",
+            "token_id": 46206,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġсло",
+            "token_id": 14241,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsł",
+            "token_id": 47810,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvět",
+            "token_id": 82269,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠSlov",
+            "token_id": 134381,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpráv",
+            "token_id": 100979,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsvět",
+            "token_id": 96033,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġzá",
+            "token_id": 25982,
+            "logprob": -19.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġslov",
+        "token_id": 134188,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slov",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ě",
+            "token_id": 237336,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "u",
+            "token_id": 236756,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ě",
+            "token_id": 244315,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "ie",
+            "token_id": 703,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "níku",
+            "token_id": 130736,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ách",
+            "token_id": 13121,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ěn",
+            "token_id": 114524,
+            "logprob": -20.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ění",
+            "token_id": 75139,
+            "logprob": -20.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ě",
+        "token_id": 237336,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -0.033,
+            "prob": 0.9688
+          },
+          {
+            "token": "Ġ\"**",
+            "token_id": 116916,
+            "logprob": -3.9062,
+            "prob": 0.0201
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -4.4062,
+            "prob": 0.0122
+          },
+          {
+            "token": "Ġ„",
+            "token_id": 5876,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\"$",
+            "token_id": 6610,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġslo",
+            "token_id": 46206,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġst",
+            "token_id": 579,
+            "logprob": -16.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ\"",
+        "token_id": 623,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\""
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "nej",
+            "token_id": 14338,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "naj",
+            "token_id": 122093,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "znej",
+            "token_id": 124471,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ne",
+            "token_id": 866,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "onej",
+            "token_id": 154505,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "niej",
+            "token_id": 40722,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "dej",
+            "token_id": 91369,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "anej",
+            "token_id": 99083,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "tej",
+            "token_id": 122003,
+            "logprob": -15.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "nej",
+        "token_id": 14338,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nej",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "kul",
+            "token_id": 59709,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "k",
+            "token_id": 236767,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "cul",
+            "token_id": 1897,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "ukul",
+            "token_id": 75161,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ku",
+            "token_id": 4581,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "akul",
+            "token_id": 118567,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "kule",
+            "token_id": 205440,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ikul",
+            "token_id": 180218,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "kult",
+            "token_id": 233643,
+            "logprob": -17.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "kul",
+        "token_id": 59709,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkul",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "inka",
+            "token_id": 48877,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ink",
+            "token_id": 961,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "enka",
+            "token_id": 168377,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ín",
+            "token_id": 7893,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "inca",
+            "token_id": 135961,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "inko",
+            "token_id": 129190,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ienka",
+            "token_id": 231136,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "in",
+            "token_id": 495,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "inkan",
+            "token_id": 52841,
+            "logprob": -19.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "inka",
+        "token_id": 48877,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinka",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ťou",
+            "token_id": 208991,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ť",
+            "token_id": 238116,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "çou",
+            "token_id": 212283,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "\\",
+            "token_id": 236785,
+            "logprob": -14.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "$\\",
+            "token_id": 3292,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "čiau",
+            "token_id": 104544,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ścio",
+            "token_id": 193684,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ťa",
+            "token_id": 103033,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "đu",
+            "token_id": 70598,
+            "logprob": -17.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ťou",
+        "token_id": 208991,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťou",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "link",
+            "token_id": 2883,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "lik",
+            "token_id": 6578,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "links",
+            "token_id": 17943,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlink",
+            "token_id": 3205,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "l",
+            "token_id": 236752,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ink",
+            "token_id": 961,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "n",
+            "token_id": 236749,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "lin",
+            "token_id": 3775,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "́",
+            "token_id": 238288,
+            "logprob": -21.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "link",
+        "token_id": 2883,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulink",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "at",
+            "token_id": 502,
+            "logprob": -0.0012,
+            "prob": 1.0
+          },
+          {
+            "token": "a",
+            "token_id": 236746,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "ate",
+            "token_id": 606,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "atá",
+            "token_id": 116634,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ata",
+            "token_id": 805,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ati",
+            "token_id": 1625,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ato",
+            "token_id": 2156,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "atel",
+            "token_id": 36796,
+            "logprob": -14.75,
+            "prob": 0.0
+          },
+          {
+            "token": "atka",
+            "token_id": 225339,
+            "logprob": -15.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "at",
+        "token_id": 502,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkat",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ější",
+            "token_id": 136502,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ěj",
+            "token_id": 173539,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "jší",
+            "token_id": 59614,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "nější",
+            "token_id": 108814,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "ě",
+            "token_id": 237336,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ěji",
+            "token_id": 199349,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ejs",
+            "token_id": 80791,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "éis",
+            "token_id": 44638,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ješ",
+            "token_id": 102196,
+            "logprob": -19.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ější",
+        "token_id": 136502,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "\":",
+            "token_id": 1083,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "\",",
+            "token_id": 827,
+            "logprob": -15.375,
+            "prob": 0.0
+          },
+          {
+            "token": "\"?",
+            "token_id": 51653,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "je",
+            "token_id": 1956,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "́",
+            "token_id": 238288,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ám",
+            "token_id": 10873,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "\"!",
+            "token_id": 118659,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "uje",
+            "token_id": 11270,
+            "logprob": -18.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "\"",
+        "token_id": 236775,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\"",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\""
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -0.0092,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "Ġjsou",
+            "token_id": 37465,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbý",
+            "token_id": 53364,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmáme",
+            "token_id": 218380,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġnení",
+            "token_id": 80610,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġjest",
+            "token_id": 11170,
+            "logprob": -13.5625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġje",
+        "token_id": 2185,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -0.0024,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġcel",
+            "token_id": 11257,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġasi",
+            "token_id": 42906,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġp",
+            "token_id": 510,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġslo",
+            "token_id": 46206,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcelé",
+            "token_id": 200754,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġve",
+            "token_id": 1381,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġněkolik",
+            "token_id": 145261,
+            "logprob": -11.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ**",
+        "token_id": 5213,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je **",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje",
+        "Ġ**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185,
+        5213
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "4",
+            "token_id": 236812,
+            "logprob": -0.9141,
+            "prob": 0.4023
+          },
+          {
+            "token": "3",
+            "token_id": 236800,
+            "logprob": -0.9141,
+            "prob": 0.4023
+          },
+          {
+            "token": "5",
+            "token_id": 236810,
+            "logprob": -2.1562,
+            "prob": 0.1152
+          },
+          {
+            "token": "6",
+            "token_id": 236825,
+            "logprob": -3.4062,
+            "prob": 0.033
+          },
+          {
+            "token": "2",
+            "token_id": 236778,
+            "logprob": -3.7812,
+            "prob": 0.0227
+          },
+          {
+            "token": "7",
+            "token_id": 236832,
+            "logprob": -5.1562,
+            "prob": 0.0057
+          },
+          {
+            "token": "t",
+            "token_id": 236745,
+            "logprob": -5.1562,
+            "prob": 0.0057
+          },
+          {
+            "token": "p",
+            "token_id": 236758,
+            "logprob": -5.2812,
+            "prob": 0.0051
+          },
+          {
+            "token": "1",
+            "token_id": 236770,
+            "logprob": -5.9062,
+            "prob": 0.0027
+          },
+          {
+            "token": "ne",
+            "token_id": 866,
+            "logprob": -6.6562,
+            "prob": 0.0013
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "3",
+        "token_id": 236800,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je **3",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje",
+        "Ġ**",
+        "3"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185,
+        5213,
+        236800
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -0.0007,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtane",
+            "token_id": 64084,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "**.",
+            "token_id": 84750,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpí",
+            "token_id": 95239,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "**,",
+            "token_id": 125546,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "k",
+            "token_id": 236767,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "**:",
+            "token_id": 66515,
+            "logprob": -14.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**",
+        "token_id": 1018,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je **3**",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje",
+        "Ġ**",
+        "3",
+        "**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185,
+        5213,
+        236800,
+        1018
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpís",
+            "token_id": 194312,
+            "logprob": -0.1582,
+            "prob": 0.8555
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -2.1562,
+            "prob": 0.1157
+          },
+          {
+            "token": "Ġpí",
+            "token_id": 95239,
+            "logprob": -3.9062,
+            "prob": 0.02
+          },
+          {
+            "token": "Ġří",
+            "token_id": 51879,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ġحرف",
+            "token_id": 71606,
+            "logprob": -6.4062,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġslo",
+            "token_id": 46206,
+            "logprob": -6.4062,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġlit",
+            "token_id": 10035,
+            "logprob": -6.5312,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġvelké",
+            "token_id": 213530,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -7.5312,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġznak",
+            "token_id": 75974,
+            "logprob": -7.5312,
+            "prob": 0.0005
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpís",
+        "token_id": 194312,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je **3** pís",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje",
+        "Ġ**",
+        "3",
+        "**",
+        "Ġpís"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185,
+        5213,
+        236800,
+        1018,
+        194312
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "mena",
+            "token_id": 123775,
+            "logprob": -0.2559,
+            "prob": 0.7734
+          },
+          {
+            "token": "meno",
+            "token_id": 49246,
+            "logprob": -1.5078,
+            "prob": 0.2217
+          },
+          {
+            "token": "men",
+            "token_id": 2438,
+            "logprob": -5.625,
+            "prob": 0.0036
+          },
+          {
+            "token": "menu",
+            "token_id": 6090,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "meny",
+            "token_id": 205611,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "má",
+            "token_id": 153247,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "mé",
+            "token_id": 28113,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "мено",
+            "token_id": 130255,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "mě",
+            "token_id": 70025,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "mén",
+            "token_id": 158050,
+            "logprob": -15.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "meno",
+        "token_id": 49246,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je **3** písmeno",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje",
+        "Ġ**",
+        "3",
+        "**",
+        "Ġpís",
+        "meno"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185,
+        5213,
+        236800,
+        1018,
+        194312,
+        49246
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -0.0043,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "Ġ\"**",
+            "token_id": 116916,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġ„",
+            "token_id": 5876,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ'",
+            "token_id": 756,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠK",
+            "token_id": 751,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\"$",
+            "token_id": 6610,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$",
+            "token_id": 609,
+            "logprob": -13.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ\"",
+        "token_id": 623,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je **3** písmeno \"",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje",
+        "Ġ**",
+        "3",
+        "**",
+        "Ġpís",
+        "meno",
+        "Ġ\""
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185,
+        5213,
+        236800,
+        1018,
+        194312,
+        49246,
+        623
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "k",
+            "token_id": 236767,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "K",
+            "token_id": 236855,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "к",
+            "token_id": 236860,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ㅋ",
+            "token_id": 238890,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "kým",
+            "token_id": 181925,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "$\\",
+            "token_id": 3292,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ك",
+            "token_id": 237005,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "j",
+            "token_id": 236804,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "č",
+            "token_id": 237120,
+            "logprob": -20.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "k",
+        "token_id": 236767,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je **3** písmeno \"k",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje",
+        "Ġ**",
+        "3",
+        "**",
+        "Ġpís",
+        "meno",
+        "Ġ\"",
+        "k"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185,
+        5213,
+        236800,
+        1018,
+        194312,
+        49246,
+        623,
+        236767
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\".",
+            "token_id": 3056,
+            "logprob": -0.0023,
+            "prob": 0.9961
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "\":",
+            "token_id": 1083,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "\",",
+            "token_id": 827,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "**.",
+            "token_id": 84750,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "\"\".",
+            "token_id": 176146,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "u",
+            "token_id": 236756,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\".",
+            "token_id": 16150,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "\"।",
+            "token_id": 57943,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "/",
+            "token_id": 236786,
+            "logprob": -16.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "\".",
+        "token_id": 3056,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userKolik \"k\" je ve slově \"nejkulinkaťoulinkatější\"?<turn|>Ve slově \"nejkulinkaťoulinkatější\" je **3** písmeno \"k\".",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Kol",
+        "ik",
+        "Ġ\"",
+        "k",
+        "\"",
+        "Ġje",
+        "Ġve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Ve",
+        "Ġslov",
+        "ě",
+        "Ġ\"",
+        "nej",
+        "kul",
+        "inka",
+        "ťou",
+        "link",
+        "at",
+        "ější",
+        "\"",
+        "Ġje",
+        "Ġ**",
+        "3",
+        "**",
+        "Ġpís",
+        "meno",
+        "Ġ\"",
+        "k",
+        "\"."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        73653,
+        727,
+        623,
+        236767,
+        236775,
+        2185,
+        1381,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        51653,
+        106,
+        105,
+        4368,
+        32541,
+        134188,
+        237336,
+        623,
+        14338,
+        59709,
+        48877,
+        208991,
+        2883,
+        502,
+        136502,
+        236775,
+        2185,
+        5213,
+        236800,
+        1018,
+        194312,
+        49246,
+        623,
+        236767,
+        3056
+      ],
+      "special_idx": [
+        0,
+        1,
+        20,
+        21,
+        22
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0625,
+            "prob": 0.9375
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -2.8125,
+            "prob": 0.0601
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -8.1875,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -9.1875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ($\\",
+            "token_id": 77891,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠBun",
+            "token_id": 30663,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠTa",
+            "token_id": 13872,
+            "logprob": -13.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

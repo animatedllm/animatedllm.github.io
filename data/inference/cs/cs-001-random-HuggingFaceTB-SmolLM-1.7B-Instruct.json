@@ -1,0 +1,1325 @@
+{
+  "id": "generated_20260815_224337",
+  "prompt": "Kdo jsi?",
+  "language": "cs",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+    "num_layers": 24,
+    "hidden_size": 2048,
+    "num_attention_heads": 32,
+    "vocab_size": 49152
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "K",
+            "token_id": 59,
+            "logprob": -1.0078,
+            "prob": 0.3652
+          },
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -2.1406,
+            "prob": 0.1187
+          },
+          {
+            "token": "What",
+            "token_id": 1780,
+            "logprob": -2.5156,
+            "prob": 0.0815
+          },
+          {
+            "token": "The",
+            "token_id": 504,
+            "logprob": -2.8906,
+            "prob": 0.0559
+          },
+          {
+            "token": "A",
+            "token_id": 49,
+            "logprob": -3.0156,
+            "prob": 0.0493
+          },
+          {
+            "token": "In",
+            "token_id": 788,
+            "logprob": -3.1406,
+            "prob": 0.0435
+          },
+          {
+            "token": "Do",
+            "token_id": 6248,
+            "logprob": -3.7656,
+            "prob": 0.0233
+          },
+          {
+            "token": "Yes",
+            "token_id": 10539,
+            "logprob": -4.0,
+            "prob": 0.0182
+          },
+          {
+            "token": "That",
+            "token_id": 5195,
+            "logprob": -4.0,
+            "prob": 0.0182
+          },
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -4.375,
+            "prob": 0.0125
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "The",
+        "token_id": 504,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġinfamous",
+            "token_id": 23277,
+            "logprob": -1.8828,
+            "prob": 0.1523
+          },
+          {
+            "token": "ĠK",
+            "token_id": 659,
+            "logprob": -2.8125,
+            "prob": 0.0596
+          },
+          {
+            "token": "Ġfascinating",
+            "token_id": 4013,
+            "logprob": -3.375,
+            "prob": 0.0339
+          },
+          {
+            "token": "ĠKorean",
+            "token_id": 10916,
+            "logprob": -3.4375,
+            "prob": 0.032
+          },
+          {
+            "token": "Ġquestion",
+            "token_id": 1962,
+            "logprob": -3.5,
+            "prob": 0.0299
+          },
+          {
+            "token": "Ġfamous",
+            "token_id": 4248,
+            "logprob": -3.625,
+            "prob": 0.0265
+          },
+          {
+            "token": "Ġmysterious",
+            "token_id": 11965,
+            "logprob": -3.75,
+            "prob": 0.0233
+          },
+          {
+            "token": "Ġiconic",
+            "token_id": 13329,
+            "logprob": -3.75,
+            "prob": 0.0233
+          },
+          {
+            "token": "Ġphrase",
+            "token_id": 8715,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġage",
+            "token_id": 1850,
+            "logprob": -4.1875,
+            "prob": 0.0151
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠK",
+        "token_id": 659,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The K",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "do",
+            "token_id": 4326,
+            "logprob": -0.4707,
+            "prob": 0.625
+          },
+          {
+            "token": "DO",
+            "token_id": 14894,
+            "logprob": -1.5938,
+            "prob": 0.2031
+          },
+          {
+            "token": "DE",
+            "token_id": 6279,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "appa",
+            "token_id": 29228,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "odo",
+            "token_id": 25414,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "-",
+            "token_id": 29,
+            "logprob": -4.3438,
+            "prob": 0.0129
+          },
+          {
+            "token": "D",
+            "token_id": 52,
+            "logprob": -4.4688,
+            "prob": 0.0114
+          },
+          {
+            "token": "Do",
+            "token_id": 6248,
+            "logprob": -4.5938,
+            "prob": 0.0101
+          },
+          {
+            "token": "ode",
+            "token_id": 1182,
+            "logprob": -5.4688,
+            "prob": 0.0042
+          },
+          {
+            "token": "ard",
+            "token_id": 477,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ard",
+        "token_id": 477,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The Kard",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK",
+        "ard"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659,
+        477
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ash",
+            "token_id": 1317,
+            "logprob": -0.0342,
+            "prob": 0.9648
+          },
+          {
+            "token": "as",
+            "token_id": 292,
+            "logprob": -4.6562,
+            "prob": 0.0095
+          },
+          {
+            "token": "io",
+            "token_id": 1119,
+            "logprob": -4.9062,
+            "prob": 0.0074
+          },
+          {
+            "token": "inal",
+            "token_id": 1104,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "ex",
+            "token_id": 888,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": "a",
+            "token_id": 81,
+            "logprob": -7.0938,
+            "prob": 0.0008
+          },
+          {
+            "token": "ian",
+            "token_id": 697,
+            "logprob": -7.3438,
+            "prob": 0.0006
+          },
+          {
+            "token": "asian",
+            "token_id": 19977,
+            "logprob": -7.3438,
+            "prob": 0.0006
+          },
+          {
+            "token": "os",
+            "token_id": 395,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          },
+          {
+            "token": "om",
+            "token_id": 300,
+            "logprob": -7.8438,
+            "prob": 0.0004
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "os",
+        "token_id": 395,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The Kardos",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK",
+        "ard",
+        "os"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659,
+        477,
+        395
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠJ",
+            "token_id": 530,
+            "logprob": -1.8906,
+            "prob": 0.1514
+          },
+          {
+            "token": "ian",
+            "token_id": 697,
+            "logprob": -2.3281,
+            "prob": 0.0977
+          },
+          {
+            "token": "j",
+            "token_id": 90,
+            "logprob": -2.5781,
+            "prob": 0.0762
+          },
+          {
+            "token": "-",
+            "token_id": 29,
+            "logprob": -3.3281,
+            "prob": 0.0359
+          },
+          {
+            "token": "ĠK",
+            "token_id": 659,
+            "logprob": -3.5156,
+            "prob": 0.0298
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -4.0,
+            "prob": 0.0181
+          },
+          {
+            "token": "y",
+            "token_id": 105,
+            "logprob": -4.125,
+            "prob": 0.0159
+          },
+          {
+            "token": "ign",
+            "token_id": 545,
+            "logprob": -4.6875,
+            "prob": 0.0091
+          },
+          {
+            "token": "jo",
+            "token_id": 12780,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -4.875,
+            "prob": 0.0075
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "j",
+        "token_id": 90,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The Kardosj",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK",
+        "ard",
+        "os",
+        "j"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659,
+        477,
+        395,
+        90
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "is",
+            "token_id": 271,
+            "logprob": -2.4688,
+            "prob": 0.084
+          },
+          {
+            "token": "í",
+            "token_id": 6160,
+            "logprob": -3.2812,
+            "prob": 0.0374
+          },
+          {
+            "token": "on",
+            "token_id": 258,
+            "logprob": -3.2812,
+            "prob": 0.0374
+          },
+          {
+            "token": "är",
+            "token_id": 42871,
+            "logprob": -3.7188,
+            "prob": 0.0242
+          },
+          {
+            "token": "oki",
+            "token_id": 34612,
+            "logprob": -3.7812,
+            "prob": 0.0227
+          },
+          {
+            "token": "�",
+            "token_id": 144,
+            "logprob": -3.8438,
+            "prob": 0.0212
+          },
+          {
+            "token": "ok",
+            "token_id": 2231,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "en",
+            "token_id": 264,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "ishi",
+            "token_id": 29740,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "n",
+            "token_id": 94,
+            "logprob": -4.1562,
+            "prob": 0.0156
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "�",
+        "token_id": 144,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The Kardosj�",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK",
+        "ard",
+        "os",
+        "j",
+        "�"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659,
+        477,
+        395,
+        90,
+        144
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "�",
+            "token_id": 251,
+            "logprob": -1.0938,
+            "prob": 0.3359
+          },
+          {
+            "token": "�",
+            "token_id": 128,
+            "logprob": -1.9688,
+            "prob": 0.1396
+          },
+          {
+            "token": "�",
+            "token_id": 235,
+            "logprob": -2.2188,
+            "prob": 0.1089
+          },
+          {
+            "token": "�",
+            "token_id": 126,
+            "logprob": -2.3438,
+            "prob": 0.0962
+          },
+          {
+            "token": "�",
+            "token_id": 233,
+            "logprob": -2.8438,
+            "prob": 0.0583
+          },
+          {
+            "token": "�",
+            "token_id": 243,
+            "logprob": -2.9688,
+            "prob": 0.0515
+          },
+          {
+            "token": "�",
+            "token_id": 124,
+            "logprob": -3.2188,
+            "prob": 0.04
+          },
+          {
+            "token": "�",
+            "token_id": 119,
+            "logprob": -3.8438,
+            "prob": 0.0215
+          },
+          {
+            "token": "�",
+            "token_id": 133,
+            "logprob": -3.9688,
+            "prob": 0.0189
+          },
+          {
+            "token": "�",
+            "token_id": 224,
+            "logprob": -4.0938,
+            "prob": 0.0167
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "�",
+        "token_id": 124,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The Kardosjů",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK",
+        "ard",
+        "os",
+        "j",
+        "�",
+        "�"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659,
+        477,
+        395,
+        90,
+        144,
+        124
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -1.7188,
+            "prob": 0.1797
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -2.9062,
+            "prob": 0.0547
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -3.0312,
+            "prob": 0.0483
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -3.5938,
+            "prob": 0.0275
+          },
+          {
+            "token": "-",
+            "token_id": 29,
+            "logprob": -3.6562,
+            "prob": 0.0259
+          },
+          {
+            "token": "ĠS",
+            "token_id": 334,
+            "logprob": -3.9062,
+            "prob": 0.0201
+          },
+          {
+            "token": "�",
+            "token_id": 144,
+            "logprob": -3.9062,
+            "prob": 0.0201
+          },
+          {
+            "token": "j",
+            "token_id": 90,
+            "logprob": -3.9688,
+            "prob": 0.0189
+          },
+          {
+            "token": "'s",
+            "token_id": 506,
+            "logprob": -4.0938,
+            "prob": 0.0167
+          },
+          {
+            "token": "s",
+            "token_id": 99,
+            "logprob": -4.1562,
+            "prob": 0.0156
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠS",
+        "token_id": 334,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The Kardosjů S",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK",
+        "ard",
+        "os",
+        "j",
+        "�",
+        "�",
+        "ĠS"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659,
+        477,
+        395,
+        90,
+        144,
+        124,
+        334
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "�",
+            "token_id": 144,
+            "logprob": -1.4375,
+            "prob": 0.2383
+          },
+          {
+            "token": "�",
+            "token_id": 143,
+            "logprob": -2.0625,
+            "prob": 0.1279
+          },
+          {
+            "token": "v",
+            "token_id": 102,
+            "logprob": -2.6875,
+            "prob": 0.0684
+          },
+          {
+            "token": "í",
+            "token_id": 6160,
+            "logprob": -2.8125,
+            "prob": 0.0603
+          },
+          {
+            "token": "ž",
+            "token_id": 43421,
+            "logprob": -3.5625,
+            "prob": 0.0284
+          },
+          {
+            "token": "j",
+            "token_id": 90,
+            "logprob": -3.8125,
+            "prob": 0.0221
+          },
+          {
+            "token": "IS",
+            "token_id": 2721,
+            "logprob": -4.6875,
+            "prob": 0.0092
+          },
+          {
+            "token": "ý",
+            "token_id": 47546,
+            "logprob": -4.875,
+            "prob": 0.0077
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -4.875,
+            "prob": 0.0077
+          },
+          {
+            "token": "d",
+            "token_id": 84,
+            "logprob": -4.9375,
+            "prob": 0.0072
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "IS",
+        "token_id": 2721,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The Kardosjů SIS",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK",
+        "ard",
+        "os",
+        "j",
+        "�",
+        "�",
+        "ĠS",
+        "IS"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659,
+        477,
+        395,
+        90,
+        144,
+        124,
+        334,
+        2721
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -1.1641,
+            "prob": 0.3125
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -1.7891,
+            "prob": 0.167
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -2.6562,
+            "prob": 0.0698
+          },
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -3.2812,
+            "prob": 0.0374
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -3.7812,
+            "prob": 0.0227
+          },
+          {
+            "token": "Ġprogram",
+            "token_id": 1578,
+            "logprob": -4.1562,
+            "prob": 0.0156
+          },
+          {
+            "token": "�",
+            "token_id": 143,
+            "logprob": -4.3438,
+            "prob": 0.0129
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -4.4062,
+            "prob": 0.0121
+          },
+          {
+            "token": "U",
+            "token_id": 69,
+            "logprob": -4.4688,
+            "prob": 0.0114
+          },
+          {
+            "token": "SI",
+            "token_id": 9114,
+            "logprob": -4.5938,
+            "prob": 0.0101
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 30,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|im_start|>userKdo jsi?<|im_end|>The Kardosjů SIS.",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "The",
+        "ĠK",
+        "ard",
+        "os",
+        "j",
+        "�",
+        "�",
+        "ĠS",
+        "IS",
+        "."
+      ],
+      "token_ids": [
+        1,
+        4093,
+        59,
+        4326,
+        544,
+        23190,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        504,
+        659,
+        477,
+        395,
+        90,
+        144,
+        124,
+        334,
+        2721,
+        30
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -1.2969,
+            "prob": 0.2734
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -1.6719,
+            "prob": 0.1875
+          },
+          {
+            "token": "ĠIt",
+            "token_id": 657,
+            "logprob": -2.1719,
+            "prob": 0.1138
+          },
+          {
+            "token": "ĠThat",
+            "token_id": 1848,
+            "logprob": -2.4219,
+            "prob": 0.0884
+          },
+          {
+            "token": "ĠYes",
+            "token_id": 9230,
+            "logprob": -3.4219,
+            "prob": 0.0325
+          },
+          {
+            "token": "ĠK",
+            "token_id": 659,
+            "logprob": -3.4844,
+            "prob": 0.0306
+          },
+          {
+            "token": "ĠThey",
+            "token_id": 1069,
+            "logprob": -4.0625,
+            "prob": 0.0175
+          },
+          {
+            "token": "ĠA",
+            "token_id": 330,
+            "logprob": -4.375,
+            "prob": 0.0128
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -4.5,
+            "prob": 0.0113
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -4.5625,
+            "prob": 0.0106
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<|im_end|>",
+        "token_id": 2,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

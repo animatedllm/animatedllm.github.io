@@ -1,0 +1,1006 @@
+{
+  "id": "generated_20260815_222823",
+  "prompt": "你是谁？",
+  "language": "zh",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>user你是谁？<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "我是",
+            "token_id": 44889,
+            "logprob": -0.6328,
+            "prob": 0.5312
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -0.7578,
+            "prob": 0.4688
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "我在",
+            "token_id": 75190,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ma",
+            "token_id": 18755,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "/",
+            "token_id": 236786,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ我",
+            "token_id": 26911,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "我的",
+            "token_id": 21480,
+            "logprob": -18.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "我是",
+        "token_id": 44889,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>user你是谁？<turn|>我是",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -0.0112,
+            "prob": 0.9883
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -4.5,
+            "prob": 0.011
+          },
+          {
+            "token": "ĠGemini",
+            "token_id": 79789,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "大型",
+            "token_id": 56762,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "由",
+            "token_id": 237852,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "G",
+            "token_id": 236823,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "使用",
+            "token_id": 5938,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "被",
+            "token_id": 237759,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -12.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "使用",
+        "token_id": 5938,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>user你是谁？<turn|>我是使用",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "使用"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        5938
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -0.1108,
+            "prob": 0.8945
+          },
+          {
+            "token": "谷歌",
+            "token_id": 122438,
+            "logprob": -2.9844,
+            "prob": 0.0505
+          },
+          {
+            "token": "Google",
+            "token_id": 19540,
+            "logprob": -3.5469,
+            "prob": 0.0288
+          },
+          {
+            "token": "由",
+            "token_id": 237852,
+            "logprob": -4.875,
+            "prob": 0.0078
+          },
+          {
+            "token": "文本",
+            "token_id": 57489,
+            "logprob": -5.375,
+            "prob": 0.0047
+          },
+          {
+            "token": "户",
+            "token_id": 238095,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": "这个",
+            "token_id": 10180,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "大型",
+            "token_id": 56762,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "人工智能",
+            "token_id": 136119,
+            "logprob": -7.3125,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġ[",
+            "token_id": 870,
+            "logprob": -7.375,
+            "prob": 0.0006
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Google",
+        "token_id": 19540,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>user你是谁？<turn|>我是使用Google",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "使用",
+        "Google"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        5938,
+        19540
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "训练",
+            "token_id": 42883,
+            "logprob": -0.0542,
+            "prob": 0.9492
+          },
+          {
+            "token": "ĠDeep",
+            "token_id": 22267,
+            "logprob": -3.0469,
+            "prob": 0.0471
+          },
+          {
+            "token": "开发",
+            "token_id": 24549,
+            "logprob": -6.4375,
+            "prob": 0.0016
+          },
+          {
+            "token": "进行",
+            "token_id": 10937,
+            "logprob": -7.1875,
+            "prob": 0.0008
+          },
+          {
+            "token": "的大",
+            "token_id": 29854,
+            "logprob": -7.3125,
+            "prob": 0.0007
+          },
+          {
+            "token": "大型",
+            "token_id": 56762,
+            "logprob": -7.3125,
+            "prob": 0.0007
+          },
+          {
+            "token": "粗",
+            "token_id": 240886,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "ĠAI",
+            "token_id": 12498,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "在大",
+            "token_id": 114585,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          },
+          {
+            "token": "在",
+            "token_id": 237075,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "的大",
+        "token_id": 29854,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>user你是谁？<turn|>我是使用Google的大",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "使用",
+        "Google",
+        "的大"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        5938,
+        19540,
+        29854
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "型",
+            "token_id": 237731,
+            "logprob": -0.001,
+            "prob": 1.0
+          },
+          {
+            "token": "语言",
+            "token_id": 37557,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "规模",
+            "token_id": 54231,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "型的",
+            "token_id": 85266,
+            "logprob": -9.1875,
+            "prob": 0.0001
+          },
+          {
+            "token": "型の",
+            "token_id": 134373,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "幅",
+            "token_id": 239064,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "胆",
+            "token_id": 241448,
+            "logprob": -14.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "脑",
+            "token_id": 239606,
+            "logprob": -14.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ型",
+            "token_id": 67741,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "模型",
+            "token_id": 26609,
+            "logprob": -16.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "型",
+        "token_id": 237731,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>user你是谁？<turn|>我是使用Google的大型",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "使用",
+        "Google",
+        "的大",
+        "型"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        5938,
+        19540,
+        29854,
+        237731
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "语言",
+            "token_id": 37557,
+            "logprob": -0.0053,
+            "prob": 0.9961
+          },
+          {
+            "token": "語言",
+            "token_id": 146569,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "ภาษา",
+            "token_id": 96900,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "言語",
+            "token_id": 151816,
+            "logprob": -10.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġभाषा",
+            "token_id": 34308,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ언",
+            "token_id": 64822,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "语",
+            "token_id": 238384,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġngôn",
+            "token_id": 140907,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "模型",
+            "token_id": 26609,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "AI",
+            "token_id": 12553,
+            "logprob": -14.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "语言",
+        "token_id": 37557,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>user你是谁？<turn|>我是使用Google的大型语言",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "使用",
+        "Google",
+        "的大",
+        "型",
+        "语言"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        5938,
+        19540,
+        29854,
+        237731,
+        37557
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "模型",
+            "token_id": 26609,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "模型的",
+            "token_id": 139919,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "AI",
+            "token_id": 12553,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "，",
+            "token_id": 236900,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "model",
+            "token_id": 4368,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "文字",
+            "token_id": 31818,
+            "logprob": -15.375,
+            "prob": 0.0
+          },
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "モデル",
+            "token_id": 35128,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "相",
+            "token_id": 237596,
+            "logprob": -16.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "模型",
+        "token_id": 26609,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>user你是谁？<turn|>我是使用Google的大型语言模型",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "使用",
+        "Google",
+        "的大",
+        "型",
+        "语言",
+        "模型"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        5938,
+        19540,
+        29854,
+        237731,
+        37557,
+        26609
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -0.1279,
+            "prob": 0.8789
+          },
+          {
+            "token": "，",
+            "token_id": 236900,
+            "logprob": -2.125,
+            "prob": 0.1191
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "训练",
+            "token_id": 42883,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "AI",
+            "token_id": 12553,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "模型",
+            "token_id": 26609,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "阵",
+            "token_id": 239762,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "之一",
+            "token_id": 33323,
+            "logprob": -11.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "。",
+        "token_id": 236924,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>user你是谁？<turn|>我是使用Google的大型语言模型。",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "使用",
+        "Google",
+        "的大",
+        "型",
+        "语言",
+        "模型",
+        "。"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        5938,
+        19540,
+        29854,
+        237731,
+        37557,
+        26609,
+        236924
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0605,
+            "prob": 0.9414
+          },
+          {
+            "token": "你可以",
+            "token_id": 71407,
+            "logprob": -3.4375,
+            "prob": 0.0322
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -4.0625,
+            "prob": 0.0172
+          },
+          {
+            "token": "我的",
+            "token_id": 21480,
+            "logprob": -5.4375,
+            "prob": 0.0044
+          },
+          {
+            "token": "更",
+            "token_id": 237611,
+            "logprob": -5.9375,
+            "prob": 0.0026
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -7.4375,
+            "prob": 0.0006
+          },
+          {
+            "token": "我可以",
+            "token_id": 183868,
+            "logprob": -7.4375,
+            "prob": 0.0006
+          },
+          {
+            "token": "您",
+            "token_id": 238602,
+            "logprob": -7.8125,
+            "prob": 0.0004
+          },
+          {
+            "token": "你",
+            "token_id": 237408,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          },
+          {
+            "token": "您可以",
+            "token_id": 134401,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,2158 @@
+{
+  "id": "generated_20260815_222821",
+  "prompt": "你是谁？",
+  "language": "zh",
+  "temperature": 0.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>user你是谁？<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "我是",
+            "token_id": 44889,
+            "logprob": -0.6328,
+            "prob": 0.5312
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -0.7578,
+            "prob": 0.4688
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "我在",
+            "token_id": 75190,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ma",
+            "token_id": 18755,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "/",
+            "token_id": 236786,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ我",
+            "token_id": 26911,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "我的",
+            "token_id": 21480,
+            "logprob": -18.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "我是",
+        "token_id": 44889,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>user你是谁？<turn|>我是",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -0.0112,
+            "prob": 0.9883
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -4.5,
+            "prob": 0.011
+          },
+          {
+            "token": "ĠGemini",
+            "token_id": 79789,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "大型",
+            "token_id": 56762,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "由",
+            "token_id": 237852,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "G",
+            "token_id": 236823,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "使用",
+            "token_id": 5938,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "被",
+            "token_id": 237759,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -12.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGemma",
+        "token_id": 147224,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$",
+            "token_id": 609,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "�",
+            "token_id": 432,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ${",
+            "token_id": 3356,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠAI",
+            "token_id": 12498,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "，",
+            "token_id": 236900,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "4",
+            "token_id": 236812,
+            "logprob": -22.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -23.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ",
+        "token_id": 236743,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "4",
+            "token_id": 236812,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "就像",
+            "token_id": 55326,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "呼",
+            "token_id": 239156,
+            "logprob": -20.875,
+            "prob": 0.0
+          },
+          {
+            "token": "抱",
+            "token_id": 240075,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "语言",
+            "token_id": 37557,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "2",
+            "token_id": 236778,
+            "logprob": -21.5,
+            "prob": 0.0
+          },
+          {
+            "token": "仿",
+            "token_id": 240498,
+            "logprob": -21.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -21.75,
+            "prob": 0.0
+          },
+          {
+            "token": "乃",
+            "token_id": 240884,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "具有",
+            "token_id": 27151,
+            "logprob": -22.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "4",
+        "token_id": 236812,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "，",
+            "token_id": 236900,
+            "logprob": -0.0028,
+            "prob": 0.9961
+          },
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -5.875,
+            "prob": 0.0028
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "،",
+            "token_id": 237108,
+            "logprob": -12.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ模型",
+            "token_id": 228546,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "！",
+            "token_id": 237354,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġครับ",
+            "token_id": 10249,
+            "logprob": -17.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "，",
+        "token_id": 236900,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "一个",
+            "token_id": 5095,
+            "logprob": -0.0011,
+            "prob": 1.0
+          },
+          {
+            "token": "一個",
+            "token_id": 19966,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "由",
+            "token_id": 237852,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "是一个",
+            "token_id": 33813,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ一个",
+            "token_id": 97553,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -11.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "是由",
+            "token_id": 81049,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "有一个",
+            "token_id": 55010,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Google",
+            "token_id": 19540,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "了一个",
+            "token_id": 42607,
+            "logprob": -16.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "一个",
+        "token_id": 5095,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "由",
+            "token_id": 237852,
+            "logprob": -0.0054,
+            "prob": 0.9961
+          },
+          {
+            "token": "大型",
+            "token_id": 56762,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "是由",
+            "token_id": 81049,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "开放",
+            "token_id": 63332,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "开源",
+            "token_id": 128245,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "用",
+            "token_id": 237105,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "被",
+            "token_id": 237759,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "大",
+            "token_id": 237110,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "来自",
+            "token_id": 38628,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġتوسط",
+            "token_id": 64949,
+            "logprob": -12.0625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "由",
+        "token_id": 237852,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Google",
+            "token_id": 19540,
+            "logprob": -10.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "谷歌",
+            "token_id": 122438,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ[",
+            "token_id": 870,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġگوگل",
+            "token_id": 221794,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "说",
+            "token_id": 237608,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "字节",
+            "token_id": 91699,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "耐",
+            "token_id": 239738,
+            "logprob": -19.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGoogle",
+        "token_id": 6475,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠDeep",
+            "token_id": 22267,
+            "logprob": -0.0007,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "Deep",
+            "token_id": 39300,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ[",
+            "token_id": 870,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ不",
+            "token_id": 20883,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ模型",
+            "token_id": 228546,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ开发",
+            "token_id": 183096,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ深",
+            "token_id": 109288,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ清",
+            "token_id": 74688,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ于",
+            "token_id": 131494,
+            "logprob": -16.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠDeep",
+        "token_id": 22267,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google Deep",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Mind",
+            "token_id": 65153,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "mind",
+            "token_id": 24447,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMind",
+            "token_id": 24604,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Learning",
+            "token_id": 46297,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -22.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLearning",
+            "token_id": 19180,
+            "logprob": -23.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Miner",
+            "token_id": 116689,
+            "logprob": -23.125,
+            "prob": 0.0
+          },
+          {
+            "token": "M",
+            "token_id": 236792,
+            "logprob": -23.75,
+            "prob": 0.0
+          },
+          {
+            "token": "মাই",
+            "token_id": 210581,
+            "logprob": -23.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Mirror",
+            "token_id": 68716,
+            "logprob": -24.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Mind",
+        "token_id": 65153,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google DeepMind",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267,
+        65153
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ开发",
+            "token_id": 183096,
+            "logprob": -0.0003,
+            "prob": 1.0
+          },
+          {
+            "token": "开发的",
+            "token_id": 210934,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ개발",
+            "token_id": 76347,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "开发",
+            "token_id": 24549,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ我",
+            "token_id": 26911,
+            "logprob": -18.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ参数",
+            "token_id": 170460,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ開",
+            "token_id": 65706,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ推",
+            "token_id": 165138,
+            "logprob": -19.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ开发",
+        "token_id": 183096,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google DeepMind 开发",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ开发"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267,
+        65153,
+        183096
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "的",
+            "token_id": 236918,
+            "logprob": -0.5742,
+            "prob": 0.5625
+          },
+          {
+            "token": "的大",
+            "token_id": 29854,
+            "logprob": -0.8242,
+            "prob": 0.4375
+          },
+          {
+            "token": "的是",
+            "token_id": 15093,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "的人",
+            "token_id": 14726,
+            "logprob": -13.5,
+            "prob": 0.0
+          },
+          {
+            "token": "の大",
+            "token_id": 81548,
+            "logprob": -13.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "的基础",
+            "token_id": 97165,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "、",
+            "token_id": 236951,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "大型",
+            "token_id": 56762,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "的模型",
+            "token_id": 228839,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ的",
+            "token_id": 10363,
+            "logprob": -15.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "的",
+        "token_id": 236918,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google DeepMind 开发的",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ开发",
+        "的"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267,
+        65153,
+        183096,
+        236918
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "开源",
+            "token_id": 128245,
+            "logprob": -0.9922,
+            "prob": 0.3711
+          },
+          {
+            "token": "开放",
+            "token_id": 63332,
+            "logprob": -1.2422,
+            "prob": 0.2891
+          },
+          {
+            "token": "、",
+            "token_id": 236951,
+            "logprob": -1.3672,
+            "prob": 0.2539
+          },
+          {
+            "token": "的大",
+            "token_id": 29854,
+            "logprob": -3.6875,
+            "prob": 0.0253
+          },
+          {
+            "token": "具有",
+            "token_id": 27151,
+            "logprob": -3.8125,
+            "prob": 0.0222
+          },
+          {
+            "token": "大型",
+            "token_id": 56762,
+            "logprob": -4.0,
+            "prob": 0.0184
+          },
+          {
+            "token": "语言",
+            "token_id": 37557,
+            "logprob": -4.75,
+            "prob": 0.0087
+          },
+          {
+            "token": "拥有",
+            "token_id": 39354,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "大家",
+            "token_id": 14156,
+            "logprob": -6.5,
+            "prob": 0.0015
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "开源",
+        "token_id": 128245,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google DeepMind 开发的开源",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ开发",
+        "的",
+        "开源"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267,
+        65153,
+        183096,
+        236918,
+        128245
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "大",
+            "token_id": 237110,
+            "logprob": -0.4707,
+            "prob": 0.625
+          },
+          {
+            "token": "大型",
+            "token_id": 56762,
+            "logprob": -1.0938,
+            "prob": 0.334
+          },
+          {
+            "token": "的大",
+            "token_id": 29854,
+            "logprob": -3.5938,
+            "prob": 0.0275
+          },
+          {
+            "token": "权重",
+            "token_id": 137090,
+            "logprob": -4.8438,
+            "prob": 0.0079
+          },
+          {
+            "token": "语言",
+            "token_id": 37557,
+            "logprob": -5.0938,
+            "prob": 0.0061
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "值",
+            "token_id": 237987,
+            "logprob": -10.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "大气",
+            "token_id": 177149,
+            "logprob": -10.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "重",
+            "token_id": 237573,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "预",
+            "token_id": 238794,
+            "logprob": -11.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "大",
+        "token_id": 237110,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google DeepMind 开发的开源大",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ开发",
+        "的",
+        "开源",
+        "大"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267,
+        65153,
+        183096,
+        236918,
+        128245,
+        237110
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "语言",
+            "token_id": 37557,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "模型",
+            "token_id": 26609,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġязы",
+            "token_id": 34552,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLanguage",
+            "token_id": 22160,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "語言",
+            "token_id": 146569,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Language",
+            "token_id": 28040,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlanguage",
+            "token_id": 5192,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "language",
+            "token_id": 19859,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "尺寸",
+            "token_id": 67868,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġভাষার",
+            "token_id": 97387,
+            "logprob": -18.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "语言",
+        "token_id": 37557,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google DeepMind 开发的开源大语言",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ开发",
+        "的",
+        "开源",
+        "大",
+        "语言"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267,
+        65153,
+        183096,
+        236918,
+        128245,
+        237110,
+        37557
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "模型",
+            "token_id": 26609,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "模型的",
+            "token_id": 139919,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ模型",
+            "token_id": 228546,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "基础",
+            "token_id": 32157,
+            "logprob": -20.0,
+            "prob": 0.0
+          },
+          {
+            "token": "形成",
+            "token_id": 33436,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "成就",
+            "token_id": 96908,
+            "logprob": -20.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ모델",
+            "token_id": 94647,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "生成",
+            "token_id": 25352,
+            "logprob": -21.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "模型",
+        "token_id": 26609,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google DeepMind 开发的开源大语言模型",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ开发",
+        "的",
+        "开源",
+        "大",
+        "语言",
+        "模型"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267,
+        65153,
+        183096,
+        236918,
+        128245,
+        237110,
+        37557,
+        26609
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "。",
+            "token_id": 236924,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "系列",
+            "token_id": 30278,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "（",
+            "token_id": 237221,
+            "logprob": -9.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -10.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "家族",
+            "token_id": 47508,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "(",
+            "token_id": 236769,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "图",
+            "token_id": 237955,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "吗",
+            "token_id": 239083,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "是",
+            "token_id": 237026,
+            "logprob": -15.5625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "。",
+        "token_id": 236924,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>user你是谁？<turn|>我是 Gemma 4，一个由 Google DeepMind 开发的开源大语言模型。",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "你是",
+        "谁",
+        "？",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "我是",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "，",
+        "一个",
+        "由",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ开发",
+        "的",
+        "开源",
+        "大",
+        "语言",
+        "模型",
+        "。"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        95841,
+        239817,
+        237536,
+        106,
+        105,
+        4368,
+        44889,
+        147224,
+        236743,
+        236812,
+        236900,
+        5095,
+        237852,
+        6475,
+        22267,
+        65153,
+        183096,
+        236918,
+        128245,
+        237110,
+        37557,
+        26609,
+        236924
+      ],
+      "special_idx": [
+        0,
+        1,
+        5,
+        6,
+        7
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "我",
+            "token_id": 237169,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "我可以",
+            "token_id": 183868,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ我",
+            "token_id": 26911,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "我的",
+            "token_id": 21480,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "落",
+            "token_id": 238468,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "<eos>",
+            "token_id": 1,
+            "logprob": -14.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "greedy",
+        "special": true
+      }
+    }
+  ]
+}

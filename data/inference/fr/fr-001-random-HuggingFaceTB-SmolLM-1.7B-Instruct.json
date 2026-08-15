@@ -1,0 +1,1752 @@
+{
+  "id": "generated_20260815_224133",
+  "prompt": "Qui es-tu?",
+  "language": "fr",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+    "num_layers": 24,
+    "hidden_size": 2048,
+    "num_attention_heads": 32,
+    "vocab_size": 49152
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Je",
+            "token_id": 46719,
+            "logprob": -0.6406,
+            "prob": 0.5273
+          },
+          {
+            "token": "Bon",
+            "token_id": 30904,
+            "logprob": -2.0156,
+            "prob": 0.1338
+          },
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -3.5156,
+            "prob": 0.0298
+          },
+          {
+            "token": "O",
+            "token_id": 63,
+            "logprob": -3.5156,
+            "prob": 0.0298
+          },
+          {
+            "token": "Qu",
+            "token_id": 6317,
+            "logprob": -3.6406,
+            "prob": 0.0262
+          },
+          {
+            "token": "What",
+            "token_id": 1780,
+            "logprob": -4.0,
+            "prob": 0.0181
+          },
+          {
+            "token": "Hello",
+            "token_id": 19556,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -4.25,
+            "prob": 0.014
+          },
+          {
+            "token": "�",
+            "token_id": 142,
+            "logprob": -4.375,
+            "prob": 0.0124
+          },
+          {
+            "token": "Q",
+            "token_id": 65,
+            "logprob": -4.625,
+            "prob": 0.0096
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "What",
+        "token_id": 1780,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -0.105,
+            "prob": 0.9023
+          },
+          {
+            "token": "Ġan",
+            "token_id": 354,
+            "logprob": -3.1094,
+            "prob": 0.0449
+          },
+          {
+            "token": "'s",
+            "token_id": 506,
+            "logprob": -3.2344,
+            "prob": 0.0396
+          },
+          {
+            "token": "Ġare",
+            "token_id": 359,
+            "logprob": -5.5938,
+            "prob": 0.0037
+          },
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "Ġdo",
+            "token_id": 536,
+            "logprob": -6.7812,
+            "prob": 0.0011
+          },
+          {
+            "token": "Ġwould",
+            "token_id": 736,
+            "logprob": -6.9688,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 416,
+            "logprob": -7.2188,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġam",
+            "token_id": 744,
+            "logprob": -7.9062,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -7.9688,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġcan",
+        "token_id": 416,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -0.3008,
+            "prob": 0.7383
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -1.8047,
+            "prob": 0.165
+          },
+          {
+            "token": "Ġwe",
+            "token_id": 392,
+            "logprob": -3.2969,
+            "prob": 0.0369
+          },
+          {
+            "token": "Ġbe",
+            "token_id": 325,
+            "logprob": -3.5469,
+            "prob": 0.0287
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -5.5,
+            "prob": 0.0041
+          },
+          {
+            "token": "'t",
+            "token_id": 982,
+            "logprob": -5.5625,
+            "prob": 0.0039
+          },
+          {
+            "token": "Ġone",
+            "token_id": 582,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "Ġi",
+            "token_id": 2056,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġit",
+            "token_id": 357,
+            "logprob": -7.0625,
+            "prob": 0.0009
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠI",
+        "token_id": 339,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdo",
+            "token_id": 536,
+            "logprob": -0.8945,
+            "prob": 0.4082
+          },
+          {
+            "token": "Ġsay",
+            "token_id": 1643,
+            "logprob": -1.1406,
+            "prob": 0.3184
+          },
+          {
+            "token": "Ġtell",
+            "token_id": 2505,
+            "logprob": -2.1406,
+            "prob": 0.1172
+          },
+          {
+            "token": "Ġhelp",
+            "token_id": 724,
+            "logprob": -2.2656,
+            "prob": 0.1035
+          },
+          {
+            "token": "Ġask",
+            "token_id": 1998,
+            "logprob": -4.2812,
+            "prob": 0.014
+          },
+          {
+            "token": "Ġtalk",
+            "token_id": 3015,
+            "logprob": -4.9688,
+            "prob": 0.007
+          },
+          {
+            "token": "Ġassist",
+            "token_id": 4237,
+            "logprob": -5.4688,
+            "prob": 0.0043
+          },
+          {
+            "token": "Ġpossibly",
+            "token_id": 6482,
+            "logprob": -5.7812,
+            "prob": 0.0031
+          },
+          {
+            "token": "Ġexpect",
+            "token_id": 1959,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "Ġget",
+            "token_id": 820,
+            "logprob": -6.2188,
+            "prob": 0.002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsay",
+        "token_id": 1643,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "?",
+            "token_id": 47,
+            "logprob": -0.8867,
+            "prob": 0.4121
+          },
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -1.1406,
+            "prob": 0.3203
+          },
+          {
+            "token": "Ġabout",
+            "token_id": 563,
+            "logprob": -1.6406,
+            "prob": 0.1943
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġif",
+            "token_id": 585,
+            "logprob": -4.625,
+            "prob": 0.0097
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -4.875,
+            "prob": 0.0075
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -5.125,
+            "prob": 0.0059
+          },
+          {
+            "token": "Ġfor",
+            "token_id": 327,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "Ġhere",
+            "token_id": 1535,
+            "logprob": -5.4375,
+            "prob": 0.0043
+          },
+          {
+            "token": "Ġwhen",
+            "token_id": 645,
+            "logprob": -5.625,
+            "prob": 0.0036
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġhere",
+        "token_id": 1535,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "?",
+            "token_id": 47,
+            "logprob": -0.1934,
+            "prob": 0.8242
+          },
+          {
+            "token": "Ġabout",
+            "token_id": 563,
+            "logprob": -2.5625,
+            "prob": 0.0767
+          },
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -3.0625,
+            "prob": 0.0464
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -4.1875,
+            "prob": 0.0151
+          },
+          {
+            "token": "?!",
+            "token_id": 17593,
+            "logprob": -4.8125,
+            "prob": 0.0081
+          },
+          {
+            "token": "Ġfor",
+            "token_id": 327,
+            "logprob": -5.5625,
+            "prob": 0.0038
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 338,
+            "logprob": -5.5625,
+            "prob": 0.0038
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": "Ġif",
+            "token_id": 585,
+            "logprob": -5.9375,
+            "prob": 0.0026
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -6.375,
+            "prob": 0.0017
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "?",
+        "token_id": 47,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here?",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere",
+        "?"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535,
+        47
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -1.375,
+            "prob": 0.252
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -1.625,
+            "prob": 0.1963
+          },
+          {
+            "token": "ĠThis",
+            "token_id": 669,
+            "logprob": -3.3125,
+            "prob": 0.0364
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -3.5625,
+            "prob": 0.0283
+          },
+          {
+            "token": "ĠThere",
+            "token_id": 1385,
+            "logprob": -3.6875,
+            "prob": 0.025
+          },
+          {
+            "token": "ĠYou",
+            "token_id": 1206,
+            "logprob": -3.75,
+            "prob": 0.0234
+          },
+          {
+            "token": "ĠWell",
+            "token_id": 3929,
+            "logprob": -3.75,
+            "prob": 0.0234
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -3.75,
+            "prob": 0.0234
+          },
+          {
+            "token": "ĠIt",
+            "token_id": 657,
+            "logprob": -3.875,
+            "prob": 0.0208
+          },
+          {
+            "token": "ĠLet",
+            "token_id": 2959,
+            "logprob": -3.9375,
+            "prob": 0.0194
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠYou",
+        "token_id": 1206,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here? You",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere",
+        "?",
+        "ĠYou"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535,
+        47,
+        1206
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġare",
+            "token_id": 359,
+            "logprob": -1.5938,
+            "prob": 0.2031
+          },
+          {
+            "token": "'re",
+            "token_id": 2316,
+            "logprob": -1.5938,
+            "prob": 0.2031
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 416,
+            "logprob": -1.5938,
+            "prob": 0.2031
+          },
+          {
+            "token": "Ġcould",
+            "token_id": 856,
+            "logprob": -2.5938,
+            "prob": 0.0747
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 457,
+            "logprob": -3.3438,
+            "prob": 0.0354
+          },
+          {
+            "token": "Ġasked",
+            "token_id": 3413,
+            "logprob": -3.4688,
+            "prob": 0.0311
+          },
+          {
+            "token": "Ġmight",
+            "token_id": 1124,
+            "logprob": -3.8438,
+            "prob": 0.0215
+          },
+          {
+            "token": "?",
+            "token_id": 47,
+            "logprob": -3.9688,
+            "prob": 0.0189
+          },
+          {
+            "token": "Ġknow",
+            "token_id": 699,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          },
+          {
+            "token": "Ġwant",
+            "token_id": 1277,
+            "logprob": -4.0938,
+            "prob": 0.0167
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "?",
+        "token_id": 47,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here? You?",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere",
+        "?",
+        "ĠYou",
+        "?"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535,
+        47,
+        1206,
+        47
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -1.2812,
+            "prob": 0.2793
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -1.5312,
+            "prob": 0.2168
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -2.0938,
+            "prob": 0.1235
+          },
+          {
+            "token": "ĠYou",
+            "token_id": 1206,
+            "logprob": -3.7812,
+            "prob": 0.0228
+          },
+          {
+            "token": "ĠHow",
+            "token_id": 1073,
+            "logprob": -3.9688,
+            "prob": 0.0189
+          },
+          {
+            "token": "ĠYes",
+            "token_id": 9230,
+            "logprob": -4.2188,
+            "prob": 0.0148
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -4.3438,
+            "prob": 0.013
+          },
+          {
+            "token": "ĠThat",
+            "token_id": 1848,
+            "logprob": -4.4062,
+            "prob": 0.0123
+          },
+          {
+            "token": "ĠWhat",
+            "token_id": 1812,
+            "logprob": -4.4062,
+            "prob": 0.0123
+          },
+          {
+            "token": "ĠDo",
+            "token_id": 3315,
+            "logprob": -4.4688,
+            "prob": 0.0115
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ(",
+        "token_id": 365,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here? You? (",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere",
+        "?",
+        "ĠYou",
+        "?",
+        "Ġ("
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535,
+        47,
+        1206,
+        47,
+        365
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Note",
+            "token_id": 8928,
+            "logprob": -2.5312,
+            "prob": 0.0801
+          },
+          {
+            "token": "you",
+            "token_id": 8320,
+            "logprob": -2.9062,
+            "prob": 0.0549
+          },
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -3.1562,
+            "prob": 0.0427
+          },
+          {
+            "token": "You",
+            "token_id": 2683,
+            "logprob": -3.2812,
+            "prob": 0.0378
+          },
+          {
+            "token": "Yes",
+            "token_id": 10539,
+            "logprob": -3.7812,
+            "prob": 0.0229
+          },
+          {
+            "token": "if",
+            "token_id": 342,
+            "logprob": -3.9062,
+            "prob": 0.0203
+          },
+          {
+            "token": "yes",
+            "token_id": 10407,
+            "logprob": -3.9062,
+            "prob": 0.0203
+          },
+          {
+            "token": "or",
+            "token_id": 270,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          },
+          {
+            "token": "but",
+            "token_id": 5476,
+            "logprob": -4.2812,
+            "prob": 0.0139
+          },
+          {
+            "token": "Your",
+            "token_id": 7334,
+            "logprob": -4.2812,
+            "prob": 0.0139
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Yes",
+        "token_id": 10539,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here? You? (Yes",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere",
+        "?",
+        "ĠYou",
+        "?",
+        "Ġ(",
+        "Yes"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535,
+        47,
+        1206,
+        47,
+        365,
+        10539
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -0.0579,
+            "prob": 0.9453
+          },
+          {
+            "token": "/",
+            "token_id": 31,
+            "logprob": -3.6875,
+            "prob": 0.0251
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -4.6875,
+            "prob": 0.0093
+          },
+          {
+            "token": ")",
+            "token_id": 25,
+            "logprob": -5.0625,
+            "prob": 0.0063
+          },
+          {
+            "token": "!)",
+            "token_id": 10205,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -6.5625,
+            "prob": 0.0014
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "?",
+            "token_id": 47,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "-",
+            "token_id": 29,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -7.0,
+            "prob": 0.0009
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ")",
+        "token_id": 25,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here? You? (Yes)",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere",
+        "?",
+        "ĠYou",
+        "?",
+        "Ġ(",
+        "Yes",
+        ")"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535,
+        47,
+        1206,
+        47,
+        365,
+        10539,
+        25
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -0.9922,
+            "prob": 0.3711
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -1.3047,
+            "prob": 0.2715
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -2.5469,
+            "prob": 0.0776
+          },
+          {
+            "token": "ĠYou",
+            "token_id": 1206,
+            "logprob": -3.3594,
+            "prob": 0.0344
+          },
+          {
+            "token": "ĠYes",
+            "token_id": 9230,
+            "logprob": -4.4375,
+            "prob": 0.0119
+          },
+          {
+            "token": "ĠQu",
+            "token_id": 3069,
+            "logprob": -4.5625,
+            "prob": 0.0105
+          },
+          {
+            "token": "ĠWhat",
+            "token_id": 1812,
+            "logprob": -4.875,
+            "prob": 0.0077
+          },
+          {
+            "token": "ĠNo",
+            "token_id": 2838,
+            "logprob": -4.875,
+            "prob": 0.0077
+          },
+          {
+            "token": "ĠMy",
+            "token_id": 3361,
+            "logprob": -5.0625,
+            "prob": 0.0064
+          },
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -5.25,
+            "prob": 0.0053
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠYou",
+        "token_id": 1206,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here? You? (Yes) You",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere",
+        "?",
+        "ĠYou",
+        "?",
+        "Ġ(",
+        "Yes",
+        ")",
+        "ĠYou"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535,
+        47,
+        1206,
+        47,
+        365,
+        10539,
+        25,
+        1206
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġare",
+            "token_id": 359,
+            "logprob": -0.4355,
+            "prob": 0.6445
+          },
+          {
+            "token": "'re",
+            "token_id": 2316,
+            "logprob": -2.5625,
+            "prob": 0.0771
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -2.5625,
+            "prob": 0.0771
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 416,
+            "logprob": -2.8125,
+            "prob": 0.0601
+          },
+          {
+            "token": "?",
+            "token_id": 47,
+            "logprob": -3.3125,
+            "prob": 0.0364
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -4.0,
+            "prob": 0.0183
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -4.1875,
+            "prob": 0.0152
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 457,
+            "logprob": -4.5,
+            "prob": 0.0111
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "Ġdo",
+            "token_id": 536,
+            "logprob": -5.8125,
+            "prob": 0.003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 30,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|im_start|>userQui es-tu?<|im_end|>What can I say here? You? (Yes) You.",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Qu",
+        "i",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "What",
+        "Ġcan",
+        "ĠI",
+        "Ġsay",
+        "Ġhere",
+        "?",
+        "ĠYou",
+        "?",
+        "Ġ(",
+        "Yes",
+        ")",
+        "ĠYou",
+        "."
+      ],
+      "token_ids": [
+        1,
+        4093,
+        6317,
+        89,
+        1599,
+        29,
+        24961,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        1780,
+        416,
+        339,
+        1643,
+        1535,
+        47,
+        1206,
+        47,
+        365,
+        10539,
+        25,
+        1206,
+        30
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10,
+        11
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -0.6758,
+            "prob": 0.5078
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -2.3594,
+            "prob": 0.0938
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -2.8594,
+            "prob": 0.0569
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -3.0469,
+            "prob": 0.0474
+          },
+          {
+            "token": "ĠYou",
+            "token_id": 1206,
+            "logprob": -3.3594,
+            "prob": 0.0347
+          },
+          {
+            "token": "ĠWhat",
+            "token_id": 1812,
+            "logprob": -3.7969,
+            "prob": 0.0223
+          },
+          {
+            "token": "ĠMy",
+            "token_id": 3361,
+            "logprob": -3.8594,
+            "prob": 0.021
+          },
+          {
+            "token": "ĠHow",
+            "token_id": 1073,
+            "logprob": -3.9844,
+            "prob": 0.0186
+          },
+          {
+            "token": "ĠThat",
+            "token_id": 1848,
+            "logprob": -4.25,
+            "prob": 0.0144
+          },
+          {
+            "token": "ĠYour",
+            "token_id": 2789,
+            "logprob": -4.25,
+            "prob": 0.0144
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<|im_end|>",
+        "token_id": 2,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,7562 @@
+{
+  "id": "generated_20260815_222737",
+  "prompt": "Qui es-tu?",
+  "language": "fr",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userQui es-tu?<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Je",
+            "token_id": 18109,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "J",
+            "token_id": 236863,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Bonjour",
+            "token_id": 53406,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Il",
+            "token_id": 12834,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "En",
+            "token_id": 2730,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Jeg",
+            "token_id": 110519,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Sono",
+            "token_id": 146345,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Я",
+            "token_id": 237998,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "C",
+            "token_id": 236780,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Perm",
+            "token_id": 18463,
+            "logprob": -16.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Bonjour",
+        "token_id": 53406,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -0.1543,
+            "prob": 0.8555
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -2.0312,
+            "prob": 0.1318
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -4.5312,
+            "prob": 0.0108
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "�",
+            "token_id": 464,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "/",
+            "token_id": 236786,
+            "logprob": -13.5,
+            "prob": 0.0
+          },
+          {
+            "token": "！",
+            "token_id": 237354,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġd",
+            "token_id": 513,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -17.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ!",
+        "token_id": 1717,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour !",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠJe",
+            "token_id": 6735,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠJ",
+            "token_id": 730,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠEn",
+            "token_id": 2358,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ👋",
+            "token_id": 155818,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMoi",
+            "token_id": 132452,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPour",
+            "token_id": 16474,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -17.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠJe",
+        "token_id": 6735,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġsuis",
+            "token_id": 28102,
+            "logprob": -0.0009,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġm",
+            "token_id": 520,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġvais",
+            "token_id": 53309,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdois",
+            "token_id": 25047,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcrois",
+            "token_id": 99600,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsu",
+            "token_id": 664,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsou",
+            "token_id": 4280,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġam",
+            "token_id": 1006,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbin",
+            "token_id": 10915,
+            "logprob": -20.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsuis",
+        "token_id": 28102,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -0.0128,
+            "prob": 0.9883
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "Ġun",
+            "token_id": 723,
+            "logprob": -5.5,
+            "prob": 0.004
+          },
+          {
+            "token": "Ġdés",
+            "token_id": 24022,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGemini",
+            "token_id": 79789,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠBard",
+            "token_id": 60893,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ${",
+            "token_id": 3356,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdonc",
+            "token_id": 17362,
+            "logprob": -13.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGemma",
+        "token_id": 147224,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "�",
+            "token_id": 432,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$",
+            "token_id": 609,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ${",
+            "token_id": 3356,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠAI",
+            "token_id": 12498,
+            "logprob": -21.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmo",
+            "token_id": 3152,
+            "logprob": -22.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ",
+        "token_id": 236743,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "4",
+            "token_id": 236812,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "٤",
+            "token_id": 242090,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ități",
+            "token_id": 214705,
+            "logprob": -20.125,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -20.875,
+            "prob": 0.0
+          },
+          {
+            "token": "2",
+            "token_id": 236778,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -22.125,
+            "prob": 0.0
+          },
+          {
+            "token": "<b>",
+            "token_id": 200,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "اديم",
+            "token_id": 174428,
+            "logprob": -22.375,
+            "prob": 0.0
+          },
+          {
+            "token": "૪",
+            "token_id": 243791,
+            "logprob": -22.5,
+            "prob": 0.0
+          },
+          {
+            "token": "๔",
+            "token_id": 245930,
+            "logprob": -22.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "4",
+        "token_id": 236812,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.0205,
+            "prob": 0.9805
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -3.8906,
+            "prob": 0.0204
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtout",
+            "token_id": 9966,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġune",
+            "token_id": 3037,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġau",
+            "token_id": 3229,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġun",
+            "token_id": 723,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -19.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġun",
+            "token_id": 723,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġune",
+            "token_id": 3037,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "un",
+            "token_id": 602,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdévelopp",
+            "token_id": 25211,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġوهو",
+            "token_id": 40862,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġce",
+            "token_id": 2534,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcar",
+            "token_id": 1295,
+            "logprob": -18.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġen",
+        "token_id": 696,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġtant",
+            "token_id": 18275,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġfait",
+            "token_id": 10426,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġeffet",
+            "token_id": 33212,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġce",
+            "token_id": 2534,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtrain",
+            "token_id": 2519,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġparticulier",
+            "token_id": 55219,
+            "logprob": -15.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "ant",
+            "token_id": 638,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġgrande",
+            "token_id": 11754,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmoi",
+            "token_id": 31543,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtout",
+            "token_id": 9966,
+            "logprob": -17.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmoi",
+        "token_id": 31543,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -0.6328,
+            "prob": 0.5312
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -1.6328,
+            "prob": 0.1953
+          },
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -2.2656,
+            "prob": 0.1045
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -3.7656,
+            "prob": 0.0233
+          },
+          {
+            "token": "Ġune",
+            "token_id": 3037,
+            "logprob": -3.8906,
+            "prob": 0.0205
+          },
+          {
+            "token": "Ġfigure",
+            "token_id": 5811,
+            "logprob": -3.8906,
+            "prob": 0.0205
+          },
+          {
+            "token": "Ġsuis",
+            "token_id": 28102,
+            "logprob": -3.8906,
+            "prob": 0.0205
+          },
+          {
+            "token": "Ġun",
+            "token_id": 723,
+            "logprob": -4.25,
+            "prob": 0.0142
+          },
+          {
+            "token": "Ġj",
+            "token_id": 673,
+            "logprob": -4.4375,
+            "prob": 0.0117
+          },
+          {
+            "token": "Ġdu",
+            "token_id": 1747,
+            "logprob": -4.5,
+            "prob": 0.011
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġun",
+            "token_id": 723,
+            "logprob": -0.0591,
+            "prob": 0.9414
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -3.1875,
+            "prob": 0.0415
+          },
+          {
+            "token": "Ġune",
+            "token_id": 3037,
+            "logprob": -4.5625,
+            "prob": 0.0105
+          },
+          {
+            "token": "Ġc",
+            "token_id": 505,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          },
+          {
+            "token": "Ġj",
+            "token_id": 673,
+            "logprob": -6.9375,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -7.1875,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġce",
+            "token_id": 2534,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -8.5625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġles",
+            "token_id": 1640,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġil",
+            "token_id": 1998,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġune",
+        "token_id": 3037,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠLarge",
+            "token_id": 25093,
+            "logprob": -1.2344,
+            "prob": 0.291
+          },
+          {
+            "token": "Ġgrande",
+            "token_id": 11754,
+            "logprob": -1.4844,
+            "prob": 0.2266
+          },
+          {
+            "token": "ĠGrande",
+            "token_id": 18360,
+            "logprob": -2.1094,
+            "prob": 0.1216
+          },
+          {
+            "token": "Ġgrand",
+            "token_id": 4159,
+            "logprob": -2.4844,
+            "prob": 0.0835
+          },
+          {
+            "token": "Ġintelligence",
+            "token_id": 14020,
+            "logprob": -2.6094,
+            "prob": 0.0737
+          },
+          {
+            "token": "Ġfamille",
+            "token_id": 37652,
+            "logprob": -2.6094,
+            "prob": 0.0737
+          },
+          {
+            "token": "ĠGrand",
+            "token_id": 7997,
+            "logprob": -2.7344,
+            "prob": 0.0649
+          },
+          {
+            "token": "Ġversion",
+            "token_id": 3567,
+            "logprob": -3.3594,
+            "prob": 0.0349
+          },
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -4.8438,
+            "prob": 0.0078
+          },
+          {
+            "token": "ĠIntelligence",
+            "token_id": 28243,
+            "logprob": -4.8438,
+            "prob": 0.0078
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġgrand",
+        "token_id": 4159,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmodèle",
+            "token_id": 56667,
+            "logprob": -0.0058,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "Ġlanguage",
+            "token_id": 5192,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġlarge",
+            "token_id": 2455,
+            "logprob": -7.5,
+            "prob": 0.0005
+          },
+          {
+            "token": "èle",
+            "token_id": 27108,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġlangage",
+            "token_id": 158604,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          },
+          {
+            "token": "ilo",
+            "token_id": 11148,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġmod",
+            "token_id": 1120,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġlinguistique",
+            "token_id": 190612,
+            "logprob": -10.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmodèle",
+        "token_id": 56667,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġlinguistique",
+            "token_id": 190612,
+            "logprob": -0.252,
+            "prob": 0.7773
+          },
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -1.5,
+            "prob": 0.2227
+          },
+          {
+            "token": "Ġlingu",
+            "token_id": 25131,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmultimodal",
+            "token_id": 151359,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmult",
+            "token_id": 2231,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpoly",
+            "token_id": 6356,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlingua",
+            "token_id": 85890,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlangue",
+            "token_id": 51010,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġd",
+            "token_id": 513,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdes",
+            "token_id": 853,
+            "logprob": -14.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġlinguistique",
+        "token_id": 190612,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdéveloppé",
+            "token_id": 143103,
+            "logprob": -0.2812,
+            "prob": 0.7539
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -2.5312,
+            "prob": 0.0796
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -2.6562,
+            "prob": 0.0703
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -3.0312,
+            "prob": 0.0483
+          },
+          {
+            "token": "Ġdévelopp",
+            "token_id": 25211,
+            "logprob": -3.6562,
+            "prob": 0.0259
+          },
+          {
+            "token": "Ġavec",
+            "token_id": 4902,
+            "logprob": -4.4062,
+            "prob": 0.0122
+          },
+          {
+            "token": "Ġentraî",
+            "token_id": 92537,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "Ġdont",
+            "token_id": 11052,
+            "logprob": -5.9062,
+            "prob": 0.0027
+          },
+          {
+            "token": "Ġqui",
+            "token_id": 2947,
+            "logprob": -6.7812,
+            "prob": 0.0011
+          },
+          {
+            "token": "Ġissu",
+            "token_id": 39250,
+            "logprob": -8.0,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġdéveloppé",
+        "token_id": 143103,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpar",
+            "token_id": 944,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġà",
+            "token_id": 1608,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġau",
+            "token_id": 3229,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġchez",
+            "token_id": 18118,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġplus",
+            "token_id": 2915,
+            "logprob": -13.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ement",
+            "token_id": 1155,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġavec",
+            "token_id": 4902,
+            "logprob": -15.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġà",
+        "token_id": 1608,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -0.0006,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ[",
+            "token_id": 870,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġpar",
+            "token_id": 944,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpropos",
+            "token_id": 8441,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpartir",
+            "token_id": 15263,
+            "logprob": -10.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpart",
+            "token_id": 912,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġins",
+            "token_id": 1728,
+            "logprob": -12.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGoogle",
+        "token_id": 6475,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠDeep",
+            "token_id": 22267,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠDé",
+            "token_id": 30485,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠDepth",
+            "token_id": 69934,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠNest",
+            "token_id": 47436,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠCloud",
+            "token_id": 16215,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ[[",
+            "token_id": 15385,
+            "logprob": -17.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠDeep",
+        "token_id": 22267,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google Deep",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Mind",
+            "token_id": 65153,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "mind",
+            "token_id": 24447,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMind",
+            "token_id": 24604,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "M",
+            "token_id": 236792,
+            "logprob": -24.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Learning",
+            "token_id": 46297,
+            "logprob": -24.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Mine",
+            "token_id": 61781,
+            "logprob": -25.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Miner",
+            "token_id": 116689,
+            "logprob": -25.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLearning",
+            "token_id": 19180,
+            "logprob": -26.125,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -26.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmind",
+            "token_id": 3666,
+            "logprob": -26.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Mind",
+        "token_id": 65153,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -15.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġe",
+            "token_id": 545,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": ".\"",
+            "token_id": 1781,
+            "logprob": -15.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 753,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": ".**",
+            "token_id": 99382,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -17.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ(",
+        "token_id": 568,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ("
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Google",
+            "token_id": 19540,
+            "logprob": -0.1543,
+            "prob": 0.8555
+          },
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -3.2812,
+            "prob": 0.0376
+          },
+          {
+            "token": "un",
+            "token_id": 602,
+            "logprob": -3.2812,
+            "prob": 0.0376
+          },
+          {
+            "token": "une",
+            "token_id": 2253,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          },
+          {
+            "token": "open",
+            "token_id": 5265,
+            "logprob": -4.7812,
+            "prob": 0.0084
+          },
+          {
+            "token": "en",
+            "token_id": 501,
+            "logprob": -5.4062,
+            "prob": 0.0045
+          },
+          {
+            "token": "Deep",
+            "token_id": 39300,
+            "logprob": -5.4062,
+            "prob": 0.0045
+          },
+          {
+            "token": "je",
+            "token_id": 1956,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "et",
+            "token_id": 536,
+            "logprob": -5.9062,
+            "prob": 0.0027
+          },
+          {
+            "token": "a",
+            "token_id": 236746,
+            "logprob": -5.9062,
+            "prob": 0.0027
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "a",
+        "token_id": 236746,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ussi",
+            "token_id": 11897,
+            "logprob": -0.7188,
+            "prob": 0.4883
+          },
+          {
+            "token": "Ġlarge",
+            "token_id": 2455,
+            "logprob": -0.9688,
+            "prob": 0.3809
+          },
+          {
+            "token": "ĠLarge",
+            "token_id": 25093,
+            "logprob": -2.7188,
+            "prob": 0.0659
+          },
+          {
+            "token": "ĠLL",
+            "token_id": 32050,
+            "logprob": -3.9688,
+            "prob": 0.0189
+          },
+          {
+            "token": "Ġopen",
+            "token_id": 1932,
+            "logprob": -4.4688,
+            "prob": 0.0115
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -4.4688,
+            "prob": 0.0115
+          },
+          {
+            "token": "Ġfamily",
+            "token_id": 2523,
+            "logprob": -5.5938,
+            "prob": 0.0037
+          },
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -5.7188,
+            "prob": 0.0033
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "î",
+            "token_id": 237411,
+            "logprob": -6.4688,
+            "prob": 0.0016
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġlarge",
+        "token_id": 2455,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġlanguage",
+            "token_id": 5192,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlinguistic",
+            "token_id": 45755,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġgenerative",
+            "token_id": 123155,
+            "logprob": -13.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlangage",
+            "token_id": 158604,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ언",
+            "token_id": 64822,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġopen",
+            "token_id": 1932,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġneural",
+            "token_id": 22823,
+            "logprob": -14.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġlanguage",
+        "token_id": 5192,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 24,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠModel",
+            "token_id": 9483,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlanguage",
+            "token_id": 5192,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": ").",
+            "token_id": 769,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmodeling",
+            "token_id": 21379,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ모델",
+            "token_id": 94647,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmode",
+            "token_id": 5354,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -17.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmode",
+        "token_id": 5354,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 25,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdeveloped",
+            "token_id": 5535,
+            "logprob": -1.3828,
+            "prob": 0.25
+          },
+          {
+            "token": "led",
+            "token_id": 991,
+            "logprob": -1.7578,
+            "prob": 0.1729
+          },
+          {
+            "token": "le",
+            "token_id": 519,
+            "logprob": -1.7578,
+            "prob": 0.1729
+          },
+          {
+            "token": ").",
+            "token_id": 769,
+            "logprob": -2.0,
+            "prob": 0.1348
+          },
+          {
+            "token": "el",
+            "token_id": 535,
+            "logprob": -3.375,
+            "prob": 0.0339
+          },
+          {
+            "token": "lem",
+            "token_id": 6279,
+            "logprob": -3.5,
+            "prob": 0.0299
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -3.625,
+            "prob": 0.0265
+          },
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -4.0,
+            "prob": 0.0182
+          },
+          {
+            "token": "l",
+            "token_id": 236752,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġfrom",
+            "token_id": 699,
+            "logprob": -4.25,
+            "prob": 0.0142
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġde",
+        "token_id": 569,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 26,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -0.2715,
+            "prob": 0.7617
+          },
+          {
+            "token": "Ġlangage",
+            "token_id": 158604,
+            "logprob": -3.0156,
+            "prob": 0.0488
+          },
+          {
+            "token": "Ġtype",
+            "token_id": 1722,
+            "logprob": -3.7656,
+            "prob": 0.0231
+          },
+          {
+            "token": "Ġfamille",
+            "token_id": 37652,
+            "logprob": -3.7656,
+            "prob": 0.0231
+          },
+          {
+            "token": "Ġfond",
+            "token_id": 10667,
+            "logprob": -4.0312,
+            "prob": 0.0179
+          },
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -4.1562,
+            "prob": 0.0159
+          },
+          {
+            "token": "Ġla",
+            "token_id": 759,
+            "logprob": -4.4062,
+            "prob": 0.0123
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -4.4062,
+            "prob": 0.0123
+          },
+          {
+            "token": ").",
+            "token_id": 769,
+            "logprob": -5.0312,
+            "prob": 0.0066
+          },
+          {
+            "token": "Ġdéveloppement",
+            "token_id": 37185,
+            "logprob": -5.0312,
+            "prob": 0.0066
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGoogle",
+        "token_id": 6475,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 27,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠDeep",
+            "token_id": 22267,
+            "logprob": -0.0109,
+            "prob": 0.9883
+          },
+          {
+            "token": ").",
+            "token_id": 769,
+            "logprob": -4.625,
+            "prob": 0.0097
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": ")",
+            "token_id": 236768,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠDepth",
+            "token_id": 69934,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġqui",
+            "token_id": 2947,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġat",
+            "token_id": 657,
+            "logprob": -10.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠDeep",
+        "token_id": 22267,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 28,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google Deep",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Mind",
+            "token_id": 65153,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "mind",
+            "token_id": 24447,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMind",
+            "token_id": 24604,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "M",
+            "token_id": 236792,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Mim",
+            "token_id": 209999,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Learning",
+            "token_id": 46297,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Mid",
+            "token_id": 41210,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Light",
+            "token_id": 12098,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Mine",
+            "token_id": 61781,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "মাই",
+            "token_id": 210581,
+            "logprob": -19.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Mind",
+        "token_id": 65153,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 29,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ").",
+            "token_id": 769,
+            "logprob": -0.0179,
+            "prob": 0.9805
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -4.6562,
+            "prob": 0.0096
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 753,
+            "logprob": -6.5312,
+            "prob": 0.0015
+          },
+          {
+            "token": ")",
+            "token_id": 236768,
+            "logprob": -6.7812,
+            "prob": 0.0012
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġopen",
+            "token_id": 1932,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "),",
+            "token_id": 779,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -8.5,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġen",
+        "token_id": 696,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 30,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġanglais",
+            "token_id": 90291,
+            "logprob": -0.4844,
+            "prob": 0.6172
+          },
+          {
+            "token": "Ġfrançais",
+            "token_id": 40132,
+            "logprob": -0.9844,
+            "prob": 0.373
+          },
+          {
+            "token": "Ġversion",
+            "token_id": 3567,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "ĠFrançais",
+            "token_id": 84474,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "Ġfait",
+            "token_id": 10426,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġréalité",
+            "token_id": 92091,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġtermes",
+            "token_id": 72594,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "ĠFrance",
+            "token_id": 7001,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġtant",
+            "token_id": 18275,
+            "logprob": -8.0,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġfrançais",
+        "token_id": 40132,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 31,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ").",
+            "token_id": 769,
+            "logprob": -0.0165,
+            "prob": 0.9844
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -4.6562,
+            "prob": 0.0096
+          },
+          {
+            "token": "Ġest",
+            "token_id": 1009,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -7.4062,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġlitt",
+            "token_id": 44981,
+            "logprob": -7.5312,
+            "prob": 0.0005
+          },
+          {
+            "token": ")",
+            "token_id": 236768,
+            "logprob": -7.6562,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġpour",
+            "token_id": 2637,
+            "logprob": -7.9062,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġstandard",
+            "token_id": 4077,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -8.25,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ").",
+        "token_id": 769,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 32,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ")."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Je",
+            "token_id": 18109,
+            "logprob": -0.0869,
+            "prob": 0.918
+          },
+          {
+            "token": "En",
+            "token_id": 2730,
+            "logprob": -2.7188,
+            "prob": 0.0664
+          },
+          {
+            "token": "Comment",
+            "token_id": 22217,
+            "logprob": -4.2188,
+            "prob": 0.0148
+          },
+          {
+            "token": "Que",
+            "token_id": 10816,
+            "logprob": -7.2188,
+            "prob": 0.0007
+          },
+          {
+            "token": "Mon",
+            "token_id": 10505,
+            "logprob": -7.7188,
+            "prob": 0.0004
+          },
+          {
+            "token": "Cons",
+            "token_id": 10085,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Si",
+            "token_id": 12014,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "J",
+            "token_id": 236863,
+            "logprob": -9.1875,
+            "prob": 0.0001
+          },
+          {
+            "token": "N",
+            "token_id": 236797,
+            "logprob": -9.1875,
+            "prob": 0.0001
+          },
+          {
+            "token": "P",
+            "token_id": 236791,
+            "logprob": -9.1875,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "N",
+        "token_id": 236797,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 33,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ul",
+            "token_id": 575,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "’",
+            "token_id": 236858,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "'-",
+            "token_id": 21517,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "urt",
+            "token_id": 5337,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "uls",
+            "token_id": 9784,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "\\'",
+            "token_id": 25080,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "$'",
+            "token_id": 80031,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ependant",
+            "token_id": 35238,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -17.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "'",
+        "token_id": 236789,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 34,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "hésitez",
+            "token_id": 127715,
+            "logprob": -0.1128,
+            "prob": 0.8945
+          },
+          {
+            "token": "hés",
+            "token_id": 86336,
+            "logprob": -2.2344,
+            "prob": 0.1064
+          },
+          {
+            "token": "oubliez",
+            "token_id": 219572,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "hé",
+            "token_id": 41771,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ayant",
+            "token_id": 145981,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ai",
+            "token_id": 1389,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "hes",
+            "token_id": 1808,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "a",
+            "token_id": 236746,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhés",
+            "token_id": 206770,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ignore",
+            "token_id": 28921,
+            "logprob": -16.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "hésitez",
+        "token_id": 127715,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 35,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpas",
+            "token_id": 2982,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġdonc",
+            "token_id": 17362,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsurtout",
+            "token_id": 36067,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġjamais",
+            "token_id": 33930,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPas",
+            "token_id": 15250,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġme",
+            "token_id": 786,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -20.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Pas",
+            "token_id": 46053,
+            "logprob": -20.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġplus",
+            "token_id": 2915,
+            "logprob": -20.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpas",
+        "token_id": 2982,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 36,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -0.0098,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġà",
+            "token_id": 1608,
+            "logprob": -4.625,
+            "prob": 0.0097
+          },
+          {
+            "token": "ĠSi",
+            "token_id": 7072,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtous",
+            "token_id": 13776,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġau",
+            "token_id": 3229,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġnếu",
+            "token_id": 45263,
+            "logprob": -18.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsinon",
+            "token_id": 99164,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpour",
+            "token_id": 2637,
+            "logprob": -20.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsi",
+        "token_id": 2083,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 37,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġvous",
+            "token_id": 4742,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġavez",
+            "token_id": 29028,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtu",
+            "token_id": 4379,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "vous",
+            "token_id": 23841,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 611,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvotre",
+            "token_id": 9149,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġou",
+            "token_id": 3349,
+            "logprob": -20.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtout",
+            "token_id": 9966,
+            "logprob": -21.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -21.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġvous",
+        "token_id": 4742,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 38,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġavez",
+            "token_id": 29028,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 735,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvoulez",
+            "token_id": 97270,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "avez",
+            "token_id": 53904,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġont",
+            "token_id": 8179,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvous",
+            "token_id": 4742,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsouhaitez",
+            "token_id": 87505,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġavoir",
+            "token_id": 21320,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġav",
+            "token_id": 1422,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhabt",
+            "token_id": 144083,
+            "logprob": -20.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġavez",
+        "token_id": 29028,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 39,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdes",
+            "token_id": 853,
+            "logprob": -0.0016,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġd",
+            "token_id": 513,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġune",
+            "token_id": 3037,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġbất",
+            "token_id": 43611,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġautre",
+            "token_id": 24146,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġla",
+            "token_id": 759,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġenvie",
+            "token_id": 117237,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġavez",
+            "token_id": 29028,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġकोई",
+            "token_id": 7398,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġকোনো",
+            "token_id": 20021,
+            "logprob": -17.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġdes",
+        "token_id": 853,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 40,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġquestions",
+            "token_id": 4137,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "questions",
+            "token_id": 33310,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠQuestions",
+            "token_id": 23610,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġвопросы",
+            "token_id": 67364,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpreguntas",
+            "token_id": 57613,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Questions",
+            "token_id": 40293,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġperguntas",
+            "token_id": 155998,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpertanyaan",
+            "token_id": 128545,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsorular",
+            "token_id": 80526,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvragen",
+            "token_id": 94389,
+            "logprob": -19.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpreguntas",
+        "token_id": 57613,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 41,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des preguntas",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes",
+        "Ġpreguntas"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853,
+        57613
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġou",
+            "token_id": 3349,
+            "logprob": -0.5078,
+            "prob": 0.6016
+          },
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -1.0078,
+            "prob": 0.3652
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -4.75,
+            "prob": 0.0086
+          },
+          {
+            "token": "Ġo",
+            "token_id": 512,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -5.875,
+            "prob": 0.0028
+          },
+          {
+            "token": "Ġsur",
+            "token_id": 1270,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġpour",
+            "token_id": 2637,
+            "logprob": -6.75,
+            "prob": 0.0012
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpour",
+        "token_id": 2637,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 42,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des preguntas pour",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes",
+        "Ġpreguntas",
+        "Ġpour"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853,
+        57613,
+        2637
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmoi",
+            "token_id": 31543,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "moi",
+            "token_id": 89688,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġme",
+            "token_id": 786,
+            "logprob": -10.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvous",
+            "token_id": 4742,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġque",
+            "token_id": 929,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdiscuter",
+            "token_id": 204915,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmim",
+            "token_id": 23276,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -13.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlesquelles",
+            "token_id": 88905,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġm",
+            "token_id": 520,
+            "logprob": -13.8125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmoi",
+        "token_id": 31543,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 43,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des preguntas pour moi",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes",
+        "Ġpreguntas",
+        "Ġpour",
+        "Ġmoi"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853,
+        57613,
+        2637,
+        31543
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -0.0101,
+            "prob": 0.9883
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -4.875,
+            "prob": 0.0076
+          },
+          {
+            "token": "Ġou",
+            "token_id": 3349,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ;",
+            "token_id": 2895,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsur",
+            "token_id": 1270,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -13.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġou",
+        "token_id": 3349,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 44,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des preguntas pour moi ou",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes",
+        "Ġpreguntas",
+        "Ġpour",
+        "Ġmoi",
+        "Ġou"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853,
+        57613,
+        2637,
+        31543,
+        3349
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -0.002,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġbesoin",
+            "token_id": 36592,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġavez",
+            "token_id": 29028,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġdes",
+            "token_id": 853,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġquelque",
+            "token_id": 40164,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsouhaitez",
+            "token_id": 87505,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġque",
+            "token_id": 929,
+            "logprob": -11.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtoute",
+            "token_id": 20844,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġune",
+            "token_id": 3037,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġce",
+            "token_id": 2534,
+            "logprob": -13.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġtoute",
+        "token_id": 20844,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 45,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des preguntas pour moi ou toute",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes",
+        "Ġpreguntas",
+        "Ġpour",
+        "Ġmoi",
+        "Ġou",
+        "Ġtoute"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853,
+        57613,
+        2637,
+        31543,
+        3349,
+        20844
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġautre",
+            "token_id": 24146,
+            "logprob": -0.1357,
+            "prob": 0.875
+          },
+          {
+            "token": "Ġtâche",
+            "token_id": 177481,
+            "logprob": -2.1406,
+            "prob": 0.1182
+          },
+          {
+            "token": "Ġchose",
+            "token_id": 13874,
+            "logprob": -5.5,
+            "prob": 0.0041
+          },
+          {
+            "token": "Ġdemande",
+            "token_id": 45055,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "Ġrequête",
+            "token_id": 180215,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġaide",
+            "token_id": 45006,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġinformation",
+            "token_id": 1938,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġassistance",
+            "token_id": 10686,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġother",
+            "token_id": 1032,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġenvie",
+            "token_id": 117237,
+            "logprob": -10.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġautre",
+        "token_id": 24146,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 46,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des preguntas pour moi ou toute autre",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes",
+        "Ġpreguntas",
+        "Ġpour",
+        "Ġmoi",
+        "Ġou",
+        "Ġtoute",
+        "Ġautre"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853,
+        57613,
+        2637,
+        31543,
+        3349,
+        20844,
+        24146
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġchose",
+            "token_id": 13874,
+            "logprob": -0.1611,
+            "prob": 0.8516
+          },
+          {
+            "token": "Ġrequête",
+            "token_id": 180215,
+            "logprob": -2.5312,
+            "prob": 0.0791
+          },
+          {
+            "token": "Ġdemande",
+            "token_id": 45055,
+            "logprob": -2.7812,
+            "prob": 0.0618
+          },
+          {
+            "token": "Ġtâche",
+            "token_id": 177481,
+            "logprob": -5.0312,
+            "prob": 0.0065
+          },
+          {
+            "token": "Ġquestion",
+            "token_id": 2934,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġassistance",
+            "token_id": 10686,
+            "logprob": -8.1875,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġaide",
+            "token_id": 45006,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġinformation",
+            "token_id": 1938,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġidée",
+            "token_id": 111970,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġenvie",
+            "token_id": 117237,
+            "logprob": -11.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġrequête",
+        "token_id": 180215,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 47,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des preguntas pour moi ou toute autre requête",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes",
+        "Ġpreguntas",
+        "Ġpour",
+        "Ġmoi",
+        "Ġou",
+        "Ġtoute",
+        "Ġautre",
+        "Ġrequête"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853,
+        57613,
+        2637,
+        31543,
+        3349,
+        20844,
+        24146,
+        180215
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -0.0053,
+            "prob": 0.9961
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -5.5,
+            "prob": 0.0041
+          },
+          {
+            "token": "Ġque",
+            "token_id": 929,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġà",
+            "token_id": 1608,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtext",
+            "token_id": 1816,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsur",
+            "token_id": 1270,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdont",
+            "token_id": 11052,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -12.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ!",
+        "token_id": 1717,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 48,
+      "input_text": "<|turn>userQui es-tu?<turn|>Bonjour ! Je suis Gemma 4, en moi, une grand modèle linguistique développé à Google DeepMind (a large language mode de Google DeepMind en français).N'hésitez pas si vous avez des preguntas pour moi ou toute autre requête !",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Qui",
+        "Ġes",
+        "-",
+        "tu",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bonjour",
+        "Ġ!",
+        "ĠJe",
+        "Ġsuis",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġen",
+        "Ġmoi",
+        ",",
+        "Ġune",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġlinguistique",
+        "Ġdéveloppé",
+        "Ġà",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġ(",
+        "a",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmode",
+        "Ġde",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "Ġen",
+        "Ġfrançais",
+        ").",
+        "N",
+        "'",
+        "hésitez",
+        "Ġpas",
+        "Ġsi",
+        "Ġvous",
+        "Ġavez",
+        "Ġdes",
+        "Ġpreguntas",
+        "Ġpour",
+        "Ġmoi",
+        "Ġou",
+        "Ġtoute",
+        "Ġautre",
+        "Ġrequête",
+        "Ġ!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        60325,
+        1115,
+        236772,
+        11372,
+        236881,
+        106,
+        105,
+        4368,
+        53406,
+        1717,
+        6735,
+        28102,
+        147224,
+        236743,
+        236812,
+        236764,
+        696,
+        31543,
+        236764,
+        3037,
+        4159,
+        56667,
+        190612,
+        143103,
+        1608,
+        6475,
+        22267,
+        65153,
+        568,
+        236746,
+        2455,
+        5192,
+        5354,
+        569,
+        6475,
+        22267,
+        65153,
+        696,
+        40132,
+        769,
+        236797,
+        236789,
+        127715,
+        2982,
+        2083,
+        4742,
+        29028,
+        853,
+        57613,
+        2637,
+        31543,
+        3349,
+        20844,
+        24146,
+        180215,
+        1717
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0112,
+            "prob": 0.9883
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -4.625,
+            "prob": 0.0097
+          },
+          {
+            "token": "ĠComment",
+            "token_id": 18778,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "ĠJe",
+            "token_id": 6735,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠQue",
+            "token_id": 7523,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ👋",
+            "token_id": 155818,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ✨",
+            "token_id": 73687,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠJ",
+            "token_id": 730,
+            "logprob": -13.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,4096 @@
+{
+  "id": "generated_20260815_224403",
+  "prompt": "Who are you?",
+  "language": "en",
+  "temperature": 1.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+    "num_layers": 24,
+    "hidden_size": 2048,
+    "num_attention_heads": 32,
+    "vocab_size": 49152
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "I",
+            "token_id": 57,
+            "logprob": -0.0251,
+            "prob": 0.9766
+          },
+          {
+            "token": "Hello",
+            "token_id": 19556,
+            "logprob": -4.7812,
+            "prob": 0.0084
+          },
+          {
+            "token": "What",
+            "token_id": 1780,
+            "logprob": -5.1562,
+            "prob": 0.0058
+          },
+          {
+            "token": "My",
+            "token_id": 5965,
+            "logprob": -5.5312,
+            "prob": 0.004
+          },
+          {
+            "token": "You",
+            "token_id": 2683,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          },
+          {
+            "token": "Hi",
+            "token_id": 26843,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "As",
+            "token_id": 1653,
+            "logprob": -7.4062,
+            "prob": 0.0006
+          },
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -7.6562,
+            "prob": 0.0005
+          },
+          {
+            "token": "(",
+            "token_id": 24,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "A",
+            "token_id": 49,
+            "logprob": -8.125,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "I",
+        "token_id": 57,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "'m",
+            "token_id": 5248,
+            "logprob": -0.0918,
+            "prob": 0.9141
+          },
+          {
+            "token": "Ġam",
+            "token_id": 744,
+            "logprob": -2.5938,
+            "prob": 0.0747
+          },
+          {
+            "token": "Ġdon",
+            "token_id": 1326,
+            "logprob": -4.9688,
+            "prob": 0.007
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 416,
+            "logprob": -5.7188,
+            "prob": 0.0033
+          },
+          {
+            "token": "'d",
+            "token_id": 6737,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          },
+          {
+            "token": "’",
+            "token_id": 417,
+            "logprob": -7.7188,
+            "prob": 0.0004
+          },
+          {
+            "token": "'ll",
+            "token_id": 3060,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 436,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          },
+          {
+            "token": "'",
+            "token_id": 23,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "'ve",
+            "token_id": 3543,
+            "logprob": -9.125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "'m",
+        "token_id": 5248,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġan",
+            "token_id": 354,
+            "logprob": -0.375,
+            "prob": 0.6875
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -1.5625,
+            "prob": 0.21
+          },
+          {
+            "token": "Ġjust",
+            "token_id": 915,
+            "logprob": -3.3125,
+            "prob": 0.0364
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -4.75,
+            "prob": 0.0087
+          },
+          {
+            "token": "Ġ[",
+            "token_id": 933,
+            "logprob": -4.875,
+            "prob": 0.0076
+          },
+          {
+            "token": "ĠChat",
+            "token_id": 27821,
+            "logprob": -5.5,
+            "prob": 0.0041
+          },
+          {
+            "token": "ĠAn",
+            "token_id": 1117,
+            "logprob": -5.5625,
+            "prob": 0.0038
+          },
+          {
+            "token": "Ġyour",
+            "token_id": 469,
+            "logprob": -5.6875,
+            "prob": 0.0034
+          },
+          {
+            "token": "Ġdesigned",
+            "token_id": 2724,
+            "logprob": -5.9375,
+            "prob": 0.0026
+          },
+          {
+            "token": "...",
+            "token_id": 2026,
+            "logprob": -6.125,
+            "prob": 0.0022
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġjust",
+        "token_id": 915,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġan",
+            "token_id": 354,
+            "logprob": -0.2031,
+            "prob": 0.8164
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -1.7031,
+            "prob": 0.1826
+          },
+          {
+            "token": "Ġhere",
+            "token_id": 1535,
+            "logprob": -7.9375,
+            "prob": 0.0004
+          },
+          {
+            "token": "...",
+            "token_id": 2026,
+            "logprob": -8.5625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġyour",
+            "token_id": 469,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠAI",
+            "token_id": 5646,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġgoing",
+            "token_id": 2045,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġchatting",
+            "token_id": 36498,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsomeone",
+            "token_id": 2206,
+            "logprob": -10.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġan",
+        "token_id": 354,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠAI",
+            "token_id": 5646,
+            "logprob": -0.123,
+            "prob": 0.8828
+          },
+          {
+            "token": "Ġartificial",
+            "token_id": 6416,
+            "logprob": -2.5,
+            "prob": 0.082
+          },
+          {
+            "token": "Ġadvanced",
+            "token_id": 4378,
+            "logprob": -4.5,
+            "prob": 0.0111
+          },
+          {
+            "token": "Ġalgorithm",
+            "token_id": 7748,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "Ġonline",
+            "token_id": 2329,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġaverage",
+            "token_id": 3049,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġlanguage",
+            "token_id": 1789,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġexample",
+            "token_id": 1183,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġincredibly",
+            "token_id": 11096,
+            "logprob": -6.9375,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġassistant",
+            "token_id": 11173,
+            "logprob": -7.0625,
+            "prob": 0.0009
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠAI",
+        "token_id": 5646,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -0.1904,
+            "prob": 0.8281
+          },
+          {
+            "token": "Ġlanguage",
+            "token_id": 1789,
+            "logprob": -2.1875,
+            "prob": 0.1118
+          },
+          {
+            "token": "Ġdesigned",
+            "token_id": 2724,
+            "logprob": -3.8125,
+            "prob": 0.022
+          },
+          {
+            "token": "Ġassistant",
+            "token_id": 11173,
+            "logprob": -4.1875,
+            "prob": 0.0151
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 1743,
+            "logprob": -4.6875,
+            "prob": 0.0092
+          },
+          {
+            "token": "Ġprogram",
+            "token_id": 1578,
+            "logprob": -5.3125,
+            "prob": 0.0049
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -6.1875,
+            "prob": 0.002
+          },
+          {
+            "token": "Ġtrained",
+            "token_id": 7018,
+            "logprob": -6.4375,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -6.9375,
+            "prob": 0.001
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -7.3125,
+            "prob": 0.0007
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 28,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI,",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ","
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -0.332,
+            "prob": 0.7188
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -1.8281,
+            "prob": 0.1602
+          },
+          {
+            "token": "Ġdesigned",
+            "token_id": 2724,
+            "logprob": -3.2031,
+            "prob": 0.0405
+          },
+          {
+            "token": "Ġan",
+            "token_id": 354,
+            "logprob": -3.4531,
+            "prob": 0.0315
+          },
+          {
+            "token": "Ġcreated",
+            "token_id": 2312,
+            "logprob": -4.5938,
+            "prob": 0.0103
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -4.8438,
+            "prob": 0.008
+          },
+          {
+            "token": "Ġtrained",
+            "token_id": 7018,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġmade",
+            "token_id": 1135,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "Ġgenerated",
+            "token_id": 6171,
+            "logprob": -6.0938,
+            "prob": 0.0023
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -6.1562,
+            "prob": 0.0022
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠI",
+        "token_id": 339,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdon",
+            "token_id": 1326,
+            "logprob": -0.0317,
+            "prob": 0.9688
+          },
+          {
+            "token": "'m",
+            "token_id": 5248,
+            "logprob": -3.6562,
+            "prob": 0.0258
+          },
+          {
+            "token": "Ġdidn",
+            "token_id": 3683,
+            "logprob": -6.4062,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 457,
+            "logprob": -7.0312,
+            "prob": 0.0009
+          },
+          {
+            "token": "'ve",
+            "token_id": 3543,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 416,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġhaven",
+            "token_id": 8540,
+            "logprob": -8.3125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġlack",
+            "token_id": 3096,
+            "logprob": -8.8125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġknow",
+            "token_id": 699,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġexist",
+            "token_id": 1822,
+            "logprob": -9.1875,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġdon",
+        "token_id": 1326,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "'t",
+            "token_id": 982,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "’",
+            "token_id": 417,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "'",
+            "token_id": 23,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "\\'",
+            "token_id": 28183,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "`",
+            "token_id": 80,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "'m",
+            "token_id": 5248,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "'s",
+            "token_id": 506,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġnot",
+            "token_id": 441,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 18,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ot",
+            "token_id": 320,
+            "logprob": -13.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "'t",
+        "token_id": 982,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġhave",
+            "token_id": 457,
+            "logprob": -0.0122,
+            "prob": 0.9883
+          },
+          {
+            "token": "Ġreally",
+            "token_id": 2159,
+            "logprob": -4.875,
+            "prob": 0.0075
+          },
+          {
+            "token": "Ġknow",
+            "token_id": 699,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġbelong",
+            "token_id": 4523,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġactually",
+            "token_id": 2390,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġidentify",
+            "token_id": 2669,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 476,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġtruly",
+            "token_id": 5416,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġpossess",
+            "token_id": 5204,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġexperience",
+            "token_id": 1786,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġhave",
+        "token_id": 457,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpersonal",
+            "token_id": 2143,
+            "logprob": -0.5117,
+            "prob": 0.5977
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -1.0156,
+            "prob": 0.3633
+          },
+          {
+            "token": "Ġany",
+            "token_id": 750,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "Ġreal",
+            "token_id": 1345,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "Ġfeelings",
+            "token_id": 4401,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "Ġphysical",
+            "token_id": 2099,
+            "logprob": -5.875,
+            "prob": 0.0028
+          },
+          {
+            "token": "Ġconsciousness",
+            "token_id": 8650,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġan",
+            "token_id": 354,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "Ġanyone",
+            "token_id": 4325,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "Ġbiological",
+            "token_id": 5748,
+            "logprob": -6.9375,
+            "prob": 0.001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpersonal",
+        "token_id": 2143,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġexperiences",
+            "token_id": 2647,
+            "logprob": -1.1406,
+            "prob": 0.3184
+          },
+          {
+            "token": "Ġopinions",
+            "token_id": 8428,
+            "logprob": -1.5156,
+            "prob": 0.2188
+          },
+          {
+            "token": "Ġfeelings",
+            "token_id": 4401,
+            "logprob": -2.6406,
+            "prob": 0.0713
+          },
+          {
+            "token": "Ġinformation",
+            "token_id": 1096,
+            "logprob": -2.7656,
+            "prob": 0.063
+          },
+          {
+            "token": "Ġpreferences",
+            "token_id": 8163,
+            "logprob": -2.8906,
+            "prob": 0.0554
+          },
+          {
+            "token": "Ġidentity",
+            "token_id": 3905,
+            "logprob": -3.0156,
+            "prob": 0.0488
+          },
+          {
+            "token": "Ġthoughts",
+            "token_id": 4467,
+            "logprob": -3.0156,
+            "prob": 0.0488
+          },
+          {
+            "token": "Ġinterests",
+            "token_id": 4694,
+            "logprob": -3.3906,
+            "prob": 0.0337
+          },
+          {
+            "token": "Ġidentities",
+            "token_id": 9316,
+            "logprob": -3.7656,
+            "prob": 0.0231
+          },
+          {
+            "token": "Ġcharacteristics",
+            "token_id": 4616,
+            "logprob": -4.2812,
+            "prob": 0.014
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġopinions",
+        "token_id": 8428,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -0.103,
+            "prob": 0.9023
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -2.3594,
+            "prob": 0.0952
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -6.4688,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -7.8438,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġnor",
+            "token_id": 5277,
+            "logprob": -8.5625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġlike",
+            "token_id": 702,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġbut",
+            "token_id": 564,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġabout",
+            "token_id": 563,
+            "logprob": -10.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "...",
+            "token_id": 2026,
+            "logprob": -10.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġor",
+        "token_id": 355,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġfeelings",
+            "token_id": 4401,
+            "logprob": -0.5117,
+            "prob": 0.6016
+          },
+          {
+            "token": "Ġemotions",
+            "token_id": 4801,
+            "logprob": -1.7578,
+            "prob": 0.1719
+          },
+          {
+            "token": "Ġbeliefs",
+            "token_id": 4977,
+            "logprob": -3.2656,
+            "prob": 0.0383
+          },
+          {
+            "token": "Ġpreferences",
+            "token_id": 8163,
+            "logprob": -3.6406,
+            "prob": 0.0264
+          },
+          {
+            "token": "Ġbiases",
+            "token_id": 13078,
+            "logprob": -3.8906,
+            "prob": 0.0205
+          },
+          {
+            "token": "Ġidentities",
+            "token_id": 9316,
+            "logprob": -4.0,
+            "prob": 0.0181
+          },
+          {
+            "token": "Ġexperiences",
+            "token_id": 2647,
+            "logprob": -4.0,
+            "prob": 0.0181
+          },
+          {
+            "token": "Ġopinions",
+            "token_id": 8428,
+            "logprob": -4.5,
+            "prob": 0.011
+          },
+          {
+            "token": "Ġinterests",
+            "token_id": 4694,
+            "logprob": -4.875,
+            "prob": 0.0076
+          },
+          {
+            "token": "Ġphysical",
+            "token_id": 2099,
+            "logprob": -4.9375,
+            "prob": 0.0071
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġbeliefs",
+        "token_id": 4977,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -0.334,
+            "prob": 0.7148
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -1.3359,
+            "prob": 0.2637
+          },
+          {
+            "token": "Ġlike",
+            "token_id": 702,
+            "logprob": -4.3438,
+            "prob": 0.0131
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -6.2188,
+            "prob": 0.002
+          },
+          {
+            "token": ";",
+            "token_id": 43,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 365,
+            "logprob": -7.5938,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 338,
+            "logprob": -7.8438,
+            "prob": 0.0004
+          },
+          {
+            "token": "...",
+            "token_id": 2026,
+            "logprob": -7.8438,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġabout",
+            "token_id": 563,
+            "logprob": -7.8438,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -7.9688,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 30,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs.",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        "."
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -0.5117,
+            "prob": 0.6016
+          },
+          {
+            "token": "ĠMy",
+            "token_id": 3361,
+            "logprob": -1.6328,
+            "prob": 0.1953
+          },
+          {
+            "token": "ĠBut",
+            "token_id": 1249,
+            "logprob": -2.6406,
+            "prob": 0.0718
+          },
+          {
+            "token": "ĠHowever",
+            "token_id": 1423,
+            "logprob": -2.6406,
+            "prob": 0.0718
+          },
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -3.3906,
+            "prob": 0.0339
+          },
+          {
+            "token": "ĠYou",
+            "token_id": 1206,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "ĠWhat",
+            "token_id": 1812,
+            "logprob": -5.75,
+            "prob": 0.0031
+          },
+          {
+            "token": "ĠIf",
+            "token_id": 1094,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "ĠCan",
+            "token_id": 1978,
+            "logprob": -6.125,
+            "prob": 0.0022
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠMy",
+        "token_id": 3361,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpurpose",
+            "token_id": 3446,
+            "logprob": -0.1904,
+            "prob": 0.8281
+          },
+          {
+            "token": "Ġresponses",
+            "token_id": 5928,
+            "logprob": -2.9375,
+            "prob": 0.0527
+          },
+          {
+            "token": "Ġprimary",
+            "token_id": 3003,
+            "logprob": -2.9375,
+            "prob": 0.0527
+          },
+          {
+            "token": "Ġsole",
+            "token_id": 6513,
+            "logprob": -4.4375,
+            "prob": 0.0118
+          },
+          {
+            "token": "Ġcreators",
+            "token_id": 16487,
+            "logprob": -4.8125,
+            "prob": 0.0081
+          },
+          {
+            "token": "Ġgoal",
+            "token_id": 3491,
+            "logprob": -4.9375,
+            "prob": 0.0071
+          },
+          {
+            "token": "Ġprogramming",
+            "token_id": 6256,
+            "logprob": -5.1875,
+            "prob": 0.0056
+          },
+          {
+            "token": "Ġexistence",
+            "token_id": 5387,
+            "logprob": -5.1875,
+            "prob": 0.0056
+          },
+          {
+            "token": "Ġrole",
+            "token_id": 1791,
+            "logprob": -5.4375,
+            "prob": 0.0043
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 476,
+            "logprob": -5.5625,
+            "prob": 0.0038
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpurpose",
+        "token_id": 3446,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġis",
+            "token_id": 314,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġhere",
+            "token_id": 1535,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġit",
+            "token_id": 357,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġon",
+            "token_id": 335,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 436,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġisn",
+            "token_id": 3247,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlies",
+            "token_id": 5721,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -12.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġis",
+        "token_id": 314,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -0.0012,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġsolely",
+            "token_id": 9127,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġsimply",
+            "token_id": 2788,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġpurely",
+            "token_id": 15272,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġprimarily",
+            "token_id": 4856,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġonly",
+            "token_id": 805,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlimited",
+            "token_id": 3435,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġjust",
+            "token_id": 915,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmerely",
+            "token_id": 7475,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmainly",
+            "token_id": 5630,
+            "logprob": -12.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġto",
+        "token_id": 288,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġassist",
+            "token_id": 4237,
+            "logprob": -0.7695,
+            "prob": 0.4629
+          },
+          {
+            "token": "Ġprovide",
+            "token_id": 1538,
+            "logprob": -0.7695,
+            "prob": 0.4629
+          },
+          {
+            "token": "Ġprocess",
+            "token_id": 980,
+            "logprob": -3.5156,
+            "prob": 0.0295
+          },
+          {
+            "token": "Ġhelp",
+            "token_id": 724,
+            "logprob": -4.0312,
+            "prob": 0.0179
+          },
+          {
+            "token": "Ġgenerate",
+            "token_id": 5051,
+            "logprob": -4.5312,
+            "prob": 0.0109
+          },
+          {
+            "token": "Ġrespond",
+            "token_id": 3535,
+            "logprob": -5.5312,
+            "prob": 0.004
+          },
+          {
+            "token": "Ġunderstand",
+            "token_id": 1044,
+            "logprob": -5.7812,
+            "prob": 0.0031
+          },
+          {
+            "token": "Ġanswer",
+            "token_id": 2988,
+            "logprob": -6.1562,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġsimulate",
+            "token_id": 18463,
+            "logprob": -6.4062,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġlearn",
+            "token_id": 835,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġassist",
+        "token_id": 4237,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -0.0344,
+            "prob": 0.9648
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -3.7812,
+            "prob": 0.0227
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 351,
+            "logprob": -4.9062,
+            "prob": 0.0074
+          },
+          {
+            "token": "Ġusers",
+            "token_id": 3629,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -7.0312,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġhumans",
+            "token_id": 2973,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġpeople",
+            "token_id": 701,
+            "logprob": -8.5625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġstudents",
+            "token_id": 1058,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -10.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġand",
+        "token_id": 284,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġprovide",
+            "token_id": 1538,
+            "logprob": -0.0552,
+            "prob": 0.9453
+          },
+          {
+            "token": "Ġanswer",
+            "token_id": 2988,
+            "logprob": -3.5625,
+            "prob": 0.0286
+          },
+          {
+            "token": "Ġhelp",
+            "token_id": 724,
+            "logprob": -4.8125,
+            "prob": 0.0082
+          },
+          {
+            "token": "Ġrespond",
+            "token_id": 3535,
+            "logprob": -5.5625,
+            "prob": 0.0039
+          },
+          {
+            "token": "Ġgenerate",
+            "token_id": 5051,
+            "logprob": -6.0625,
+            "prob": 0.0023
+          },
+          {
+            "token": "Ġeducate",
+            "token_id": 12747,
+            "logprob": -6.4375,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġprocess",
+            "token_id": 980,
+            "logprob": -6.4375,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġcommunicate",
+            "token_id": 5865,
+            "logprob": -6.8125,
+            "prob": 0.0011
+          },
+          {
+            "token": "Ġmake",
+            "token_id": 919,
+            "logprob": -6.9375,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġlearn",
+            "token_id": 835,
+            "logprob": -7.0625,
+            "prob": 0.0009
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġprovide",
+        "token_id": 1538,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and provide",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand",
+        "Ġprovide"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284,
+        1538
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġinformation",
+            "token_id": 1096,
+            "logprob": -0.1235,
+            "prob": 0.8828
+          },
+          {
+            "token": "Ġhelpful",
+            "token_id": 5356,
+            "logprob": -2.375,
+            "prob": 0.0933
+          },
+          {
+            "token": "Ġaccurate",
+            "token_id": 5161,
+            "logprob": -4.125,
+            "prob": 0.0162
+          },
+          {
+            "token": "Ġuseful",
+            "token_id": 3465,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġinformative",
+            "token_id": 17628,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġfactual",
+            "token_id": 24253,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġrelevant",
+            "token_id": 4006,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġanswers",
+            "token_id": 5360,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġresponses",
+            "token_id": 5928,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġvaluable",
+            "token_id": 3172,
+            "logprob": -8.75,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġinformative",
+        "token_id": 17628,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and provide informative",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand",
+        "Ġprovide",
+        "Ġinformative"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284,
+        1538,
+        17628
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġresponses",
+            "token_id": 5928,
+            "logprob": -0.3789,
+            "prob": 0.6836
+          },
+          {
+            "token": "Ġcontent",
+            "token_id": 2627,
+            "logprob": -1.2578,
+            "prob": 0.2852
+          },
+          {
+            "token": "Ġanswers",
+            "token_id": 5360,
+            "logprob": -3.625,
+            "prob": 0.0265
+          },
+          {
+            "token": "Ġtext",
+            "token_id": 1694,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġinformation",
+            "token_id": 1096,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġdata",
+            "token_id": 940,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġlanguage",
+            "token_id": 1789,
+            "logprob": -8.9375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġresponse",
+            "token_id": 2426,
+            "logprob": -8.9375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġinsights",
+            "token_id": 4159,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġresponses",
+        "token_id": 5928,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 24,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and provide informative responses",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand",
+        "Ġprovide",
+        "Ġinformative",
+        "Ġresponses"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284,
+        1538,
+        17628,
+        5928
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġto",
+            "token_id": 288,
+            "logprob": -0.0184,
+            "prob": 0.9805
+          },
+          {
+            "token": "Ġbased",
+            "token_id": 1552,
+            "logprob": -4.4062,
+            "prob": 0.0123
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "Ġon",
+            "token_id": 335,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġlike",
+            "token_id": 702,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġin",
+            "token_id": 281,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġwhen",
+            "token_id": 645,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġthrough",
+            "token_id": 738,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -9.75,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġto",
+        "token_id": 288,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 25,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and provide informative responses to",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand",
+        "Ġprovide",
+        "Ġinformative",
+        "Ġresponses",
+        "Ġto"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284,
+        1538,
+        17628,
+        5928,
+        288
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġyour",
+            "token_id": 469,
+            "logprob": -0.9453,
+            "prob": 0.3887
+          },
+          {
+            "token": "Ġquestions",
+            "token_id": 2029,
+            "logprob": -1.1953,
+            "prob": 0.3027
+          },
+          {
+            "token": "Ġuser",
+            "token_id": 2914,
+            "logprob": -2.0781,
+            "prob": 0.126
+          },
+          {
+            "token": "Ġusers",
+            "token_id": 3629,
+            "logprob": -2.0781,
+            "prob": 0.126
+          },
+          {
+            "token": "Ġhelp",
+            "token_id": 724,
+            "logprob": -4.4375,
+            "prob": 0.0117
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 260,
+            "logprob": -4.6875,
+            "prob": 0.0092
+          },
+          {
+            "token": "Ġvarious",
+            "token_id": 1461,
+            "logprob": -5.0625,
+            "prob": 0.0063
+          },
+          {
+            "token": "Ġa",
+            "token_id": 253,
+            "logprob": -5.1875,
+            "prob": 0.0056
+          },
+          {
+            "token": "Ġany",
+            "token_id": 750,
+            "logprob": -5.3125,
+            "prob": 0.0049
+          },
+          {
+            "token": "Ġgeneral",
+            "token_id": 2210,
+            "logprob": -5.8125,
+            "prob": 0.003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġquestions",
+        "token_id": 2029,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 26,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and provide informative responses to questions",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand",
+        "Ġprovide",
+        "Ġinformative",
+        "Ġresponses",
+        "Ġto",
+        "Ġquestions"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284,
+        1538,
+        17628,
+        5928,
+        288,
+        2029
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġand",
+            "token_id": 284,
+            "logprob": -0.3379,
+            "prob": 0.7148
+          },
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -1.7109,
+            "prob": 0.1807
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -3.2188,
+            "prob": 0.0403
+          },
+          {
+            "token": "Ġlike",
+            "token_id": 702,
+            "logprob": -4.2188,
+            "prob": 0.0148
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -5.0938,
+            "prob": 0.0062
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 338,
+            "logprob": -5.0938,
+            "prob": 0.0062
+          },
+          {
+            "token": "Ġfrom",
+            "token_id": 429,
+            "logprob": -5.0938,
+            "prob": 0.0062
+          },
+          {
+            "token": "Ġor",
+            "token_id": 355,
+            "logprob": -5.2188,
+            "prob": 0.0055
+          },
+          {
+            "token": "Ġon",
+            "token_id": 335,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          },
+          {
+            "token": "Ġabout",
+            "token_id": 563,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġand",
+        "token_id": 284,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 27,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and provide informative responses to questions and",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand",
+        "Ġprovide",
+        "Ġinformative",
+        "Ġresponses",
+        "Ġto",
+        "Ġquestions",
+        "Ġand"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284,
+        1538,
+        17628,
+        5928,
+        288,
+        2029,
+        284
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġtopics",
+            "token_id": 4366,
+            "logprob": -1.4219,
+            "prob": 0.2412
+          },
+          {
+            "token": "Ġprompts",
+            "token_id": 19926,
+            "logprob": -1.7969,
+            "prob": 0.166
+          },
+          {
+            "token": "Ġstatements",
+            "token_id": 7868,
+            "logprob": -1.9219,
+            "prob": 0.1465
+          },
+          {
+            "token": "Ġengage",
+            "token_id": 4555,
+            "logprob": -1.9219,
+            "prob": 0.1465
+          },
+          {
+            "token": "Ġtasks",
+            "token_id": 4381,
+            "logprob": -2.0469,
+            "prob": 0.1289
+          },
+          {
+            "token": "Ġqueries",
+            "token_id": 18795,
+            "logprob": -2.6719,
+            "prob": 0.0693
+          },
+          {
+            "token": "Ġrequests",
+            "token_id": 8649,
+            "logprob": -3.0469,
+            "prob": 0.0476
+          },
+          {
+            "token": "Ġhelp",
+            "token_id": 724,
+            "logprob": -4.1562,
+            "prob": 0.0154
+          },
+          {
+            "token": "Ġassist",
+            "token_id": 4237,
+            "logprob": -4.6562,
+            "prob": 0.0093
+          },
+          {
+            "token": "Ġconversations",
+            "token_id": 7581,
+            "logprob": -4.9062,
+            "prob": 0.0073
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġtasks",
+        "token_id": 4381,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 28,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and provide informative responses to questions and tasks",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand",
+        "Ġprovide",
+        "Ġinformative",
+        "Ġresponses",
+        "Ġto",
+        "Ġquestions",
+        "Ġand",
+        "Ġtasks"
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284,
+        1538,
+        17628,
+        5928,
+        288,
+        2029,
+        284,
+        4381
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 30,
+            "logprob": -0.0894,
+            "prob": 0.9141
+          },
+          {
+            "token": ",",
+            "token_id": 28,
+            "logprob": -3.9688,
+            "prob": 0.019
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 338,
+            "logprob": -4.3438,
+            "prob": 0.0131
+          },
+          {
+            "token": "Ġbased",
+            "token_id": 1552,
+            "logprob": -4.3438,
+            "prob": 0.0131
+          },
+          {
+            "token": "Ġon",
+            "token_id": 335,
+            "logprob": -4.3438,
+            "prob": 0.0131
+          },
+          {
+            "token": "Ġwithin",
+            "token_id": 1127,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          },
+          {
+            "token": "Ġas",
+            "token_id": 347,
+            "logprob": -5.4688,
+            "prob": 0.0042
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 346,
+            "logprob": -5.5938,
+            "prob": 0.0037
+          },
+          {
+            "token": "!",
+            "token_id": 17,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "Ġthrough",
+            "token_id": 738,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 30,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 29,
+      "input_text": "<|im_start|>userWho are you?<|im_end|>I'm just an AI, I don't have personal opinions or beliefs. My purpose is to assist and provide informative responses to questions and tasks.",
+      "tokens": [
+        "<|im_start|>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<|im_end|>",
+        "<|im_start|>",
+        "ass",
+        "istant",
+        "I",
+        "'m",
+        "Ġjust",
+        "Ġan",
+        "ĠAI",
+        ",",
+        "ĠI",
+        "Ġdon",
+        "'t",
+        "Ġhave",
+        "Ġpersonal",
+        "Ġopinions",
+        "Ġor",
+        "Ġbeliefs",
+        ".",
+        "ĠMy",
+        "Ġpurpose",
+        "Ġis",
+        "Ġto",
+        "Ġassist",
+        "Ġand",
+        "Ġprovide",
+        "Ġinformative",
+        "Ġresponses",
+        "Ġto",
+        "Ġquestions",
+        "Ġand",
+        "Ġtasks",
+        "."
+      ],
+      "token_ids": [
+        1,
+        4093,
+        10576,
+        359,
+        346,
+        47,
+        2,
+        1,
+        520,
+        9531,
+        57,
+        5248,
+        915,
+        354,
+        5646,
+        28,
+        339,
+        1326,
+        982,
+        457,
+        2143,
+        8428,
+        355,
+        4977,
+        30,
+        3361,
+        3446,
+        314,
+        288,
+        4237,
+        284,
+        1538,
+        17628,
+        5928,
+        288,
+        2029,
+        284,
+        4381,
+        30
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<|im_end|>",
+            "token_id": 2,
+            "logprob": -0.0908,
+            "prob": 0.9141
+          },
+          {
+            "token": "ĠI",
+            "token_id": 339,
+            "logprob": -2.9688,
+            "prob": 0.0515
+          },
+          {
+            "token": "ĠIf",
+            "token_id": 1094,
+            "logprob": -4.5938,
+            "prob": 0.0101
+          },
+          {
+            "token": "\n",
+            "token_id": 198,
+            "logprob": -4.7188,
+            "prob": 0.009
+          },
+          {
+            "token": "ĠHowever",
+            "token_id": 1423,
+            "logprob": -6.0938,
+            "prob": 0.0023
+          },
+          {
+            "token": "ĠMy",
+            "token_id": 3361,
+            "logprob": -6.4688,
+            "prob": 0.0016
+          },
+          {
+            "token": "ĠWhat",
+            "token_id": 1812,
+            "logprob": -6.7188,
+            "prob": 0.0012
+          },
+          {
+            "token": "ĠYou",
+            "token_id": 1206,
+            "logprob": -6.9688,
+            "prob": 0.0009
+          },
+          {
+            "token": "ĠCan",
+            "token_id": 1978,
+            "logprob": -7.3438,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġ�",
+            "token_id": 40303,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<|im_end|>",
+        "token_id": 2,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

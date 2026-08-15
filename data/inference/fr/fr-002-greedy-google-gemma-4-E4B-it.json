@@ -1,0 +1,5492 @@
+{
+  "id": "generated_20260815_222739",
+  "prompt": "Raconte-moi une blague",
+  "language": "fr",
+  "temperature": 0.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Bien",
+            "token_id": 47330,
+            "logprob": -0.5781,
+            "prob": 0.5625
+          },
+          {
+            "token": "Pourquoi",
+            "token_id": 199936,
+            "logprob": -0.8281,
+            "prob": 0.4375
+          },
+          {
+            "token": "Voici",
+            "token_id": 129930,
+            "logprob": -8.1875,
+            "prob": 0.0003
+          },
+          {
+            "token": "Abs",
+            "token_id": 24005,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Que",
+            "token_id": 10816,
+            "logprob": -8.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Deux",
+            "token_id": 166056,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Quel",
+            "token_id": 129473,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "J",
+            "token_id": 236863,
+            "logprob": -9.6875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Je",
+            "token_id": 18109,
+            "logprob": -9.6875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Par",
+            "token_id": 3128,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Bien",
+        "token_id": 47330,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġsûr",
+            "token_id": 69841,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -13.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsur",
+            "token_id": 1270,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsû",
+            "token_id": 50250,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvoici",
+            "token_id": 119704,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcourse",
+            "token_id": 3003,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġd",
+            "token_id": 513,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbien",
+            "token_id": 6472,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġentendu",
+            "token_id": 130256,
+            "logprob": -17.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsûr",
+        "token_id": 69841,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.2012,
+            "prob": 0.8164
+          },
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -1.7031,
+            "prob": 0.1826
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -10.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "(",
+            "token_id": 236769,
+            "logprob": -10.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ!)",
+            "token_id": 194398,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ!\\",
+            "token_id": 89590,
+            "logprob": -16.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -0.0004,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġvoici",
+            "token_id": 119704,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġla",
+            "token_id": 759,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtiens",
+            "token_id": 205640,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġj",
+            "token_id": 673,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlance",
+            "token_id": 63180,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġprend",
+            "token_id": 17391,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġles",
+            "token_id": 1640,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpourquoi",
+            "token_id": 64148,
+            "logprob": -14.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġen",
+        "token_id": 696,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġvoici",
+            "token_id": 119704,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġvoilà",
+            "token_id": 70862,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "file",
+            "token_id": 2164,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġt",
+            "token_id": 494,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "voie",
+            "token_id": 158367,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfait",
+            "token_id": 10426,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġla",
+            "token_id": 759,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "cha",
+            "token_id": 4936,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmode",
+            "token_id": 5354,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠVoici",
+            "token_id": 104298,
+            "logprob": -18.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġvoici",
+        "token_id": 119704,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġune",
+            "token_id": 3037,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġun",
+            "token_id": 723,
+            "logprob": -18.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdé",
+            "token_id": 2972,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġuna",
+            "token_id": 1985,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġquelques",
+            "token_id": 21532,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "une",
+            "token_id": 2253,
+            "logprob": -21.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -22.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġune",
+        "token_id": 3037,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -0.4824,
+            "prob": 0.6172
+          },
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -1.1094,
+            "prob": 0.3301
+          },
+          {
+            "token": "Ġpour",
+            "token_id": 2637,
+            "logprob": -3.1094,
+            "prob": 0.0447
+          },
+          {
+            "token": "Ġclassique",
+            "token_id": 98724,
+            "logprob": -5.0938,
+            "prob": 0.006
+          },
+          {
+            "token": "Ġpetite",
+            "token_id": 35256,
+            "logprob": -6.9688,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -10.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ🙂",
+            "token_id": 57235,
+            "logprob": -10.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ:",
+        "token_id": 1017,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Pourquoi",
+            "token_id": 199936,
+            "logprob": -0.2012,
+            "prob": 0.8164
+          },
+          {
+            "token": ">",
+            "token_id": 236813,
+            "logprob": -2.0781,
+            "prob": 0.125
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -3.0781,
+            "prob": 0.0461
+          },
+          {
+            "token": "Que",
+            "token_id": 10816,
+            "logprob": -5.3125,
+            "prob": 0.0049
+          },
+          {
+            "token": "C",
+            "token_id": 236780,
+            "logprob": -5.4375,
+            "prob": 0.0043
+          },
+          {
+            "token": "Deux",
+            "token_id": 166056,
+            "logprob": -6.8125,
+            "prob": 0.0011
+          },
+          {
+            "token": "---",
+            "token_id": 7243,
+            "logprob": -9.6875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Un",
+            "token_id": 2805,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Quel",
+            "token_id": 129473,
+            "logprob": -11.25,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -11.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Pourquoi",
+        "token_id": 199936,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġles",
+            "token_id": 1640,
+            "logprob": -0.005,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "Ġest",
+            "token_id": 1009,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġla",
+            "token_id": 759,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdev",
+            "token_id": 2179,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġes",
+            "token_id": 1115,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġavons",
+            "token_id": 25948,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġétait",
+            "token_id": 19068,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsuis",
+            "token_id": 28102,
+            "logprob": -15.9375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġles",
+        "token_id": 1640,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġplonge",
+            "token_id": 206627,
+            "logprob": -0.0312,
+            "prob": 0.9688
+          },
+          {
+            "token": "Ġpoissons",
+            "token_id": 174018,
+            "logprob": -3.5312,
+            "prob": 0.0293
+          },
+          {
+            "token": "Ġprogramme",
+            "token_id": 12107,
+            "logprob": -7.5312,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġoiseaux",
+            "token_id": 192898,
+            "logprob": -7.9062,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġlégumes",
+            "token_id": 157165,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġlivres",
+            "token_id": 75104,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġordinate",
+            "token_id": 75475,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġpou",
+            "token_id": 6741,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġchats",
+            "token_id": 70842,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġsa",
+            "token_id": 890,
+            "logprob": -10.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġplonge",
+        "token_id": 206627,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plonge",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "urs",
+            "token_id": 1857,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ours",
+            "token_id": 2278,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "uses",
+            "token_id": 4407,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ur",
+            "token_id": 556,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "eurs",
+            "token_id": 19911,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "URS",
+            "token_id": 66481,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ons",
+            "token_id": 1190,
+            "logprob": -22.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ors",
+            "token_id": 913,
+            "logprob": -22.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ants",
+            "token_id": 1639,
+            "logprob": -23.125,
+            "prob": 0.0
+          },
+          {
+            "token": "rs",
+            "token_id": 5532,
+            "logprob": -23.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "urs",
+        "token_id": 1857,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġplong",
+            "token_id": 145322,
+            "logprob": -0.0007,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġtomb",
+            "token_id": 44064,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġplonge",
+            "token_id": 206627,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpart",
+            "token_id": 912,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtouche",
+            "token_id": 85401,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġretour",
+            "token_id": 37175,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdécro",
+            "token_id": 196123,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdesc",
+            "token_id": 8061,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsont",
+            "token_id": 5817,
+            "logprob": -15.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġplong",
+        "token_id": 145322,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plong",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ent",
+            "token_id": 533,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "eraient",
+            "token_id": 206466,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "èrent",
+            "token_id": 48382,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "er",
+            "token_id": 497,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġent",
+            "token_id": 1175,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ents",
+            "token_id": 876,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "és",
+            "token_id": 1875,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ifient",
+            "token_id": 228290,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "es",
+            "token_id": 507,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ENT",
+            "token_id": 2954,
+            "logprob": -20.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ent",
+        "token_id": 533,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġtoujours",
+            "token_id": 21624,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġils",
+            "token_id": 21474,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġparfois",
+            "token_id": 58493,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġquand",
+            "token_id": 27994,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhors",
+            "token_id": 15432,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġloin",
+            "token_id": 53054,
+            "logprob": -21.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "-",
+        "token_id": 236772,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ils",
+            "token_id": 3448,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "elles",
+            "token_id": 8604,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ifs",
+            "token_id": 15058,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ILS",
+            "token_id": 36445,
+            "logprob": -21.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġils",
+            "token_id": 21474,
+            "logprob": -25.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ever",
+            "token_id": 1627,
+            "logprob": -25.75,
+            "prob": 0.0
+          },
+          {
+            "token": "en",
+            "token_id": 501,
+            "logprob": -25.875,
+            "prob": 0.0
+          },
+          {
+            "token": "verts",
+            "token_id": 33278,
+            "logprob": -26.125,
+            "prob": 0.0
+          },
+          {
+            "token": "liv",
+            "token_id": 30584,
+            "logprob": -26.875,
+            "prob": 0.0
+          },
+          {
+            "token": "iv",
+            "token_id": 648,
+            "logprob": -27.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ils",
+        "token_id": 3448,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġtoujours",
+            "token_id": 21624,
+            "logprob": -0.0031,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -5.875,
+            "prob": 0.0028
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -8.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġà",
+            "token_id": 1608,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġderrière",
+            "token_id": 86073,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdepuis",
+            "token_id": 19478,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsous",
+            "token_id": 14940,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -13.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġtoujours",
+        "token_id": 21624,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġen",
+            "token_id": 696,
+            "logprob": -0.0003,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġderrière",
+            "token_id": 86073,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvers",
+            "token_id": 2271,
+            "logprob": -10.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġà",
+            "token_id": 1608,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -13.125,
+            "prob": 0.0
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtête",
+            "token_id": 40119,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdepuis",
+            "token_id": 19478,
+            "logprob": -15.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġen",
+        "token_id": 696,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġarrière",
+            "token_id": 51300,
+            "logprob": -0.0006,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġavant",
+            "token_id": 15994,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -12.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġar",
+            "token_id": 863,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -13.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġaprès",
+            "token_id": 18334,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġар",
+            "token_id": 14519,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpremier",
+            "token_id": 16086,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "arrière",
+            "token_id": 149879,
+            "logprob": -16.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġarrière",
+        "token_id": 51300,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdu",
+            "token_id": 1747,
+            "logprob": -0.6133,
+            "prob": 0.543
+          },
+          {
+            "token": "Ġ?",
+            "token_id": 2360,
+            "logprob": -1.3594,
+            "prob": 0.2559
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -1.9844,
+            "prob": 0.1367
+          },
+          {
+            "token": "Ġdepuis",
+            "token_id": 19478,
+            "logprob": -3.3594,
+            "prob": 0.0347
+          },
+          {
+            "token": "Ġhors",
+            "token_id": 15432,
+            "logprob": -3.6094,
+            "prob": 0.027
+          },
+          {
+            "token": "Ġdes",
+            "token_id": 853,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "Ġà",
+            "token_id": 1608,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġd",
+            "token_id": 513,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġpar",
+            "token_id": 944,
+            "logprob": -9.875,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġdu",
+        "token_id": 1747,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġbateau",
+            "token_id": 124708,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġnav",
+            "token_id": 5760,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġsous",
+            "token_id": 14940,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbate",
+            "token_id": 59435,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbord",
+            "token_id": 24113,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġchal",
+            "token_id": 53986,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 740,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠB",
+            "token_id": 603,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "bate",
+            "token_id": 94719,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġgroupe",
+            "token_id": 35302,
+            "logprob": -16.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġbateau",
+        "token_id": 124708,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ?",
+            "token_id": 2360,
+            "logprob": -0.0162,
+            "prob": 0.9844
+          },
+          {
+            "token": "Ġet",
+            "token_id": 1008,
+            "logprob": -4.1562,
+            "prob": 0.0159
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ?!",
+            "token_id": 187212,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "�",
+            "token_id": 464,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpirate",
+            "token_id": 72650,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ🤔",
+            "token_id": 235892,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "�",
+            "token_id": 432,
+            "logprob": -14.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ?",
+        "token_id": 2360,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -0.0057,
+            "prob": 0.9961
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "🤔",
+            "token_id": 242846,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Par",
+            "token_id": 3128,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "…",
+            "token_id": 237064,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "😂",
+            "token_id": 239927,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "🐟",
+            "token_id": 246955,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "🥁",
+            "token_id": 247087,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "🚢",
+            "token_id": 249705,
+            "logprob": -11.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "---",
+            "token_id": 7243,
+            "logprob": -12.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "...",
+        "token_id": 1390,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?...",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "..."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠParce",
+            "token_id": 155606,
+            "logprob": -0.0141,
+            "prob": 0.9844
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "ĠPar",
+            "token_id": 3221,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "Par",
+            "token_id": 3128,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "ĠPour",
+            "token_id": 16474,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "ĠPerché",
+            "token_id": 176109,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPAR",
+            "token_id": 20419,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġparce",
+            "token_id": 31435,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPorque",
+            "token_id": 55165,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -12.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠParce",
+        "token_id": 155606,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġque",
+            "token_id": 929,
+            "logprob": -0.0003,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġqu",
+            "token_id": 690,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġsinon",
+            "token_id": 99164,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġautrement",
+            "token_id": 188563,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġalors",
+            "token_id": 22311,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġba",
+            "token_id": 5394,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġd",
+            "token_id": 513,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -21.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġque",
+        "token_id": 929,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 24,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġsinon",
+            "token_id": 99164,
+            "logprob": -0.1426,
+            "prob": 0.8672
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -2.0156,
+            "prob": 0.1328
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġde",
+            "token_id": 569,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdepuis",
+            "token_id": 19478,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġd",
+            "token_id": 513,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠS",
+            "token_id": 555,
+            "logprob": -16.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsinon",
+        "token_id": 99164,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 25,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.2012,
+            "prob": 0.8164
+          },
+          {
+            "token": "Ġils",
+            "token_id": 21474,
+            "logprob": -1.7031,
+            "prob": 0.1826
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġil",
+            "token_id": 1998,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġça",
+            "token_id": 20924,
+            "logprob": -15.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġelles",
+            "token_id": 31406,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠIls",
+            "token_id": 38480,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġc",
+            "token_id": 505,
+            "logprob": -17.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 26,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġils",
+            "token_id": 21474,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġça",
+            "token_id": 20924,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġil",
+            "token_id": 1998,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġplonge",
+            "token_id": 206627,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġelles",
+            "token_id": 31406,
+            "logprob": -13.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġy",
+            "token_id": 570,
+            "logprob": -14.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -15.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "ils",
+            "token_id": 3448,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -15.5625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġils",
+        "token_id": 21474,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 27,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġtomb",
+            "token_id": 44064,
+            "logprob": -0.0004,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġtomber",
+            "token_id": 137475,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġplong",
+            "token_id": 145322,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġy",
+            "token_id": 570,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfin",
+            "token_id": 1815,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtom",
+            "token_id": 6402,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġchut",
+            "token_id": 128415,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvont",
+            "token_id": 53055,
+            "logprob": -13.8125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġtomb",
+        "token_id": 44064,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 28,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tomb",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ent",
+            "token_id": 533,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "eraient",
+            "token_id": 206466,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "èrent",
+            "token_id": 48382,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ent",
+            "token_id": 4724,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġent",
+            "token_id": 1175,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ant",
+            "token_id": 638,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -22.625,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -22.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ENT",
+            "token_id": 2954,
+            "logprob": -22.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ont",
+            "token_id": 830,
+            "logprob": -23.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ent",
+        "token_id": 533,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 29,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tombent",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb",
+        "ent"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064,
+        533
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -1.1016,
+            "prob": 0.332
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -1.2266,
+            "prob": 0.293
+          },
+          {
+            "token": "Ġdans",
+            "token_id": 2880,
+            "logprob": -1.2266,
+            "prob": 0.293
+          },
+          {
+            "token": "ĠD",
+            "token_id": 622,
+            "logprob": -2.8594,
+            "prob": 0.0576
+          },
+          {
+            "token": "Ġdedans",
+            "token_id": 170885,
+            "logprob": -3.7344,
+            "prob": 0.024
+          },
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ*$",
+            "token_id": 137042,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġtoujours",
+            "token_id": 21624,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdirectement",
+            "token_id": 62884,
+            "logprob": -11.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ*",
+        "token_id": 808,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 30,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tombent *",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb",
+        "ent",
+        "Ġ*"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064,
+        533,
+        808
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "dans",
+            "token_id": 98707,
+            "logprob": -0.0012,
+            "prob": 1.0
+          },
+          {
+            "token": "ded",
+            "token_id": 7156,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "direct",
+            "token_id": 12293,
+            "logprob": -11.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "par",
+            "token_id": 1215,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "en",
+            "token_id": 501,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "sur",
+            "token_id": 12009,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "tout",
+            "token_id": 33334,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "vite",
+            "token_id": 68565,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "jam",
+            "token_id": 21741,
+            "logprob": -15.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "dent",
+            "token_id": 57804,
+            "logprob": -15.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "dans",
+        "token_id": 98707,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 31,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tombent *dans",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb",
+        "ent",
+        "Ġ*",
+        "dans"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064,
+        533,
+        808,
+        98707
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "*",
+            "token_id": 236829,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġleur",
+            "token_id": 11004,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġeux",
+            "token_id": 46975,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "*.",
+            "token_id": 22429,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġles",
+            "token_id": 1640,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlui",
+            "token_id": 12848,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "</em>",
+            "token_id": 208,
+            "logprob": -19.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "*",
+        "token_id": 236829,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 32,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tombent *dans*",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb",
+        "ent",
+        "Ġ*",
+        "dans",
+        "*"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064,
+        533,
+        808,
+        98707,
+        236829
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġle",
+            "token_id": 674,
+            "logprob": -0.0004,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġlui",
+            "token_id": 12848,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġbateau",
+            "token_id": 124708,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcelui",
+            "token_id": 29634,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġeux",
+            "token_id": 46975,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġl",
+            "token_id": 537,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġleur",
+            "token_id": 11004,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ!!!",
+            "token_id": 42228,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġce",
+            "token_id": 2534,
+            "logprob": -14.8125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġle",
+        "token_id": 674,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 33,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tombent *dans* le",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb",
+        "ent",
+        "Ġ*",
+        "dans",
+        "*",
+        "Ġle"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064,
+        533,
+        808,
+        98707,
+        236829,
+        674
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġbateau",
+            "token_id": 124708,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġbate",
+            "token_id": 59435,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbon",
+            "token_id": 7326,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbat",
+            "token_id": 9537,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmarin",
+            "token_id": 73059,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsous",
+            "token_id": 14940,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbout",
+            "token_id": 18676,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġnav",
+            "token_id": 5760,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbord",
+            "token_id": 24113,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtrem",
+            "token_id": 16597,
+            "logprob": -17.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġbateau",
+        "token_id": 124708,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 34,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tombent *dans* le bateau",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb",
+        "ent",
+        "Ġ*",
+        "dans",
+        "*",
+        "Ġle",
+        "Ġbateau"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064,
+        533,
+        808,
+        98707,
+        236829,
+        674,
+        124708
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ!",
+            "token_id": 1717,
+            "logprob": -0.0013,
+            "prob": 1.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġ!!",
+            "token_id": 16316,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "�",
+            "token_id": 464,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ!!!",
+            "token_id": 42228,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpirate",
+            "token_id": 72650,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġquoi",
+            "token_id": 53597,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ!\"",
+            "token_id": 103970,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "�",
+            "token_id": 432,
+            "logprob": -17.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ!",
+        "token_id": 1717,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 35,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tombent *dans* le bateau !",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb",
+        "ent",
+        "Ġ*",
+        "dans",
+        "*",
+        "Ġle",
+        "Ġbateau",
+        "Ġ!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064,
+        533,
+        808,
+        98707,
+        236829,
+        674,
+        124708,
+        1717
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -0.2637,
+            "prob": 0.7695
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -2.1406,
+            "prob": 0.1177
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -2.3906,
+            "prob": 0.0918
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -4.0,
+            "prob": 0.0181
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -5.625,
+            "prob": 0.0036
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġ😁",
+            "token_id": 170124,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -8.9375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😂😂",
+            "token_id": 185893,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😎",
+            "token_id": 148210,
+            "logprob": -12.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ😂",
+        "token_id": 87633,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 36,
+      "input_text": "<|turn>userRaconte-moi une blague<turn|>Bien sûr, en voici une :Pourquoi les plongeurs plongent-ils toujours en arrière du bateau ?... Parce que sinon, ils tombent *dans* le bateau ! 😂",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "R",
+        "acon",
+        "te",
+        "-",
+        "moi",
+        "Ġune",
+        "Ġbl",
+        "ague",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Bien",
+        "Ġsûr",
+        ",",
+        "Ġen",
+        "Ġvoici",
+        "Ġune",
+        "Ġ:",
+        "Pourquoi",
+        "Ġles",
+        "Ġplonge",
+        "urs",
+        "Ġplong",
+        "ent",
+        "-",
+        "ils",
+        "Ġtoujours",
+        "Ġen",
+        "Ġarrière",
+        "Ġdu",
+        "Ġbateau",
+        "Ġ?",
+        "...",
+        "ĠParce",
+        "Ġque",
+        "Ġsinon",
+        ",",
+        "Ġils",
+        "Ġtomb",
+        "ent",
+        "Ġ*",
+        "dans",
+        "*",
+        "Ġle",
+        "Ġbateau",
+        "Ġ!",
+        "Ġ😂"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236794,
+        14814,
+        654,
+        236772,
+        89688,
+        3037,
+        1105,
+        5090,
+        106,
+        105,
+        4368,
+        47330,
+        69841,
+        236764,
+        696,
+        119704,
+        3037,
+        1017,
+        199936,
+        1640,
+        206627,
+        1857,
+        145322,
+        533,
+        236772,
+        3448,
+        21624,
+        696,
+        51300,
+        1747,
+        124708,
+        2360,
+        1390,
+        155606,
+        929,
+        99164,
+        236764,
+        21474,
+        44064,
+        533,
+        808,
+        98707,
+        236829,
+        674,
+        124708,
+        1717,
+        87633
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0126,
+            "prob": 0.9883
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -4.375,
+            "prob": 0.0125
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "🚢",
+            "token_id": 249705,
+            "logprob": -10.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -10.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "🐟",
+            "token_id": 246955,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "🌊",
+            "token_id": 244245,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "🎣",
+            "token_id": 251563,
+            "logprob": -13.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "greedy",
+        "special": true
+      }
+    }
+  ]
+}

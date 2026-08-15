@@ -1,0 +1,1492 @@
+{
+  "id": "generated_20260815_223026",
+  "prompt": "Hlavní město Česka je",
+  "language": "cs",
+  "temperature": 1.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Hlav",
+            "token_id": 164972,
+            "logprob": -0.0396,
+            "prob": 0.9609
+          },
+          {
+            "token": "Pra",
+            "token_id": 70163,
+            "logprob": -3.9219,
+            "prob": 0.0199
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -4.1562,
+            "prob": 0.0156
+          },
+          {
+            "token": "St",
+            "token_id": 894,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "H",
+            "token_id": 236814,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "Kol",
+            "token_id": 73653,
+            "logprob": -8.8125,
+            "prob": 0.0002
+          },
+          {
+            "token": "ĠHlav",
+            "token_id": 204553,
+            "logprob": -8.8125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Prim",
+            "token_id": 43370,
+            "logprob": -8.8125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Star",
+            "token_id": 7032,
+            "logprob": -9.1875,
+            "prob": 0.0001
+          },
+          {
+            "token": "V",
+            "token_id": 236847,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Hlav",
+        "token_id": 164972,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlav",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ní",
+            "token_id": 6465,
+            "logprob": -0.0233,
+            "prob": 0.9766
+          },
+          {
+            "token": "ním",
+            "token_id": 45866,
+            "logprob": -3.7656,
+            "prob": 0.0229
+          },
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ního",
+            "token_id": 52353,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ními",
+            "token_id": 212388,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ím",
+            "token_id": 9433,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ni",
+            "token_id": 3598,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": ".*?",
+            "token_id": 143684,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "nim",
+            "token_id": 27127,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġní",
+            "token_id": 74242,
+            "logprob": -22.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ní",
+        "token_id": 6465,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmě",
+            "token_id": 30375,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġměsta",
+            "token_id": 165491,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "mě",
+            "token_id": 70025,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмісто",
+            "token_id": 218163,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmá",
+            "token_id": 9102,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmi",
+            "token_id": 3628,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠM",
+            "token_id": 587,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmí",
+            "token_id": 35748,
+            "logprob": -22.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmě",
+        "token_id": 30375,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní mě",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "sto",
+            "token_id": 13689,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "stem",
+            "token_id": 37019,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "s",
+            "token_id": 236751,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "сто",
+            "token_id": 2933,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "što",
+            "token_id": 72981,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "lo",
+            "token_id": 844,
+            "logprob": -21.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ste",
+            "token_id": 2906,
+            "logprob": -22.375,
+            "prob": 0.0
+          },
+          {
+            "token": "no",
+            "token_id": 1904,
+            "logprob": -23.875,
+            "prob": 0.0
+          },
+          {
+            "token": "sí",
+            "token_id": 81880,
+            "logprob": -23.875,
+            "prob": 0.0
+          },
+          {
+            "token": "stop",
+            "token_id": 11412,
+            "logprob": -24.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "sto",
+        "token_id": 13689,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní město",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375,
+        13689
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠČeské",
+            "token_id": 162395,
+            "logprob": -0.4316,
+            "prob": 0.6484
+          },
+          {
+            "token": "ĠČ",
+            "token_id": 23616,
+            "logprob": -1.0547,
+            "prob": 0.3477
+          },
+          {
+            "token": "ĠČesk",
+            "token_id": 143390,
+            "logprob": -6.9375,
+            "prob": 0.001
+          },
+          {
+            "token": "ĠČR",
+            "token_id": 226864,
+            "logprob": -7.3125,
+            "prob": 0.0007
+          },
+          {
+            "token": "ĠCzech",
+            "token_id": 35074,
+            "logprob": -7.9375,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -8.5625,
+            "prob": 0.0002
+          },
+          {
+            "token": "ĠЧе",
+            "token_id": 50037,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġč",
+            "token_id": 7282,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠČe",
+            "token_id": 145742,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠCes",
+            "token_id": 26390,
+            "logprob": -14.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠČeské",
+        "token_id": 162395,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní město České",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČeské"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375,
+        13689,
+        162395
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġrepubliky",
+            "token_id": 210839,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠRepublik",
+            "token_id": 104077,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠRépublique",
+            "token_id": 91729,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġrepub",
+            "token_id": 57984,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġzemě",
+            "token_id": 203517,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġجمہوری",
+            "token_id": 230243,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠRepublic",
+            "token_id": 9145,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠRep",
+            "token_id": 4150,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġná",
+            "token_id": 26118,
+            "logprob": -18.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġrepubliky",
+        "token_id": 210839,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní město České republiky",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČeské",
+        "Ġrepubliky"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375,
+        13689,
+        162395,
+        210839
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -0.0011,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġjest",
+            "token_id": 11170,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠCzech",
+            "token_id": 35074,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -13.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġjsou",
+            "token_id": 37465,
+            "logprob": -14.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠČ",
+            "token_id": 23616,
+            "logprob": -14.8125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġje",
+        "token_id": 2185,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní město České republiky je",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČeské",
+        "Ġrepubliky",
+        "Ġje"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375,
+        13689,
+        162395,
+        210839,
+        2185
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠPraha",
+            "token_id": 124995,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPra",
+            "token_id": 20354,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ***",
+            "token_id": 27435,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": ":",
+            "token_id": 236787,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpra",
+            "token_id": 8034,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPr",
+            "token_id": 2419,
+            "logprob": -15.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ**",
+        "token_id": 5213,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní město České republiky je **",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČeské",
+        "Ġrepubliky",
+        "Ġje",
+        "Ġ**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375,
+        13689,
+        162395,
+        210839,
+        2185,
+        5213
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Pra",
+            "token_id": 70163,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "Pr",
+            "token_id": 3778,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "PRA",
+            "token_id": 186813,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ji",
+            "token_id": 69894,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPraha",
+            "token_id": 124995,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "pra",
+            "token_id": 56842,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "P",
+            "token_id": 236791,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Br",
+            "token_id": 7320,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "B",
+            "token_id": 236799,
+            "logprob": -18.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Pra",
+        "token_id": 70163,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní město České republiky je **Pra",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČeské",
+        "Ġrepubliky",
+        "Ġje",
+        "Ġ**",
+        "Pra"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375,
+        13689,
+        162395,
+        210839,
+        2185,
+        5213,
+        70163
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ha",
+            "token_id": 2118,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġha",
+            "token_id": 678,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ga",
+            "token_id": 2169,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "га",
+            "token_id": 2680,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "हा",
+            "token_id": 1790,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "হা",
+            "token_id": 26417,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "has",
+            "token_id": 5594,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ھا",
+            "token_id": 96982,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ž",
+            "token_id": 237157,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "gha",
+            "token_id": 100458,
+            "logprob": -18.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ha",
+        "token_id": 2118,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní město České republiky je **Praha",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČeské",
+        "Ġrepubliky",
+        "Ġje",
+        "Ġ**",
+        "Pra",
+        "ha"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375,
+        13689,
+        162395,
+        210839,
+        2185,
+        5213,
+        70163,
+        2118
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**.",
+            "token_id": 84750,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "**,",
+            "token_id": 125546,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "́",
+            "token_id": 238288,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ($\\",
+            "token_id": 77891,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPl",
+            "token_id": 1973,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": ".**",
+            "token_id": 99382,
+            "logprob": -18.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**.",
+        "token_id": 84750,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userHlavní město Česka je<turn|>Hlavní město České republiky je **Praha**.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČ",
+        "es",
+        "ka",
+        "Ġje",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Hlav",
+        "ní",
+        "Ġmě",
+        "sto",
+        "ĠČeské",
+        "Ġrepubliky",
+        "Ġje",
+        "Ġ**",
+        "Pra",
+        "ha",
+        "**."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        164972,
+        6465,
+        30375,
+        13689,
+        23616,
+        507,
+        2339,
+        2185,
+        106,
+        105,
+        4368,
+        164972,
+        6465,
+        30375,
+        13689,
+        162395,
+        210839,
+        2185,
+        5213,
+        70163,
+        2118,
+        84750
+      ],
+      "special_idx": [
+        0,
+        1,
+        10,
+        11,
+        12
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "<eos>",
+            "token_id": 1,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠPř",
+            "token_id": 111360,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠNat",
+            "token_id": 9029,
+            "logprob": -17.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

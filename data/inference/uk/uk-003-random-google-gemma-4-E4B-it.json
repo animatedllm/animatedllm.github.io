@@ -1,0 +1,4400 @@
+{
+  "id": "generated_20260815_222933",
+  "prompt": "Столиця України це",
+  "language": "uk",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userСтолиця України це<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Сто",
+            "token_id": 127677,
+            "logprob": -0.0208,
+            "prob": 0.9805
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -4.0312,
+            "prob": 0.0179
+          },
+          {
+            "token": "Ста",
+            "token_id": 21892,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "С",
+            "token_id": 237117,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ва",
+            "token_id": 51869,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ско",
+            "token_id": 124650,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "СТО",
+            "token_id": 220289,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "В",
+            "token_id": 237146,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "сто",
+            "token_id": 2933,
+            "logprob": -12.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "С",
+        "token_id": 237117,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userСтолиця України це<turn|>С",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "тов",
+            "token_id": 7468,
+            "logprob": -0.0137,
+            "prob": 0.9883
+          },
+          {
+            "token": "ті",
+            "token_id": 22649,
+            "logprob": -5.5938,
+            "prob": 0.0038
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "те",
+            "token_id": 1305,
+            "logprob": -6.0938,
+            "prob": 0.0023
+          },
+          {
+            "token": "ьогодні",
+            "token_id": 69013,
+            "logprob": -6.5312,
+            "prob": 0.0014
+          },
+          {
+            "token": "ум",
+            "token_id": 50896,
+            "logprob": -7.2188,
+            "prob": 0.0007
+          },
+          {
+            "token": "хо",
+            "token_id": 2992,
+            "logprob": -7.5,
+            "prob": 0.0005
+          },
+          {
+            "token": "права",
+            "token_id": 199644,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "хід",
+            "token_id": 44010,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "хи",
+            "token_id": 10905,
+            "logprob": -8.625,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ум",
+        "token_id": 50896,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сум",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ні",
+            "token_id": 4380,
+            "logprob": -0.3457,
+            "prob": 0.707
+          },
+          {
+            "token": "ська",
+            "token_id": 34168,
+            "logprob": -2.4062,
+            "prob": 0.0898
+          },
+          {
+            "token": "лін",
+            "token_id": 138510,
+            "logprob": -3.0312,
+            "prob": 0.0481
+          },
+          {
+            "token": "но",
+            "token_id": 924,
+            "logprob": -3.7188,
+            "prob": 0.0243
+          },
+          {
+            "token": "ський",
+            "token_id": 43878,
+            "logprob": -3.7188,
+            "prob": 0.0243
+          },
+          {
+            "token": "щина",
+            "token_id": 90757,
+            "logprob": -4.2188,
+            "prob": 0.0147
+          },
+          {
+            "token": "ний",
+            "token_id": 6044,
+            "logprob": -4.4688,
+            "prob": 0.0115
+          },
+          {
+            "token": "на",
+            "token_id": 911,
+            "logprob": -4.5938,
+            "prob": 0.0101
+          },
+          {
+            "token": "ниць",
+            "token_id": 114824,
+            "logprob": -4.7188,
+            "prob": 0.0089
+          },
+          {
+            "token": "ми",
+            "token_id": 2062,
+            "logprob": -4.8438,
+            "prob": 0.0079
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ська",
+        "token_id": 34168,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -0.6367,
+            "prob": 0.5273
+          },
+          {
+            "token": "Ġобласть",
+            "token_id": 75484,
+            "logprob": -0.8867,
+            "prob": 0.4121
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -3.7656,
+            "prob": 0.0232
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġмі",
+            "token_id": 18549,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "Ġстоли",
+            "token_id": 98656,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "Ġобласт",
+            "token_id": 89261,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġобла",
+            "token_id": 16460,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "ĠКиїв",
+            "token_id": 138799,
+            "logprob": -7.5,
+            "prob": 0.0005
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġмі",
+        "token_id": 18549,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мі",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ська",
+            "token_id": 34168,
+            "logprob": -0.0093,
+            "prob": 0.9922
+          },
+          {
+            "token": "сь",
+            "token_id": 3519,
+            "logprob": -5.1875,
+            "prob": 0.0055
+          },
+          {
+            "token": "сія",
+            "token_id": 105023,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          },
+          {
+            "token": "чина",
+            "token_id": 22069,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "ша",
+            "token_id": 6193,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "ст",
+            "token_id": 871,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "стя",
+            "token_id": 54242,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "тин",
+            "token_id": 28200,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "стер",
+            "token_id": 27542,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "сі",
+            "token_id": 13813,
+            "logprob": -10.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "тин",
+        "token_id": 28200,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ка",
+            "token_id": 1173,
+            "logprob": -0.9883,
+            "prob": 0.3711
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -1.8359,
+            "prob": 0.1602
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -2.2969,
+            "prob": 0.1001
+          },
+          {
+            "token": "на",
+            "token_id": 911,
+            "logprob": -2.7969,
+            "prob": 0.0608
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -2.8594,
+            "prob": 0.0571
+          },
+          {
+            "token": "ська",
+            "token_id": 34168,
+            "logprob": -3.1719,
+            "prob": 0.0417
+          },
+          {
+            "token": "га",
+            "token_id": 2680,
+            "logprob": -3.3281,
+            "prob": 0.0356
+          },
+          {
+            "token": "ниця",
+            "token_id": 163550,
+            "logprob": -4.125,
+            "prob": 0.0164
+          },
+          {
+            "token": "ці",
+            "token_id": 6849,
+            "logprob": -4.3125,
+            "prob": 0.0135
+          },
+          {
+            "token": "ця",
+            "token_id": 44910,
+            "logprob": -4.3125,
+            "prob": 0.0135
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġстоли",
+            "token_id": 98656,
+            "logprob": -1.7812,
+            "prob": 0.168
+          },
+          {
+            "token": "ĠКиїв",
+            "token_id": 138799,
+            "logprob": -2.0312,
+            "prob": 0.1309
+          },
+          {
+            "token": "Ġце",
+            "token_id": 12646,
+            "logprob": -2.6562,
+            "prob": 0.0703
+          },
+          {
+            "token": "Ġале",
+            "token_id": 50326,
+            "logprob": -2.7812,
+            "prob": 0.0618
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -2.9062,
+            "prob": 0.0547
+          },
+          {
+            "token": "Ġяк",
+            "token_id": 21923,
+            "logprob": -3.0312,
+            "prob": 0.0481
+          },
+          {
+            "token": "Ġяка",
+            "token_id": 69024,
+            "logprob": -3.1562,
+            "prob": 0.0425
+          },
+          {
+            "token": "Ġа",
+            "token_id": 1943,
+            "logprob": -3.2812,
+            "prob": 0.0376
+          },
+          {
+            "token": "Ġщо",
+            "token_id": 16830,
+            "logprob": -3.5312,
+            "prob": 0.0292
+          },
+          {
+            "token": "Ġабо",
+            "token_id": 34694,
+            "logprob": -3.9062,
+            "prob": 0.0201
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġщо",
+        "token_id": 16830,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġє",
+            "token_id": 30312,
+            "logprob": -0.8477,
+            "prob": 0.4277
+          },
+          {
+            "token": "Ġзнаходиться",
+            "token_id": 218545,
+            "logprob": -2.3438,
+            "prob": 0.0957
+          },
+          {
+            "token": "Ġсто",
+            "token_id": 9905,
+            "logprob": -2.5938,
+            "prob": 0.0742
+          },
+          {
+            "token": "Ġстала",
+            "token_id": 62085,
+            "logprob": -3.4688,
+            "prob": 0.031
+          },
+          {
+            "token": "Ġви",
+            "token_id": 4683,
+            "logprob": -3.4688,
+            "prob": 0.031
+          },
+          {
+            "token": "Ġрозташо",
+            "token_id": 166584,
+            "logprob": -3.8438,
+            "prob": 0.0214
+          },
+          {
+            "token": "Ġв",
+            "token_id": 909,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "Ġвідповіда",
+            "token_id": 153352,
+            "logprob": -4.2188,
+            "prob": 0.0146
+          },
+          {
+            "token": "Ġбула",
+            "token_id": 79563,
+            "logprob": -4.2188,
+            "prob": 0.0146
+          },
+          {
+            "token": "Ġмає",
+            "token_id": 76593,
+            "logprob": -4.2188,
+            "prob": 0.0146
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġмає",
+        "token_id": 76593,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġна",
+            "token_id": 1333,
+            "logprob": -1.8125,
+            "prob": 0.1631
+          },
+          {
+            "token": "Ġнайбіль",
+            "token_id": 134051,
+            "logprob": -1.8125,
+            "prob": 0.1631
+          },
+          {
+            "token": "Ġназ",
+            "token_id": 27734,
+            "logprob": -2.4375,
+            "prob": 0.0874
+          },
+          {
+            "token": "Ġстатус",
+            "token_id": 121829,
+            "logprob": -2.6875,
+            "prob": 0.0679
+          },
+          {
+            "token": "Ġвели",
+            "token_id": 41344,
+            "logprob": -3.0625,
+            "prob": 0.0466
+          },
+          {
+            "token": "Ġнай",
+            "token_id": 28186,
+            "logprob": -3.1875,
+            "prob": 0.0413
+          },
+          {
+            "token": "Ġстоли",
+            "token_id": 98656,
+            "logprob": -3.4375,
+            "prob": 0.032
+          },
+          {
+            "token": "Ġбагато",
+            "token_id": 111175,
+            "logprob": -3.5625,
+            "prob": 0.0283
+          },
+          {
+            "token": "Ġсто",
+            "token_id": 9905,
+            "logprob": -3.6875,
+            "prob": 0.025
+          },
+          {
+            "token": "Ġвідповід",
+            "token_id": 97409,
+            "logprob": -3.8125,
+            "prob": 0.0221
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġна",
+        "token_id": 1333,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġува",
+            "token_id": 64658,
+            "logprob": -0.1016,
+            "prob": 0.9023
+          },
+          {
+            "token": "Ġмет",
+            "token_id": 39289,
+            "logprob": -3.4844,
+            "prob": 0.0309
+          },
+          {
+            "token": "Ġсобі",
+            "token_id": 158855,
+            "logprob": -3.9844,
+            "prob": 0.0188
+          },
+          {
+            "token": "Ġце",
+            "token_id": 12646,
+            "logprob": -4.0938,
+            "prob": 0.0166
+          },
+          {
+            "token": "мір",
+            "token_id": 215436,
+            "logprob": -5.0938,
+            "prob": 0.0061
+          },
+          {
+            "token": "Ġба",
+            "token_id": 6633,
+            "logprob": -6.0938,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġсвої",
+            "token_id": 79407,
+            "logprob": -6.0938,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġцьому",
+            "token_id": 115351,
+            "logprob": -6.0938,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġім",
+            "token_id": 86213,
+            "logprob": -6.2188,
+            "prob": 0.002
+          },
+          {
+            "token": "зва",
+            "token_id": 56299,
+            "logprob": -6.8438,
+            "prob": 0.0011
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġмет",
+        "token_id": 39289,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на мет",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "і",
+            "token_id": 236962,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "у",
+            "token_id": 236876,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "i",
+            "token_id": 236747,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "тері",
+            "token_id": 202702,
+            "logprob": -13.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ід",
+            "token_id": 7227,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "І",
+            "token_id": 238613,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "ін",
+            "token_id": 32360,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "олові",
+            "token_id": 104773,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "зі",
+            "token_id": 19876,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ي",
+            "token_id": 236894,
+            "logprob": -16.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "і",
+        "token_id": 236962,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġви",
+            "token_id": 4683,
+            "logprob": -1.6406,
+            "prob": 0.1934
+          },
+          {
+            "token": "Ġоб",
+            "token_id": 3116,
+            "logprob": -2.2656,
+            "prob": 0.1035
+          },
+          {
+            "token": "Ġпри",
+            "token_id": 2994,
+            "logprob": -2.2656,
+            "prob": 0.1035
+          },
+          {
+            "token": "Ġз",
+            "token_id": 1529,
+            "logprob": -2.7656,
+            "prob": 0.063
+          },
+          {
+            "token": "Ġпроте",
+            "token_id": 73978,
+            "logprob": -2.8906,
+            "prob": 0.0554
+          },
+          {
+            "token": "Ġпроде",
+            "token_id": 210738,
+            "logprob": -2.8906,
+            "prob": 0.0554
+          },
+          {
+            "token": "Ġвід",
+            "token_id": 13667,
+            "logprob": -3.3906,
+            "prob": 0.0337
+          },
+          {
+            "token": "Ġзмі",
+            "token_id": 53997,
+            "logprob": -3.5156,
+            "prob": 0.0297
+          },
+          {
+            "token": "Ġзі",
+            "token_id": 64636,
+            "logprob": -3.5156,
+            "prob": 0.0297
+          },
+          {
+            "token": "Ġна",
+            "token_id": 1333,
+            "logprob": -3.7656,
+            "prob": 0.0231
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġпроде",
+        "token_id": 210738,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті проде",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "мон",
+            "token_id": 46214,
+            "logprob": -0.0003,
+            "prob": 1.0
+          },
+          {
+            "token": "кла",
+            "token_id": 11445,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "мо",
+            "token_id": 2388,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "фі",
+            "token_id": 29499,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ман",
+            "token_id": 17023,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "モン",
+            "token_id": 54581,
+            "logprob": -12.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "менту",
+            "token_id": 115231,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ен",
+            "token_id": 1241,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "гу",
+            "token_id": 7044,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "мона",
+            "token_id": 161790,
+            "logprob": -13.9375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "мон",
+        "token_id": 46214,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемон",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "стру",
+            "token_id": 36970,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ст",
+            "token_id": 871,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠStru",
+            "token_id": 46641,
+            "logprob": -12.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "стра",
+            "token_id": 11426,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "струк",
+            "token_id": 28814,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "сту",
+            "token_id": 9889,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "строва",
+            "token_id": 223532,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "стров",
+            "token_id": 130845,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "stru",
+            "token_id": 19313,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "STRU",
+            "token_id": 31631,
+            "logprob": -15.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ст",
+        "token_id": 871,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонст",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ровать",
+            "token_id": 26268,
+            "logprob": -0.6484,
+            "prob": 0.5234
+          },
+          {
+            "token": "ровано",
+            "token_id": 37227,
+            "logprob": -0.9609,
+            "prob": 0.3828
+          },
+          {
+            "token": "рована",
+            "token_id": 141547,
+            "logprob": -2.9062,
+            "prob": 0.0549
+          },
+          {
+            "token": "ру",
+            "token_id": 2125,
+            "logprob": -3.75,
+            "prob": 0.0237
+          },
+          {
+            "token": "ruire",
+            "token_id": 150696,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          },
+          {
+            "token": "ある",
+            "token_id": 6466,
+            "logprob": -5.375,
+            "prob": 0.0047
+          },
+          {
+            "token": "ru",
+            "token_id": 816,
+            "logprob": -6.4375,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "рован",
+            "token_id": 22129,
+            "logprob": -7.5938,
+            "prob": 0.0005
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ruire",
+        "token_id": 150696,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġпідтрим",
+            "token_id": 223469,
+            "logprob": -0.4219,
+            "prob": 0.6562
+          },
+          {
+            "token": "Ġсвою",
+            "token_id": 37722,
+            "logprob": -3.4219,
+            "prob": 0.0327
+          },
+          {
+            "token": "Ġє",
+            "token_id": 30312,
+            "logprob": -4.0312,
+            "prob": 0.0175
+          },
+          {
+            "token": "Ġгромад",
+            "token_id": 91834,
+            "logprob": -4.1562,
+            "prob": 0.0154
+          },
+          {
+            "token": "Ġна",
+            "token_id": 1333,
+            "logprob": -4.1562,
+            "prob": 0.0154
+          },
+          {
+            "token": "Ġгромадян",
+            "token_id": 199246,
+            "logprob": -4.2812,
+            "prob": 0.0136
+          },
+          {
+            "token": "Ġвашу",
+            "token_id": 213892,
+            "logprob": -4.2812,
+            "prob": 0.0136
+          },
+          {
+            "token": "Ġпід",
+            "token_id": 21827,
+            "logprob": -4.4062,
+            "prob": 0.012
+          },
+          {
+            "token": "Ġполіти",
+            "token_id": 110750,
+            "logprob": -4.5312,
+            "prob": 0.0106
+          },
+          {
+            "token": "Ġпри",
+            "token_id": 2994,
+            "logprob": -4.6562,
+            "prob": 0.0093
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġна",
+        "token_id": 1333,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire на",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġпідтрим",
+            "token_id": 223469,
+            "logprob": -0.4883,
+            "prob": 0.6133
+          },
+          {
+            "token": "яв",
+            "token_id": 24574,
+            "logprob": -1.2422,
+            "prob": 0.2891
+          },
+          {
+            "token": "мі",
+            "token_id": 10100,
+            "logprob": -3.6094,
+            "prob": 0.027
+          },
+          {
+            "token": "мір",
+            "token_id": 215436,
+            "logprob": -3.7344,
+            "prob": 0.0238
+          },
+          {
+            "token": "пру",
+            "token_id": 86110,
+            "logprob": -4.375,
+            "prob": 0.0127
+          },
+          {
+            "token": "ви",
+            "token_id": 2116,
+            "logprob": -5.5,
+            "prob": 0.0041
+          },
+          {
+            "token": "ба",
+            "token_id": 5691,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "лаш",
+            "token_id": 108491,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "голо",
+            "token_id": 96989,
+            "logprob": -6.1875,
+            "prob": 0.0021
+          },
+          {
+            "token": "тов",
+            "token_id": 7468,
+            "logprob": -6.5625,
+            "prob": 0.0014
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "пру",
+        "token_id": 86110,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напру",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "жен",
+            "token_id": 8942,
+            "logprob": -0.6914,
+            "prob": 0.5
+          },
+          {
+            "token": "гу",
+            "token_id": 7044,
+            "logprob": -0.8164,
+            "prob": 0.4434
+          },
+          {
+            "token": "ження",
+            "token_id": 35998,
+            "logprob": -3.4375,
+            "prob": 0.032
+          },
+          {
+            "token": "жене",
+            "token_id": 154276,
+            "logprob": -4.4375,
+            "prob": 0.0118
+          },
+          {
+            "token": "жений",
+            "token_id": 49824,
+            "logprob": -4.5625,
+            "prob": 0.0104
+          },
+          {
+            "token": "жу",
+            "token_id": 16108,
+            "logprob": -6.6875,
+            "prob": 0.0012
+          },
+          {
+            "token": "ги",
+            "token_id": 3777,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "жли",
+            "token_id": 87980,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "же",
+            "token_id": 2573,
+            "logprob": -9.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "зі",
+            "token_id": 19876,
+            "logprob": -9.9375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "гу",
+        "token_id": 7044,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġта",
+            "token_id": 3266,
+            "logprob": -1.0703,
+            "prob": 0.3418
+          },
+          {
+            "token": "Ġв",
+            "token_id": 909,
+            "logprob": -1.5703,
+            "prob": 0.208
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -2.2031,
+            "prob": 0.1113
+          },
+          {
+            "token": "Ġміж",
+            "token_id": 89445,
+            "logprob": -2.3281,
+            "prob": 0.0981
+          },
+          {
+            "token": "Ġсус",
+            "token_id": 125622,
+            "logprob": -2.5781,
+            "prob": 0.0762
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -3.3281,
+            "prob": 0.0361
+          },
+          {
+            "token": "Ġгромад",
+            "token_id": 91834,
+            "logprob": -3.3281,
+            "prob": 0.0361
+          },
+          {
+            "token": "Ġнав",
+            "token_id": 58301,
+            "logprob": -3.7031,
+            "prob": 0.0248
+          },
+          {
+            "token": "Ġсеред",
+            "token_id": 91674,
+            "logprob": -4.3125,
+            "prob": 0.0133
+          },
+          {
+            "token": "Ġсоціа",
+            "token_id": 121967,
+            "logprob": -4.8125,
+            "prob": 0.0081
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġгромад",
+        "token_id": 91834,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громад",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "сько",
+            "token_id": 24871,
+            "logprob": -0.3594,
+            "prob": 0.6992
+          },
+          {
+            "token": "ського",
+            "token_id": 34527,
+            "logprob": -1.7344,
+            "prob": 0.1768
+          },
+          {
+            "token": "ської",
+            "token_id": 34335,
+            "logprob": -2.1094,
+            "prob": 0.1216
+          },
+          {
+            "token": "ських",
+            "token_id": 54748,
+            "logprob": -5.7188,
+            "prob": 0.0032
+          },
+          {
+            "token": "ською",
+            "token_id": 141164,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -9.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ському",
+            "token_id": 116729,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ські",
+            "token_id": 54179,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ській",
+            "token_id": 127012,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "же",
+            "token_id": 2573,
+            "logprob": -11.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ського",
+        "token_id": 34527,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġсус",
+            "token_id": 125622,
+            "logprob": -0.3926,
+            "prob": 0.6758
+          },
+          {
+            "token": "Ġнастро",
+            "token_id": 78597,
+            "logprob": -2.2656,
+            "prob": 0.1035
+          },
+          {
+            "token": "Ġдум",
+            "token_id": 153866,
+            "logprob": -3.0156,
+            "prob": 0.0491
+          },
+          {
+            "token": "Ġпорядку",
+            "token_id": 203310,
+            "logprob": -3.0156,
+            "prob": 0.0491
+          },
+          {
+            "token": "Ġгромад",
+            "token_id": 91834,
+            "logprob": -3.5156,
+            "prob": 0.0297
+          },
+          {
+            "token": "Ġжиття",
+            "token_id": 90366,
+            "logprob": -3.6406,
+            "prob": 0.0262
+          },
+          {
+            "token": "Ġви",
+            "token_id": 4683,
+            "logprob": -4.0312,
+            "prob": 0.0181
+          },
+          {
+            "token": "Ġду",
+            "token_id": 14551,
+            "logprob": -4.1562,
+            "prob": 0.0159
+          },
+          {
+            "token": "Ġмнению",
+            "token_id": 118312,
+            "logprob": -5.2188,
+            "prob": 0.0055
+          },
+          {
+            "token": "Ġстра",
+            "token_id": 14256,
+            "logprob": -5.4688,
+            "prob": 0.0043
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġнастро",
+        "token_id": 78597,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настро",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ю",
+            "token_id": 237002,
+            "logprob": -0.0003,
+            "prob": 1.0
+          },
+          {
+            "token": "їв",
+            "token_id": 67663,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "ju",
+            "token_id": 6686,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ю",
+            "token_id": 238960,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "у",
+            "token_id": 236876,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "єм",
+            "token_id": 66796,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "є",
+            "token_id": 237693,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "лю",
+            "token_id": 4232,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ючи",
+            "token_id": 53266,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ї",
+            "token_id": 237468,
+            "logprob": -13.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ю",
+        "token_id": 237002,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġщодо",
+            "token_id": 123059,
+            "logprob": -1.2578,
+            "prob": 0.2832
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -1.5078,
+            "prob": 0.2207
+          },
+          {
+            "token": "Ġта",
+            "token_id": 3266,
+            "logprob": -1.5078,
+            "prob": 0.2207
+          },
+          {
+            "token": "Ġв",
+            "token_id": 909,
+            "logprob": -2.5156,
+            "prob": 0.0811
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -2.6406,
+            "prob": 0.0718
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -2.8906,
+            "prob": 0.0559
+          },
+          {
+            "token": "Ġі",
+            "token_id": 5637,
+            "logprob": -4.0,
+            "prob": 0.0181
+          },
+          {
+            "token": "Ġнав",
+            "token_id": 58301,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġз",
+            "token_id": 1529,
+            "logprob": -5.125,
+            "prob": 0.0059
+          },
+          {
+            "token": "Ġна",
+            "token_id": 1333,
+            "logprob": -5.25,
+            "prob": 0.0052
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 236761,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        "."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.2334,
+            "prob": 0.793
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -1.9844,
+            "prob": 0.1377
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -4.2188,
+            "prob": 0.0145
+          },
+          {
+            "token": "ĠЦе",
+            "token_id": 56791,
+            "logprob": -4.8438,
+            "prob": 0.0078
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -5.0938,
+            "prob": 0.006
+          },
+          {
+            "token": "ĠЗ",
+            "token_id": 8119,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "ĠЯ",
+            "token_id": 12596,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "<eos>",
+            "token_id": 1,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -6.0938,
+            "prob": 0.0022
+          },
+          {
+            "token": "ĠЯкщо",
+            "token_id": 123990,
+            "logprob": -6.0938,
+            "prob": 0.0022
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠЯ",
+        "token_id": 12596,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 24,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою. Я",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        ".",
+        "ĠЯ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761,
+        12596
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġмо",
+            "token_id": 3237,
+            "logprob": -0.7266,
+            "prob": 0.4844
+          },
+          {
+            "token": "Ġне",
+            "token_id": 1994,
+            "logprob": -1.6016,
+            "prob": 0.2021
+          },
+          {
+            "token": "ка",
+            "token_id": 1173,
+            "logprob": -2.2188,
+            "prob": 0.1079
+          },
+          {
+            "token": "кі",
+            "token_id": 10897,
+            "logprob": -3.2188,
+            "prob": 0.0398
+          },
+          {
+            "token": "Ġгото",
+            "token_id": 52038,
+            "logprob": -3.3438,
+            "prob": 0.0352
+          },
+          {
+            "token": "Ġрозу",
+            "token_id": 157014,
+            "logprob": -3.7188,
+            "prob": 0.024
+          },
+          {
+            "token": "Ġба",
+            "token_id": 6633,
+            "logprob": -3.7188,
+            "prob": 0.024
+          },
+          {
+            "token": "кий",
+            "token_id": 15552,
+            "logprob": -3.8438,
+            "prob": 0.0212
+          },
+          {
+            "token": "ку",
+            "token_id": 3115,
+            "logprob": -4.7188,
+            "prob": 0.0089
+          },
+          {
+            "token": "ке",
+            "token_id": 5923,
+            "logprob": -5.7188,
+            "prob": 0.0033
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġмо",
+        "token_id": 3237,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 25,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою. Я мо",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        ".",
+        "ĠЯ",
+        "Ġмо"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761,
+        12596,
+        3237
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "жу",
+            "token_id": 16108,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "в",
+            "token_id": 236851,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "га",
+            "token_id": 2680,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ти",
+            "token_id": 1620,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмо",
+            "token_id": 3237,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "єї",
+            "token_id": 98465,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "хи",
+            "token_id": 10905,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "рі",
+            "token_id": 9072,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "го",
+            "token_id": 1231,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "три",
+            "token_id": 12930,
+            "logprob": -15.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "жу",
+        "token_id": 16108,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 26,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою. Я можу",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        ".",
+        "ĠЯ",
+        "Ġмо",
+        "жу"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761,
+        12596,
+        3237,
+        16108
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġна",
+            "token_id": 1333,
+            "logprob": -0.7383,
+            "prob": 0.4785
+          },
+          {
+            "token": "Ġдопомогти",
+            "token_id": 174215,
+            "logprob": -0.8633,
+            "prob": 0.4219
+          },
+          {
+            "token": "Ġвам",
+            "token_id": 24254,
+            "logprob": -3.4844,
+            "prob": 0.0306
+          },
+          {
+            "token": "Ġрозпо",
+            "token_id": 86254,
+            "logprob": -4.125,
+            "prob": 0.0164
+          },
+          {
+            "token": "Ġзапро",
+            "token_id": 63617,
+            "logprob": -4.375,
+            "prob": 0.0128
+          },
+          {
+            "token": "Ġзна",
+            "token_id": 8920,
+            "logprob": -5.375,
+            "prob": 0.0047
+          },
+          {
+            "token": "Ġнаписа",
+            "token_id": 45971,
+            "logprob": -5.625,
+            "prob": 0.0037
+          },
+          {
+            "token": "Ġпід",
+            "token_id": 21827,
+            "logprob": -5.625,
+            "prob": 0.0037
+          },
+          {
+            "token": "Ġвідпо",
+            "token_id": 113676,
+            "logprob": -5.625,
+            "prob": 0.0037
+          },
+          {
+            "token": "Ġще",
+            "token_id": 30329,
+            "logprob": -6.0,
+            "prob": 0.0025
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġдопомогти",
+        "token_id": 174215,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 27,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою. Я можу допомогти",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        ".",
+        "ĠЯ",
+        "Ġмо",
+        "жу",
+        "Ġдопомогти"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761,
+        12596,
+        3237,
+        16108,
+        174215
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġвам",
+            "token_id": 24254,
+            "logprob": -0.1816,
+            "prob": 0.832
+          },
+          {
+            "token": "Ġз",
+            "token_id": 1529,
+            "logprob": -2.4375,
+            "prob": 0.0879
+          },
+          {
+            "token": "Ġтобі",
+            "token_id": 217750,
+            "logprob": -2.9375,
+            "prob": 0.0532
+          },
+          {
+            "token": "ĠВам",
+            "token_id": 87592,
+            "logprob": -4.6875,
+            "prob": 0.0093
+          },
+          {
+            "token": "Ġзна",
+            "token_id": 8920,
+            "logprob": -4.9375,
+            "prob": 0.0072
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          },
+          {
+            "token": "Ġще",
+            "token_id": 30329,
+            "logprob": -6.6875,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġін",
+            "token_id": 22188,
+            "logprob": -7.1875,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġроз",
+            "token_id": 18614,
+            "logprob": -7.4375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -7.8125,
+            "prob": 0.0004
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġвам",
+        "token_id": 24254,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 28,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою. Я можу допомогти вам",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        ".",
+        "ĠЯ",
+        "Ġмо",
+        "жу",
+        "Ġдопомогти",
+        "Ġвам"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761,
+        12596,
+        3237,
+        16108,
+        174215,
+        24254
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġз",
+            "token_id": 1529,
+            "logprob": -0.6211,
+            "prob": 0.5391
+          },
+          {
+            "token": "Ġзна",
+            "token_id": 8920,
+            "logprob": -1.1172,
+            "prob": 0.3262
+          },
+          {
+            "token": "Ġіз",
+            "token_id": 47995,
+            "logprob": -2.25,
+            "prob": 0.106
+          },
+          {
+            "token": "Ġді",
+            "token_id": 30860,
+            "logprob": -4.375,
+            "prob": 0.0126
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -5.25,
+            "prob": 0.0053
+          },
+          {
+            "token": "Ġін",
+            "token_id": 22188,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "Ġзі",
+            "token_id": 64636,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġпошу",
+            "token_id": 231571,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġотри",
+            "token_id": 53264,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġще",
+            "token_id": 30329,
+            "logprob": -7.125,
+            "prob": 0.0008
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġін",
+        "token_id": 22188,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 29,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою. Я можу допомогти вам ін",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        ".",
+        "ĠЯ",
+        "Ġмо",
+        "жу",
+        "Ġдопомогти",
+        "Ġвам",
+        "Ġін"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761,
+        12596,
+        3237,
+        16108,
+        174215,
+        24254,
+        22188
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "шим",
+            "token_id": 36290,
+            "logprob": -0.3398,
+            "prob": 0.7109
+          },
+          {
+            "token": "шими",
+            "token_id": 67718,
+            "logprob": -1.4609,
+            "prob": 0.2314
+          },
+          {
+            "token": "шою",
+            "token_id": 213412,
+            "logprob": -2.9688,
+            "prob": 0.0515
+          },
+          {
+            "token": "ше",
+            "token_id": 3451,
+            "logprob": -5.4688,
+            "prob": 0.0042
+          },
+          {
+            "token": "ший",
+            "token_id": 34058,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "шу",
+            "token_id": 17050,
+            "logprob": -8.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "шому",
+            "token_id": 139640,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "ф",
+            "token_id": 237074,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "шої",
+            "token_id": 136272,
+            "logprob": -10.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "фор",
+            "token_id": 11604,
+            "logprob": -10.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "шому",
+        "token_id": 139640,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 30,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою. Я можу допомогти вам іншому",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        ".",
+        "ĠЯ",
+        "Ġмо",
+        "жу",
+        "Ġдопомогти",
+        "Ġвам",
+        "Ġін",
+        "шому"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761,
+        12596,
+        3237,
+        16108,
+        174215,
+        24254,
+        22188,
+        139640
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġз",
+            "token_id": 1529,
+            "logprob": -1.0469,
+            "prob": 0.3496
+          },
+          {
+            "token": "Ġзапи",
+            "token_id": 37492,
+            "logprob": -1.4219,
+            "prob": 0.2402
+          },
+          {
+            "token": "Ġпитання",
+            "token_id": 172778,
+            "logprob": -2.4219,
+            "prob": 0.0884
+          },
+          {
+            "token": "Ġпи",
+            "token_id": 12600,
+            "logprob": -2.4219,
+            "prob": 0.0884
+          },
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -2.5469,
+            "prob": 0.0781
+          },
+          {
+            "token": "Ġпита",
+            "token_id": 45910,
+            "logprob": -3.0469,
+            "prob": 0.0474
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -3.0469,
+            "prob": 0.0474
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -4.0625,
+            "prob": 0.0175
+          },
+          {
+            "token": "Ġіз",
+            "token_id": 47995,
+            "logprob": -4.9375,
+            "prob": 0.0073
+          },
+          {
+            "token": "Ġчином",
+            "token_id": 158445,
+            "logprob": -4.9375,
+            "prob": 0.0073
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "?",
+        "token_id": 236881,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 31,
+      "input_text": "<|turn>userСтолиця України це<turn|>Сумська мітин, що має на меті продемонстruire напругу громадського настрою. Я можу допомогти вам іншому?",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Сто",
+        "ли",
+        "ця",
+        "ĠУкраїни",
+        "Ġце",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "С",
+        "ум",
+        "ська",
+        "Ġмі",
+        "тин",
+        ",",
+        "Ġщо",
+        "Ġмає",
+        "Ġна",
+        "Ġмет",
+        "і",
+        "Ġпроде",
+        "мон",
+        "ст",
+        "ruire",
+        "Ġна",
+        "пру",
+        "гу",
+        "Ġгромад",
+        "ського",
+        "Ġнастро",
+        "ю",
+        ".",
+        "ĠЯ",
+        "Ġмо",
+        "жу",
+        "Ġдопомогти",
+        "Ġвам",
+        "Ġін",
+        "шому",
+        "?"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        127677,
+        1245,
+        44910,
+        38266,
+        12646,
+        106,
+        105,
+        4368,
+        237117,
+        50896,
+        34168,
+        18549,
+        28200,
+        236764,
+        16830,
+        76593,
+        1333,
+        39289,
+        236962,
+        210738,
+        46214,
+        871,
+        150696,
+        1333,
+        86110,
+        7044,
+        91834,
+        34527,
+        78597,
+        237002,
+        236761,
+        12596,
+        3237,
+        16108,
+        174215,
+        24254,
+        22188,
+        139640,
+        236881
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.011,
+            "prob": 0.9883
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -4.625,
+            "prob": 0.0097
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "<eos>",
+            "token_id": 1,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠХо",
+            "token_id": 38194,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -11.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

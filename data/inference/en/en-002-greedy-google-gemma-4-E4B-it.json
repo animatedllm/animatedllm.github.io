@@ -1,0 +1,2056 @@
+{
+  "id": "generated_20260815_223115",
+  "prompt": "Tell me a joke",
+  "language": "en",
+  "temperature": 0.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userTell me a joke<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Why",
+            "token_id": 11355,
+            "logprob": -0.1309,
+            "prob": 0.8789
+          },
+          {
+            "token": "Here",
+            "token_id": 8291,
+            "logprob": -2.375,
+            "prob": 0.0923
+          },
+          {
+            "token": "Sure",
+            "token_id": 49190,
+            "logprob": -3.5,
+            "prob": 0.03
+          },
+          {
+            "token": "A",
+            "token_id": 236776,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "What",
+            "token_id": 3689,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Pourquoi",
+            "token_id": 199936,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "How",
+            "token_id": 3910,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Certainly",
+            "token_id": 117494,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Okay",
+            "token_id": 19058,
+            "logprob": -14.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Why",
+        "token_id": 11355,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userTell me a joke<turn|>Why",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdon",
+            "token_id": 1537,
+            "logprob": -0.0067,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġdid",
+            "token_id": 1602,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 691,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġare",
+            "token_id": 659,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 740,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġshouldn",
+            "token_id": 18461,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdo",
+            "token_id": 776,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdoesn",
+            "token_id": 4038,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdidn",
+            "token_id": 3782,
+            "logprob": -18.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġalways",
+            "token_id": 2462,
+            "logprob": -19.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġdon",
+        "token_id": 1537,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "’",
+            "token_id": 236858,
+            "logprob": -15.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhiccups",
+            "token_id": 178900,
+            "logprob": -20.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġneed",
+            "token_id": 1202,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 506,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwant",
+            "token_id": 1461,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 735,
+            "logprob": -21.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -21.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġblock",
+            "token_id": 3355,
+            "logprob": -21.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdidn",
+            "token_id": 3782,
+            "logprob": -22.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "'",
+        "token_id": 236789,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don'",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "t",
+            "token_id": 236745,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "s",
+            "token_id": 236751,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ت",
+            "token_id": 236889,
+            "logprob": -23.875,
+            "prob": 0.0
+          },
+          {
+            "token": "た",
+            "token_id": 237036,
+            "logprob": -26.25,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -26.25,
+            "prob": 0.0
+          },
+          {
+            "token": "tt",
+            "token_id": 1220,
+            "logprob": -26.625,
+            "prob": 0.0
+          },
+          {
+            "token": "tic",
+            "token_id": 32965,
+            "logprob": -27.25,
+            "prob": 0.0
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -27.375,
+            "prob": 0.0
+          },
+          {
+            "token": "tg",
+            "token_id": 35625,
+            "logprob": -27.625,
+            "prob": 0.0
+          },
+          {
+            "token": "T",
+            "token_id": 236774,
+            "logprob": -27.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "t",
+        "token_id": 236745,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġscientists",
+            "token_id": 16225,
+            "logprob": -0.0112,
+            "prob": 0.9883
+          },
+          {
+            "token": "Ġskeletons",
+            "token_id": 115053,
+            "logprob": -4.5,
+            "prob": 0.011
+          },
+          {
+            "token": "Ġeggs",
+            "token_id": 14318,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġprogrammers",
+            "token_id": 88487,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsecrets",
+            "token_id": 31156,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġseagulls",
+            "token_id": 151017,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġscience",
+            "token_id": 6647,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġphilosophers",
+            "token_id": 84790,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "scientists",
+            "token_id": 213102,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcann",
+            "token_id": 63243,
+            "logprob": -13.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġscientists",
+        "token_id": 16225,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġtrust",
+            "token_id": 5210,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġever",
+            "token_id": 3785,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġlove",
+            "token_id": 2765,
+            "logprob": -13.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġprefer",
+            "token_id": 5278,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlike",
+            "token_id": 1133,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġuse",
+            "token_id": 1161,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdistrust",
+            "token_id": 93833,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġalways",
+            "token_id": 2462,
+            "logprob": -15.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġkiss",
+            "token_id": 20568,
+            "logprob": -16.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġtrust",
+        "token_id": 5210,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġatoms",
+            "token_id": 14514,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "atoms",
+            "token_id": 106463,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġatom",
+            "token_id": 15639,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġatomic",
+            "token_id": 20524,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcomputers",
+            "token_id": 19443,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "อ",
+            "token_id": 237046,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġanything",
+            "token_id": 4658,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġأ",
+            "token_id": 3506,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġelectrons",
+            "token_id": 16763,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtomatoes",
+            "token_id": 29979,
+            "logprob": -17.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġatoms",
+        "token_id": 14514,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -0.0006,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġanymore",
+            "token_id": 18602,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġany",
+            "token_id": 1027,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmuch",
+            "token_id": 1623,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "...?",
+            "token_id": 109178,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -20.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġenough",
+            "token_id": 3487,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġstuff",
+            "token_id": 7305,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "؟",
+            "token_id": 238084,
+            "logprob": -21.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "?",
+        "token_id": 236881,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Because",
+            "token_id": 17574,
+            "logprob": -0.3867,
+            "prob": 0.6797
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -1.1406,
+            "prob": 0.3203
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "---",
+            "token_id": 7243,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "--",
+            "token_id": 726,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "C",
+            "token_id": 236780,
+            "logprob": -13.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "$\\",
+            "token_id": 3292,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "*",
+            "token_id": 236829,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "-----",
+            "token_id": 30104,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "#",
+            "token_id": 236865,
+            "logprob": -14.8125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Because",
+        "token_id": 17574,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?Because",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?",
+        "Because"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881,
+        17574
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġthey",
+            "token_id": 901,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhe",
+            "token_id": 668,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġهم",
+            "token_id": 11941,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġas",
+            "token_id": 618,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġवे",
+            "token_id": 6577,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġони",
+            "token_id": 18771,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtheyre",
+            "token_id": 125551,
+            "logprob": -19.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġthey",
+        "token_id": 901,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?Because they",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?",
+        "Because",
+        "Ġthey"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881,
+        17574,
+        901
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmake",
+            "token_id": 1386,
+            "logprob": -0.0096,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ***",
+            "token_id": 27435,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġalways",
+            "token_id": 2462,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġall",
+            "token_id": 784,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmachen",
+            "token_id": 31021,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmakes",
+            "token_id": 3590,
+            "logprob": -19.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmake",
+        "token_id": 1386,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?Because they make",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?",
+        "Because",
+        "Ġthey",
+        "Ġmake"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881,
+        17574,
+        901,
+        1386
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġup",
+            "token_id": 872,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -10.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġeverything",
+            "token_id": 4326,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġit",
+            "token_id": 625,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ'",
+            "token_id": 756,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġof",
+            "token_id": 529,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠUP",
+            "token_id": 24252,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġthem",
+            "token_id": 1091,
+            "logprob": -19.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġup",
+        "token_id": 872,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?Because they make up",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?",
+        "Because",
+        "Ġthey",
+        "Ġmake",
+        "Ġup"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881,
+        17574,
+        901,
+        1386,
+        872
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -0.2754,
+            "prob": 0.7578
+          },
+          {
+            "token": "Ġeverything",
+            "token_id": 4326,
+            "logprob": -1.6484,
+            "prob": 0.1924
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -3.0312,
+            "prob": 0.0486
+          },
+          {
+            "token": "Ġabsolutely",
+            "token_id": 11087,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "ĠEVERYTHING",
+            "token_id": 183076,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġliterally",
+            "token_id": 17720,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ***",
+            "token_id": 27435,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġalmost",
+            "token_id": 4180,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtoo",
+            "token_id": 2311,
+            "logprob": -15.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ*",
+        "token_id": 808,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?Because they make up *",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?",
+        "Because",
+        "Ġthey",
+        "Ġmake",
+        "Ġup",
+        "Ġ*"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881,
+        17574,
+        901,
+        1386,
+        872,
+        808
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "everything",
+            "token_id": 73380,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "absolutely",
+            "token_id": 156815,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "an",
+            "token_id": 508,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "entire",
+            "token_id": 151721,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "every",
+            "token_id": 27881,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "literally",
+            "token_id": 133633,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "everyone",
+            "token_id": 115322,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "the",
+            "token_id": 1437,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "am",
+            "token_id": 546,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "fl",
+            "token_id": 1674,
+            "logprob": -20.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "everything",
+        "token_id": 73380,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?Because they make up *everything",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?",
+        "Because",
+        "Ġthey",
+        "Ġmake",
+        "Ġup",
+        "Ġ*",
+        "everything"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881,
+        17574,
+        901,
+        1386,
+        872,
+        808,
+        73380
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "*",
+            "token_id": 236829,
+            "logprob": -0.0004,
+            "prob": 1.0
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "ادم",
+            "token_id": 109067,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "*.",
+            "token_id": 22429,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "\"!",
+            "token_id": 118659,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfascinating",
+            "token_id": 27858,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġheavy",
+            "token_id": 7274,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġodd",
+            "token_id": 11049,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġkas",
+            "token_id": 14749,
+            "logprob": -18.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "*",
+        "token_id": 236829,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?Because they make up *everything*",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?",
+        "Because",
+        "Ġthey",
+        "Ġmake",
+        "Ġup",
+        "Ġ*",
+        "everything",
+        "*"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881,
+        17574,
+        901,
+        1386,
+        872,
+        808,
+        73380,
+        236829
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "!\"",
+            "token_id": 9332,
+            "logprob": -20.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "!!!",
+            "token_id": 11145,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "!)",
+            "token_id": 15520,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġweird",
+            "token_id": 20973,
+            "logprob": -21.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -22.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbecause",
+            "token_id": 1547,
+            "logprob": -22.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "!",
+        "token_id": 236888,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userTell me a joke<turn|>Why don't scientists trust atoms?Because they make up *everything*!",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġscientists",
+        "Ġtrust",
+        "Ġatoms",
+        "?",
+        "Because",
+        "Ġthey",
+        "Ġmake",
+        "Ġup",
+        "Ġ*",
+        "everything",
+        "*",
+        "!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        11355,
+        1537,
+        236789,
+        236745,
+        16225,
+        5210,
+        14514,
+        236881,
+        17574,
+        901,
+        1386,
+        872,
+        808,
+        73380,
+        236829,
+        236888
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.1206,
+            "prob": 0.8867
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -2.5,
+            "prob": 0.0825
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -4.5,
+            "prob": 0.0112
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -4.75,
+            "prob": 0.0087
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -5.125,
+            "prob": 0.006
+          },
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -5.25,
+            "prob": 0.0053
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ🎉",
+            "token_id": 204906,
+            "logprob": -12.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ✨",
+            "token_id": 73687,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$$",
+            "token_id": 18666,
+            "logprob": -13.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "greedy",
+        "special": true
+      }
+    }
+  ]
+}

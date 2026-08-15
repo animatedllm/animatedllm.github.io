@@ -1,0 +1,2854 @@
+{
+  "id": "generated_20260815_223018",
+  "prompt": "Řekni mi vtip",
+  "language": "cs",
+  "temperature": 0.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Pro",
+            "token_id": 1489,
+            "logprob": -0.5,
+            "prob": 0.6055
+          },
+          {
+            "token": "Jas",
+            "token_id": 172812,
+            "logprob": -1.375,
+            "prob": 0.252
+          },
+          {
+            "token": "Z",
+            "token_id": 236953,
+            "logprob": -2.5,
+            "prob": 0.082
+          },
+          {
+            "token": "J",
+            "token_id": 236863,
+            "logprob": -3.375,
+            "prob": 0.0342
+          },
+          {
+            "token": "Ok",
+            "token_id": 22736,
+            "logprob": -5.125,
+            "prob": 0.006
+          },
+          {
+            "token": "A",
+            "token_id": 236776,
+            "logprob": -5.125,
+            "prob": 0.006
+          },
+          {
+            "token": "Jak",
+            "token_id": 59184,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "Dob",
+            "token_id": 145592,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ale",
+            "token_id": 53392,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "He",
+            "token_id": 2209,
+            "logprob": -7.5,
+            "prob": 0.0006
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Pro",
+        "token_id": 1489,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Pro",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "č",
+            "token_id": 237120,
+            "logprob": -0.0271,
+            "prob": 0.9727
+          },
+          {
+            "token": "čo",
+            "token_id": 142345,
+            "logprob": -3.6562,
+            "prob": 0.0259
+          },
+          {
+            "token": "što",
+            "token_id": 72981,
+            "logprob": -7.2188,
+            "prob": 0.0007
+          },
+          {
+            "token": "чему",
+            "token_id": 48899,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "cho",
+            "token_id": 3537,
+            "logprob": -11.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġco",
+            "token_id": 1028,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġte",
+            "token_id": 926,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "če",
+            "token_id": 29115,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "bl",
+            "token_id": 1782,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġproč",
+            "token_id": 235509,
+            "logprob": -13.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "č",
+        "token_id": 237120,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -1.2812,
+            "prob": 0.2773
+          },
+          {
+            "token": "Ġne",
+            "token_id": 770,
+            "logprob": -1.4062,
+            "prob": 0.2451
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -2.1562,
+            "prob": 0.1162
+          },
+          {
+            "token": "Ġnes",
+            "token_id": 32145,
+            "logprob": -2.6562,
+            "prob": 0.0703
+          },
+          {
+            "token": "Ġš",
+            "token_id": 8153,
+            "logprob": -2.9062,
+            "prob": 0.0547
+          },
+          {
+            "token": "Ġnem",
+            "token_id": 11012,
+            "logprob": -3.5312,
+            "prob": 0.0293
+          },
+          {
+            "token": "Ġnev",
+            "token_id": 53857,
+            "logprob": -3.9062,
+            "prob": 0.0201
+          },
+          {
+            "token": "Ġbyl",
+            "token_id": 40319,
+            "logprob": -3.9062,
+            "prob": 0.0201
+          },
+          {
+            "token": "Ġvě",
+            "token_id": 48119,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          },
+          {
+            "token": "Ġnez",
+            "token_id": 50695,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġje",
+        "token_id": 2185,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpočíta",
+            "token_id": 176085,
+            "logprob": -1.0312,
+            "prob": 0.3574
+          },
+          {
+            "token": "Ġprogram",
+            "token_id": 1948,
+            "logprob": -1.4062,
+            "prob": 0.2461
+          },
+          {
+            "token": "Ġkn",
+            "token_id": 1054,
+            "logprob": -1.5312,
+            "prob": 0.2168
+          },
+          {
+            "token": "Ġko",
+            "token_id": 6431,
+            "logprob": -3.4062,
+            "prob": 0.0332
+          },
+          {
+            "token": "Ġknih",
+            "token_id": 188024,
+            "logprob": -3.5312,
+            "prob": 0.0294
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          },
+          {
+            "token": "Ġinform",
+            "token_id": 1573,
+            "logprob": -4.1562,
+            "prob": 0.0157
+          },
+          {
+            "token": "Ġinformat",
+            "token_id": 230592,
+            "logprob": -4.1562,
+            "prob": 0.0157
+          },
+          {
+            "token": "Ġchem",
+            "token_id": 11385,
+            "logprob": -4.2812,
+            "prob": 0.0139
+          },
+          {
+            "token": "Ġmatemat",
+            "token_id": 54604,
+            "logprob": -4.2812,
+            "prob": 0.0139
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpočíta",
+        "token_id": 176085,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počíta",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "č",
+            "token_id": 237120,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "če",
+            "token_id": 29115,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ch",
+            "token_id": 574,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ř",
+            "token_id": 237442,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "چ",
+            "token_id": 237343,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "čun",
+            "token_id": 116673,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "či",
+            "token_id": 22035,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpočíta",
+            "token_id": 176085,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ч",
+            "token_id": 236932,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "áč",
+            "token_id": 147046,
+            "logprob": -12.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "č",
+        "token_id": 237120,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġtak",
+            "token_id": 2660,
+            "logprob": -0.5469,
+            "prob": 0.5781
+          },
+          {
+            "token": "Ġvždy",
+            "token_id": 126559,
+            "logprob": -2.2969,
+            "prob": 0.1006
+          },
+          {
+            "token": "ist",
+            "token_id": 617,
+            "logprob": -2.5469,
+            "prob": 0.0786
+          },
+          {
+            "token": "ský",
+            "token_id": 74879,
+            "logprob": -3.4219,
+            "prob": 0.0327
+          },
+          {
+            "token": "Ġnej",
+            "token_id": 40025,
+            "logprob": -3.4219,
+            "prob": 0.0327
+          },
+          {
+            "token": "ový",
+            "token_id": 50304,
+            "logprob": -3.5469,
+            "prob": 0.0289
+          },
+          {
+            "token": "Ġsed",
+            "token_id": 7559,
+            "logprob": -3.6719,
+            "prob": 0.0255
+          },
+          {
+            "token": "kr",
+            "token_id": 18600,
+            "logprob": -3.6719,
+            "prob": 0.0255
+          },
+          {
+            "token": "Ġpořád",
+            "token_id": 234317,
+            "logprob": -4.7812,
+            "prob": 0.0083
+          },
+          {
+            "token": "ký",
+            "token_id": 75500,
+            "logprob": -5.0312,
+            "prob": 0.0064
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġtak",
+        "token_id": 2660,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġsmut",
+            "token_id": 236526,
+            "logprob": -0.0791,
+            "prob": 0.9258
+          },
+          {
+            "token": "Ġne",
+            "token_id": 770,
+            "logprob": -3.9531,
+            "prob": 0.0192
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -5.0938,
+            "prob": 0.0062
+          },
+          {
+            "token": "Ġzl",
+            "token_id": 155160,
+            "logprob": -5.0938,
+            "prob": 0.0062
+          },
+          {
+            "token": "Ġmelanch",
+            "token_id": 85539,
+            "logprob": -5.0938,
+            "prob": 0.0062
+          },
+          {
+            "token": "Ġš",
+            "token_id": 8153,
+            "logprob": -5.2188,
+            "prob": 0.0055
+          },
+          {
+            "token": "Ġstres",
+            "token_id": 124212,
+            "logprob": -5.4688,
+            "prob": 0.0043
+          },
+          {
+            "token": "Ġun",
+            "token_id": 723,
+            "logprob": -5.5938,
+            "prob": 0.0038
+          },
+          {
+            "token": "Ġšť",
+            "token_id": 203458,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġfrust",
+            "token_id": 20013,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsmut",
+        "token_id": 236526,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smut",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ný",
+            "token_id": 19468,
+            "logprob": -0.0007,
+            "prob": 1.0
+          },
+          {
+            "token": "ná",
+            "token_id": 25912,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "né",
+            "token_id": 8504,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ý",
+            "token_id": 237274,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "nou",
+            "token_id": 39228,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ní",
+            "token_id": 6465,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ny",
+            "token_id": 1920,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "čný",
+            "token_id": 99689,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ných",
+            "token_id": 40941,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ného",
+            "token_id": 45053,
+            "logprob": -17.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ný",
+        "token_id": 19468,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "❓",
+            "token_id": 245046,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "؟",
+            "token_id": 238084,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ🤔",
+            "token_id": 235892,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġpři",
+            "token_id": 58202,
+            "logprob": -14.5625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "?",
+        "token_id": 236881,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Proto",
+            "token_id": 95256,
+            "logprob": -0.1523,
+            "prob": 0.8594
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -2.4062,
+            "prob": 0.0903
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          },
+          {
+            "token": "👉",
+            "token_id": 240633,
+            "logprob": -4.6562,
+            "prob": 0.0095
+          },
+          {
+            "token": "K",
+            "token_id": 236855,
+            "logprob": -4.7812,
+            "prob": 0.0084
+          },
+          {
+            "token": "🤔",
+            "token_id": 242846,
+            "logprob": -5.0312,
+            "prob": 0.0066
+          },
+          {
+            "token": "✨",
+            "token_id": 239794,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -6.9062,
+            "prob": 0.001
+          },
+          {
+            "token": "�",
+            "token_id": 464,
+            "logprob": -6.9062,
+            "prob": 0.001
+          },
+          {
+            "token": "---",
+            "token_id": 7243,
+            "logprob": -7.0312,
+            "prob": 0.0009
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Proto",
+        "token_id": 95256,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Proto",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "že",
+            "token_id": 14065,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "č",
+            "token_id": 237120,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "że",
+            "token_id": 9492,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ze",
+            "token_id": 1934,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "же",
+            "token_id": 2573,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġproto",
+            "token_id": 37296,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "če",
+            "token_id": 29115,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġho",
+            "token_id": 3920,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ž",
+            "token_id": 237157,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -18.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "že",
+        "token_id": 14065,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmá",
+            "token_id": 9102,
+            "logprob": -0.0496,
+            "prob": 0.9531
+          },
+          {
+            "token": "Ġmu",
+            "token_id": 5474,
+            "logprob": -3.5469,
+            "prob": 0.0287
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -5.3125,
+            "prob": 0.005
+          },
+          {
+            "token": "Ġnemá",
+            "token_id": 204604,
+            "logprob": -5.3125,
+            "prob": 0.005
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -6.4375,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġměl",
+            "token_id": 135386,
+            "logprob": -6.4375,
+            "prob": 0.0016
+          },
+          {
+            "token": "Ġho",
+            "token_id": 3920,
+            "logprob": -6.5625,
+            "prob": 0.0014
+          },
+          {
+            "token": "Ġne",
+            "token_id": 770,
+            "logprob": -7.5625,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġjeho",
+            "token_id": 42921,
+            "logprob": -7.6875,
+            "prob": 0.0005
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmá",
+        "token_id": 9102,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpří",
+            "token_id": 28709,
+            "logprob": -0.498,
+            "prob": 0.6055
+          },
+          {
+            "token": "Ġmoc",
+            "token_id": 56135,
+            "logprob": -1.625,
+            "prob": 0.1973
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -2.375,
+            "prob": 0.0933
+          },
+          {
+            "token": "Ġhod",
+            "token_id": 35544,
+            "logprob": -2.875,
+            "prob": 0.0564
+          },
+          {
+            "token": "Ġsp",
+            "token_id": 892,
+            "logprob": -4.75,
+            "prob": 0.0087
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -4.875,
+            "prob": 0.0076
+          },
+          {
+            "token": "Ġvždy",
+            "token_id": 126559,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "Ġh",
+            "token_id": 534,
+            "logprob": -5.625,
+            "prob": 0.0036
+          },
+          {
+            "token": "Ġpár",
+            "token_id": 75825,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -6.125,
+            "prob": 0.0022
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpří",
+        "token_id": 28709,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má pří",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "liš",
+            "token_id": 118320,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "p",
+            "token_id": 236758,
+            "logprob": -13.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ště",
+            "token_id": 42369,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "rodní",
+            "token_id": 147518,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "lib",
+            "token_id": 5285,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "vel",
+            "token_id": 915,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "k",
+            "token_id": 236767,
+            "logprob": -15.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "zel",
+            "token_id": 11677,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "više",
+            "token_id": 157620,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "lo",
+            "token_id": 844,
+            "logprob": -16.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "liš",
+        "token_id": 118320,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má příliš",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří",
+        "liš"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709,
+        118320
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmnoho",
+            "token_id": 181352,
+            "logprob": -0.0017,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġmn",
+            "token_id": 37700,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġбагато",
+            "token_id": 111175,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġbanyak",
+            "token_id": 22156,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġmaraming",
+            "token_id": 227363,
+            "logprob": -8.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġmany",
+            "token_id": 1551,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhod",
+            "token_id": 35544,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġviele",
+            "token_id": 32639,
+            "logprob": -10.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmnoho",
+        "token_id": 181352,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má příliš mnoho",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří",
+        "liš",
+        "Ġmnoho"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709,
+        118320,
+        181352
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -0.5312,
+            "prob": 0.5859
+          },
+          {
+            "token": "Ġproblém",
+            "token_id": 81842,
+            "logprob": -1.4062,
+            "prob": 0.2451
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -1.9062,
+            "prob": 0.1484
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -4.6562,
+            "prob": 0.0095
+          },
+          {
+            "token": "Ġprobl",
+            "token_id": 24262,
+            "logprob": -5.7812,
+            "prob": 0.0031
+          },
+          {
+            "token": "Ġproblem",
+            "token_id": 2608,
+            "logprob": -6.5312,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġsou",
+            "token_id": 4280,
+            "logprob": -6.7812,
+            "prob": 0.0011
+          },
+          {
+            "token": "Ġne",
+            "token_id": 770,
+            "logprob": -7.5312,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġzá",
+            "token_id": 25982,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġú",
+            "token_id": 6277,
+            "logprob": -7.9062,
+            "prob": 0.0004
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ**",
+        "token_id": 5213,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má příliš mnoho **",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří",
+        "liš",
+        "Ġmnoho",
+        "Ġ**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709,
+        118320,
+        181352,
+        5213
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "bug",
+            "token_id": 9618,
+            "logprob": -0.1514,
+            "prob": 0.8594
+          },
+          {
+            "token": "pro",
+            "token_id": 1045,
+            "logprob": -2.9062,
+            "prob": 0.0549
+          },
+          {
+            "token": "bugs",
+            "token_id": 97691,
+            "logprob": -3.5312,
+            "prob": 0.0294
+          },
+          {
+            "token": "problem",
+            "token_id": 43510,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          },
+          {
+            "token": "b",
+            "token_id": 236763,
+            "logprob": -4.6562,
+            "prob": 0.0095
+          },
+          {
+            "token": "byte",
+            "token_id": 12247,
+            "logprob": -5.0312,
+            "prob": 0.0066
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -5.2812,
+            "prob": 0.0051
+          },
+          {
+            "token": "buffer",
+            "token_id": 12672,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "opro",
+            "token_id": 38110,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "bott",
+            "token_id": 94606,
+            "logprob": -6.9062,
+            "prob": 0.001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "bug",
+        "token_id": 9618,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má příliš mnoho **bug",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří",
+        "liš",
+        "Ġmnoho",
+        "Ġ**",
+        "bug"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709,
+        118320,
+        181352,
+        5213,
+        9618
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ů",
+            "token_id": 237872,
+            "logprob": -0.0019,
+            "prob": 1.0
+          },
+          {
+            "token": "ów",
+            "token_id": 6291,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "y",
+            "token_id": 236762,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "u",
+            "token_id": 236756,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "ів",
+            "token_id": 6522,
+            "logprob": -10.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "ův",
+            "token_id": 208976,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "gy",
+            "token_id": 1652,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "head",
+            "token_id": 2834,
+            "logprob": -11.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ů",
+        "token_id": 237872,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má příliš mnoho **bugů",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří",
+        "liš",
+        "Ġmnoho",
+        "Ġ**",
+        "bug",
+        "ů"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709,
+        118320,
+        181352,
+        5213,
+        9618,
+        237872
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -0.0017,
+            "prob": 1.0
+          },
+          {
+            "token": "**.",
+            "token_id": 84750,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "\"!",
+            "token_id": 118659,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "l",
+            "token_id": 236752,
+            "logprob": -11.25,
+            "prob": 0.0
+          },
+          {
+            "token": "́",
+            "token_id": 238288,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": ")!",
+            "token_id": 47473,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "y",
+            "token_id": 236762,
+            "logprob": -12.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "e",
+            "token_id": 236744,
+            "logprob": -13.0625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**",
+        "token_id": 1018,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má příliš mnoho **bugů**",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří",
+        "liš",
+        "Ġmnoho",
+        "Ġ**",
+        "bug",
+        "ů",
+        "**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709,
+        118320,
+        181352,
+        5213,
+        9618,
+        237872,
+        1018
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -0.0082,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġve",
+            "token_id": 1381,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -10.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "!",
+        "token_id": 236888,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má příliš mnoho **bugů**!",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří",
+        "liš",
+        "Ġmnoho",
+        "Ġ**",
+        "bug",
+        "ů",
+        "**",
+        "!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709,
+        118320,
+        181352,
+        5213,
+        9618,
+        237872,
+        1018,
+        236888
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -0.8047,
+            "prob": 0.4473
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -1.1797,
+            "prob": 0.3066
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -1.5547,
+            "prob": 0.2109
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -3.6719,
+            "prob": 0.0253
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -4.9375,
+            "prob": 0.0072
+          },
+          {
+            "token": "Ġ😁",
+            "token_id": 170124,
+            "logprob": -7.1875,
+            "prob": 0.0008
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -7.5625,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġ:",
+            "token_id": 1017,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😀",
+            "token_id": 163543,
+            "logprob": -9.75,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ😂",
+        "token_id": 87633,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Proč je počítač tak smutný?Protože má příliš mnoho **bugů**! 😂",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Pro",
+        "č",
+        "Ġje",
+        "Ġpočíta",
+        "č",
+        "Ġtak",
+        "Ġsmut",
+        "ný",
+        "?",
+        "Proto",
+        "že",
+        "Ġmá",
+        "Ġpří",
+        "liš",
+        "Ġmnoho",
+        "Ġ**",
+        "bug",
+        "ů",
+        "**",
+        "!",
+        "Ġ😂"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        1489,
+        237120,
+        2185,
+        176085,
+        237120,
+        2660,
+        236526,
+        19468,
+        236881,
+        95256,
+        14065,
+        9102,
+        28709,
+        118320,
+        181352,
+        5213,
+        9618,
+        237872,
+        1018,
+        236888,
+        87633
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0105,
+            "prob": 0.9883
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "💻",
+            "token_id": 244862,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "🤖",
+            "token_id": 246143,
+            "logprob": -7.5,
+            "prob": 0.0005
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "😄",
+            "token_id": 242850,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "😜",
+            "token_id": 243799,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "greedy",
+        "special": true
+      }
+    }
+  ]
+}

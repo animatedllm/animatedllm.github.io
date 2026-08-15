@@ -1,0 +1,3064 @@
+{
+  "id": "generated_20260815_223107",
+  "prompt": "Who are you?",
+  "language": "en",
+  "temperature": 0.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userWho are you?<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "You",
+            "token_id": 3048,
+            "logprob": -12.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "St",
+            "token_id": 894,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Hello",
+            "token_id": 9259,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Please",
+            "token_id": 9366,
+            "logprob": -15.375,
+            "prob": 0.0
+          },
+          {
+            "token": "My",
+            "token_id": 4754,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "मैं",
+            "token_id": 40281,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "저는",
+            "token_id": 234883,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Я",
+            "token_id": 237998,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "K",
+            "token_id": 236855,
+            "logprob": -16.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "I",
+        "token_id": 236777,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userWho are you?<turn|>I",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġam",
+            "token_id": 1006,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġare",
+            "token_id": 659,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -13.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 691,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġidentify",
+            "token_id": 8701,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwithdraw",
+            "token_id": 18145,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -15.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġas",
+            "token_id": 618,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwho",
+            "token_id": 1015,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġintroduced",
+            "token_id": 8314,
+            "logprob": -17.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġam",
+        "token_id": 1006,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userWho are you?<turn|>I am",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ${",
+            "token_id": 3356,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġan",
+            "token_id": 614,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠĐại",
+            "token_id": 87773,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGale",
+            "token_id": 82910,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġname",
+            "token_id": 1463,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -17.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGemma",
+        "token_id": 147224,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$",
+            "token_id": 609,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ${",
+            "token_id": 3356,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmine",
+            "token_id": 10701,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠAI",
+            "token_id": 12498,
+            "logprob": -21.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ",
+        "token_id": 236743,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "4",
+            "token_id": 236812,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ități",
+            "token_id": 214705,
+            "logprob": -18.625,
+            "prob": 0.0
+          },
+          {
+            "token": "٤",
+            "token_id": 242090,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "1",
+            "token_id": 236770,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "2",
+            "token_id": 236778,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "3",
+            "token_id": 236800,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -21.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ision",
+            "token_id": 1889,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfours",
+            "token_id": 111008,
+            "logprob": -22.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "4",
+        "token_id": 236812,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.0298,
+            "prob": 0.9688
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -3.5312,
+            "prob": 0.0293
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdeveloper",
+            "token_id": 19788,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdeveloped",
+            "token_id": 5535,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠSoftware",
+            "token_id": 15435,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbig",
+            "token_id": 2563,
+            "logprob": -18.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġskilled",
+            "token_id": 23482,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -19.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġan",
+            "token_id": 614,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmeaning",
+            "token_id": 6590,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLarge",
+            "token_id": 25093,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠCanada",
+            "token_id": 7203,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwhich",
+            "token_id": 837,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġup",
+            "token_id": 872,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġof",
+            "token_id": 529,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -17.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġa",
+        "token_id": 496,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠLarge",
+            "token_id": 25093,
+            "logprob": -0.0067,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġlarge",
+            "token_id": 2455,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "ĠLanguage",
+            "token_id": 22160,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLow",
+            "token_id": 14533,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLong",
+            "token_id": 8099,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLinear",
+            "token_id": 26002,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġframework",
+            "token_id": 10318,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Large",
+            "token_id": 31534,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLearning",
+            "token_id": 19180,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -16.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠLarge",
+        "token_id": 25093,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠLanguage",
+            "token_id": 22160,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Language",
+            "token_id": 28040,
+            "logprob": -21.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLang",
+            "token_id": 20410,
+            "logprob": -23.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠAction",
+            "token_id": 10659,
+            "logprob": -24.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLinguistic",
+            "token_id": 209284,
+            "logprob": -25.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlanguage",
+            "token_id": 5192,
+            "logprob": -25.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLanguages",
+            "token_id": 61494,
+            "logprob": -25.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġलैंग्वेज",
+            "token_id": 132861,
+            "logprob": -25.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠLattice",
+            "token_id": 145358,
+            "logprob": -25.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠModel",
+            "token_id": 9483,
+            "logprob": -25.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠLanguage",
+        "token_id": 22160,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠModel",
+            "token_id": 9483,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMode",
+            "token_id": 27737,
+            "logprob": -23.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMetal",
+            "token_id": 26745,
+            "logprob": -23.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMod",
+            "token_id": 4053,
+            "logprob": -23.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Model",
+            "token_id": 4968,
+            "logprob": -23.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġমডেল",
+            "token_id": 75910,
+            "logprob": -23.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ模型",
+            "token_id": 228546,
+            "logprob": -23.75,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -24.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ모델",
+            "token_id": 94647,
+            "logprob": -24.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠModel",
+        "token_id": 9483,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdeveloped",
+            "token_id": 5535,
+            "logprob": -0.0012,
+            "prob": 1.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 600,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 607,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmost",
+            "token_id": 1346,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfrom",
+            "token_id": 699,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwho",
+            "token_id": 1015,
+            "logprob": -14.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġdeveloped",
+        "token_id": 5535,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 607,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbởi",
+            "token_id": 48083,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġat",
+            "token_id": 657,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -20.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġas",
+            "token_id": 618,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -20.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġby",
+        "token_id": 684,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 506,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠDeep",
+            "token_id": 22267,
+            "logprob": -15.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġat",
+            "token_id": 657,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġof",
+            "token_id": 529,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġindependent",
+            "token_id": 6829,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -18.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGoogle",
+        "token_id": 6475,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠDeep",
+            "token_id": 22267,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Deep",
+            "token_id": 39300,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠSearch",
+            "token_id": 12808,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠFour",
+            "token_id": 13038,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠNorth",
+            "token_id": 4695,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġபெற்றது",
+            "token_id": 149801,
+            "logprob": -20.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠDeep",
+        "token_id": 22267,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google Deep",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Mind",
+            "token_id": 65153,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "mind",
+            "token_id": 24447,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMind",
+            "token_id": 24604,
+            "logprob": -24.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Learning",
+            "token_id": 46297,
+            "logprob": -24.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Mine",
+            "token_id": 61781,
+            "logprob": -25.375,
+            "prob": 0.0
+          },
+          {
+            "token": "M",
+            "token_id": 236792,
+            "logprob": -25.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Miner",
+            "token_id": 116689,
+            "logprob": -25.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Brain",
+            "token_id": 68316,
+            "logprob": -26.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Dream",
+            "token_id": 62894,
+            "logprob": -26.625,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -26.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Mind",
+        "token_id": 65153,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 607,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwithin",
+            "token_id": 2351,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġof",
+            "token_id": 529,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġthat",
+            "token_id": 600,
+            "logprob": -18.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 236761,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153,
+        236761
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠI",
+            "token_id": 564,
+            "logprob": -0.0306,
+            "prob": 0.9688
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -3.5312,
+            "prob": 0.0293
+          },
+          {
+            "token": "ĠAs",
+            "token_id": 1773,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "ĠAn",
+            "token_id": 1455,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠThere",
+            "token_id": 2085,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠThat",
+            "token_id": 2981,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠSome",
+            "token_id": 4943,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠIn",
+            "token_id": 799,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠWe",
+            "token_id": 1191,
+            "logprob": -12.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠI",
+        "token_id": 564,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind. I",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        ".",
+        "ĠI"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153,
+        236761,
+        564
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġam",
+            "token_id": 1006,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 735,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 691,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 740,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhold",
+            "token_id": 2768,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġoperate",
+            "token_id": 12833,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmaintain",
+            "token_id": 4883,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġexist",
+            "token_id": 2849,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdo",
+            "token_id": 776,
+            "logprob": -15.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġam",
+        "token_id": 1006,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind. I am",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        ".",
+        "ĠI",
+        "Ġam"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153,
+        236761,
+        564,
+        1006
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġan",
+            "token_id": 614,
+            "logprob": -0.0008,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġpart",
+            "token_id": 912,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġone",
+            "token_id": 886,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġknown",
+            "token_id": 3224,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġalso",
+            "token_id": 992,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġproud",
+            "token_id": 11307,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdesignated",
+            "token_id": 19295,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġavailable",
+            "token_id": 2487,
+            "logprob": -16.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġan",
+        "token_id": 614,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind. I am an",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        ".",
+        "ĠI",
+        "Ġam",
+        "Ġan"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153,
+        236761,
+        564,
+        1006,
+        614
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġopen",
+            "token_id": 1932,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġan",
+            "token_id": 614,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġartificial",
+            "token_id": 16477,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠAI",
+            "token_id": 12498,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġexcited",
+            "token_id": 9775,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġinventory",
+            "token_id": 18241,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -14.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġindependent",
+            "token_id": 6829,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġoperating",
+            "token_id": 8172,
+            "logprob": -14.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġopen",
+        "token_id": 1932,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind. I am an open",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        ".",
+        "ĠI",
+        "Ġam",
+        "Ġan",
+        "Ġopen"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153,
+        236761,
+        564,
+        1006,
+        614,
+        1932
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġweights",
+            "token_id": 18710,
+            "logprob": -0.0006,
+            "prob": 1.0
+          },
+          {
+            "token": "-",
+            "token_id": 236772,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġweight",
+            "token_id": 3825,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġweighs",
+            "token_id": 51494,
+            "logprob": -14.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġspring",
+            "token_id": 6247,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsprings",
+            "token_id": 32844,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwaits",
+            "token_id": 79425,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġstate",
+            "token_id": 1883,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġresearcher",
+            "token_id": 37583,
+            "logprob": -17.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġweights",
+        "token_id": 18710,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind. I am an open weights",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        ".",
+        "ĠI",
+        "Ġam",
+        "Ġan",
+        "Ġopen",
+        "Ġweights"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153,
+        236761,
+        564,
+        1006,
+        614,
+        1932,
+        18710
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġमॉडल",
+            "token_id": 39653,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ모델",
+            "token_id": 94647,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "モデル",
+            "token_id": 35128,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġমডেল",
+            "token_id": 75910,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠModel",
+            "token_id": 9483,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ[",
+            "token_id": 870,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmulti",
+            "token_id": 5074,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmodeli",
+            "token_id": 172950,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmixed",
+            "token_id": 9726,
+            "logprob": -19.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmodel",
+        "token_id": 2028,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind. I am an open weights model",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        ".",
+        "ĠI",
+        "Ġam",
+        "Ġan",
+        "Ġopen",
+        "Ġweights",
+        "Ġmodel"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153,
+        236761,
+        564,
+        1006,
+        614,
+        1932,
+        18710,
+        2028
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -0.0003,
+            "prob": 1.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġdesigned",
+            "token_id": 5402,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -11.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtrained",
+            "token_id": 15453,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwith",
+            "token_id": 607,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhere",
+            "token_id": 1590,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġwithin",
+            "token_id": 2351,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcapable",
+            "token_id": 11844,
+            "logprob": -13.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 236761,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|turn>userWho are you?<turn|>I am Gemma 4, a Large Language Model developed by Google DeepMind. I am an open weights model.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Who",
+        "Ġare",
+        "Ġyou",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "I",
+        "Ġam",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ",",
+        "Ġa",
+        "ĠLarge",
+        "ĠLanguage",
+        "ĠModel",
+        "Ġdeveloped",
+        "Ġby",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        ".",
+        "ĠI",
+        "Ġam",
+        "Ġan",
+        "Ġopen",
+        "Ġweights",
+        "Ġmodel",
+        "."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        15938,
+        659,
+        611,
+        236881,
+        106,
+        105,
+        4368,
+        236777,
+        1006,
+        147224,
+        236743,
+        236812,
+        236764,
+        496,
+        25093,
+        22160,
+        9483,
+        5535,
+        684,
+        6475,
+        22267,
+        65153,
+        236761,
+        564,
+        1006,
+        614,
+        1932,
+        18710,
+        2028,
+        236761
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠI",
+            "token_id": 564,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠYou",
+            "token_id": 1599,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠAs",
+            "token_id": 1773,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠHow",
+            "token_id": 2088,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠThis",
+            "token_id": 1174,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠCan",
+            "token_id": 3199,
+            "logprob": -15.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -15.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "greedy",
+        "special": true
+      }
+    }
+  ]
+}

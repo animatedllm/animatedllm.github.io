@@ -1,0 +1,1822 @@
+{
+  "id": "generated_20260815_223149",
+  "prompt": "How many r's are in \"strawberry\"?",
+  "language": "en",
+  "temperature": 0.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "There",
+            "token_id": 3810,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Let",
+            "token_id": 6481,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Here",
+            "token_id": 8291,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "<|channel>",
+            "token_id": 100,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "The",
+            "token_id": 818,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Hay",
+            "token_id": 42750,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "มี",
+            "token_id": 10285,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -16.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "There",
+        "token_id": 3810,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġare",
+            "token_id": 659,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġis",
+            "token_id": 563,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "<strong>",
+            "token_id": 198,
+            "logprob": -21.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -22.75,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -22.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmatter",
+            "token_id": 4217,
+            "logprob": -23.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmeet",
+            "token_id": 2874,
+            "logprob": -23.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ***",
+            "token_id": 27435,
+            "logprob": -23.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġare",
+        "token_id": 659,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -0.0076,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġtwo",
+            "token_id": 1156,
+            "logprob": -5.0,
+            "prob": 0.0067
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġthree",
+            "token_id": 1806,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfour",
+            "token_id": 2390,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġactually",
+            "token_id": 3643,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġexactly",
+            "token_id": 7121,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġonly",
+            "token_id": 1186,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$",
+            "token_id": 609,
+            "logprob": -17.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ**",
+        "token_id": 5213,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "two",
+            "token_id": 13498,
+            "logprob": -0.03,
+            "prob": 0.9688
+          },
+          {
+            "token": "2",
+            "token_id": 236778,
+            "logprob": -4.1562,
+            "prob": 0.0156
+          },
+          {
+            "token": "three",
+            "token_id": 19891,
+            "logprob": -4.7812,
+            "prob": 0.0084
+          },
+          {
+            "token": "3",
+            "token_id": 236800,
+            "logprob": -5.2812,
+            "prob": 0.0051
+          },
+          {
+            "token": "double",
+            "token_id": 7902,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          },
+          {
+            "token": "twice",
+            "token_id": 140351,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "one",
+            "token_id": 811,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "exactly",
+            "token_id": 161617,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "两",
+            "token_id": 237982,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "dou",
+            "token_id": 61899,
+            "logprob": -13.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "two",
+        "token_id": 13498,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠR",
+            "token_id": 630,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġr",
+            "token_id": 637,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ($\\",
+            "token_id": 77891,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": "**,",
+            "token_id": 125546,
+            "logprob": -20.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġor",
+            "token_id": 653,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ'",
+            "token_id": 756,
+            "logprob": -21.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**",
+        "token_id": 1018,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two**",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -0.0139,
+            "prob": 0.9844
+          },
+          {
+            "token": "Ġ'",
+            "token_id": 756,
+            "logprob": -4.5,
+            "prob": 0.011
+          },
+          {
+            "token": "Ġr",
+            "token_id": 637,
+            "logprob": -5.875,
+            "prob": 0.0028
+          },
+          {
+            "token": "Ġ\\\"",
+            "token_id": 7339,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$\\",
+            "token_id": 874,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠR",
+            "token_id": 630,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlowercase",
+            "token_id": 67505,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$",
+            "token_id": 609,
+            "logprob": -17.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ\"",
+        "token_id": 623,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two** \"",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**",
+        "Ġ\""
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018,
+        623
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "r",
+            "token_id": 236750,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "rr",
+            "token_id": 10709,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "R",
+            "token_id": 236794,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ر",
+            "token_id": 236871,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "rrr",
+            "token_id": 100411,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ร",
+            "token_id": 237031,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "р",
+            "token_id": 236839,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġr",
+            "token_id": 637,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "s",
+            "token_id": 236751,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "a",
+            "token_id": 236746,
+            "logprob": -20.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "r",
+        "token_id": 236750,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two** \"r",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**",
+        "Ġ\"",
+        "r"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018,
+        623,
+        236750
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -0.2158,
+            "prob": 0.8047
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -1.8438,
+            "prob": 0.1582
+          },
+          {
+            "token": "\"'",
+            "token_id": 61283,
+            "logprob": -3.3438,
+            "prob": 0.0354
+          },
+          {
+            "token": "'\"",
+            "token_id": 35773,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ims",
+            "token_id": 9638,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "''",
+            "token_id": 10440,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "anc",
+            "token_id": 1052,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "iml",
+            "token_id": 51478,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "'$",
+            "token_id": 41283,
+            "logprob": -18.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "\"",
+        "token_id": 236775,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two** \"r\"",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**",
+        "Ġ\"",
+        "r",
+        "\""
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018,
+        623,
+        236750,
+        236775
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "s",
+            "token_id": 236751,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "\\'",
+            "token_id": 25080,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsounds",
+            "token_id": 12054,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġletters",
+            "token_id": 11739,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "es",
+            "token_id": 507,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsuits",
+            "token_id": 26818,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsigns",
+            "token_id": 11005,
+            "logprob": -17.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "s",
+        "token_id": 236751,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two** \"r\"s",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**",
+        "Ġ\"",
+        "r",
+        "\"",
+        "s"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018,
+        623,
+        236750,
+        236775,
+        236751
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ($\\",
+            "token_id": 77891,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": "$",
+            "token_id": 236795,
+            "logprob": -21.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsound",
+            "token_id": 5057,
+            "logprob": -21.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhidden",
+            "token_id": 11497,
+            "logprob": -21.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġin",
+        "token_id": 528,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two** \"r\"s in",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**",
+        "Ġ\"",
+        "r",
+        "\"",
+        "s",
+        "Ġin"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018,
+        623,
+        236750,
+        236775,
+        236751,
+        528
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -0.4277,
+            "prob": 0.6523
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 506,
+            "logprob": -1.0547,
+            "prob": 0.3496
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\"**",
+            "token_id": 116916,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġyour",
+            "token_id": 822,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġan",
+            "token_id": 614,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġthis",
+            "token_id": 672,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠAmerican",
+            "token_id": 3668,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhow",
+            "token_id": 1217,
+            "logprob": -20.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ\"",
+        "token_id": 623,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two** \"r\"s in \"",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**",
+        "Ġ\"",
+        "r",
+        "\"",
+        "s",
+        "Ġin",
+        "Ġ\""
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018,
+        623,
+        236750,
+        236775,
+        236751,
+        528,
+        623
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "strawberry",
+            "token_id": 115137,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "straw",
+            "token_id": 182493,
+            "logprob": -16.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Strawberry",
+            "token_id": 174809,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġstrawberry",
+            "token_id": 35324,
+            "logprob": -21.5,
+            "prob": 0.0
+          },
+          {
+            "token": "STRA",
+            "token_id": 26731,
+            "logprob": -22.375,
+            "prob": 0.0
+          },
+          {
+            "token": "berry",
+            "token_id": 10490,
+            "logprob": -22.625,
+            "prob": 0.0
+          },
+          {
+            "token": "raspberry",
+            "token_id": 218096,
+            "logprob": -23.5,
+            "prob": 0.0
+          },
+          {
+            "token": "blackberry",
+            "token_id": 130181,
+            "logprob": -24.25,
+            "prob": 0.0
+          },
+          {
+            "token": "rawberry",
+            "token_id": 56617,
+            "logprob": -24.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "strawberry",
+        "token_id": 115137,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two** \"r\"s in \"strawberry",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**",
+        "Ġ\"",
+        "r",
+        "\"",
+        "s",
+        "Ġin",
+        "Ġ\"",
+        "strawberry"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018,
+        623,
+        236750,
+        236775,
+        236751,
+        528,
+        623,
+        115137
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\".",
+            "token_id": 3056,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": ".\"",
+            "token_id": 1781,
+            "logprob": -9.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "\"!",
+            "token_id": 118659,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "\":",
+            "token_id": 1083,
+            "logprob": -13.125,
+            "prob": 0.0
+          },
+          {
+            "token": "\"?",
+            "token_id": 51653,
+            "logprob": -13.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġครับ",
+            "token_id": 10249,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "\"...",
+            "token_id": 72740,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "\">",
+            "token_id": 905,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "\";",
+            "token_id": 1721,
+            "logprob": -18.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "\".",
+        "token_id": 3056,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userHow many r's are in \"strawberry\"?<turn|>There are **two** \"r\"s in \"strawberry\".",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "How",
+        "Ġmany",
+        "Ġr",
+        "'",
+        "s",
+        "Ġare",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "There",
+        "Ġare",
+        "Ġ**",
+        "two",
+        "**",
+        "Ġ\"",
+        "r",
+        "\"",
+        "s",
+        "Ġin",
+        "Ġ\"",
+        "strawberry",
+        "\"."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        3910,
+        1551,
+        637,
+        236789,
+        236751,
+        659,
+        528,
+        623,
+        115137,
+        51653,
+        106,
+        105,
+        4368,
+        3810,
+        659,
+        5213,
+        13498,
+        1018,
+        623,
+        236750,
+        236775,
+        236751,
+        528,
+        623,
+        115137,
+        3056
+      ],
+      "special_idx": [
+        0,
+        1,
+        12,
+        13,
+        14
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -13.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠEasy",
+            "token_id": 21437,
+            "logprob": -14.75,
+            "prob": 0.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(\"",
+            "token_id": 6791,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(**",
+            "token_id": 167043,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠThey",
+            "token_id": 2195,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -18.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "greedy",
+        "special": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1816 @@
+{
+  "id": "generated_20260815_223008",
+  "prompt": "Kdo jsi?",
+  "language": "cs",
+  "temperature": 0.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userKdo jsi?<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "J",
+            "token_id": 236863,
+            "logprob": -0.5078,
+            "prob": 0.6016
+          },
+          {
+            "token": "Som",
+            "token_id": 25756,
+            "logprob": -1.0078,
+            "prob": 0.3652
+          },
+          {
+            "token": "Jest",
+            "token_id": 177433,
+            "logprob": -3.75,
+            "prob": 0.0233
+          },
+          {
+            "token": "M",
+            "token_id": 236792,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "D",
+            "token_id": 236796,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "Jag",
+            "token_id": 90447,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "Já",
+            "token_id": 123870,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ja",
+            "token_id": 33411,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ako",
+            "token_id": 108995,
+            "logprob": -8.125,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "J",
+        "token_id": 236863,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userKdo jsi?<turn|>J",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "sem",
+            "token_id": 2896,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ako",
+            "token_id": 7460,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "som",
+            "token_id": 22707,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "sum",
+            "token_id": 2330,
+            "logprob": -15.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "si",
+            "token_id": 5399,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "men",
+            "token_id": 2438,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "semi",
+            "token_id": 69807,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "pr",
+            "token_id": 972,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "el",
+            "token_id": 535,
+            "logprob": -17.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "sem",
+        "token_id": 2896,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġvel",
+            "token_id": 5172,
+            "logprob": -0.0549,
+            "prob": 0.9453
+          },
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -3.8125,
+            "prob": 0.0222
+          },
+          {
+            "token": "Ġstor",
+            "token_id": 30639,
+            "logprob": -3.9375,
+            "prob": 0.0197
+          },
+          {
+            "token": "Ġveliki",
+            "token_id": 166116,
+            "logprob": -5.6875,
+            "prob": 0.0034
+          },
+          {
+            "token": "Ġum",
+            "token_id": 1983,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -6.5625,
+            "prob": 0.0014
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -7.1875,
+            "prob": 0.0008
+          },
+          {
+            "token": "vel",
+            "token_id": 915,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġchatbot",
+            "token_id": 110130,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġjazy",
+            "token_id": 175938,
+            "logprob": -8.375,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġvel",
+        "token_id": 5172,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem vel",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ký",
+            "token_id": 75500,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ká",
+            "token_id": 65154,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "k",
+            "token_id": 236767,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "cí",
+            "token_id": 113061,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "kval",
+            "token_id": 235955,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "kého",
+            "token_id": 151051,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "kou",
+            "token_id": 40292,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ika",
+            "token_id": 4465,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ry",
+            "token_id": 824,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "mo",
+            "token_id": 1289,
+            "logprob": -19.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ký",
+        "token_id": 75500,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġjazy",
+            "token_id": 175938,
+            "logprob": -0.0005,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġdil",
+            "token_id": 7475,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġjaz",
+            "token_id": 94308,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġjad",
+            "token_id": 92416,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġspråk",
+            "token_id": 197314,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġjęzy",
+            "token_id": 152157,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġjezik",
+            "token_id": 178492,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġroz",
+            "token_id": 12080,
+            "logprob": -13.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġjazy",
+        "token_id": 175938,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazy",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "kový",
+            "token_id": 179403,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "kov",
+            "token_id": 12509,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "kové",
+            "token_id": 108864,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "k",
+            "token_id": 236767,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "kowy",
+            "token_id": 145991,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ковый",
+            "token_id": 166638,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ková",
+            "token_id": 74355,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ковой",
+            "token_id": 93630,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ковий",
+            "token_id": 195556,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "kového",
+            "token_id": 233269,
+            "logprob": -19.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "kový",
+        "token_id": 179403,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġmodel",
+            "token_id": 2028,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "模型",
+            "token_id": 26609,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "model",
+            "token_id": 4368,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmodelo",
+            "token_id": 25457,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmodell",
+            "token_id": 95471,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ모델",
+            "token_id": 94647,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmodelu",
+            "token_id": 183419,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġstroj",
+            "token_id": 198105,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsou",
+            "token_id": 4280,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ          ",
+            "token_id": 147,
+            "logprob": -21.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġmodel",
+        "token_id": 2028,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový model",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový",
+        "Ġmodel"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403,
+        2028
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġtren",
+            "token_id": 30989,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvy",
+            "token_id": 14908,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġo",
+            "token_id": 512,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtrent",
+            "token_id": 147331,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġro",
+            "token_id": 935,
+            "logprob": -13.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový model,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový",
+        "Ġmodel",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403,
+        2028,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġtren",
+            "token_id": 30989,
+            "logprob": -0.5938,
+            "prob": 0.5508
+          },
+          {
+            "token": "Ġvy",
+            "token_id": 14908,
+            "logprob": -0.8438,
+            "prob": 0.4297
+          },
+          {
+            "token": "Ġtr",
+            "token_id": 719,
+            "logprob": -4.3438,
+            "prob": 0.013
+          },
+          {
+            "token": "Ġtrain",
+            "token_id": 2519,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ġo",
+            "token_id": 512,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġtrent",
+            "token_id": 147331,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġstyr",
+            "token_id": 117198,
+            "logprob": -8.1875,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -8.1875,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġkterý",
+            "token_id": 48947,
+            "logprob": -8.1875,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġro",
+            "token_id": 935,
+            "logprob": -8.25,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġtren",
+        "token_id": 30989,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový model, tren",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový",
+        "Ġmodel",
+        ",",
+        "Ġtren"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403,
+        2028,
+        236764,
+        30989
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ovaný",
+            "token_id": 108469,
+            "logprob": -0.0383,
+            "prob": 0.9609
+          },
+          {
+            "token": "ován",
+            "token_id": 103068,
+            "logprob": -3.2812,
+            "prob": 0.0374
+          },
+          {
+            "token": "oval",
+            "token_id": 19132,
+            "logprob": -8.8125,
+            "prob": 0.0002
+          },
+          {
+            "token": "ováno",
+            "token_id": 233977,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          },
+          {
+            "token": "ovaná",
+            "token_id": 121856,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ovan",
+            "token_id": 18651,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ér",
+            "token_id": 4295,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ovat",
+            "token_id": 29739,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "uj",
+            "token_id": 3751,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ý",
+            "token_id": 237274,
+            "logprob": -14.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ovaný",
+        "token_id": 108469,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový model, trenovaný",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový",
+        "Ġmodel",
+        ",",
+        "Ġtren",
+        "ovaný"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403,
+        2028,
+        236764,
+        30989,
+        108469
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġspoleč",
+            "token_id": 72344,
+            "logprob": -0.0019,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġspolečnost",
+            "token_id": 232015,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġjsem",
+            "token_id": 47489,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġspolečnosti",
+            "token_id": 152328,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġtv",
+            "token_id": 15330,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġspoloč",
+            "token_id": 167727,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsest",
+            "token_id": 95044,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġj",
+            "token_id": 673,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvý",
+            "token_id": 16799,
+            "logprob": -13.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġspoleč",
+        "token_id": 72344,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový model, trenovaný společ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový",
+        "Ġmodel",
+        ",",
+        "Ġtren",
+        "ovaný",
+        "Ġspoleč"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403,
+        2028,
+        236764,
+        30989,
+        108469,
+        72344
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ností",
+            "token_id": 103820,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "nost",
+            "token_id": 11088,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "тельностью",
+            "token_id": 155216,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "nec",
+            "token_id": 83539,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "nosť",
+            "token_id": 71751,
+            "logprob": -21.5,
+            "prob": 0.0
+          },
+          {
+            "token": "nos",
+            "token_id": 17327,
+            "logprob": -23.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ensky",
+            "token_id": 78848,
+            "logprob": -23.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ностью",
+            "token_id": 32416,
+            "logprob": -24.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġspoleč",
+            "token_id": 72344,
+            "logprob": -24.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ností",
+        "token_id": 103820,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový model, trenovaný společností",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový",
+        "Ġmodel",
+        ",",
+        "Ġtren",
+        "ovaný",
+        "Ġspoleč",
+        "ností"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403,
+        2028,
+        236764,
+        30989,
+        108469,
+        72344,
+        103820
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -0.0004,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġspoleč",
+            "token_id": 72344,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġvý",
+            "token_id": 16799,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġod",
+            "token_id": 4237,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtroch",
+            "token_id": 116951,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġگوگل",
+            "token_id": 221794,
+            "logprob": -15.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ[",
+            "token_id": 870,
+            "logprob": -15.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠOpenAI",
+            "token_id": 131846,
+            "logprob": -16.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGoogle",
+        "token_id": 6475,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový model, trenovaný společností Google",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový",
+        "Ġmodel",
+        ",",
+        "Ġtren",
+        "ovaný",
+        "Ġspoleč",
+        "ností",
+        "ĠGoogle"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403,
+        2028,
+        236764,
+        30989,
+        108469,
+        72344,
+        103820,
+        6475
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠDeep",
+            "token_id": 22267,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠDes",
+            "token_id": 3314,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠKas",
+            "token_id": 27886,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdot",
+            "token_id": 13548,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġrad",
+            "token_id": 4226,
+            "logprob": -13.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠDu",
+            "token_id": 10336,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠDemocr",
+            "token_id": 12438,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġte",
+            "token_id": 926,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -13.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 236761,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userKdo jsi?<turn|>Jsem velký jazykový model, trenovaný společností Google.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "K",
+        "do",
+        "Ġj",
+        "si",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "J",
+        "sem",
+        "Ġvel",
+        "ký",
+        "Ġjazy",
+        "kový",
+        "Ġmodel",
+        ",",
+        "Ġtren",
+        "ovaný",
+        "Ġspoleč",
+        "ností",
+        "ĠGoogle",
+        "."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        236855,
+        2320,
+        673,
+        5399,
+        236881,
+        106,
+        105,
+        4368,
+        236863,
+        2896,
+        5172,
+        75500,
+        175938,
+        179403,
+        2028,
+        236764,
+        30989,
+        108469,
+        72344,
+        103820,
+        6475,
+        236761
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0452,
+            "prob": 0.957
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -3.4219,
+            "prob": 0.0327
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -5.0312,
+            "prob": 0.0064
+          },
+          {
+            "token": "ĠM",
+            "token_id": 587,
+            "logprob": -5.9062,
+            "prob": 0.0027
+          },
+          {
+            "token": "ĠJ",
+            "token_id": 730,
+            "logprob": -6.9062,
+            "prob": 0.001
+          },
+          {
+            "token": "ĠMô",
+            "token_id": 204932,
+            "logprob": -8.4375,
+            "prob": 0.0002
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -8.8125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ✨",
+            "token_id": 73687,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠRoz",
+            "token_id": 55499,
+            "logprob": -9.6875,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "greedy",
+        "special": true
+      }
+    }
+  ]
+}

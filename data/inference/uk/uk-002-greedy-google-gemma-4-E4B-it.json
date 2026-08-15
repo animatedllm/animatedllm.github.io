@@ -1,0 +1,4742 @@
+{
+  "id": "generated_20260815_222921",
+  "prompt": "Розкажи жарт",
+  "language": "uk",
+  "temperature": 0.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userРозкажи жарт<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "З",
+            "token_id": 237590,
+            "logprob": -0.3652,
+            "prob": 0.6953
+          },
+          {
+            "token": "О",
+            "token_id": 237248,
+            "logprob": -1.3672,
+            "prob": 0.2559
+          },
+          {
+            "token": "Ч",
+            "token_id": 237856,
+            "logprob": -3.2344,
+            "prob": 0.0391
+          },
+          {
+            "token": "Д",
+            "token_id": 237304,
+            "logprob": -5.625,
+            "prob": 0.0036
+          },
+          {
+            "token": "На",
+            "token_id": 13836,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "Я",
+            "token_id": 237998,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Бу",
+            "token_id": 70162,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ко",
+            "token_id": 22438,
+            "logprob": -7.5,
+            "prob": 0.0006
+          },
+          {
+            "token": "Чу",
+            "token_id": 192624,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Га",
+            "token_id": 83531,
+            "logprob": -8.375,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "З",
+        "token_id": 237590,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userРозкажи жарт<turn|>З",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ві",
+            "token_id": 9214,
+            "logprob": -0.03,
+            "prob": 0.9688
+          },
+          {
+            "token": "вичайно",
+            "token_id": 228682,
+            "logprob": -3.6562,
+            "prob": 0.0259
+          },
+          {
+            "token": "Ġраді",
+            "token_id": 190583,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": "най",
+            "token_id": 53860,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "о",
+            "token_id": 236801,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "го",
+            "token_id": 1231,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "бира",
+            "token_id": 24171,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "да",
+            "token_id": 1658,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "вер",
+            "token_id": 6505,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "и",
+            "token_id": 236817,
+            "logprob": -12.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ві",
+        "token_id": 9214,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Зві",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "сно",
+            "token_id": 15368,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġcourse",
+            "token_id": 3003,
+            "logprob": -11.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "course",
+            "token_id": 17540,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "чора",
+            "token_id": 235419,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "га",
+            "token_id": 2680,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "но",
+            "token_id": 924,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ря",
+            "token_id": 5109,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ть",
+            "token_id": 1715,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ре",
+            "token_id": 1150,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "соб",
+            "token_id": 16224,
+            "logprob": -19.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "сно",
+        "token_id": 15368,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -0.1426,
+            "prob": 0.8672
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -2.0156,
+            "prob": 0.1328
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "!)",
+            "token_id": 15520,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġе",
+            "token_id": 3053,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġж",
+            "token_id": 11028,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": ":",
+            "token_id": 236787,
+            "logprob": -16.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "!",
+        "token_id": 236888,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно!",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠОсь",
+            "token_id": 228232,
+            "logprob": -0.0186,
+            "prob": 0.9805
+          },
+          {
+            "token": "ĠО",
+            "token_id": 4584,
+            "logprob": -5.0312,
+            "prob": 0.0066
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -5.2812,
+            "prob": 0.0052
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -6.1562,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -6.5312,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -6.6562,
+            "prob": 0.0013
+          },
+          {
+            "token": "ĠТри",
+            "token_id": 142430,
+            "logprob": -7.6562,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġ😎",
+            "token_id": 148210,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ😁",
+            "token_id": 170124,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "ĠЯк",
+            "token_id": 57377,
+            "logprob": -8.625,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠОсь",
+        "token_id": 228232,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġодин",
+            "token_id": 26779,
+            "logprob": -0.668,
+            "prob": 0.5117
+          },
+          {
+            "token": "Ġтобі",
+            "token_id": 217750,
+            "logprob": -0.793,
+            "prob": 0.4531
+          },
+          {
+            "token": "Ġвам",
+            "token_id": 24254,
+            "logprob": -3.7969,
+            "prob": 0.0226
+          },
+          {
+            "token": "Ġдля",
+            "token_id": 4854,
+            "logprob": -4.6562,
+            "prob": 0.0094
+          },
+          {
+            "token": "Ġжа",
+            "token_id": 15833,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "Ġмаленький",
+            "token_id": 185329,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġкілька",
+            "token_id": 150368,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġкласи",
+            "token_id": 184906,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġгар",
+            "token_id": 74417,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġне",
+            "token_id": 1994,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġодин",
+        "token_id": 26779,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġдля",
+            "token_id": 4854,
+            "logprob": -0.7188,
+            "prob": 0.4883
+          },
+          {
+            "token": ":",
+            "token_id": 236787,
+            "logprob": -0.8438,
+            "prob": 0.4297
+          },
+          {
+            "token": "Ġжа",
+            "token_id": 15833,
+            "logprob": -2.7188,
+            "prob": 0.0659
+          },
+          {
+            "token": "Ġварі",
+            "token_id": 207110,
+            "logprob": -5.2188,
+            "prob": 0.0054
+          },
+          {
+            "token": "Ġз",
+            "token_id": 1529,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġтобі",
+            "token_id": 217750,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġіз",
+            "token_id": 47995,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": "Ġкласи",
+            "token_id": 184906,
+            "logprob": -6.7188,
+            "prob": 0.0012
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -7.0938,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġгар",
+            "token_id": 74417,
+            "logprob": -7.5938,
+            "prob": 0.0005
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġдля",
+        "token_id": 4854,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġтебе",
+            "token_id": 70197,
+            "logprob": -0.2832,
+            "prob": 0.7539
+          },
+          {
+            "token": "Ġвас",
+            "token_id": 25942,
+            "logprob": -1.4062,
+            "prob": 0.2451
+          },
+          {
+            "token": "ĠВас",
+            "token_id": 105388,
+            "logprob": -6.6562,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġва",
+            "token_id": 5649,
+            "logprob": -10.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмене",
+            "token_id": 37025,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġсебе",
+            "token_id": 34049,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġнастро",
+            "token_id": 78597,
+            "logprob": -11.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġтебя",
+            "token_id": 60787,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġроз",
+            "token_id": 18614,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġгу",
+            "token_id": 22200,
+            "logprob": -12.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġтебе",
+        "token_id": 70197,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ":",
+            "token_id": 236787,
+            "logprob": -0.0094,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -5.125,
+            "prob": 0.0059
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -7.5,
+            "prob": 0.0005
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😁",
+            "token_id": 170124,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ🙂",
+            "token_id": 57235,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ👇",
+            "token_id": 159957,
+            "logprob": -10.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ":",
+        "token_id": 236787,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ч",
+            "token_id": 237856,
+            "logprob": -0.1367,
+            "prob": 0.8711
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -2.1406,
+            "prob": 0.1182
+          },
+          {
+            "token": "С",
+            "token_id": 237117,
+            "logprob": -5.875,
+            "prob": 0.0028
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Д",
+            "token_id": 237304,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "Х",
+            "token_id": 237941,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "П",
+            "token_id": 237134,
+            "logprob": -7.5,
+            "prob": 0.0005
+          },
+          {
+            "token": "З",
+            "token_id": 237590,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "На",
+            "token_id": 13836,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "🔥",
+            "token_id": 240785,
+            "logprob": -7.875,
+            "prob": 0.0004
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ч",
+        "token_id": 237856,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Ч",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "о",
+            "token_id": 236801,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ом",
+            "token_id": 100396,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ар",
+            "token_id": 10906,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "олові",
+            "token_id": 104773,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "оти",
+            "token_id": 95362,
+            "logprob": -15.0,
+            "prob": 0.0
+          },
+          {
+            "token": "і",
+            "token_id": 236962,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "им",
+            "token_id": 27746,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ого",
+            "token_id": 19693,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "чо",
+            "token_id": 31434,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ек",
+            "token_id": 9572,
+            "logprob": -19.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "о",
+        "token_id": 236801,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чо",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "му",
+            "token_id": 3596,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "вен",
+            "token_id": 30097,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "ве",
+            "token_id": 2687,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "мут",
+            "token_id": 189849,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "в",
+            "token_id": 236851,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "віт",
+            "token_id": 36818,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ві",
+            "token_id": 9214,
+            "logprob": -23.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ча",
+            "token_id": 2975,
+            "logprob": -23.75,
+            "prob": 0.0
+          },
+          {
+            "token": "мок",
+            "token_id": 106622,
+            "logprob": -23.875,
+            "prob": 0.0
+          },
+          {
+            "token": "дер",
+            "token_id": 11706,
+            "logprob": -24.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "му",
+        "token_id": 3596,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġпрогра",
+            "token_id": 86935,
+            "logprob": -0.3398,
+            "prob": 0.7109
+          },
+          {
+            "token": "Ġри",
+            "token_id": 23106,
+            "logprob": -1.9609,
+            "prob": 0.1406
+          },
+          {
+            "token": "Ġске",
+            "token_id": 186332,
+            "logprob": -2.2188,
+            "prob": 0.1094
+          },
+          {
+            "token": "Ġкур",
+            "token_id": 57251,
+            "logprob": -4.7188,
+            "prob": 0.009
+          },
+          {
+            "token": "Ġї",
+            "token_id": 30059,
+            "logprob": -5.0938,
+            "prob": 0.0062
+          },
+          {
+            "token": "Ġкни",
+            "token_id": 31243,
+            "logprob": -5.4688,
+            "prob": 0.0042
+          },
+          {
+            "token": "Ġالسم",
+            "token_id": 173177,
+            "logprob": -5.7188,
+            "prob": 0.0033
+          },
+          {
+            "token": "Ġне",
+            "token_id": 1994,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġпла",
+            "token_id": 12163,
+            "logprob": -6.9688,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġпрограмми",
+            "token_id": 119902,
+            "logprob": -6.9688,
+            "prob": 0.0009
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġпрогра",
+        "token_id": 86935,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "мі",
+            "token_id": 10100,
+            "logprob": -0.0549,
+            "prob": 0.9453
+          },
+          {
+            "token": "міст",
+            "token_id": 232671,
+            "logprob": -2.9375,
+            "prob": 0.0535
+          },
+          {
+            "token": "мя",
+            "token_id": 10759,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "मि",
+            "token_id": 12777,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "мира",
+            "token_id": 66541,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "мова",
+            "token_id": 87674,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "му",
+            "token_id": 3596,
+            "logprob": -13.5,
+            "prob": 0.0
+          },
+          {
+            "token": "метри",
+            "token_id": 93277,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "мери",
+            "token_id": 28638,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "밀",
+            "token_id": 240730,
+            "logprob": -14.5625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "мі",
+        "token_id": 10100,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмі",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "сти",
+            "token_id": 2898,
+            "logprob": -0.0269,
+            "prob": 0.9727
+          },
+          {
+            "token": "ст",
+            "token_id": 871,
+            "logprob": -3.7812,
+            "prob": 0.0229
+          },
+          {
+            "token": "сту",
+            "token_id": 9889,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "ści",
+            "token_id": 9993,
+            "logprob": -6.6562,
+            "prob": 0.0013
+          },
+          {
+            "token": "сті",
+            "token_id": 16331,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ста",
+            "token_id": 2227,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "сте",
+            "token_id": 7598,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "st",
+            "token_id": 540,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġради",
+            "token_id": 38945,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "стів",
+            "token_id": 189082,
+            "logprob": -10.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "сти",
+        "token_id": 2898,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġлюб",
+            "token_id": 81186,
+            "logprob": -0.543,
+            "prob": 0.582
+          },
+          {
+            "token": "Ġзавжди",
+            "token_id": 172522,
+            "logprob": -1.5391,
+            "prob": 0.2139
+          },
+          {
+            "token": "Ġне",
+            "token_id": 1994,
+            "logprob": -2.2969,
+            "prob": 0.1011
+          },
+          {
+            "token": "Ġбоя",
+            "token_id": 110994,
+            "logprob": -2.5469,
+            "prob": 0.0786
+          },
+          {
+            "token": "Ġвід",
+            "token_id": 13667,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "Ġчасто",
+            "token_id": 37666,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "Ġні",
+            "token_id": 48891,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "Ġп",
+            "token_id": 843,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "Ġговоря",
+            "token_id": 72907,
+            "logprob": -6.2812,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ġй",
+            "token_id": 17765,
+            "logprob": -6.5312,
+            "prob": 0.0014
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġлюб",
+        "token_id": 81186,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люб",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "лять",
+            "token_id": 54230,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "ля",
+            "token_id": 2081,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "чать",
+            "token_id": 49514,
+            "logprob": -11.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ляться",
+            "token_id": 145017,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ять",
+            "token_id": 32005,
+            "logprob": -12.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "зя",
+            "token_id": 18923,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "[^",
+            "token_id": 88763,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ть",
+            "token_id": 1715,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ობ",
+            "token_id": 20300,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "те",
+            "token_id": 1305,
+            "logprob": -20.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "лять",
+        "token_id": 54230,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġтем",
+            "token_id": 19890,
+            "logprob": -0.1748,
+            "prob": 0.8398
+          },
+          {
+            "token": "Ġтемно",
+            "token_id": 183252,
+            "logprob": -2.7969,
+            "prob": 0.0608
+          },
+          {
+            "token": "Ġгу",
+            "token_id": 22200,
+            "logprob": -2.9219,
+            "prob": 0.0537
+          },
+          {
+            "token": "Ġdark",
+            "token_id": 4996,
+            "logprob": -4.5625,
+            "prob": 0.0106
+          },
+          {
+            "token": "Ġкарти",
+            "token_id": 57275,
+            "logprob": -4.9375,
+            "prob": 0.0073
+          },
+          {
+            "token": "Ġприро",
+            "token_id": 85207,
+            "logprob": -5.3125,
+            "prob": 0.005
+          },
+          {
+            "token": "Ġчор",
+            "token_id": 204174,
+            "logprob": -5.4375,
+            "prob": 0.0044
+          },
+          {
+            "token": "Ġве",
+            "token_id": 7023,
+            "logprob": -5.6875,
+            "prob": 0.0034
+          },
+          {
+            "token": "Ġка",
+            "token_id": 2475,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": "Ġгар",
+            "token_id": 74417,
+            "logprob": -6.625,
+            "prob": 0.0013
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġтем",
+        "token_id": 19890,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять тем",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ря",
+            "token_id": 5109,
+            "logprob": -0.1445,
+            "prob": 0.8672
+          },
+          {
+            "token": "ну",
+            "token_id": 3215,
+            "logprob": -2.1406,
+            "prob": 0.1172
+          },
+          {
+            "token": "ний",
+            "token_id": 6044,
+            "logprob": -4.5312,
+            "prob": 0.0109
+          },
+          {
+            "token": "ні",
+            "token_id": 4380,
+            "logprob": -5.1562,
+            "prob": 0.0058
+          },
+          {
+            "token": "не",
+            "token_id": 1337,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ру",
+            "token_id": 2125,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "на",
+            "token_id": 911,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "нува",
+            "token_id": 219174,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ряд",
+            "token_id": 23246,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ся",
+            "token_id": 2029,
+            "logprob": -12.9375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ря",
+        "token_id": 5109,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темря",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ву",
+            "token_id": 8976,
+            "logprob": -0.0005,
+            "prob": 1.0
+          },
+          {
+            "token": "vu",
+            "token_id": 25156,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "ві",
+            "token_id": 9214,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ви",
+            "token_id": 2116,
+            "logprob": -13.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "в",
+            "token_id": 236851,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "avu",
+            "token_id": 61362,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "вку",
+            "token_id": 171606,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "വ്",
+            "token_id": 43388,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ва",
+            "token_id": 1232,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ве",
+            "token_id": 2687,
+            "logprob": -18.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ву",
+        "token_id": 8976,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "?!",
+            "token_id": 26052,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġв",
+            "token_id": 909,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "؟",
+            "token_id": 238084,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ🤔",
+            "token_id": 235892,
+            "logprob": -14.75,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "/",
+            "token_id": 236786,
+            "logprob": -15.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "?",
+        "token_id": 236881,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -0.7734,
+            "prob": 0.4609
+          },
+          {
+            "token": "То",
+            "token_id": 53952,
+            "logprob": -1.5234,
+            "prob": 0.2178
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -1.5234,
+            "prob": 0.2178
+          },
+          {
+            "token": "🤔",
+            "token_id": 242846,
+            "logprob": -2.9062,
+            "prob": 0.0552
+          },
+          {
+            "token": "Бо",
+            "token_id": 54563,
+            "logprob": -3.7812,
+            "prob": 0.0229
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -4.5312,
+            "prob": 0.0109
+          },
+          {
+            "token": "🤫",
+            "token_id": 247940,
+            "logprob": -5.5312,
+            "prob": 0.004
+          },
+          {
+            "token": "😂",
+            "token_id": 239927,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "➡️",
+            "token_id": 209671,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "💡",
+            "token_id": 244549,
+            "logprob": -6.7812,
+            "prob": 0.0011
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "...",
+        "token_id": 1390,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?...",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "..."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠБо",
+            "token_id": 17828,
+            "logprob": -0.1279,
+            "prob": 0.8789
+          },
+          {
+            "token": "ĠТому",
+            "token_id": 188504,
+            "logprob": -2.125,
+            "prob": 0.1191
+          },
+          {
+            "token": "Бо",
+            "token_id": 54563,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġ🤔",
+            "token_id": 235892,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠКа",
+            "token_id": 7917,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ ",
+            "token_id": 138,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ因為",
+            "token_id": 179415,
+            "logprob": -11.25,
+            "prob": 0.0
+          },
+          {
+            "token": "🤔",
+            "token_id": 242846,
+            "logprob": -11.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠБо",
+        "token_id": 17828,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġв",
+            "token_id": 909,
+            "logprob": -1.0078,
+            "prob": 0.3652
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -1.1328,
+            "prob": 0.3223
+          },
+          {
+            "token": "Ġтам",
+            "token_id": 28456,
+            "logprob": -1.7578,
+            "prob": 0.1729
+          },
+          {
+            "token": "Ġсвіт",
+            "token_id": 143906,
+            "logprob": -2.25,
+            "prob": 0.1045
+          },
+          {
+            "token": "Ġтоді",
+            "token_id": 189991,
+            "logprob": -4.25,
+            "prob": 0.0142
+          },
+          {
+            "token": "Ġчор",
+            "token_id": 204174,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "Ġту",
+            "token_id": 12820,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġелектри",
+            "token_id": 157142,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġкомп",
+            "token_id": 22484,
+            "logprob": -7.0,
+            "prob": 0.0009
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġв",
+        "token_id": 909,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 24,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġтем",
+            "token_id": 19890,
+            "logprob": -0.4531,
+            "prob": 0.6367
+          },
+          {
+            "token": "но",
+            "token_id": 924,
+            "logprob": -1.7031,
+            "prob": 0.1816
+          },
+          {
+            "token": "Ġтемно",
+            "token_id": 183252,
+            "logprob": -2.0781,
+            "prob": 0.125
+          },
+          {
+            "token": "Ġне",
+            "token_id": 1994,
+            "logprob": -3.2031,
+            "prob": 0.0405
+          },
+          {
+            "token": "Ġті",
+            "token_id": 82695,
+            "logprob": -5.3438,
+            "prob": 0.0049
+          },
+          {
+            "token": "Ġсу",
+            "token_id": 7431,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "день",
+            "token_id": 169032,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": "Ġмаши",
+            "token_id": 23843,
+            "logprob": -7.0938,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġд",
+            "token_id": 1167,
+            "logprob": -7.3438,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġту",
+            "token_id": 12820,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġтем",
+        "token_id": 19890,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 25,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в тем",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ря",
+            "token_id": 5109,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "них",
+            "token_id": 10675,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ній",
+            "token_id": 35014,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "рян",
+            "token_id": 222356,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "ному",
+            "token_id": 27995,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -15.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "р",
+            "token_id": 236839,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ร",
+            "token_id": 237031,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "рьох",
+            "token_id": 210988,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "рю",
+            "token_id": 39741,
+            "logprob": -16.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ря",
+        "token_id": 5109,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 26,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в темря",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем",
+        "ря"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890,
+        5109
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ві",
+            "token_id": 9214,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ви",
+            "token_id": 2116,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "в",
+            "token_id": 236851,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ву",
+            "token_id": 8976,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ва",
+            "token_id": 1232,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "вій",
+            "token_id": 128540,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "вому",
+            "token_id": 86722,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "во",
+            "token_id": 1576,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "вою",
+            "token_id": 71693,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "വി",
+            "token_id": 13966,
+            "logprob": -17.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ві",
+        "token_id": 9214,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 27,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в темряві",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем",
+        "ря",
+        "ві"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890,
+        5109,
+        9214
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġмен",
+            "token_id": 11227,
+            "logprob": -0.668,
+            "prob": 0.5117
+          },
+          {
+            "token": "Ġбагато",
+            "token_id": 111175,
+            "logprob": -2.0469,
+            "prob": 0.1299
+          },
+          {
+            "token": "Ġба",
+            "token_id": 6633,
+            "logprob": -2.4219,
+            "prob": 0.0894
+          },
+          {
+            "token": "Ġтам",
+            "token_id": 28456,
+            "logprob": -2.6719,
+            "prob": 0.0693
+          },
+          {
+            "token": "Ġвони",
+            "token_id": 87907,
+            "logprob": -3.0469,
+            "prob": 0.0479
+          },
+          {
+            "token": "Ġвсі",
+            "token_id": 62171,
+            "logprob": -3.2969,
+            "prob": 0.0371
+          },
+          {
+            "token": "Ġнемає",
+            "token_id": 225963,
+            "logprob": -4.0312,
+            "prob": 0.0176
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -4.6562,
+            "prob": 0.0094
+          },
+          {
+            "token": "Ġїх",
+            "token_id": 54495,
+            "logprob": -4.6562,
+            "prob": 0.0094
+          },
+          {
+            "token": "Ġє",
+            "token_id": 30312,
+            "logprob": -4.7812,
+            "prob": 0.0083
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġмен",
+        "token_id": 11227,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 28,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в темряві мен",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем",
+        "ря",
+        "ві",
+        "Ġмен"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890,
+        5109,
+        9214,
+        11227
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ше",
+            "token_id": 3451,
+            "logprob": -0.0011,
+            "prob": 1.0
+          },
+          {
+            "token": "ша",
+            "token_id": 6193,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "ший",
+            "token_id": 34058,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ш",
+            "token_id": 236992,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ші",
+            "token_id": 40251,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "шим",
+            "token_id": 36290,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "і",
+            "token_id": 236962,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "та",
+            "token_id": 1329,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "шу",
+            "token_id": 17050,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "т",
+            "token_id": 236827,
+            "logprob": -14.3125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ше",
+        "token_id": 3451,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 29,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в темряві менше",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем",
+        "ря",
+        "ві",
+        "Ġмен",
+        "ше"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890,
+        5109,
+        9214,
+        11227,
+        3451
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġба",
+            "token_id": 6633,
+            "logprob": -0.0315,
+            "prob": 0.9688
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -4.2812,
+            "prob": 0.0138
+          },
+          {
+            "token": "Ġпоми",
+            "token_id": 103652,
+            "logprob": -4.5312,
+            "prob": 0.0107
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -6.1562,
+            "prob": 0.0021
+          },
+          {
+            "token": "Ġбі",
+            "token_id": 38246,
+            "logprob": -6.9062,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġві",
+            "token_id": 20089,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġбо",
+            "token_id": 4575,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġко",
+            "token_id": 1937,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġпоба",
+            "token_id": 164351,
+            "logprob": -8.3125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġба",
+        "token_id": 6633,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 30,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в темряві менше ба",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем",
+        "ря",
+        "ві",
+        "Ġмен",
+        "ше",
+        "Ġба"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890,
+        5109,
+        9214,
+        11227,
+        3451,
+        6633
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "гів",
+            "token_id": 194654,
+            "logprob": -0.0005,
+            "prob": 1.0
+          },
+          {
+            "token": "г",
+            "token_id": 236912,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "гу",
+            "token_id": 7044,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġвсіх",
+            "token_id": 149609,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ків",
+            "token_id": 26384,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "го",
+            "token_id": 1231,
+            "logprob": -13.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "лять",
+            "token_id": 54230,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "гатьох",
+            "token_id": 219969,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "ються",
+            "token_id": 52735,
+            "logprob": -14.25,
+            "prob": 0.0
+          },
+          {
+            "token": "גים",
+            "token_id": 217567,
+            "logprob": -14.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "гів",
+        "token_id": 194654,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 31,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в темряві менше багів",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем",
+        "ря",
+        "ві",
+        "Ġмен",
+        "ше",
+        "Ġба",
+        "гів"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890,
+        5109,
+        9214,
+        11227,
+        3451,
+        6633,
+        194654
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -0.0211,
+            "prob": 0.9805
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -4.5312,
+            "prob": 0.0109
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -5.6562,
+            "prob": 0.0035
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -7.0312,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -7.0312,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġна",
+            "token_id": 1333,
+            "logprob": -7.1562,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġвидно",
+            "token_id": 110573,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -8.375,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "!",
+        "token_id": 236888,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 32,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в темряві менше багів!",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем",
+        "ря",
+        "ві",
+        "Ġмен",
+        "ше",
+        "Ġба",
+        "гів",
+        "!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890,
+        5109,
+        9214,
+        11227,
+        3451,
+        6633,
+        194654,
+        236888
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -0.7461,
+            "prob": 0.4746
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -1.5,
+            "prob": 0.2236
+          },
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -1.5,
+            "prob": 0.2236
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -2.625,
+            "prob": 0.0728
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "Ġ😁",
+            "token_id": 170124,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "Ġ😎",
+            "token_id": 148210,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -9.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -10.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ😉",
+        "token_id": 85345,
+        "selection_method": "greedy",
+        "special": false
+      }
+    },
+    {
+      "step": 33,
+      "input_text": "<|turn>userРозкажи жарт<turn|>Звісно! Ось один для тебе:Чому програмісти люблять темряву?... Бо в темряві менше багів! 😉",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ро",
+        "зка",
+        "жи",
+        "Ġжа",
+        "рт",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "З",
+        "ві",
+        "сно",
+        "!",
+        "ĠОсь",
+        "Ġодин",
+        "Ġдля",
+        "Ġтебе",
+        ":",
+        "Ч",
+        "о",
+        "му",
+        "Ġпрогра",
+        "мі",
+        "сти",
+        "Ġлюб",
+        "лять",
+        "Ġтем",
+        "ря",
+        "ву",
+        "?",
+        "...",
+        "ĠБо",
+        "Ġв",
+        "Ġтем",
+        "ря",
+        "ві",
+        "Ġмен",
+        "ше",
+        "Ġба",
+        "гів",
+        "!",
+        "Ġ😉"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        43562,
+        90058,
+        3865,
+        15833,
+        8602,
+        106,
+        105,
+        4368,
+        237590,
+        9214,
+        15368,
+        236888,
+        228232,
+        26779,
+        4854,
+        70197,
+        236787,
+        237856,
+        236801,
+        3596,
+        86935,
+        10100,
+        2898,
+        81186,
+        54230,
+        19890,
+        5109,
+        8976,
+        236881,
+        1390,
+        17828,
+        909,
+        19890,
+        5109,
+        9214,
+        11227,
+        3451,
+        6633,
+        194654,
+        236888,
+        85345
+      ],
+      "special_idx": [
+        0,
+        1,
+        7,
+        8,
+        9
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0403,
+            "prob": 0.9609
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -3.2969,
+            "prob": 0.0374
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -7.4062,
+            "prob": 0.0006
+          },
+          {
+            "token": "💻",
+            "token_id": 244862,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "😄",
+            "token_id": 242850,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "😂",
+            "token_id": 239927,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "🤖",
+            "token_id": 246143,
+            "logprob": -10.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "greedy",
+        "special": true
+      }
+    }
+  ]
+}

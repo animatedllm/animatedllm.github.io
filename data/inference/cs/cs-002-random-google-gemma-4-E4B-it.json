@@ -1,0 +1,9364 @@
+{
+  "id": "generated_20260815_223024",
+  "prompt": "Řekni mi vtip",
+  "language": "cs",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Pro",
+            "token_id": 1489,
+            "logprob": -0.5,
+            "prob": 0.6055
+          },
+          {
+            "token": "Jas",
+            "token_id": 172812,
+            "logprob": -1.375,
+            "prob": 0.252
+          },
+          {
+            "token": "Z",
+            "token_id": 236953,
+            "logprob": -2.5,
+            "prob": 0.082
+          },
+          {
+            "token": "J",
+            "token_id": 236863,
+            "logprob": -3.375,
+            "prob": 0.0342
+          },
+          {
+            "token": "Ok",
+            "token_id": 22736,
+            "logprob": -5.125,
+            "prob": 0.006
+          },
+          {
+            "token": "A",
+            "token_id": 236776,
+            "logprob": -5.125,
+            "prob": 0.006
+          },
+          {
+            "token": "Jak",
+            "token_id": 59184,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "Dob",
+            "token_id": 145592,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ale",
+            "token_id": 53392,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "He",
+            "token_id": 2209,
+            "logprob": -7.5,
+            "prob": 0.0006
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Jas",
+        "token_id": 172812,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jas",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -0.0006,
+            "prob": 1.0
+          },
+          {
+            "token": "né",
+            "token_id": 8504,
+            "logprob": -7.4375,
+            "prob": 0.0006
+          },
+          {
+            "token": "lí",
+            "token_id": 58740,
+            "logprob": -10.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "ne",
+            "token_id": 866,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ný",
+            "token_id": 19468,
+            "logprob": -11.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ná",
+            "token_id": 25912,
+            "logprob": -13.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ice",
+            "token_id": 762,
+            "logprob": -15.25,
+            "prob": 0.0
+          },
+          {
+            "token": "no",
+            "token_id": 1904,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "nem",
+            "token_id": 25690,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "nou",
+            "token_id": 39228,
+            "logprob": -16.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ně",
+        "token_id": 13900,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.0383,
+            "prob": 0.9609
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -3.2812,
+            "prob": 0.0374
+          },
+          {
+            "token": "Ġhele",
+            "token_id": 39344,
+            "logprob": -8.8125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġmi",
+            "token_id": 3628,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtu",
+            "token_id": 4379,
+            "logprob": -11.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġtak",
+            "token_id": 2660,
+            "logprob": -12.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -12.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġrád",
+            "token_id": 226986,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ji",
+            "token_id": 5573,
+            "logprob": -13.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġtady",
+            "token_id": 221709,
+            "logprob": -0.002,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġzde",
+            "token_id": 115892,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġpoj",
+            "token_id": 47935,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġtu",
+            "token_id": 4379,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġsem",
+            "token_id": 2888,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġzv",
+            "token_id": 44065,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhele",
+            "token_id": 39344,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġvy",
+            "token_id": 14908,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġznam",
+            "token_id": 114168,
+            "logprob": -11.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġtady",
+        "token_id": 221709,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -0.1729,
+            "prob": 0.8398
+          },
+          {
+            "token": "Ġmá",
+            "token_id": 9102,
+            "logprob": -2.0469,
+            "prob": 0.1289
+          },
+          {
+            "token": "Ġmasz",
+            "token_id": 135090,
+            "logprob": -3.5469,
+            "prob": 0.0288
+          },
+          {
+            "token": "Ġmám",
+            "token_id": 174241,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġjeden",
+            "token_id": 36536,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġaku",
+            "token_id": 28593,
+            "logprob": -10.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġj",
+            "token_id": 673,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "má",
+            "token_id": 153247,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmando",
+            "token_id": 104712,
+            "logprob": -11.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġje",
+        "token_id": 2185,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġjeden",
+            "token_id": 36536,
+            "logprob": -0.1182,
+            "prob": 0.8867
+          },
+          {
+            "token": "Ġpro",
+            "token_id": 608,
+            "logprob": -2.25,
+            "prob": 0.106
+          },
+          {
+            "token": "Ġодин",
+            "token_id": 26779,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "Ġjedno",
+            "token_id": 81155,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġpár",
+            "token_id": 75825,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġjedna",
+            "token_id": 85581,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġjedan",
+            "token_id": 89567,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġten",
+            "token_id": 3595,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmů",
+            "token_id": 48933,
+            "logprob": -11.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġjedno",
+        "token_id": 81155,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ":",
+            "token_id": 236787,
+            "logprob": -0.1523,
+            "prob": 0.8594
+          },
+          {
+            "token": "Ġpro",
+            "token_id": 608,
+            "logprob": -2.1562,
+            "prob": 0.1162
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -4.0312,
+            "prob": 0.0178
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -5.2812,
+            "prob": 0.0051
+          },
+          {
+            "token": "ho",
+            "token_id": 1506,
+            "logprob": -7.9062,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġpra",
+            "token_id": 8034,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġbuat",
+            "token_id": 48541,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "em",
+            "token_id": 581,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġpodle",
+            "token_id": 74336,
+            "logprob": -9.75,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ":",
+        "token_id": 236787,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Pro",
+            "token_id": 1489,
+            "logprob": -0.0854,
+            "prob": 0.918
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -2.5781,
+            "prob": 0.0752
+          },
+          {
+            "token": "Co",
+            "token_id": 6654,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          },
+          {
+            "token": "D",
+            "token_id": 236796,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "Č",
+            "token_id": 238847,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "Prol",
+            "token_id": 204933,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": ">",
+            "token_id": 236813,
+            "logprob": -8.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Neb",
+            "token_id": 156446,
+            "logprob": -9.0625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Dru",
+            "token_id": 176919,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Neb",
+        "token_id": 156446,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Neb",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "yl",
+            "token_id": 1542,
+            "logprob": -0.0164,
+            "prob": 0.9844
+          },
+          {
+            "token": "yla",
+            "token_id": 24541,
+            "logprob": -4.2812,
+            "prob": 0.014
+          },
+          {
+            "token": "oj",
+            "token_id": 4315,
+            "logprob": -6.9375,
+            "prob": 0.001
+          },
+          {
+            "token": "ude",
+            "token_id": 2917,
+            "logprob": -7.9375,
+            "prob": 0.0004
+          },
+          {
+            "token": "yli",
+            "token_id": 50525,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "ý",
+            "token_id": 237274,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "ývá",
+            "token_id": 209840,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ere",
+            "token_id": 627,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "al",
+            "token_id": 514,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ýt",
+            "token_id": 209744,
+            "logprob": -10.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ýt",
+        "token_id": 209744,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġjsem",
+            "token_id": 47489,
+            "logprob": -1.9844,
+            "prob": 0.1377
+          },
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -2.4844,
+            "prob": 0.0835
+          },
+          {
+            "token": "Ġmů",
+            "token_id": 48933,
+            "logprob": -2.6094,
+            "prob": 0.0737
+          },
+          {
+            "token": "Ġj",
+            "token_id": 673,
+            "logprob": -2.7344,
+            "prob": 0.0649
+          },
+          {
+            "token": "Ġmůže",
+            "token_id": 80442,
+            "logprob": -2.9844,
+            "prob": 0.0505
+          },
+          {
+            "token": "Ġtv",
+            "token_id": 15330,
+            "logprob": -2.9844,
+            "prob": 0.0505
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -2.9844,
+            "prob": 0.0505
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -3.3594,
+            "prob": 0.0347
+          },
+          {
+            "token": "Ġmi",
+            "token_id": 3628,
+            "logprob": -3.7344,
+            "prob": 0.0239
+          },
+          {
+            "token": "Ġvě",
+            "token_id": 48119,
+            "logprob": -3.7344,
+            "prob": 0.0239
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġje",
+        "token_id": 2185,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt je",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ž",
+            "token_id": 237157,
+            "logprob": -0.6211,
+            "prob": 0.5391
+          },
+          {
+            "token": "ví",
+            "token_id": 28391,
+            "logprob": -2.25,
+            "prob": 0.106
+          },
+          {
+            "token": "pt",
+            "token_id": 693,
+            "logprob": -2.75,
+            "prob": 0.0645
+          },
+          {
+            "token": "žd",
+            "token_id": 44802,
+            "logprob": -4.0,
+            "prob": 0.0184
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -4.25,
+            "prob": 0.0143
+          },
+          {
+            "token": "zd",
+            "token_id": 24462,
+            "logprob": -4.25,
+            "prob": 0.0143
+          },
+          {
+            "token": "ze",
+            "token_id": 1934,
+            "logprob": -4.375,
+            "prob": 0.0126
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -4.625,
+            "prob": 0.0099
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -4.75,
+            "prob": 0.0087
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -4.75,
+            "prob": 0.0087
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "pt",
+        "token_id": 693,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jept",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "en",
+            "token_id": 501,
+            "logprob": -0.1167,
+            "prob": 0.8906
+          },
+          {
+            "token": "én",
+            "token_id": 3383,
+            "logprob": -2.9219,
+            "prob": 0.0535
+          },
+          {
+            "token": "iš",
+            "token_id": 50007,
+            "logprob": -3.0156,
+            "prob": 0.0486
+          },
+          {
+            "token": "el",
+            "token_id": 535,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "in",
+            "token_id": 495,
+            "logprob": -6.4688,
+            "prob": 0.0016
+          },
+          {
+            "token": "ín",
+            "token_id": 7893,
+            "logprob": -6.9062,
+            "prob": 0.001
+          },
+          {
+            "token": "ich",
+            "token_id": 734,
+            "logprob": -7.3438,
+            "prob": 0.0007
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -7.6875,
+            "prob": 0.0005
+          },
+          {
+            "token": "ů",
+            "token_id": 237872,
+            "logprob": -7.8125,
+            "prob": 0.0004
+          },
+          {
+            "token": "is",
+            "token_id": 511,
+            "logprob": -7.9062,
+            "prob": 0.0004
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "en",
+        "token_id": 501,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.668,
+            "prob": 0.5117
+          },
+          {
+            "token": "ý",
+            "token_id": 237274,
+            "logprob": -2.8594,
+            "prob": 0.0576
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -3.0469,
+            "prob": 0.0479
+          },
+          {
+            "token": "ě",
+            "token_id": 237336,
+            "logprob": -3.0469,
+            "prob": 0.0479
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -3.4219,
+            "prob": 0.0327
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -3.5469,
+            "prob": 0.0289
+          },
+          {
+            "token": "ěk",
+            "token_id": 106686,
+            "logprob": -3.6719,
+            "prob": 0.0255
+          },
+          {
+            "token": "ec",
+            "token_id": 1050,
+            "logprob": -4.1562,
+            "prob": 0.0155
+          },
+          {
+            "token": ":",
+            "token_id": 236787,
+            "logprob": -4.1562,
+            "prob": 0.0155
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -4.3438,
+            "prob": 0.0128
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġse",
+        "token_id": 636,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġpt",
+            "token_id": 25290,
+            "logprob": -0.6641,
+            "prob": 0.5156
+          },
+          {
+            "token": "pt",
+            "token_id": 693,
+            "logprob": -2.5312,
+            "prob": 0.0791
+          },
+          {
+            "token": "Ġze",
+            "token_id": 8191,
+            "logprob": -2.6562,
+            "prob": 0.0698
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -3.7812,
+            "prob": 0.0226
+          },
+          {
+            "token": "Ġne",
+            "token_id": 770,
+            "logprob": -3.7812,
+            "prob": 0.0226
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -4.0312,
+            "prob": 0.0176
+          },
+          {
+            "token": "Ġnikdy",
+            "token_id": 192014,
+            "logprob": -4.5312,
+            "prob": 0.0107
+          },
+          {
+            "token": "Ġrozhod",
+            "token_id": 85101,
+            "logprob": -4.6562,
+            "prob": 0.0095
+          },
+          {
+            "token": "Ġsna",
+            "token_id": 88267,
+            "logprob": -4.7812,
+            "prob": 0.0083
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -4.9062,
+            "prob": 0.0074
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġne",
+        "token_id": 770,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se ne",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "cht",
+            "token_id": 8849,
+            "logprob": -1.7188,
+            "prob": 0.1797
+          },
+          {
+            "token": "hod",
+            "token_id": 27212,
+            "logprob": -2.0938,
+            "prob": 0.1235
+          },
+          {
+            "token": "zn",
+            "token_id": 12246,
+            "logprob": -2.4688,
+            "prob": 0.085
+          },
+          {
+            "token": "zd",
+            "token_id": 24462,
+            "logprob": -2.4688,
+            "prob": 0.085
+          },
+          {
+            "token": "ví",
+            "token_id": 28391,
+            "logprob": -2.5938,
+            "prob": 0.0747
+          },
+          {
+            "token": "ří",
+            "token_id": 16549,
+            "logprob": -3.3438,
+            "prob": 0.0354
+          },
+          {
+            "token": "bere",
+            "token_id": 27720,
+            "logprob": -3.7188,
+            "prob": 0.0243
+          },
+          {
+            "token": "ob",
+            "token_id": 982,
+            "logprob": -3.7188,
+            "prob": 0.0243
+          },
+          {
+            "token": "br",
+            "token_id": 1457,
+            "logprob": -3.8438,
+            "prob": 0.0215
+          },
+          {
+            "token": "pat",
+            "token_id": 3164,
+            "logprob": -4.0938,
+            "prob": 0.0167
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ří",
+        "token_id": 16549,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neří",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ká",
+            "token_id": 65154,
+            "logprob": -0.009,
+            "prob": 0.9922
+          },
+          {
+            "token": "ka",
+            "token_id": 2339,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "ží",
+            "token_id": 40385,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "k",
+            "token_id": 236767,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "dí",
+            "token_id": 200221,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "čí",
+            "token_id": 51379,
+            "logprob": -9.125,
+            "prob": 0.0001
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "zne",
+            "token_id": 49342,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "z",
+            "token_id": 236802,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "zl",
+            "token_id": 57935,
+            "logprob": -11.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ká",
+        "token_id": 65154,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.332,
+            "prob": 0.7188
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -1.8359,
+            "prob": 0.1602
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -3.3281,
+            "prob": 0.0356
+          },
+          {
+            "token": "Ġtak",
+            "token_id": 2660,
+            "logprob": -3.8281,
+            "prob": 0.0216
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -5.0938,
+            "prob": 0.0062
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -5.4688,
+            "prob": 0.0043
+          },
+          {
+            "token": "Ġjen",
+            "token_id": 25910,
+            "logprob": -5.4688,
+            "prob": 0.0043
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -5.7188,
+            "prob": 0.0033
+          },
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "Ġš",
+            "token_id": 8153,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġv",
+        "token_id": 566,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "tip",
+            "token_id": 18320,
+            "logprob": -1.0312,
+            "prob": 0.3555
+          },
+          {
+            "token": "Ġče",
+            "token_id": 90899,
+            "logprob": -3.0312,
+            "prob": 0.0481
+          },
+          {
+            "token": "Ġkost",
+            "token_id": 42975,
+            "logprob": -3.0312,
+            "prob": 0.0481
+          },
+          {
+            "token": "Ġčesk",
+            "token_id": 116272,
+            "logprob": -3.2812,
+            "prob": 0.0376
+          },
+          {
+            "token": "ĠCzech",
+            "token_id": 35074,
+            "logprob": -3.4062,
+            "prob": 0.0332
+          },
+          {
+            "token": "Ġč",
+            "token_id": 7282,
+            "logprob": -3.5312,
+            "prob": 0.0292
+          },
+          {
+            "token": "ĠČeské",
+            "token_id": 162395,
+            "logprob": -3.6562,
+            "prob": 0.0258
+          },
+          {
+            "token": "Ġkuch",
+            "token_id": 44557,
+            "logprob": -3.7812,
+            "prob": 0.0227
+          },
+          {
+            "token": "Ġté",
+            "token_id": 11924,
+            "logprob": -3.9062,
+            "prob": 0.02
+          },
+          {
+            "token": "č",
+            "token_id": 237120,
+            "logprob": -3.9062,
+            "prob": 0.02
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġče",
+        "token_id": 90899,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v če",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "št",
+            "token_id": 15869,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "šti",
+            "token_id": 154723,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "š",
+            "token_id": 237127,
+            "logprob": -17.0,
+            "prob": 0.0
+          },
+          {
+            "token": "č",
+            "token_id": 237120,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ština",
+            "token_id": 208756,
+            "logprob": -17.875,
+            "prob": 0.0
+          },
+          {
+            "token": "šť",
+            "token_id": 106259,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "est",
+            "token_id": 598,
+            "logprob": -22.375,
+            "prob": 0.0
+          },
+          {
+            "token": "stim",
+            "token_id": 46899,
+            "logprob": -22.5,
+            "prob": 0.0
+          },
+          {
+            "token": "vin",
+            "token_id": 10383,
+            "logprob": -22.625,
+            "prob": 0.0
+          },
+          {
+            "token": "sr",
+            "token_id": 39277,
+            "logprob": -22.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "št",
+        "token_id": 15869,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češt",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ině",
+            "token_id": 132556,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "in",
+            "token_id": 495,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ín",
+            "token_id": 7893,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "iny",
+            "token_id": 6592,
+            "logprob": -20.375,
+            "prob": 0.0
+          },
+          {
+            "token": "ine",
+            "token_id": 688,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -22.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ini",
+            "token_id": 2818,
+            "logprob": -23.25,
+            "prob": 0.0
+          },
+          {
+            "token": "inie",
+            "token_id": 135278,
+            "logprob": -24.125,
+            "prob": 0.0
+          },
+          {
+            "token": "inu",
+            "token_id": 8928,
+            "logprob": -24.25,
+            "prob": 0.0
+          },
+          {
+            "token": "iné",
+            "token_id": 61770,
+            "logprob": -24.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ině",
+        "token_id": 132556,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.2412,
+            "prob": 0.7852
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -1.8672,
+            "prob": 0.1543
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -3.2344,
+            "prob": 0.0391
+          },
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -5.125,
+            "prob": 0.006
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -5.25,
+            "prob": 0.0053
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġ–",
+            "token_id": 1271,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -7.0,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġjako",
+            "token_id": 20221,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -8.0,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ",
+        "token_id": 236743,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "😅",
+            "token_id": 241851,
+            "logprob": -0.2598,
+            "prob": 0.7734
+          },
+          {
+            "token": "🤣",
+            "token_id": 241025,
+            "logprob": -3.2656,
+            "prob": 0.0383
+          },
+          {
+            "token": "😜",
+            "token_id": 243799,
+            "logprob": -3.5156,
+            "prob": 0.0299
+          },
+          {
+            "token": "😇",
+            "token_id": 243516,
+            "logprob": -3.8281,
+            "prob": 0.0219
+          },
+          {
+            "token": "🙃",
+            "token_id": 244499,
+            "logprob": -4.1875,
+            "prob": 0.015
+          },
+          {
+            "token": "😃",
+            "token_id": 243065,
+            "logprob": -4.25,
+            "prob": 0.0142
+          },
+          {
+            "token": "🤫",
+            "token_id": 247940,
+            "logprob": -4.375,
+            "prob": 0.0125
+          },
+          {
+            "token": "🤷",
+            "token_id": 244269,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "🧐",
+            "token_id": 246828,
+            "logprob": -5.0625,
+            "prob": 0.0063
+          },
+          {
+            "token": "🙈",
+            "token_id": 243861,
+            "logprob": -5.3125,
+            "prob": 0.0049
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "😅",
+        "token_id": 241851,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "(",
+            "token_id": 236769,
+            "logprob": -0.7891,
+            "prob": 0.4551
+          },
+          {
+            "token": "Jak",
+            "token_id": 59184,
+            "logprob": -2.5312,
+            "prob": 0.0791
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -2.5312,
+            "prob": 0.0791
+          },
+          {
+            "token": "*(",
+            "token_id": 16907,
+            "logprob": -2.7812,
+            "prob": 0.0615
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -2.7812,
+            "prob": 0.0615
+          },
+          {
+            "token": "Co",
+            "token_id": 6654,
+            "logprob": -2.9062,
+            "prob": 0.0544
+          },
+          {
+            "token": "Dou",
+            "token_id": 48188,
+            "logprob": -3.1562,
+            "prob": 0.0422
+          },
+          {
+            "token": "D",
+            "token_id": 236796,
+            "logprob": -3.9062,
+            "prob": 0.02
+          },
+          {
+            "token": "A",
+            "token_id": 236776,
+            "logprob": -3.9062,
+            "prob": 0.02
+          },
+          {
+            "token": "**(",
+            "token_id": 177906,
+            "logprob": -4.1562,
+            "prob": 0.0156
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "(",
+        "token_id": 236769,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "("
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "V",
+            "token_id": 236847,
+            "logprob": -1.8203,
+            "prob": 0.1621
+          },
+          {
+            "token": "To",
+            "token_id": 2021,
+            "logprob": -1.9453,
+            "prob": 0.1436
+          },
+          {
+            "token": "Proto",
+            "token_id": 95256,
+            "logprob": -2.5625,
+            "prob": 0.0767
+          },
+          {
+            "token": "Je",
+            "token_id": 18109,
+            "logprob": -2.8125,
+            "prob": 0.0596
+          },
+          {
+            "token": "A",
+            "token_id": 236776,
+            "logprob": -2.9375,
+            "prob": 0.0527
+          },
+          {
+            "token": "D",
+            "token_id": 236796,
+            "logprob": -2.9375,
+            "prob": 0.0527
+          },
+          {
+            "token": "T",
+            "token_id": 236774,
+            "logprob": -3.0625,
+            "prob": 0.0464
+          },
+          {
+            "token": "Z",
+            "token_id": 236953,
+            "logprob": -3.3125,
+            "prob": 0.0361
+          },
+          {
+            "token": "P",
+            "token_id": 236791,
+            "logprob": -3.3125,
+            "prob": 0.0361
+          },
+          {
+            "token": "Pokud",
+            "token_id": 230276,
+            "logprob": -3.5625,
+            "prob": 0.0282
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "V",
+        "token_id": 236847,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 24,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(V",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ys",
+            "token_id": 986,
+            "logprob": -0.5625,
+            "prob": 0.5703
+          },
+          {
+            "token": "tip",
+            "token_id": 18320,
+            "logprob": -0.9375,
+            "prob": 0.3906
+          },
+          {
+            "token": "ě",
+            "token_id": 237336,
+            "logprob": -5.1875,
+            "prob": 0.0056
+          },
+          {
+            "token": "yt",
+            "token_id": 3065,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": "yp",
+            "token_id": 1775,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": "yb",
+            "token_id": 34271,
+            "logprob": -5.9375,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġvys",
+            "token_id": 46746,
+            "logprob": -5.9375,
+            "prob": 0.0026
+          },
+          {
+            "token": "yn",
+            "token_id": 1484,
+            "logprob": -6.1875,
+            "prob": 0.002
+          },
+          {
+            "token": "š",
+            "token_id": 237127,
+            "logprob": -6.1875,
+            "prob": 0.002
+          },
+          {
+            "token": "ždy",
+            "token_id": 110236,
+            "logprob": -6.3125,
+            "prob": 0.0018
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "tip",
+        "token_id": 18320,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 25,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtip",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -0.3867,
+            "prob": 0.6797
+          },
+          {
+            "token": "em",
+            "token_id": 581,
+            "logprob": -2.2656,
+            "prob": 0.104
+          },
+          {
+            "token": "Ġspo",
+            "token_id": 18433,
+            "logprob": -2.8906,
+            "prob": 0.0557
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -3.3906,
+            "prob": 0.0337
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -3.7656,
+            "prob": 0.0232
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġsp",
+            "token_id": 892,
+            "logprob": -4.625,
+            "prob": 0.0097
+          },
+          {
+            "token": "Ġvych",
+            "token_id": 188435,
+            "logprob": -4.625,
+            "prob": 0.0097
+          },
+          {
+            "token": "ný",
+            "token_id": 19468,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "ná",
+            "token_id": 25912,
+            "logprob": -5.125,
+            "prob": 0.0059
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "em",
+        "token_id": 581,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 26,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -0.0073,
+            "prob": 0.9922
+          },
+          {
+            "token": "Ġmá",
+            "token_id": 9102,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġmám",
+            "token_id": 174241,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġjsou",
+            "token_id": 37465,
+            "logprob": -7.5,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġjsem",
+            "token_id": 47489,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġmě",
+            "token_id": 30375,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġch",
+            "token_id": 677,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -8.375,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġje",
+        "token_id": 2185,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 27,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.707,
+            "prob": 0.4941
+          },
+          {
+            "token": "Ġhra",
+            "token_id": 195163,
+            "logprob": -1.9531,
+            "prob": 0.1416
+          },
+          {
+            "token": "Ġto",
+            "token_id": 531,
+            "logprob": -1.9531,
+            "prob": 0.1416
+          },
+          {
+            "token": "Ġh",
+            "token_id": 534,
+            "logprob": -2.8281,
+            "prob": 0.0588
+          },
+          {
+            "token": "Ġslov",
+            "token_id": 134188,
+            "logprob": -3.0781,
+            "prob": 0.0459
+          },
+          {
+            "token": "Ġhr",
+            "token_id": 27291,
+            "logprob": -3.9531,
+            "prob": 0.0192
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -3.9531,
+            "prob": 0.0192
+          },
+          {
+            "token": "Ġslo",
+            "token_id": 46206,
+            "logprob": -4.4688,
+            "prob": 0.0116
+          },
+          {
+            "token": "Ġten",
+            "token_id": 3595,
+            "logprob": -4.9688,
+            "prob": 0.007
+          },
+          {
+            "token": "Ġprav",
+            "token_id": 34732,
+            "logprob": -5.4688,
+            "prob": 0.0043
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġto",
+        "token_id": 531,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 28,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.0018,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġslo",
+            "token_id": 46206,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġne",
+            "token_id": 770,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġsp",
+            "token_id": 892,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġslov",
+            "token_id": 134188,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġt",
+            "token_id": 494,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġspoj",
+            "token_id": 112117,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -10.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 29,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġže",
+            "token_id": 18020,
+            "logprob": -0.0023,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġjak",
+            "token_id": 12597,
+            "logprob": -6.5,
+            "prob": 0.0015
+          },
+          {
+            "token": "že",
+            "token_id": 14065,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġco",
+            "token_id": 1028,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġque",
+            "token_id": 929,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġże",
+            "token_id": 14890,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġprotože",
+            "token_id": 114939,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġkdyž",
+            "token_id": 77893,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġکہ",
+            "token_id": 7033,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġчто",
+            "token_id": 4183,
+            "logprob": -11.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġže",
+        "token_id": 18020,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 30,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -1.0547,
+            "prob": 0.3496
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -1.4297,
+            "prob": 0.2402
+          },
+          {
+            "token": "Ġto",
+            "token_id": 531,
+            "logprob": -1.9297,
+            "prob": 0.1455
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -2.5469,
+            "prob": 0.0781
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -2.9219,
+            "prob": 0.0535
+          },
+          {
+            "token": "Ġkdyž",
+            "token_id": 77893,
+            "logprob": -3.4219,
+            "prob": 0.0325
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -3.9219,
+            "prob": 0.0197
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -4.9375,
+            "prob": 0.0073
+          },
+          {
+            "token": "Ġpokud",
+            "token_id": 112241,
+            "logprob": -5.0625,
+            "prob": 0.0064
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -5.4375,
+            "prob": 0.0044
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġpokud",
+        "token_id": 112241,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 31,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -1.0859,
+            "prob": 0.3379
+          },
+          {
+            "token": "Ġby",
+            "token_id": 684,
+            "logprob": -1.7109,
+            "prob": 0.1807
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -2.7031,
+            "prob": 0.0664
+          },
+          {
+            "token": "Ġto",
+            "token_id": 531,
+            "logprob": -2.8281,
+            "prob": 0.0588
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -2.9531,
+            "prob": 0.0518
+          },
+          {
+            "token": "Ġho",
+            "token_id": 3920,
+            "logprob": -2.9531,
+            "prob": 0.0518
+          },
+          {
+            "token": "Ġněk",
+            "token_id": 152731,
+            "logprob": -3.0781,
+            "prob": 0.0457
+          },
+          {
+            "token": "Ġřek",
+            "token_id": 148322,
+            "logprob": -3.5781,
+            "prob": 0.0277
+          },
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -3.5781,
+            "prob": 0.0277
+          },
+          {
+            "token": "Ġne",
+            "token_id": 770,
+            "logprob": -3.5781,
+            "prob": 0.0277
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġho",
+        "token_id": 3920,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 32,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġne",
+            "token_id": 770,
+            "logprob": -0.9727,
+            "prob": 0.3789
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -2.0938,
+            "prob": 0.1226
+          },
+          {
+            "token": "Ġřek",
+            "token_id": 148322,
+            "logprob": -2.5938,
+            "prob": 0.0742
+          },
+          {
+            "token": "Ġněk",
+            "token_id": 152731,
+            "logprob": -2.8438,
+            "prob": 0.0579
+          },
+          {
+            "token": "Ġpře",
+            "token_id": 163108,
+            "logprob": -3.5938,
+            "prob": 0.0273
+          },
+          {
+            "token": "Ġ*",
+            "token_id": 808,
+            "logprob": -3.8438,
+            "prob": 0.0214
+          },
+          {
+            "token": "Ġnech",
+            "token_id": 126536,
+            "logprob": -3.9688,
+            "prob": 0.0188
+          },
+          {
+            "token": "Ġopravdu",
+            "token_id": 227361,
+            "logprob": -3.9688,
+            "prob": 0.0188
+          },
+          {
+            "token": "Ġnev",
+            "token_id": 53857,
+            "logprob": -3.9688,
+            "prob": 0.0188
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -3.9688,
+            "prob": 0.0188
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġřek",
+        "token_id": 148322,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 33,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řek",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ne",
+            "token_id": 866,
+            "logprob": -0.1758,
+            "prob": 0.8398
+          },
+          {
+            "token": "nete",
+            "token_id": 65027,
+            "logprob": -2.1719,
+            "prob": 0.1138
+          },
+          {
+            "token": "nes",
+            "token_id": 3907,
+            "logprob": -4.0625,
+            "prob": 0.0175
+          },
+          {
+            "token": "n",
+            "token_id": 236749,
+            "logprob": -4.3125,
+            "prob": 0.0135
+          },
+          {
+            "token": "nu",
+            "token_id": 5660,
+            "logprob": -4.8125,
+            "prob": 0.0082
+          },
+          {
+            "token": "неш",
+            "token_id": 83366,
+            "logprob": -5.5625,
+            "prob": 0.0039
+          },
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -6.0625,
+            "prob": 0.0023
+          },
+          {
+            "token": "l",
+            "token_id": 236752,
+            "logprob": -7.0625,
+            "prob": 0.0009
+          },
+          {
+            "token": "nou",
+            "token_id": 39228,
+            "logprob": -7.3125,
+            "prob": 0.0007
+          },
+          {
+            "token": "ni",
+            "token_id": 3598,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "nete",
+        "token_id": 65027,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 34,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -1.0078,
+            "prob": 0.3633
+          },
+          {
+            "token": "Ġnah",
+            "token_id": 34730,
+            "logprob": -1.6328,
+            "prob": 0.1943
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -2.3906,
+            "prob": 0.0918
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -2.5156,
+            "prob": 0.0811
+          },
+          {
+            "token": "Ġh",
+            "token_id": 534,
+            "logprob": -3.5156,
+            "prob": 0.0299
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -3.6406,
+            "prob": 0.0264
+          },
+          {
+            "token": "Ġtak",
+            "token_id": 2660,
+            "logprob": -3.7656,
+            "prob": 0.0232
+          },
+          {
+            "token": "Ġjako",
+            "token_id": 20221,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġvý",
+            "token_id": 16799,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -4.125,
+            "prob": 0.016
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġnah",
+        "token_id": 34730,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 35,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nah",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "las",
+            "token_id": 6104,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "lasan",
+            "token_id": 188110,
+            "logprob": -14.625,
+            "prob": 0.0
+          },
+          {
+            "token": "on",
+            "token_id": 498,
+            "logprob": -15.875,
+            "prob": 0.0
+          },
+          {
+            "token": "opt",
+            "token_id": 2326,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlas",
+            "token_id": 2137,
+            "logprob": -17.375,
+            "prob": 0.0
+          },
+          {
+            "token": "allo",
+            "token_id": 22476,
+            "logprob": -19.0,
+            "prob": 0.0
+          },
+          {
+            "token": "lem",
+            "token_id": 6279,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "øst",
+            "token_id": 231281,
+            "logprob": -19.875,
+            "prob": 0.0
+          },
+          {
+            "token": "los",
+            "token_id": 16507,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ran",
+            "token_id": 5259,
+            "logprob": -20.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "las",
+        "token_id": 6104,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 36,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.0304,
+            "prob": 0.9688
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -4.1562,
+            "prob": 0.0156
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -4.9062,
+            "prob": 0.0074
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -6.4062,
+            "prob": 0.0017
+          },
+          {
+            "token": "Ġbez",
+            "token_id": 14704,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġnebo",
+            "token_id": 33312,
+            "logprob": -7.4062,
+            "prob": 0.0006
+          },
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -7.6562,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġtak",
+            "token_id": 2660,
+            "logprob": -7.9062,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġna",
+            "token_id": 1784,
+            "logprob": -8.25,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 37,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -0.168,
+            "prob": 0.8438
+          },
+          {
+            "token": "Ġto",
+            "token_id": 531,
+            "logprob": -3.9219,
+            "prob": 0.0199
+          },
+          {
+            "token": "Ġbude",
+            "token_id": 43220,
+            "logprob": -3.9219,
+            "prob": 0.0199
+          },
+          {
+            "token": "Ġmůže",
+            "token_id": 80442,
+            "logprob": -3.9219,
+            "prob": 0.0199
+          },
+          {
+            "token": "Ġvyp",
+            "token_id": 92459,
+            "logprob": -4.0312,
+            "prob": 0.0176
+          },
+          {
+            "token": "Ġzvuk",
+            "token_id": 229322,
+            "logprob": -5.0312,
+            "prob": 0.0064
+          },
+          {
+            "token": "Ġzn",
+            "token_id": 21521,
+            "logprob": -5.0312,
+            "prob": 0.0064
+          },
+          {
+            "token": "Ġmož",
+            "token_id": 31367,
+            "logprob": -5.2812,
+            "prob": 0.005
+          },
+          {
+            "token": "Ġzač",
+            "token_id": 46824,
+            "logprob": -5.2812,
+            "prob": 0.005
+          },
+          {
+            "token": "Ġje",
+            "token_id": 2185,
+            "logprob": -5.5312,
+            "prob": 0.0039
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġz",
+        "token_id": 904,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 38,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, z",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ní",
+            "token_id": 6465,
+            "logprob": -0.0012,
+            "prob": 1.0
+          },
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "raz",
+            "token_id": 5355,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "ran",
+            "token_id": 5259,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "ním",
+            "token_id": 45866,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ni",
+            "token_id": 3598,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "br",
+            "token_id": 1457,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "aje",
+            "token_id": 8868,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "byte",
+            "token_id": 12247,
+            "logprob": -13.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "raz",
+        "token_id": 5355,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 39,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zraz",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "íte",
+            "token_id": 71970,
+            "logprob": -0.7383,
+            "prob": 0.4785
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -0.9883,
+            "prob": 0.373
+          },
+          {
+            "token": "uje",
+            "token_id": 11270,
+            "logprob": -1.9844,
+            "prob": 0.1367
+          },
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -5.25,
+            "prob": 0.0053
+          },
+          {
+            "token": "íš",
+            "token_id": 176896,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "u",
+            "token_id": 236756,
+            "logprob": -6.0625,
+            "prob": 0.0024
+          },
+          {
+            "token": "ujete",
+            "token_id": 114920,
+            "logprob": -8.3125,
+            "prob": 0.0002
+          },
+          {
+            "token": "ím",
+            "token_id": 9433,
+            "logprob": -8.5625,
+            "prob": 0.0002
+          },
+          {
+            "token": "íme",
+            "token_id": 83855,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "ní",
+            "token_id": 6465,
+            "logprob": -11.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "íš",
+        "token_id": 176896,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 40,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -0.7617,
+            "prob": 0.4668
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -2.0156,
+            "prob": 0.1338
+          },
+          {
+            "token": "Ġto",
+            "token_id": 531,
+            "logprob": -2.6406,
+            "prob": 0.0718
+          },
+          {
+            "token": "Ġho",
+            "token_id": 3920,
+            "logprob": -3.1406,
+            "prob": 0.0435
+          },
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -3.3906,
+            "prob": 0.0337
+          },
+          {
+            "token": "Ġú",
+            "token_id": 6277,
+            "logprob": -3.6406,
+            "prob": 0.0264
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -3.6406,
+            "prob": 0.0264
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -3.8906,
+            "prob": 0.0205
+          },
+          {
+            "token": "Ġzvuk",
+            "token_id": 229322,
+            "logprob": -4.125,
+            "prob": 0.016
+          },
+          {
+            "token": "Ġsm",
+            "token_id": 1406,
+            "logprob": -4.25,
+            "prob": 0.0141
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsm",
+        "token_id": 1406,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 41,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš sm",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ích",
+            "token_id": 10311,
+            "logprob": -0.0054,
+            "prob": 0.9961
+          },
+          {
+            "token": "ich",
+            "token_id": 734,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "ěr",
+            "token_id": 94931,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "á",
+            "token_id": 236898,
+            "logprob": -10.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ECH",
+            "token_id": 171860,
+            "logprob": -10.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "éch",
+            "token_id": 59460,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ech",
+            "token_id": 7329,
+            "logprob": -10.875,
+            "prob": 0.0
+          },
+          {
+            "token": "innerHTML",
+            "token_id": 10720,
+            "logprob": -11.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "íš",
+            "token_id": 176896,
+            "logprob": -11.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ich",
+        "token_id": 734,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 42,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smich",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -1.1016,
+            "prob": 0.332
+          },
+          {
+            "token": "ový",
+            "token_id": 50304,
+            "logprob": -2.3594,
+            "prob": 0.0952
+          },
+          {
+            "token": "ot",
+            "token_id": 557,
+            "logprob": -2.7344,
+            "prob": 0.0654
+          },
+          {
+            "token": "u",
+            "token_id": 236756,
+            "logprob": -2.9844,
+            "prob": 0.051
+          },
+          {
+            "token": "y",
+            "token_id": 236762,
+            "logprob": -2.9844,
+            "prob": 0.051
+          },
+          {
+            "token": "Ġ–",
+            "token_id": 1271,
+            "logprob": -3.1094,
+            "prob": 0.0449
+          },
+          {
+            "token": "om",
+            "token_id": 542,
+            "logprob": -3.1094,
+            "prob": 0.0449
+          },
+          {
+            "token": ".)",
+            "token_id": 2907,
+            "logprob": -3.2344,
+            "prob": 0.0398
+          },
+          {
+            "token": "!)",
+            "token_id": 15520,
+            "logprob": -3.2344,
+            "prob": 0.0398
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -3.4844,
+            "prob": 0.0309
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ový",
+        "token_id": 50304,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 43,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġefekt",
+            "token_id": 78624,
+            "logprob": -1.6641,
+            "prob": 0.1895
+          },
+          {
+            "token": "Ġreflex",
+            "token_id": 27931,
+            "logprob": -2.0312,
+            "prob": 0.1309
+          },
+          {
+            "token": "Ġ\"",
+            "token_id": 623,
+            "logprob": -2.4062,
+            "prob": 0.0898
+          },
+          {
+            "token": "Ġná",
+            "token_id": 26118,
+            "logprob": -2.6562,
+            "prob": 0.0698
+          },
+          {
+            "token": "Ġú",
+            "token_id": 6277,
+            "logprob": -2.6562,
+            "prob": 0.0698
+          },
+          {
+            "token": "Ġnap",
+            "token_id": 13420,
+            "logprob": -3.1562,
+            "prob": 0.0425
+          },
+          {
+            "token": "Ġreak",
+            "token_id": 80586,
+            "logprob": -3.4062,
+            "prob": 0.033
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -3.5312,
+            "prob": 0.0292
+          },
+          {
+            "token": "Ġdo",
+            "token_id": 776,
+            "logprob": -3.7812,
+            "prob": 0.0227
+          },
+          {
+            "token": "Ġk",
+            "token_id": 620,
+            "logprob": -4.0312,
+            "prob": 0.0177
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġnap",
+        "token_id": 13420,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 44,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový nap",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ětí",
+            "token_id": 189291,
+            "logprob": -0.0058,
+            "prob": 0.9961
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -5.8125,
+            "prob": 0.003
+          },
+          {
+            "token": "ad",
+            "token_id": 553,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "ät",
+            "token_id": 7331,
+            "logprob": -7.1875,
+            "prob": 0.0008
+          },
+          {
+            "token": "ín",
+            "token_id": 7893,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ád",
+            "token_id": 20351,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "rš",
+            "token_id": 61652,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "as",
+            "token_id": 527,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "jat",
+            "token_id": 56546,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "az",
+            "token_id": 1225,
+            "logprob": -12.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ětí",
+        "token_id": 189291,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 45,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.8828,
+            "prob": 0.4141
+          },
+          {
+            "token": "!)",
+            "token_id": 15520,
+            "logprob": -1.6328,
+            "prob": 0.1953
+          },
+          {
+            "token": ".)",
+            "token_id": 2907,
+            "logprob": -2.75,
+            "prob": 0.0635
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -3.0,
+            "prob": 0.0496
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -3.0,
+            "prob": 0.0496
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -3.25,
+            "prob": 0.0386
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -3.5,
+            "prob": 0.03
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -3.625,
+            "prob": 0.0265
+          },
+          {
+            "token": "Ġ–",
+            "token_id": 1271,
+            "logprob": -3.75,
+            "prob": 0.0233
+          },
+          {
+            "token": "Ġz",
+            "token_id": 904,
+            "logprob": -4.125,
+            "prob": 0.0161
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ😉",
+        "token_id": 85345,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 46,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ")",
+            "token_id": 236768,
+            "logprob": -0.0009,
+            "prob": 1.0
+          },
+          {
+            "token": ".)",
+            "token_id": 2907,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": ").",
+            "token_id": 769,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "!)",
+            "token_id": 15520,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ)",
+            "token_id": 1732,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "👍",
+            "token_id": 240493,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ–",
+            "token_id": 1271,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": ")!",
+            "token_id": 47473,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 753,
+            "logprob": -10.8125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ")",
+        "token_id": 236768,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 47,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "M",
+            "token_id": 236792,
+            "logprob": -0.9102,
+            "prob": 0.4023
+          },
+          {
+            "token": "Ch",
+            "token_id": 1659,
+            "logprob": -1.1562,
+            "prob": 0.3145
+          },
+          {
+            "token": "Pot",
+            "token_id": 33071,
+            "logprob": -2.1562,
+            "prob": 0.1152
+          },
+          {
+            "token": "Pokud",
+            "token_id": 230276,
+            "logprob": -2.9062,
+            "prob": 0.0544
+          },
+          {
+            "token": "K",
+            "token_id": 236855,
+            "logprob": -3.9062,
+            "prob": 0.02
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -4.2812,
+            "prob": 0.0138
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -4.4062,
+            "prob": 0.0121
+          },
+          {
+            "token": "---",
+            "token_id": 7243,
+            "logprob": -4.5312,
+            "prob": 0.0107
+          },
+          {
+            "token": "Jest",
+            "token_id": 177433,
+            "logprob": -4.5312,
+            "prob": 0.0107
+          },
+          {
+            "token": "A",
+            "token_id": 236776,
+            "logprob": -5.0312,
+            "prob": 0.0065
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "M",
+        "token_id": 236792,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 48,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)M",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "áš",
+            "token_id": 79668,
+            "logprob": -0.1279,
+            "prob": 0.8789
+          },
+          {
+            "token": "áte",
+            "token_id": 124551,
+            "logprob": -2.625,
+            "prob": 0.0723
+          },
+          {
+            "token": "ám",
+            "token_id": 10873,
+            "logprob": -3.25,
+            "prob": 0.0386
+          },
+          {
+            "token": "ěj",
+            "token_id": 173539,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "ěl",
+            "token_id": 47816,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "ů",
+            "token_id": 237872,
+            "logprob": -6.625,
+            "prob": 0.0013
+          },
+          {
+            "token": "áme",
+            "token_id": 103725,
+            "logprob": -7.375,
+            "prob": 0.0006
+          },
+          {
+            "token": "ě",
+            "token_id": 237336,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "ohl",
+            "token_id": 22442,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ůže",
+            "token_id": 171895,
+            "logprob": -9.125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ěj",
+        "token_id": 173539,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 49,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)Měj",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M",
+        "ěj"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792,
+        173539
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġse",
+            "token_id": 636,
+            "logprob": -0.0055,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġsi",
+            "token_id": 2083,
+            "logprob": -5.9375,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġsis",
+            "token_id": 31165,
+            "logprob": -7.0625,
+            "prob": 0.0009
+          },
+          {
+            "token": "Ġmi",
+            "token_id": 3628,
+            "logprob": -7.5,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġslu",
+            "token_id": 38063,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġš",
+            "token_id": 8153,
+            "logprob": -7.875,
+            "prob": 0.0004
+          },
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -7.9375,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġsem",
+            "token_id": 2888,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "šk",
+            "token_id": 34568,
+            "logprob": -10.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ:-",
+            "token_id": 19197,
+            "logprob": -10.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġš",
+        "token_id": 8153,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 50,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)Měj š",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M",
+        "ěj",
+        "Ġš"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792,
+        173539,
+        8153
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ed",
+            "token_id": 524,
+            "logprob": -0.9844,
+            "prob": 0.373
+          },
+          {
+            "token": "pat",
+            "token_id": 3164,
+            "logprob": -1.3594,
+            "prob": 0.2559
+          },
+          {
+            "token": "etr",
+            "token_id": 35137,
+            "logprob": -1.9531,
+            "prob": 0.1416
+          },
+          {
+            "token": "á",
+            "token_id": 236898,
+            "logprob": -2.6719,
+            "prob": 0.0693
+          },
+          {
+            "token": "et",
+            "token_id": 536,
+            "logprob": -2.8125,
+            "prob": 0.0605
+          },
+          {
+            "token": "í",
+            "token_id": 236928,
+            "logprob": -3.75,
+            "prob": 0.0234
+          },
+          {
+            "token": "el",
+            "token_id": 535,
+            "logprob": -3.875,
+            "prob": 0.0209
+          },
+          {
+            "token": "u",
+            "token_id": 236756,
+            "logprob": -4.7812,
+            "prob": 0.0084
+          },
+          {
+            "token": "kr",
+            "token_id": 18600,
+            "logprob": -4.9062,
+            "prob": 0.0075
+          },
+          {
+            "token": "álu",
+            "token_id": 117200,
+            "logprob": -5.3125,
+            "prob": 0.0049
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "etr",
+        "token_id": 35137,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 51,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)Měj šetr",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M",
+        "ěj",
+        "Ġš",
+        "etr"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792,
+        173539,
+        8153,
+        35137
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ný",
+            "token_id": 19468,
+            "logprob": -0.4727,
+            "prob": 0.625
+          },
+          {
+            "token": "né",
+            "token_id": 8504,
+            "logprob": -1.0938,
+            "prob": 0.334
+          },
+          {
+            "token": "nou",
+            "token_id": 39228,
+            "logprob": -3.3438,
+            "prob": 0.0352
+          },
+          {
+            "token": "ně",
+            "token_id": 13900,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          },
+          {
+            "token": "ná",
+            "token_id": 25912,
+            "logprob": -6.2188,
+            "prob": 0.002
+          },
+          {
+            "token": "ných",
+            "token_id": 40941,
+            "logprob": -7.4688,
+            "prob": 0.0006
+          },
+          {
+            "token": "nost",
+            "token_id": 11088,
+            "logprob": -8.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ného",
+            "token_id": 45053,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "nější",
+            "token_id": 108814,
+            "logprob": -10.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "n",
+            "token_id": 236749,
+            "logprob": -12.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ný",
+        "token_id": 19468,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 52,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)Měj šetrný",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M",
+        "ěj",
+        "Ġš",
+        "etr",
+        "ný"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792,
+        173539,
+        8153,
+        35137,
+        19468
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġden",
+            "token_id": 2034,
+            "logprob": -0.0033,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġdne",
+            "token_id": 96748,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -7.125,
+            "prob": 0.0008
+          },
+          {
+            "token": "Ġдень",
+            "token_id": 21501,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġdeň",
+            "token_id": 220861,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġveč",
+            "token_id": 70161,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġv",
+            "token_id": 566,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġú",
+            "token_id": 6277,
+            "logprob": -9.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhumor",
+            "token_id": 29024,
+            "logprob": -10.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġden",
+        "token_id": 2034,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 53,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)Měj šetrný den",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M",
+        "ěj",
+        "Ġš",
+        "etr",
+        "ný",
+        "Ġden"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792,
+        173539,
+        8153,
+        35137,
+        19468,
+        2034
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ka",
+            "token_id": 2339,
+            "logprob": -12.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ych",
+            "token_id": 4482,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġs",
+            "token_id": 503,
+            "logprob": -13.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġve",
+            "token_id": 1381,
+            "logprob": -13.5625,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "oci",
+            "token_id": 1720,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "/",
+            "token_id": 236786,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ý",
+            "token_id": 237274,
+            "logprob": -14.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "!",
+        "token_id": 236888,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 54,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)Měj šetrný den!",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M",
+        "ěj",
+        "Ġš",
+        "etr",
+        "ný",
+        "Ġden",
+        "!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792,
+        173539,
+        8153,
+        35137,
+        19468,
+        2034,
+        236888
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -0.2021,
+            "prob": 0.8164
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -1.8281,
+            "prob": 0.1611
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -5.3125,
+            "prob": 0.0049
+          },
+          {
+            "token": "Ġ👋",
+            "token_id": 155818,
+            "logprob": -5.4375,
+            "prob": 0.0043
+          },
+          {
+            "token": "Ġ😁",
+            "token_id": 170124,
+            "logprob": -5.9375,
+            "prob": 0.0026
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -6.0625,
+            "prob": 0.0023
+          },
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -6.1875,
+            "prob": 0.002
+          },
+          {
+            "token": "Ġ🙂",
+            "token_id": 57235,
+            "logprob": -6.5625,
+            "prob": 0.0014
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -7.1875,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġ:)",
+            "token_id": 19441,
+            "logprob": -7.5625,
+            "prob": 0.0005
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ🙂",
+        "token_id": 57235,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 55,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)Měj šetrný den! 🙂",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M",
+        "ěj",
+        "Ġš",
+        "etr",
+        "ný",
+        "Ġden",
+        "!",
+        "Ġ🙂"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792,
+        173539,
+        8153,
+        35137,
+        19468,
+        2034,
+        236888,
+        57235
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0059,
+            "prob": 0.9961
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -5.375,
+            "prob": 0.0046
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "☕",
+            "token_id": 244360,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "👍",
+            "token_id": 240493,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "🍿",
+            "token_id": 250118,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "🍦",
+            "token_id": 247474,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -10.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ😊",
+        "token_id": 103453,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 56,
+      "input_text": "<|turn>userŘekni mi vtip<turn|>Jasně, tady je jedno:Nebýt jepten se neříká v češtině 😅(Vtipem je to, že pokud ho řeknete nahlas, zrazíš smichový napětí 😉)Měj šetrný den! 🙂 😊",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Ř",
+        "ek",
+        "ni",
+        "Ġmi",
+        "Ġv",
+        "tip",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Jas",
+        "ně",
+        ",",
+        "Ġtady",
+        "Ġje",
+        "Ġjedno",
+        ":",
+        "Neb",
+        "ýt",
+        "Ġje",
+        "pt",
+        "en",
+        "Ġse",
+        "Ġne",
+        "ří",
+        "ká",
+        "Ġv",
+        "Ġče",
+        "št",
+        "ině",
+        "Ġ",
+        "😅",
+        "(",
+        "V",
+        "tip",
+        "em",
+        "Ġje",
+        "Ġto",
+        ",",
+        "Ġže",
+        "Ġpokud",
+        "Ġho",
+        "Ġřek",
+        "nete",
+        "Ġnah",
+        "las",
+        ",",
+        "Ġz",
+        "raz",
+        "íš",
+        "Ġsm",
+        "ich",
+        "ový",
+        "Ġnap",
+        "ětí",
+        "Ġ😉",
+        ")",
+        "M",
+        "ěj",
+        "Ġš",
+        "etr",
+        "ný",
+        "Ġden",
+        "!",
+        "Ġ🙂",
+        "Ġ😊"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        242199,
+        1129,
+        3598,
+        3628,
+        566,
+        18320,
+        106,
+        105,
+        4368,
+        172812,
+        13900,
+        236764,
+        221709,
+        2185,
+        81155,
+        236787,
+        156446,
+        209744,
+        2185,
+        693,
+        501,
+        636,
+        770,
+        16549,
+        65154,
+        566,
+        90899,
+        15869,
+        132556,
+        236743,
+        241851,
+        236769,
+        236847,
+        18320,
+        581,
+        2185,
+        531,
+        236764,
+        18020,
+        112241,
+        3920,
+        148322,
+        65027,
+        34730,
+        6104,
+        236764,
+        904,
+        5355,
+        176896,
+        1406,
+        734,
+        50304,
+        13420,
+        189291,
+        85345,
+        236768,
+        236792,
+        173539,
+        8153,
+        35137,
+        19468,
+        2034,
+        236888,
+        57235,
+        103453
+      ],
+      "special_idx": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0109,
+            "prob": 0.9883
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -4.625,
+            "prob": 0.0097
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "👍",
+            "token_id": 240493,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "<eos>",
+            "token_id": 1,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "☕",
+            "token_id": 244360,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "🍿",
+            "token_id": 250118,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "🍦",
+            "token_id": 247474,
+            "logprob": -10.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -10.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

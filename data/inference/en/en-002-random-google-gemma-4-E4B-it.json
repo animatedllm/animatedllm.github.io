@@ -1,0 +1,3064 @@
+{
+  "id": "generated_20260815_223124",
+  "prompt": "Tell me a joke",
+  "language": "en",
+  "temperature": 5.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userTell me a joke<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Why",
+            "token_id": 11355,
+            "logprob": -0.1309,
+            "prob": 0.8789
+          },
+          {
+            "token": "Here",
+            "token_id": 8291,
+            "logprob": -2.375,
+            "prob": 0.0923
+          },
+          {
+            "token": "Sure",
+            "token_id": 49190,
+            "logprob": -3.5,
+            "prob": 0.03
+          },
+          {
+            "token": "A",
+            "token_id": 236776,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "What",
+            "token_id": 3689,
+            "logprob": -9.75,
+            "prob": 0.0001
+          },
+          {
+            "token": "Pourquoi",
+            "token_id": 199936,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "How",
+            "token_id": 3910,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Certainly",
+            "token_id": 117494,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Okay",
+            "token_id": 19058,
+            "logprob": -14.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Here",
+        "token_id": 8291,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userTell me a joke<turn|>Here",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġare",
+            "token_id": 659,
+            "logprob": -0.2275,
+            "prob": 0.7969
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -1.6016,
+            "prob": 0.2012
+          },
+          {
+            "token": "Ġyou",
+            "token_id": 611,
+            "logprob": -6.2188,
+            "prob": 0.002
+          },
+          {
+            "token": "Ġis",
+            "token_id": 563,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠSchrödinger",
+            "token_id": 138979,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "’",
+            "token_id": 236858,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġone",
+            "token_id": 886,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "otle",
+            "token_id": 71618,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfor",
+            "token_id": 573,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġya",
+            "token_id": 4334,
+            "logprob": -14.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġyou",
+        "token_id": 611,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġgo",
+            "token_id": 817,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġare",
+            "token_id": 659,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -15.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġload",
+            "token_id": 3711,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "go",
+            "token_id": 1909,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGO",
+            "token_id": 16861,
+            "logprob": -19.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 735,
+            "logprob": -19.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġgaan",
+            "token_id": 37525,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlady",
+            "token_id": 15924,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġgoo",
+            "token_id": 98257,
+            "logprob": -20.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġgo",
+        "token_id": 817,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -0.2539,
+            "prob": 0.7773
+          },
+          {
+            "token": ":",
+            "token_id": 236787,
+            "logprob": -1.5,
+            "prob": 0.2227
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -6.9375,
+            "prob": 0.001
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          },
+          {
+            "token": "！",
+            "token_id": 237354,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "alt",
+            "token_id": 3404,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "zum",
+            "token_id": 87514,
+            "logprob": -12.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ=",
+            "token_id": 578,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġat",
+            "token_id": 657,
+            "logprob": -13.6875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ":",
+        "token_id": 236787,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go:",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -0.0001,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠWhy",
+            "token_id": 8922,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -14.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -14.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ👋",
+            "token_id": 155818,
+            "logprob": -15.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -15.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠJoke",
+            "token_id": 235072,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠOh",
+            "token_id": 7062,
+            "logprob": -17.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ😉",
+        "token_id": 85345,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Why",
+            "token_id": 11355,
+            "logprob": -0.0143,
+            "prob": 0.9844
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -4.25,
+            "prob": 0.014
+          },
+          {
+            "token": "<strong>",
+            "token_id": 198,
+            "logprob": -9.375,
+            "prob": 0.0001
+          },
+          {
+            "token": "What",
+            "token_id": 3689,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Parallel",
+            "token_id": 22926,
+            "logprob": -13.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠWhy",
+            "token_id": 8922,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Pourquoi",
+            "token_id": 199936,
+            "logprob": -14.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -14.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Want",
+            "token_id": 46038,
+            "logprob": -15.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<strong>",
+        "token_id": 198,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Why",
+            "token_id": 11355,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Parallel",
+            "token_id": 22926,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "What",
+            "token_id": 3689,
+            "logprob": -12.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠWhy",
+            "token_id": 8922,
+            "logprob": -14.0,
+            "prob": 0.0
+          },
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -14.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Pourquoi",
+            "token_id": 199936,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -15.75,
+            "prob": 0.0
+          },
+          {
+            "token": "لما",
+            "token_id": 224198,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "为什么",
+            "token_id": 38157,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Lett",
+            "token_id": 90772,
+            "logprob": -17.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Why",
+        "token_id": 11355,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġdon",
+            "token_id": 1537,
+            "logprob": -0.0019,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġdid",
+            "token_id": 1602,
+            "logprob": -6.25,
+            "prob": 0.0019
+          },
+          {
+            "token": "Ġwas",
+            "token_id": 691,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġare",
+            "token_id": 659,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcan",
+            "token_id": 740,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdoesn",
+            "token_id": 4038,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdo",
+            "token_id": 776,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġalways",
+            "token_id": 2462,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġis",
+            "token_id": 563,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġshouldn",
+            "token_id": 18461,
+            "logprob": -19.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġdon",
+        "token_id": 1537,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "’",
+            "token_id": 236858,
+            "logprob": -13.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġshrink",
+            "token_id": 35426,
+            "logprob": -21.875,
+            "prob": 0.0
+          },
+          {
+            "token": "&",
+            "token_id": 236880,
+            "logprob": -22.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhiccups",
+            "token_id": 178900,
+            "logprob": -22.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġneed",
+            "token_id": 1202,
+            "logprob": -22.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdidn",
+            "token_id": 3782,
+            "logprob": -22.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 506,
+            "logprob": -22.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġhave",
+            "token_id": 735,
+            "logprob": -22.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġa",
+            "token_id": 496,
+            "logprob": -22.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "'",
+        "token_id": 236789,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don'",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "t",
+            "token_id": 236745,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "s",
+            "token_id": 236751,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -25.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ت",
+            "token_id": 236889,
+            "logprob": -26.0,
+            "prob": 0.0
+          },
+          {
+            "token": "tic",
+            "token_id": 32965,
+            "logprob": -26.75,
+            "prob": 0.0
+          },
+          {
+            "token": "td",
+            "token_id": 2004,
+            "logprob": -26.875,
+            "prob": 0.0
+          },
+          {
+            "token": "tin",
+            "token_id": 43212,
+            "logprob": -27.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġt",
+            "token_id": 494,
+            "logprob": -27.25,
+            "prob": 0.0
+          },
+          {
+            "token": "tt",
+            "token_id": 1220,
+            "logprob": -27.5,
+            "prob": 0.0
+          },
+          {
+            "token": "た",
+            "token_id": 237036,
+            "logprob": -27.75,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "t",
+        "token_id": 236745,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġscientists",
+            "token_id": 16225,
+            "logprob": -0.0267,
+            "prob": 0.9727
+          },
+          {
+            "token": "Ġskeletons",
+            "token_id": 115053,
+            "logprob": -3.6562,
+            "prob": 0.026
+          },
+          {
+            "token": "Ġeggs",
+            "token_id": 14318,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġprogrammers",
+            "token_id": 88487,
+            "logprob": -10.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġseagulls",
+            "token_id": 151017,
+            "logprob": -10.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsecrets",
+            "token_id": 31156,
+            "logprob": -11.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcats",
+            "token_id": 22797,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġscience",
+            "token_id": 6647,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmathematicians",
+            "token_id": 167134,
+            "logprob": -12.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġcann",
+            "token_id": 63243,
+            "logprob": -13.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġsecrets",
+        "token_id": 31156,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġlast",
+            "token_id": 1774,
+            "logprob": -0.0025,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġlike",
+            "token_id": 1133,
+            "logprob": -6.0,
+            "prob": 0.0025
+          },
+          {
+            "token": "Ġand",
+            "token_id": 532,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġlie",
+            "token_id": 7089,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġprefer",
+            "token_id": 5278,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġsit",
+            "token_id": 2178,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġkeep",
+            "token_id": 2514,
+            "logprob": -13.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfit",
+            "token_id": 4691,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdevelop",
+            "token_id": 1668,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "...?",
+            "token_id": 109178,
+            "logprob": -14.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġlast",
+        "token_id": 1774,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "?",
+            "token_id": 236881,
+            "logprob": -0.1562,
+            "prob": 0.8555
+          },
+          {
+            "token": "Ġlong",
+            "token_id": 1440,
+            "logprob": -2.2812,
+            "prob": 0.1021
+          },
+          {
+            "token": "Ġvery",
+            "token_id": 1401,
+            "logprob": -3.1562,
+            "prob": 0.0425
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġmuch",
+            "token_id": 1623,
+            "logprob": -10.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "...?",
+            "token_id": 109178,
+            "logprob": -10.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġin",
+            "token_id": 528,
+            "logprob": -11.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġforever",
+            "token_id": 17504,
+            "logprob": -11.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġfor",
+            "token_id": 573,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "?...",
+            "token_id": 72741,
+            "logprob": -13.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "?",
+        "token_id": 236881,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last?",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "</strong>",
+            "token_id": 207,
+            "logprob": -0.0386,
+            "prob": 0.9609
+          },
+          {
+            "token": "ĠBecause",
+            "token_id": 8468,
+            "logprob": -3.2812,
+            "prob": 0.0374
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -8.1875,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -8.6875,
+            "prob": 0.0002
+          },
+          {
+            "token": "ĠThe",
+            "token_id": 669,
+            "logprob": -10.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠThey",
+            "token_id": 2195,
+            "logprob": -10.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "<|\"|>",
+            "token_id": 52,
+            "logprob": -11.5,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$$",
+            "token_id": 18666,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ...",
+            "token_id": 3729,
+            "logprob": -12.1875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ",
+        "token_id": 236743,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "</strong>",
+            "token_id": 207,
+            "logprob": -0.1689,
+            "prob": 0.8438
+          },
+          {
+            "token": "🤫",
+            "token_id": 247940,
+            "logprob": -2.9219,
+            "prob": 0.054
+          },
+          {
+            "token": "🥁",
+            "token_id": 247087,
+            "logprob": -3.1719,
+            "prob": 0.042
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -3.7969,
+            "prob": 0.0225
+          },
+          {
+            "token": "🎂",
+            "token_id": 242909,
+            "logprob": -4.4062,
+            "prob": 0.012
+          },
+          {
+            "token": "🐟",
+            "token_id": 246955,
+            "logprob": -5.2812,
+            "prob": 0.005
+          },
+          {
+            "token": "🐣",
+            "token_id": 247380,
+            "logprob": -5.8438,
+            "prob": 0.0029
+          },
+          {
+            "token": "📢",
+            "token_id": 245156,
+            "logprob": -6.4688,
+            "prob": 0.0015
+          },
+          {
+            "token": "☁",
+            "token_id": 245649,
+            "logprob": -6.4688,
+            "prob": 0.0015
+          },
+          {
+            "token": "🍾",
+            "token_id": 246692,
+            "logprob": -6.5312,
+            "prob": 0.0014
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "🥁",
+        "token_id": 247087,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "</strong>",
+            "token_id": 207,
+            "logprob": -0.0186,
+            "prob": 0.9805
+          },
+          {
+            "token": "🥁",
+            "token_id": 247087,
+            "logprob": -4.7812,
+            "prob": 0.0085
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -5.9062,
+            "prob": 0.0028
+          },
+          {
+            "token": "ĠDrum",
+            "token_id": 60736,
+            "logprob": -5.9062,
+            "prob": 0.0028
+          },
+          {
+            "token": "ĠBecause",
+            "token_id": 8468,
+            "logprob": -6.9062,
+            "prob": 0.001
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -7.0312,
+            "prob": 0.0009
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -7.2812,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġ...",
+            "token_id": 3729,
+            "logprob": -7.5312,
+            "prob": 0.0005
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -8.5,
+            "prob": 0.0002
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "**",
+        "token_id": 1018,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁**",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁",
+        "**"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087,
+        1018
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -0.5156,
+            "prob": 0.5977
+          },
+          {
+            "token": "<strong>",
+            "token_id": 198,
+            "logprob": -1.5156,
+            "prob": 0.2197
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -1.7656,
+            "prob": 0.1709
+          },
+          {
+            "token": "<",
+            "token_id": 236820,
+            "logprob": -4.625,
+            "prob": 0.0096
+          },
+          {
+            "token": "***",
+            "token_id": 13513,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "<h2>",
+            "token_id": 185,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "\\",
+            "token_id": 236785,
+            "logprob": -8.625,
+            "prob": 0.0002
+          },
+          {
+            "token": "*",
+            "token_id": 236829,
+            "logprob": -8.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Because",
+            "token_id": 17574,
+            "logprob": -8.9375,
+            "prob": 0.0001
+          },
+          {
+            "token": "…",
+            "token_id": 237064,
+            "logprob": -9.3125,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<strong>",
+        "token_id": 198,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁**<strong>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁",
+        "**",
+        "<strong>"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087,
+        1018,
+        198
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Because",
+            "token_id": 17574,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "They",
+            "token_id": 7634,
+            "logprob": -10.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "The",
+            "token_id": 818,
+            "logprob": -11.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠBecause",
+            "token_id": 8468,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "...",
+            "token_id": 1390,
+            "logprob": -12.625,
+            "prob": 0.0
+          },
+          {
+            "token": "'",
+            "token_id": 236789,
+            "logprob": -14.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "Cause",
+            "token_id": 67861,
+            "logprob": -15.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "H",
+            "token_id": 236814,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "\"",
+            "token_id": 236775,
+            "logprob": -15.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġbecause",
+            "token_id": 1547,
+            "logprob": -15.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "...",
+        "token_id": 1390,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁**<strong>...",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁",
+        "**",
+        "<strong>",
+        "..."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087,
+        1018,
+        198,
+        1390
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠBecause",
+            "token_id": 8468,
+            "logprob": -0.2812,
+            "prob": 0.7539
+          },
+          {
+            "token": "Because",
+            "token_id": 17574,
+            "logprob": -1.4062,
+            "prob": 0.2451
+          },
+          {
+            "token": "Ġbecause",
+            "token_id": 1547,
+            "logprob": -8.9375,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠTell",
+            "token_id": 32815,
+            "logprob": -9.6875,
+            "prob": 0.0001
+          },
+          {
+            "token": "Tell",
+            "token_id": 54593,
+            "logprob": -10.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "G",
+            "token_id": 236823,
+            "logprob": -10.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "because",
+            "token_id": 26315,
+            "logprob": -11.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠToo",
+            "token_id": 34746,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠThey",
+            "token_id": 2195,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "The",
+            "token_id": 818,
+            "logprob": -12.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Tell",
+        "token_id": 54593,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁**<strong>...Tell",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁",
+        "**",
+        "<strong>",
+        "...",
+        "Tell"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087,
+        1018,
+        198,
+        1390,
+        54593
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ'",
+            "token_id": 756,
+            "logprob": -0.3086,
+            "prob": 0.7344
+          },
+          {
+            "token": "Ġhim",
+            "token_id": 1515,
+            "logprob": -2.3125,
+            "prob": 0.0996
+          },
+          {
+            "token": "Ġthem",
+            "token_id": 1091,
+            "logprob": -2.6562,
+            "prob": 0.0703
+          },
+          {
+            "token": "!",
+            "token_id": 236888,
+            "logprob": -2.6875,
+            "prob": 0.0684
+          },
+          {
+            "token": "Ġit",
+            "token_id": 625,
+            "logprob": -4.4375,
+            "prob": 0.0119
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -5.0,
+            "prob": 0.0068
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -5.75,
+            "prob": 0.0032
+          },
+          {
+            "token": "Ġthe",
+            "token_id": 506,
+            "logprob": -6.0312,
+            "prob": 0.0024
+          },
+          {
+            "token": "Ġall",
+            "token_id": 784,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": ".**",
+            "token_id": 99382,
+            "logprob": -8.0625,
+            "prob": 0.0003
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "!",
+        "token_id": 236888,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁**<strong>...Tell!",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁",
+        "**",
+        "<strong>",
+        "...",
+        "Tell",
+        "!"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087,
+        1018,
+        198,
+        1390,
+        54593,
+        236888
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "</strong>",
+            "token_id": 207,
+            "logprob": -0.0042,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -5.625,
+            "prob": 0.0036
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😉",
+            "token_id": 85345,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -10.25,
+            "prob": 0.0
+          },
+          {
+            "token": "<|\"|>",
+            "token_id": 52,
+            "logprob": -10.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ}",
+            "token_id": 682,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -11.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "</div>",
+            "token_id": 235,
+            "logprob": -12.4375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "</strong>",
+        "token_id": 207,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁**<strong>...Tell!</strong>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁",
+        "**",
+        "<strong>",
+        "...",
+        "Tell",
+        "!",
+        "</strong>"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087,
+        1018,
+        198,
+        1390,
+        54593,
+        236888,
+        207
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0894,
+            "prob": 0.9141
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -2.5938,
+            "prob": 0.0752
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -5.3438,
+            "prob": 0.0048
+          },
+          {
+            "token": "Ġ😂",
+            "token_id": 87633,
+            "logprob": -5.9688,
+            "prob": 0.0026
+          },
+          {
+            "token": "Ġ😄",
+            "token_id": 222194,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -7.7188,
+            "prob": 0.0004
+          },
+          {
+            "token": "</strong>",
+            "token_id": 207,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -8.375,
+            "prob": 0.0002
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -9.1875,
+            "prob": 0.0001
+          },
+          {
+            "token": "</b>",
+            "token_id": 209,
+            "logprob": -10.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ",
+        "token_id": 236743,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 22,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁**<strong>...Tell!</strong> ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁",
+        "**",
+        "<strong>",
+        "...",
+        "Tell",
+        "!",
+        "</strong>",
+        "Ġ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087,
+        1018,
+        198,
+        1390,
+        54593,
+        236888,
+        207,
+        236743
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "🤫",
+            "token_id": 247940,
+            "logprob": -0.3457,
+            "prob": 0.707
+          },
+          {
+            "token": "😜",
+            "token_id": 243799,
+            "logprob": -1.9688,
+            "prob": 0.1396
+          },
+          {
+            "token": "🤣",
+            "token_id": 241025,
+            "logprob": -2.3438,
+            "prob": 0.0957
+          },
+          {
+            "token": "😆",
+            "token_id": 242720,
+            "logprob": -3.9688,
+            "prob": 0.0189
+          },
+          {
+            "token": "🤭",
+            "token_id": 245866,
+            "logprob": -4.2188,
+            "prob": 0.0147
+          },
+          {
+            "token": "🙊",
+            "token_id": 246397,
+            "logprob": -5.4688,
+            "prob": 0.0042
+          },
+          {
+            "token": "😝",
+            "token_id": 244383,
+            "logprob": -5.7188,
+            "prob": 0.0033
+          },
+          {
+            "token": "😅",
+            "token_id": 241851,
+            "logprob": -5.9688,
+            "prob": 0.0025
+          },
+          {
+            "token": "🙈",
+            "token_id": 243861,
+            "logprob": -6.3438,
+            "prob": 0.0018
+          },
+          {
+            "token": "🤪",
+            "token_id": 244329,
+            "logprob": -6.8438,
+            "prob": 0.0011
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "🤫",
+        "token_id": 247940,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 23,
+      "input_text": "<|turn>userTell me a joke<turn|>Here you go: 😉<strong>Why don't secrets last? 🥁**<strong>...Tell!</strong> 🤫",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Tell",
+        "Ġme",
+        "Ġa",
+        "Ġjoke",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Here",
+        "Ġyou",
+        "Ġgo",
+        ":",
+        "Ġ😉",
+        "<strong>",
+        "Why",
+        "Ġdon",
+        "'",
+        "t",
+        "Ġsecrets",
+        "Ġlast",
+        "?",
+        "Ġ",
+        "🥁",
+        "**",
+        "<strong>",
+        "...",
+        "Tell",
+        "!",
+        "</strong>",
+        "Ġ",
+        "🤫"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        54593,
+        786,
+        496,
+        31481,
+        106,
+        105,
+        4368,
+        8291,
+        611,
+        817,
+        236787,
+        85345,
+        198,
+        11355,
+        1537,
+        236789,
+        236745,
+        31156,
+        1774,
+        236881,
+        236743,
+        247087,
+        1018,
+        198,
+        1390,
+        54593,
+        236888,
+        207,
+        236743,
+        247940
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0123,
+            "prob": 0.9883
+          },
+          {
+            "token": "😂",
+            "token_id": 239927,
+            "logprob": -4.75,
+            "prob": 0.0085
+          },
+          {
+            "token": "😄",
+            "token_id": 242850,
+            "logprob": -6.75,
+            "prob": 0.0012
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -6.875,
+            "prob": 0.001
+          },
+          {
+            "token": "</blockquote>",
+            "token_id": 197,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -8.125,
+            "prob": 0.0003
+          },
+          {
+            "token": "😜",
+            "token_id": 243799,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "🤣",
+            "token_id": 241025,
+            "logprob": -8.5,
+            "prob": 0.0002
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -9.25,
+            "prob": 0.0001
+          },
+          {
+            "token": "😆",
+            "token_id": 242720,
+            "logprob": -9.5,
+            "prob": 0.0001
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

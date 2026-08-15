@@ -1,0 +1,2766 @@
+{
+  "id": "generated_20260815_222911",
+  "prompt": "Хто ти?",
+  "language": "uk",
+  "temperature": 1.0,
+  "top_k": 10,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144
+  },
+  "generation_steps": [
+    {
+      "step": 0,
+      "input_text": "<|turn>userХто ти?<turn|>",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Я",
+            "token_id": 237998,
+            "logprob": -0.0017,
+            "prob": 1.0
+          },
+          {
+            "token": "М",
+            "token_id": 237271,
+            "logprob": -6.375,
+            "prob": 0.0017
+          },
+          {
+            "token": "Мен",
+            "token_id": 180898,
+            "logprob": -12.875,
+            "prob": 0.0
+          },
+          {
+            "token": "I",
+            "token_id": 236777,
+            "logprob": -13.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "І",
+            "token_id": 238613,
+            "logprob": -15.375,
+            "prob": 0.0
+          },
+          {
+            "token": "**",
+            "token_id": 1018,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ти",
+            "token_id": 112960,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Мо",
+            "token_id": 34217,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "[",
+            "token_id": 236840,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Jag",
+            "token_id": 90447,
+            "logprob": -18.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Я",
+        "token_id": 237998,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 1,
+      "input_text": "<|turn>userХто ти?<turn|>Я",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ—",
+            "token_id": 2192,
+            "logprob": -0.0393,
+            "prob": 0.9609
+          },
+          {
+            "token": "Ġвели",
+            "token_id": 41344,
+            "logprob": -3.2969,
+            "prob": 0.0374
+          },
+          {
+            "token": "Ġ–",
+            "token_id": 1271,
+            "logprob": -7.4062,
+            "prob": 0.0006
+          },
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -8.1875,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -8.5625,
+            "prob": 0.0002
+          },
+          {
+            "token": "Ġ-",
+            "token_id": 753,
+            "logprob": -9.4375,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġє",
+            "token_id": 30312,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмо",
+            "token_id": 3237,
+            "logprob": -10.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмодель",
+            "token_id": 69838,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ--",
+            "token_id": 2617,
+            "logprob": -12.9375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ—",
+        "token_id": 2192,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 2,
+      "input_text": "<|turn>userХто ти?<turn|>Я —",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGemma",
+            "token_id": 147224,
+            "logprob": -0.0295,
+            "prob": 0.9727
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -3.6562,
+            "prob": 0.0259
+          },
+          {
+            "token": "ĠДже",
+            "token_id": 170754,
+            "logprob": -6.6562,
+            "prob": 0.0013
+          },
+          {
+            "token": "Ġвели",
+            "token_id": 41344,
+            "logprob": -6.7812,
+            "prob": 0.0011
+          },
+          {
+            "token": "ĠГ",
+            "token_id": 6491,
+            "logprob": -7.7812,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġജ",
+            "token_id": 18418,
+            "logprob": -9.0,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠДж",
+            "token_id": 67152,
+            "logprob": -9.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмодель",
+            "token_id": 69838,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠГе",
+            "token_id": 52430,
+            "logprob": -10.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGemini",
+            "token_id": 79789,
+            "logprob": -10.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGemma",
+        "token_id": 147224,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 3,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "�",
+            "token_id": 432,
+            "logprob": -18.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -18.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ$",
+            "token_id": 609,
+            "logprob": -19.25,
+            "prob": 0.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -19.375,
+            "prob": 0.0
+          },
+          {
+            "token": "йна",
+            "token_id": 24094,
+            "logprob": -19.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġз",
+            "token_id": 1529,
+            "logprob": -20.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ${",
+            "token_id": 3356,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġлі",
+            "token_id": 27572,
+            "logprob": -20.375,
+            "prob": 0.0
+          },
+          {
+            "token": "т",
+            "token_id": 236827,
+            "logprob": -20.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġ",
+        "token_id": 236743,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 4,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma ",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "4",
+            "token_id": 236812,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "૪",
+            "token_id": 243791,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "٤",
+            "token_id": 242090,
+            "logprob": -20.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ități",
+            "token_id": 214705,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ४",
+            "token_id": 65979,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ৪",
+            "token_id": 18071,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "اديم",
+            "token_id": 174428,
+            "logprob": -22.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ۴",
+            "token_id": 116325,
+            "logprob": -22.625,
+            "prob": 0.0
+          },
+          {
+            "token": "1",
+            "token_id": 236770,
+            "logprob": -23.125,
+            "prob": 0.0
+          },
+          {
+            "token": "2",
+            "token_id": 236778,
+            "logprob": -23.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "4",
+        "token_id": 236812,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 5,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.0889,
+            "prob": 0.9141
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -2.4688,
+            "prob": 0.085
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": ";",
+            "token_id": 236793,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠВели",
+            "token_id": 67092,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ—",
+            "token_id": 2192,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġжо",
+            "token_id": 40814,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġгода",
+            "token_id": 11520,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġк",
+            "token_id": 2110,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ($\\",
+            "token_id": 77891,
+            "logprob": -18.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 236761,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 6,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        "."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠЯ",
+            "token_id": 12596,
+            "logprob": -0.0002,
+            "prob": 1.0
+          },
+          {
+            "token": "ĠМен",
+            "token_id": 67240,
+            "logprob": -9.5,
+            "prob": 0.0001
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -9.875,
+            "prob": 0.0001
+          },
+          {
+            "token": "ĠВе",
+            "token_id": 28140,
+            "logprob": -10.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠМ",
+            "token_id": 4015,
+            "logprob": -11.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠБу",
+            "token_id": 15499,
+            "logprob": -12.125,
+            "prob": 0.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠРоз",
+            "token_id": 126455,
+            "logprob": -12.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠI",
+            "token_id": 564,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠБа",
+            "token_id": 25152,
+            "logprob": -13.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠЯ",
+        "token_id": 12596,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 7,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġвели",
+            "token_id": 41344,
+            "logprob": -0.0056,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġ—",
+            "token_id": 2192,
+            "logprob": -5.25,
+            "prob": 0.0052
+          },
+          {
+            "token": "Ġє",
+            "token_id": 30312,
+            "logprob": -8.0,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġневе",
+            "token_id": 100624,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġহলাম",
+            "token_id": 213936,
+            "logprob": -12.1875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠВе",
+            "token_id": 28140,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġанг",
+            "token_id": 56694,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġбольшая",
+            "token_id": 106541,
+            "logprob": -13.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "ве",
+            "token_id": 2687,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġе",
+            "token_id": 3053,
+            "logprob": -13.5625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġвели",
+        "token_id": 41344,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 8,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я вели",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ка",
+            "token_id": 1173,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "ka",
+            "token_id": 2339,
+            "logprob": -13.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ക",
+            "token_id": 237017,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "кий",
+            "token_id": 15552,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ку",
+            "token_id": 3115,
+            "logprob": -18.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ке",
+            "token_id": 5923,
+            "logprob": -20.125,
+            "prob": 0.0
+          },
+          {
+            "token": "кі",
+            "token_id": 10897,
+            "logprob": -20.375,
+            "prob": 0.0
+          },
+          {
+            "token": "кою",
+            "token_id": 71752,
+            "logprob": -21.125,
+            "prob": 0.0
+          },
+          {
+            "token": "кор",
+            "token_id": 58026,
+            "logprob": -22.25,
+            "prob": 0.0
+          },
+          {
+            "token": "কা",
+            "token_id": 6558,
+            "logprob": -23.0,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ка",
+        "token_id": 1173,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 9,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġмо",
+            "token_id": 3237,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġязы",
+            "token_id": 34552,
+            "logprob": -14.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġвели",
+            "token_id": 41344,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġе",
+            "token_id": 3053,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġпри",
+            "token_id": 2994,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġбагато",
+            "token_id": 111175,
+            "logprob": -17.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġна",
+            "token_id": 1333,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġре",
+            "token_id": 3691,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġсучас",
+            "token_id": 156654,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġвідкри",
+            "token_id": 146172,
+            "logprob": -18.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġмо",
+        "token_id": 3237,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 10,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мо",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "вна",
+            "token_id": 145457,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "вно",
+            "token_id": 18465,
+            "logprob": -12.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "ва",
+            "token_id": 1232,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "в",
+            "token_id": 236851,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "вні",
+            "token_id": 139215,
+            "logprob": -16.75,
+            "prob": 0.0
+          },
+          {
+            "token": "вне",
+            "token_id": 200299,
+            "logprob": -20.875,
+            "prob": 0.0
+          },
+          {
+            "token": "vDash",
+            "token_id": 59826,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "дня",
+            "token_id": 72838,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "вня",
+            "token_id": 105865,
+            "logprob": -22.0,
+            "prob": 0.0
+          },
+          {
+            "token": "вної",
+            "token_id": 113041,
+            "logprob": -22.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "вна",
+        "token_id": 145457,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 11,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġмодель",
+            "token_id": 69838,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġмо",
+            "token_id": 3237,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмульти",
+            "token_id": 162172,
+            "logprob": -20.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġе",
+            "token_id": 3053,
+            "logprob": -20.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġпод",
+            "token_id": 6006,
+            "logprob": -20.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġспа",
+            "token_id": 33034,
+            "logprob": -20.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġмі",
+            "token_id": 18549,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ​​",
+            "token_id": 21297,
+            "logprob": -21.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġমডেল",
+            "token_id": 75910,
+            "logprob": -21.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġба",
+            "token_id": 6633,
+            "logprob": -21.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġмодель",
+        "token_id": 69838,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 12,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -0.0031,
+            "prob": 0.9961
+          },
+          {
+            "token": "Ġз",
+            "token_id": 1529,
+            "logprob": -6.125,
+            "prob": 0.0022
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -9.625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġіз",
+            "token_id": 47995,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġвід",
+            "token_id": 13667,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġзі",
+            "token_id": 64636,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġopen",
+            "token_id": 1932,
+            "logprob": -14.0625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġі",
+            "token_id": 5637,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠЗ",
+            "token_id": 8119,
+            "logprob": -16.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ",",
+        "token_id": 236764,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 13,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель,",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ","
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Ġроз",
+            "token_id": 18614,
+            "logprob": -0.0017,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġі",
+            "token_id": 5637,
+            "logprob": -7.25,
+            "prob": 0.0007
+          },
+          {
+            "token": "Ġяка",
+            "token_id": 69024,
+            "logprob": -7.625,
+            "prob": 0.0005
+          },
+          {
+            "token": "Ġяку",
+            "token_id": 160169,
+            "logprob": -7.75,
+            "prob": 0.0004
+          },
+          {
+            "token": "Ġвідкри",
+            "token_id": 146172,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġе",
+            "token_id": 3053,
+            "logprob": -11.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġразработан",
+            "token_id": 166929,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġdesenvolv",
+            "token_id": 43665,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġнав",
+            "token_id": 58301,
+            "logprob": -12.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġвід",
+            "token_id": 13667,
+            "logprob": -12.8125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Ġроз",
+        "token_id": 18614,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 14,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель, роз",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ",",
+        "Ġроз"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764,
+        18614
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ро",
+            "token_id": 1038,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "роб",
+            "token_id": 28001,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "рабо",
+            "token_id": 21091,
+            "logprob": -12.8125,
+            "prob": 0.0
+          },
+          {
+            "token": "лектрон",
+            "token_id": 153335,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "гор",
+            "token_id": 87002,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "творе",
+            "token_id": 95812,
+            "logprob": -16.625,
+            "prob": 0.0
+          },
+          {
+            "token": "даго",
+            "token_id": 69138,
+            "logprob": -18.125,
+            "prob": 0.0
+          },
+          {
+            "token": "வ",
+            "token_id": 236965,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "RO",
+            "token_id": 2073,
+            "logprob": -18.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Ро",
+            "token_id": 43562,
+            "logprob": -18.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ро",
+        "token_id": 1038,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 15,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель, розро",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ",",
+        "Ġроз",
+        "ро"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764,
+        18614,
+        1038
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "бле",
+            "token_id": 18627,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "beta",
+            "token_id": 3357,
+            "logprob": -12.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "нена",
+            "token_id": 100462,
+            "logprob": -13.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "b",
+            "token_id": 236763,
+            "logprob": -14.375,
+            "prob": 0.0
+          },
+          {
+            "token": "шена",
+            "token_id": 101205,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "щена",
+            "token_id": 111503,
+            "logprob": -16.125,
+            "prob": 0.0
+          },
+          {
+            "token": "зумі",
+            "token_id": 229669,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "бе",
+            "token_id": 7177,
+            "logprob": -16.375,
+            "prob": 0.0
+          },
+          {
+            "token": "яна",
+            "token_id": 176044,
+            "logprob": -18.375,
+            "prob": 0.0
+          },
+          {
+            "token": "블",
+            "token_id": 239744,
+            "logprob": -18.5,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "бле",
+        "token_id": 18627,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 16,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель, розробле",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ",",
+        "Ġроз",
+        "ро",
+        "бле"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764,
+        18614,
+        1038,
+        18627
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "на",
+            "token_id": 911,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "na",
+            "token_id": 1789,
+            "logprob": -14.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ний",
+            "token_id": 6044,
+            "logprob": -16.25,
+            "prob": 0.0
+          },
+          {
+            "token": "но",
+            "token_id": 924,
+            "logprob": -19.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ная",
+            "token_id": 6008,
+            "logprob": -21.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ного",
+            "token_id": 4418,
+            "logprob": -22.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ною",
+            "token_id": 55400,
+            "logprob": -23.25,
+            "prob": 0.0
+          },
+          {
+            "token": "نا",
+            "token_id": 2932,
+            "logprob": -23.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ної",
+            "token_id": 33193,
+            "logprob": -23.75,
+            "prob": 0.0
+          },
+          {
+            "token": "обра",
+            "token_id": 24049,
+            "logprob": -23.875,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "на",
+        "token_id": 911,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 17,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель, розроблена",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ",",
+        "Ġроз",
+        "ро",
+        "бле",
+        "на"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764,
+        18614,
+        1038,
+        18627,
+        911
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -0.0383,
+            "prob": 0.9609
+          },
+          {
+            "token": "Ġкомпа",
+            "token_id": 21977,
+            "logprob": -3.2812,
+            "prob": 0.0374
+          },
+          {
+            "token": "Ġگوگل",
+            "token_id": 221794,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġspoleč",
+            "token_id": 72344,
+            "logprob": -9.5625,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġв",
+            "token_id": 909,
+            "logprob": -9.8125,
+            "prob": 0.0001
+          },
+          {
+            "token": "Ġшту",
+            "token_id": 130844,
+            "logprob": -10.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġspoloč",
+            "token_id": 167727,
+            "logprob": -11.9375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġу",
+            "token_id": 1754,
+            "logprob": -12.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġجوجل",
+            "token_id": 224028,
+            "logprob": -12.5625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġвід",
+            "token_id": 13667,
+            "logprob": -12.625,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠGoogle",
+        "token_id": 6475,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 18,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель, розроблена Google",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ",",
+        "Ġроз",
+        "ро",
+        "бле",
+        "на",
+        "ĠGoogle"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764,
+        18614,
+        1038,
+        18627,
+        911,
+        6475
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "ĠDeep",
+            "token_id": 22267,
+            "logprob": -0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "Ġ",
+            "token_id": 236743,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -11.375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġжа",
+            "token_id": 15833,
+            "logprob": -16.875,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠД",
+            "token_id": 4700,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠGoogle",
+            "token_id": 6475,
+            "logprob": -17.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠAI",
+            "token_id": 12498,
+            "logprob": -17.625,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠДи",
+            "token_id": 45259,
+            "logprob": -17.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠДі",
+            "token_id": 233042,
+            "logprob": -18.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ**",
+            "token_id": 5213,
+            "logprob": -18.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "ĠDeep",
+        "token_id": 22267,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 19,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель, розроблена Google Deep",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ",",
+        "Ġроз",
+        "ро",
+        "бле",
+        "на",
+        "ĠGoogle",
+        "ĠDeep"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764,
+        18614,
+        1038,
+        18627,
+        911,
+        6475,
+        22267
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "Mind",
+            "token_id": 65153,
+            "logprob": 0.0,
+            "prob": 1.0
+          },
+          {
+            "token": "mind",
+            "token_id": 24447,
+            "logprob": -23.5,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠMind",
+            "token_id": 24604,
+            "logprob": -23.625,
+            "prob": 0.0
+          },
+          {
+            "token": "M",
+            "token_id": 236792,
+            "logprob": -24.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Learning",
+            "token_id": 46297,
+            "logprob": -28.125,
+            "prob": 0.0
+          },
+          {
+            "token": "Mine",
+            "token_id": 61781,
+            "logprob": -28.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Miner",
+            "token_id": 116689,
+            "logprob": -28.75,
+            "prob": 0.0
+          },
+          {
+            "token": "Brain",
+            "token_id": 68316,
+            "logprob": -29.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Mirror",
+            "token_id": 68716,
+            "logprob": -29.25,
+            "prob": 0.0
+          },
+          {
+            "token": "Dream",
+            "token_id": 62894,
+            "logprob": -29.25,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "Mind",
+        "token_id": 65153,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 20,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель, розроблена Google DeepMind",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ",",
+        "Ġроз",
+        "ро",
+        "бле",
+        "на",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind"
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764,
+        18614,
+        1038,
+        18627,
+        911,
+        6475,
+        22267,
+        65153
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": ".",
+            "token_id": 236761,
+            "logprob": -0.0003,
+            "prob": 1.0
+          },
+          {
+            "token": ",",
+            "token_id": 236764,
+            "logprob": -8.25,
+            "prob": 0.0003
+          },
+          {
+            "token": "Ġі",
+            "token_id": 5637,
+            "logprob": -12.0,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ(",
+            "token_id": 568,
+            "logprob": -13.625,
+            "prob": 0.0
+          },
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -14.6875,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġвід",
+            "token_id": 13667,
+            "logprob": -15.3125,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġяка",
+            "token_id": 69024,
+            "logprob": -15.4375,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġж",
+            "token_id": 11028,
+            "logprob": -16.5,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġяк",
+            "token_id": 21923,
+            "logprob": -17.125,
+            "prob": 0.0
+          },
+          {
+            "token": "ปาก",
+            "token_id": 200132,
+            "logprob": -17.375,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": ".",
+        "token_id": 236761,
+        "selection_method": "sampling",
+        "special": false
+      }
+    },
+    {
+      "step": 21,
+      "input_text": "<|turn>userХто ти?<turn|>Я — Gemma 4. Я велика мовна модель, розроблена Google DeepMind.",
+      "tokens": [
+        "<|turn>",
+        "user",
+        "Х",
+        "то",
+        "Ġти",
+        "?",
+        "<turn|>",
+        "<|turn>",
+        "model",
+        "Я",
+        "Ġ—",
+        "ĠGemma",
+        "Ġ",
+        "4",
+        ".",
+        "ĠЯ",
+        "Ġвели",
+        "ка",
+        "Ġмо",
+        "вна",
+        "Ġмодель",
+        ",",
+        "Ġроз",
+        "ро",
+        "бле",
+        "на",
+        "ĠGoogle",
+        "ĠDeep",
+        "Mind",
+        "."
+      ],
+      "token_ids": [
+        105,
+        2364,
+        237941,
+        1062,
+        14326,
+        236881,
+        106,
+        105,
+        4368,
+        237998,
+        2192,
+        147224,
+        236743,
+        236812,
+        236761,
+        12596,
+        41344,
+        1173,
+        3237,
+        145457,
+        69838,
+        236764,
+        18614,
+        1038,
+        18627,
+        911,
+        6475,
+        22267,
+        65153,
+        236761
+      ],
+      "special_idx": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "output_distribution": {
+        "top_k": 10,
+        "candidates": [
+          {
+            "token": "<turn|>",
+            "token_id": 106,
+            "logprob": -0.0209,
+            "prob": 0.9805
+          },
+          {
+            "token": "ĠЯ",
+            "token_id": 12596,
+            "logprob": -3.8906,
+            "prob": 0.0204
+          },
+          {
+            "token": "ĠЄ",
+            "token_id": 66462,
+            "logprob": -8.75,
+            "prob": 0.0002
+          },
+          {
+            "token": "ĠЯк",
+            "token_id": 57377,
+            "logprob": -10.0,
+            "prob": 0.0
+          },
+          {
+            "token": "\n\n",
+            "token_id": 108,
+            "logprob": -10.625,
+            "prob": 0.0
+          },
+          {
+            "token": "Ġ😊",
+            "token_id": 103453,
+            "logprob": -11.0,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠМо",
+            "token_id": 15969,
+            "logprob": -11.25,
+            "prob": 0.0
+          },
+          {
+            "token": "\n",
+            "token_id": 107,
+            "logprob": -11.25,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠМ",
+            "token_id": 4015,
+            "logprob": -11.75,
+            "prob": 0.0
+          },
+          {
+            "token": "ĠI",
+            "token_id": 564,
+            "logprob": -12.125,
+            "prob": 0.0
+          }
+        ]
+      },
+      "selected_token": {
+        "token": "<turn|>",
+        "token_id": 106,
+        "selection_method": "sampling",
+        "special": true
+      }
+    }
+  ]
+}

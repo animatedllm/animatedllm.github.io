@@ -1,0 +1,5526 @@
+{
+  "id": "training_20260815_231337",
+  "type": "training",
+  "text": "Un grand modèle de langage (abrégé LLM de l'anglais large language model) est un modèle de langage possédant un grand nombre de paramètres (généralement plus d'un milliard).",
+  "source": "https://fr.wikipedia.org/wiki/Grand_modèle_de_langage",
+  "tokens": [
+    "<bos>",
+    "Un",
+    "Ġgrand",
+    "Ġmodèle",
+    "Ġde",
+    "Ġlangage",
+    "Ġ(",
+    "abr",
+    "ég",
+    "é",
+    "ĠLL",
+    "M",
+    "Ġde",
+    "Ġl",
+    "'",
+    "ang",
+    "lais",
+    "Ġlarge",
+    "Ġlanguage",
+    "Ġmodel",
+    ")",
+    "Ġest",
+    "Ġun",
+    "Ġmodèle",
+    "Ġde",
+    "Ġlangage",
+    "Ġposséd",
+    "ant",
+    "Ġun",
+    "Ġgrand",
+    "Ġnombre",
+    "Ġde",
+    "Ġparamètres",
+    "Ġ(",
+    "g",
+    "én",
+    "éral",
+    "ement",
+    "Ġplus",
+    "Ġd",
+    "'",
+    "un",
+    "Ġmilliard",
+    ")."
+  ],
+  "token_ids": [
+    2,
+    2805,
+    4159,
+    56667,
+    569,
+    158604,
+    568,
+    61799,
+    6470,
+    236859,
+    32050,
+    236792,
+    569,
+    537,
+    236789,
+    698,
+    42350,
+    2455,
+    5192,
+    2028,
+    236768,
+    1009,
+    723,
+    56667,
+    569,
+    158604,
+    224603,
+    638,
+    723,
+    4159,
+    9062,
+    569,
+    101977,
+    568,
+    236759,
+    3383,
+    17651,
+    1155,
+    2915,
+    513,
+    236789,
+    602,
+    221427,
+    769
+  ],
+  "special_idx": [
+    0
+  ],
+  "num_tokens": 44,
+  "model_info": {
+    "name": "google/gemma-4-E4B-it",
+    "architecture": "gemma4",
+    "num_layers": 42,
+    "hidden_size": 2560,
+    "num_attention_heads": 8,
+    "vocab_size": 262144,
+    "max_position_embeddings": 131072,
+    "intermediate_size": 10240,
+    "total_parameters": 7941100832,
+    "pretrained": true
+  },
+  "training_steps": [
+    {
+      "step": 0,
+      "input_tokens": [],
+      "input_token_ids": [],
+      "target_token": "<bos>",
+      "target_token_id": 2,
+      "predictions": [
+        {
+          "token": ".",
+          "token_id": 236761,
+          "logprob": -0.6875,
+          "prob": 0.5
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -1.5,
+          "prob": 0.2227
+        },
+        {
+          "token": "�",
+          "token_id": 366,
+          "logprob": -2.875,
+          "prob": 0.0564
+        },
+        {
+          "token": "{",
+          "token_id": 236782,
+          "logprob": -3.0625,
+          "prob": 0.0466
+        },
+        {
+          "token": "0",
+          "token_id": 236771,
+          "logprob": -3.625,
+          "prob": 0.0266
+        },
+        {
+          "token": "Ġ(",
+          "token_id": 568,
+          "logprob": -3.8125,
+          "prob": 0.0221
+        },
+        {
+          "token": ">",
+          "token_id": 236813,
+          "logprob": -4.0625,
+          "prob": 0.0172
+        },
+        {
+          "token": ":",
+          "token_id": 236787,
+          "logprob": -4.6875,
+          "prob": 0.0092
+        },
+        {
+          "token": ";",
+          "token_id": 236793,
+          "logprob": -4.875,
+          "prob": 0.0076
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -5.375,
+          "prob": 0.0046
+        }
+      ],
+      "target_token_prediction": {
+        "token": "<bos>",
+        "token_id": 2,
+        "logprob": -12.0,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -12.0,
+      "loss": 12.0
+    },
+    {
+      "step": 1,
+      "input_tokens": [
+        "<bos>"
+      ],
+      "input_token_ids": [
+        2
+      ],
+      "target_token": "Un",
+      "target_token_id": 2805,
+      "predictions": [
+        {
+          "token": ".",
+          "token_id": 236761,
+          "logprob": -0.6875,
+          "prob": 0.5
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -1.5,
+          "prob": 0.2227
+        },
+        {
+          "token": "�",
+          "token_id": 366,
+          "logprob": -2.875,
+          "prob": 0.0564
+        },
+        {
+          "token": "{",
+          "token_id": 236782,
+          "logprob": -3.0625,
+          "prob": 0.0466
+        },
+        {
+          "token": "0",
+          "token_id": 236771,
+          "logprob": -3.625,
+          "prob": 0.0266
+        },
+        {
+          "token": "Ġ(",
+          "token_id": 568,
+          "logprob": -3.8125,
+          "prob": 0.0221
+        },
+        {
+          "token": ">",
+          "token_id": 236813,
+          "logprob": -4.0625,
+          "prob": 0.0172
+        },
+        {
+          "token": ":",
+          "token_id": 236787,
+          "logprob": -4.6875,
+          "prob": 0.0092
+        },
+        {
+          "token": ";",
+          "token_id": 236793,
+          "logprob": -4.875,
+          "prob": 0.0076
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -5.375,
+          "prob": 0.0046
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Un",
+        "token_id": 2805,
+        "logprob": -16.875,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -16.875,
+      "loss": 16.875
+    },
+    {
+      "step": 2,
+      "input_tokens": [
+        "<bos>",
+        "Un"
+      ],
+      "input_token_ids": [
+        2,
+        2805
+      ],
+      "target_token": "Ġgrand",
+      "target_token_id": 4159,
+      "predictions": [
+        {
+          "token": "'",
+          "token_id": 236789,
+          "logprob": -0.1084,
+          "prob": 0.8984
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -2.8906,
+          "prob": 0.0557
+        },
+        {
+          "token": "’",
+          "token_id": 236858,
+          "logprob": -3.5781,
+          "prob": 0.028
+        },
+        {
+          "token": "Ġ$\\",
+          "token_id": 874,
+          "logprob": -6.375,
+          "prob": 0.0017
+        },
+        {
+          "token": "packing",
+          "token_id": 155624,
+          "logprob": -7.0625,
+          "prob": 0.0009
+        },
+        {
+          "token": "ice",
+          "token_id": 762,
+          "logprob": -7.125,
+          "prob": 0.0008
+        },
+        {
+          "token": "plug",
+          "token_id": 58834,
+          "logprob": -7.4375,
+          "prob": 0.0006
+        },
+        {
+          "token": "seen",
+          "token_id": 27531,
+          "logprob": -7.5312,
+          "prob": 0.0005
+        },
+        {
+          "token": ".",
+          "token_id": 236761,
+          "logprob": -7.6562,
+          "prob": 0.0005
+        },
+        {
+          "token": "cover",
+          "token_id": 4711,
+          "logprob": -7.6875,
+          "prob": 0.0005
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġgrand",
+        "token_id": 4159,
+        "logprob": -13.6875,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -13.6875,
+      "loss": 13.6875
+    },
+    {
+      "step": 3,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159
+      ],
+      "target_token": "Ġmodèle",
+      "target_token_id": 56667,
+      "predictions": [
+        {
+          "token": "Ġmodèle",
+          "token_id": 56667,
+          "logprob": -0.8984,
+          "prob": 0.4062
+        },
+        {
+          "token": "Ġmerci",
+          "token_id": 86746,
+          "logprob": -2.2812,
+          "prob": 0.1025
+        },
+        {
+          "token": "Ġmonde",
+          "token_id": 22150,
+          "logprob": -3.0312,
+          "prob": 0.0486
+        },
+        {
+          "token": "Ġfrère",
+          "token_id": 130938,
+          "logprob": -3.0312,
+          "prob": 0.0486
+        },
+        {
+          "token": "Ġpublic",
+          "token_id": 1237,
+          "logprob": -3.2812,
+          "prob": 0.0378
+        },
+        {
+          "token": "Ġsaut",
+          "token_id": 112280,
+          "logprob": -3.2812,
+          "prob": 0.0378
+        },
+        {
+          "token": "Ġchef",
+          "token_id": 22637,
+          "logprob": -3.7812,
+          "prob": 0.0229
+        },
+        {
+          "token": "Ġnombre",
+          "token_id": 9062,
+          "logprob": -3.7812,
+          "prob": 0.0229
+        },
+        {
+          "token": "Ġespace",
+          "token_id": 84644,
+          "logprob": -3.9062,
+          "prob": 0.0203
+        },
+        {
+          "token": "Ġclassique",
+          "token_id": 98724,
+          "logprob": -4.0312,
+          "prob": 0.0178
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġmodèle",
+        "token_id": 56667,
+        "logprob": -0.8984,
+        "prob": 0.4062
+      },
+      "target_prob": 0.4062,
+      "target_logprob": -0.8984,
+      "loss": 0.8984
+    },
+    {
+      "step": 4,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667
+      ],
+      "target_token": "Ġde",
+      "target_token_id": 569,
+      "predictions": [
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -0.1865,
+          "prob": 0.8281
+        },
+        {
+          "token": "Ġlinguistique",
+          "token_id": 190612,
+          "logprob": -1.8125,
+          "prob": 0.1631
+        },
+        {
+          "token": "Ġd",
+          "token_id": 513,
+          "logprob": -6.4375,
+          "prob": 0.0016
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -6.4375,
+          "prob": 0.0016
+        },
+        {
+          "token": "Ġ(",
+          "token_id": 568,
+          "logprob": -7.3125,
+          "prob": 0.0007
+        },
+        {
+          "token": "Ġest",
+          "token_id": 1009,
+          "logprob": -7.5625,
+          "prob": 0.0005
+        },
+        {
+          "token": "Ġcomme",
+          "token_id": 9298,
+          "logprob": -7.5625,
+          "prob": 0.0005
+        },
+        {
+          "token": "Ġpré",
+          "token_id": 8399,
+          "logprob": -8.6875,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġpour",
+          "token_id": 2637,
+          "logprob": -8.8125,
+          "prob": 0.0001
+        },
+        {
+          "token": "Ġcapable",
+          "token_id": 11844,
+          "logprob": -8.8125,
+          "prob": 0.0001
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġde",
+        "token_id": 569,
+        "logprob": -0.1865,
+        "prob": 0.8281
+      },
+      "target_prob": 0.8281,
+      "target_logprob": -0.1865,
+      "loss": 0.1865
+    },
+    {
+      "step": 5,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569
+      ],
+      "target_token": "Ġlangage",
+      "target_token_id": 158604,
+      "predictions": [
+        {
+          "token": "Ġlangage",
+          "token_id": 158604,
+          "logprob": -0.0106,
+          "prob": 0.9883
+        },
+        {
+          "token": "Ġlangue",
+          "token_id": 51010,
+          "logprob": -4.625,
+          "prob": 0.0097
+        },
+        {
+          "token": "Ġlang",
+          "token_id": 8738,
+          "logprob": -7.875,
+          "prob": 0.0004
+        },
+        {
+          "token": "Ġlanguage",
+          "token_id": 5192,
+          "logprob": -8.0,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġlinguagem",
+          "token_id": 143997,
+          "logprob": -10.75,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġlenguaje",
+          "token_id": 76804,
+          "logprob": -11.5,
+          "prob": 0.0
+        },
+        {
+          "token": "ĠIA",
+          "token_id": 51279,
+          "logprob": -11.625,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġngôn",
+          "token_id": 140907,
+          "logprob": -12.0,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġmodèle",
+          "token_id": 56667,
+          "logprob": -12.5625,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġlinguistique",
+          "token_id": 190612,
+          "logprob": -12.625,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġlangage",
+        "token_id": 158604,
+        "logprob": -0.0106,
+        "prob": 0.9883
+      },
+      "target_prob": 0.9883,
+      "target_logprob": -0.0106,
+      "loss": 0.0106
+    },
+    {
+      "step": 6,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604
+      ],
+      "target_token": "Ġ(",
+      "target_token_id": 568,
+      "predictions": [
+        {
+          "token": "Ġ(",
+          "token_id": 568,
+          "logprob": -0.291,
+          "prob": 0.75
+        },
+        {
+          "token": "Ġest",
+          "token_id": 1009,
+          "logprob": -2.2969,
+          "prob": 0.1011
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -3.0469,
+          "prob": 0.0479
+        },
+        {
+          "token": "Ġcomme",
+          "token_id": 9298,
+          "logprob": -3.1719,
+          "prob": 0.0422
+        },
+        {
+          "token": "Ġa",
+          "token_id": 496,
+          "logprob": -4.5312,
+          "prob": 0.0107
+        },
+        {
+          "token": "Ġpeut",
+          "token_id": 10613,
+          "logprob": -4.7812,
+          "prob": 0.0083
+        },
+        {
+          "token": "Ġentraî",
+          "token_id": 92537,
+          "logprob": -5.0312,
+          "prob": 0.0065
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -5.5312,
+          "prob": 0.0039
+        },
+        {
+          "token": "Ġne",
+          "token_id": 770,
+          "logprob": -6.0312,
+          "prob": 0.0024
+        },
+        {
+          "token": "Ġs",
+          "token_id": 503,
+          "logprob": -6.5312,
+          "prob": 0.0014
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġ(",
+        "token_id": 568,
+        "logprob": -0.291,
+        "prob": 0.75
+      },
+      "target_prob": 0.75,
+      "target_logprob": -0.291,
+      "loss": 0.291
+    },
+    {
+      "step": 7,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ("
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568
+      ],
+      "target_token": "abr",
+      "target_token_id": 61799,
+      "predictions": [
+        {
+          "token": "LL",
+          "token_id": 2182,
+          "logprob": -0.002,
+          "prob": 0.9961
+        },
+        {
+          "token": "Large",
+          "token_id": 31534,
+          "logprob": -7.625,
+          "prob": 0.0005
+        },
+        {
+          "token": "Grand",
+          "token_id": 39977,
+          "logprob": -7.75,
+          "prob": 0.0004
+        },
+        {
+          "token": "G",
+          "token_id": 236823,
+          "logprob": -7.875,
+          "prob": 0.0004
+        },
+        {
+          "token": "GPT",
+          "token_id": 67478,
+          "logprob": -8.125,
+          "prob": 0.0003
+        },
+        {
+          "token": "grand",
+          "token_id": 36244,
+          "logprob": -9.125,
+          "prob": 0.0001
+        },
+        {
+          "token": "LG",
+          "token_id": 38158,
+          "logprob": -9.375,
+          "prob": 0.0001
+        },
+        {
+          "token": "mod",
+          "token_id": 1901,
+          "logprob": -9.75,
+          "prob": 0.0001
+        },
+        {
+          "token": "ou",
+          "token_id": 521,
+          "logprob": -10.25,
+          "prob": 0.0
+        },
+        {
+          "token": "MLL",
+          "token_id": 123193,
+          "logprob": -10.25,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "abr",
+        "token_id": 61799,
+        "logprob": -35.0,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -35.0,
+      "loss": 35.0
+    },
+    {
+      "step": 8,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799
+      ],
+      "target_token": "ég",
+      "target_token_id": 6470,
+      "predictions": [
+        {
+          "token": "ég",
+          "token_id": 6470,
+          "logprob": -0.0015,
+          "prob": 1.0
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -7.7812,
+          "prob": 0.0004
+        },
+        {
+          "token": ".)",
+          "token_id": 2907,
+          "logprob": -7.9375,
+          "prob": 0.0004
+        },
+        {
+          "token": "èg",
+          "token_id": 36270,
+          "logprob": -7.9688,
+          "prob": 0.0003
+        },
+        {
+          "token": "è",
+          "token_id": 237022,
+          "logprob": -9.25,
+          "prob": 0.0001
+        },
+        {
+          "token": "él",
+          "token_id": 7869,
+          "logprob": -9.375,
+          "prob": 0.0001
+        },
+        {
+          "token": "ège",
+          "token_id": 60053,
+          "logprob": -10.0,
+          "prob": 0.0
+        },
+        {
+          "token": ".",
+          "token_id": 236761,
+          "logprob": -10.3125,
+          "prob": 0.0
+        },
+        {
+          "token": "égation",
+          "token_id": 124653,
+          "logprob": -11.5,
+          "prob": 0.0
+        },
+        {
+          "token": "-",
+          "token_id": 236772,
+          "logprob": -11.9375,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "ég",
+        "token_id": 6470,
+        "logprob": -0.0015,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0015,
+      "loss": 0.0015
+    },
+    {
+      "step": 9,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470
+      ],
+      "target_token": "é",
+      "target_token_id": 236859,
+      "predictions": [
+        {
+          "token": "é",
+          "token_id": 236859,
+          "logprob": -0.0,
+          "prob": 1.0
+        },
+        {
+          "token": "és",
+          "token_id": 1875,
+          "logprob": -12.25,
+          "prob": 0.0
+        },
+        {
+          "token": "ée",
+          "token_id": 3190,
+          "logprob": -12.875,
+          "prob": 0.0
+        },
+        {
+          "token": "ation",
+          "token_id": 567,
+          "logprob": -13.25,
+          "prob": 0.0
+        },
+        {
+          "token": "ier",
+          "token_id": 1099,
+          "logprob": -14.8125,
+          "prob": 0.0
+        },
+        {
+          "token": "emment",
+          "token_id": 49913,
+          "logprob": -15.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "ément",
+          "token_id": 16265,
+          "logprob": -15.25,
+          "prob": 0.0
+        },
+        {
+          "token": "édé",
+          "token_id": 148288,
+          "logprob": -15.625,
+          "prob": 0.0
+        },
+        {
+          "token": "É",
+          "token_id": 237642,
+          "logprob": -15.8125,
+          "prob": 0.0
+        },
+        {
+          "token": ".",
+          "token_id": 236761,
+          "logprob": -16.0,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "é",
+        "token_id": 236859,
+        "logprob": -0.0,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0,
+      "loss": 0.0
+    },
+    {
+      "step": 10,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859
+      ],
+      "target_token": "ĠLL",
+      "target_token_id": 32050,
+      "predictions": [
+        {
+          "token": "Ġen",
+          "token_id": 696,
+          "logprob": -0.4434,
+          "prob": 0.6406
+        },
+        {
+          "token": "ĠLL",
+          "token_id": 32050,
+          "logprob": -1.6953,
+          "prob": 0.1836
+        },
+        {
+          "token": "ĠG",
+          "token_id": 667,
+          "logprob": -3.1875,
+          "prob": 0.041
+        },
+        {
+          "token": "Ġ:",
+          "token_id": 1017,
+          "logprob": -3.1875,
+          "prob": 0.041
+        },
+        {
+          "token": "ĠGL",
+          "token_id": 14349,
+          "logprob": -3.8125,
+          "prob": 0.022
+        },
+        {
+          "token": "en",
+          "token_id": 501,
+          "logprob": -4.1875,
+          "prob": 0.0151
+        },
+        {
+          "token": "Ġici",
+          "token_id": 31288,
+          "logprob": -4.8125,
+          "prob": 0.0081
+        },
+        {
+          "token": "Ġ\"",
+          "token_id": 623,
+          "logprob": -4.9375,
+          "prob": 0.0071
+        },
+        {
+          "token": "ĠGPT",
+          "token_id": 72375,
+          "logprob": -5.0625,
+          "prob": 0.0063
+        },
+        {
+          "token": "ĠL",
+          "token_id": 639,
+          "logprob": -5.1875,
+          "prob": 0.0056
+        }
+      ],
+      "target_token_prediction": {
+        "token": "ĠLL",
+        "token_id": 32050,
+        "logprob": -1.6953,
+        "prob": 0.1836
+      },
+      "target_prob": 0.1836,
+      "target_logprob": -1.6953,
+      "loss": 1.6953
+    },
+    {
+      "step": 11,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050
+      ],
+      "target_token": "M",
+      "target_token_id": 236792,
+      "predictions": [
+        {
+          "token": "M",
+          "token_id": 236792,
+          "logprob": -0.0,
+          "prob": 1.0
+        },
+        {
+          "token": "Ms",
+          "token_id": 21706,
+          "logprob": -11.0,
+          "prob": 0.0
+        },
+        {
+          "token": "m",
+          "token_id": 236757,
+          "logprob": -13.625,
+          "prob": 0.0
+        },
+        {
+          "token": "AMA",
+          "token_id": 38044,
+          "logprob": -14.125,
+          "prob": 0.0
+        },
+        {
+          "token": "N",
+          "token_id": 236797,
+          "logprob": -15.0625,
+          "prob": 0.0
+        },
+        {
+          "token": "F",
+          "token_id": 236811,
+          "logprob": -15.5625,
+          "prob": 0.0
+        },
+        {
+          "token": "ĠM",
+          "token_id": 587,
+          "logprob": -15.8125,
+          "prob": 0.0
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -16.625,
+          "prob": 0.0
+        },
+        {
+          "token": "G",
+          "token_id": 236823,
+          "logprob": -16.75,
+          "prob": 0.0
+        },
+        {
+          "token": "AM",
+          "token_id": 1936,
+          "logprob": -16.75,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "M",
+        "token_id": 236792,
+        "logprob": -0.0,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0,
+      "loss": 0.0
+    },
+    {
+      "step": 12,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792
+      ],
+      "target_token": "Ġde",
+      "target_token_id": 569,
+      "predictions": [
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -0.064,
+          "prob": 0.9375
+        },
+        {
+          "token": "Ġen",
+          "token_id": 696,
+          "logprob": -2.8125,
+          "prob": 0.0601
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -7.1875,
+          "prob": 0.0008
+        },
+        {
+          "token": "Ġpour",
+          "token_id": 2637,
+          "logprob": -7.8125,
+          "prob": 0.0004
+        },
+        {
+          "token": "),",
+          "token_id": 779,
+          "logprob": -8.1875,
+          "prob": 0.0003
+        },
+        {
+          "token": ").",
+          "token_id": 769,
+          "logprob": -8.9375,
+          "prob": 0.0001
+        },
+        {
+          "token": "Ġanglais",
+          "token_id": 90291,
+          "logprob": -9.4375,
+          "prob": 0.0001
+        },
+        {
+          "token": "Ġ-",
+          "token_id": 753,
+          "logprob": -10.3125,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġpar",
+          "token_id": 944,
+          "logprob": -10.4375,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġest",
+          "token_id": 1009,
+          "logprob": -10.6875,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġde",
+        "token_id": 569,
+        "logprob": -11.6875,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -11.6875,
+      "loss": 11.6875
+    },
+    {
+      "step": 13,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569
+      ],
+      "target_token": "Ġl",
+      "target_token_id": 537,
+      "predictions": [
+        {
+          "token": "Ġl",
+          "token_id": 537,
+          "logprob": -0.0253,
+          "prob": 0.9766
+        },
+        {
+          "token": "Ġlangage",
+          "token_id": 158604,
+          "logprob": -4.1562,
+          "prob": 0.0157
+        },
+        {
+          "token": "Ġson",
+          "token_id": 2369,
+          "logprob": -5.2812,
+          "prob": 0.0051
+        },
+        {
+          "token": "Ġlangue",
+          "token_id": 51010,
+          "logprob": -6.7812,
+          "prob": 0.0011
+        },
+        {
+          "token": "Ġses",
+          "token_id": 7529,
+          "logprob": -7.5938,
+          "prob": 0.0005
+        },
+        {
+          "token": "Ġanglais",
+          "token_id": 90291,
+          "logprob": -7.9062,
+          "prob": 0.0004
+        },
+        {
+          "token": "Ġ\"",
+          "token_id": 623,
+          "logprob": -8.0625,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġ*",
+          "token_id": 808,
+          "logprob": -8.0625,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġsa",
+          "token_id": 890,
+          "logprob": -8.625,
+          "prob": 0.0002
+        },
+        {
+          "token": "ĠL",
+          "token_id": 639,
+          "logprob": -9.25,
+          "prob": 0.0001
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġl",
+        "token_id": 537,
+        "logprob": -0.0253,
+        "prob": 0.9766
+      },
+      "target_prob": 0.9766,
+      "target_logprob": -0.0253,
+      "loss": 0.0253
+    },
+    {
+      "step": 14,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537
+      ],
+      "target_token": "'",
+      "target_token_id": 236789,
+      "predictions": [
+        {
+          "token": "'",
+          "token_id": 236789,
+          "logprob": -0.006,
+          "prob": 0.9922
+        },
+        {
+          "token": "’",
+          "token_id": 236858,
+          "logprob": -5.75,
+          "prob": 0.0032
+        },
+        {
+          "token": "Ġlangage",
+          "token_id": 158604,
+          "logprob": -6.1875,
+          "prob": 0.002
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -8.9375,
+          "prob": 0.0001
+        },
+        {
+          "token": "ĠLL",
+          "token_id": 32050,
+          "logprob": -9.0,
+          "prob": 0.0001
+        },
+        {
+          "token": "')",
+          "token_id": 1606,
+          "logprob": -9.6875,
+          "prob": 0.0001
+        },
+        {
+          "token": "ox",
+          "token_id": 1169,
+          "logprob": -10.25,
+          "prob": 0.0
+        },
+        {
+          "token": "issage",
+          "token_id": 84635,
+          "logprob": -10.6875,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġl",
+          "token_id": 537,
+          "logprob": -10.75,
+          "prob": 0.0
+        },
+        {
+          "token": "L",
+          "token_id": 236798,
+          "logprob": -10.75,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "'",
+        "token_id": 236789,
+        "logprob": -0.006,
+        "prob": 0.9922
+      },
+      "target_prob": 0.9922,
+      "target_logprob": -0.006,
+      "loss": 0.006
+    },
+    {
+      "step": 15,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789
+      ],
+      "target_token": "ang",
+      "target_token_id": 698,
+      "predictions": [
+        {
+          "token": "ang",
+          "token_id": 698,
+          "logprob": -0.0698,
+          "prob": 0.9336
+        },
+        {
+          "token": "IA",
+          "token_id": 5299,
+          "logprob": -2.9375,
+          "prob": 0.0525
+        },
+        {
+          "token": "Ang",
+          "token_id": 12165,
+          "logprob": -5.0625,
+          "prob": 0.0063
+        },
+        {
+          "token": "Ġanglais",
+          "token_id": 90291,
+          "logprob": -5.8125,
+          "prob": 0.003
+        },
+        {
+          "token": "ing",
+          "token_id": 522,
+          "logprob": -6.5625,
+          "prob": 0.0014
+        },
+        {
+          "token": "intelligence",
+          "token_id": 78306,
+          "logprob": -7.4375,
+          "prob": 0.0006
+        },
+        {
+          "token": "inform",
+          "token_id": 31506,
+          "logprob": -7.5625,
+          "prob": 0.0005
+        },
+        {
+          "token": "إنجليزية",
+          "token_id": 62864,
+          "logprob": -8.4375,
+          "prob": 0.0002
+        },
+        {
+          "token": "ère",
+          "token_id": 4580,
+          "logprob": -8.5625,
+          "prob": 0.0002
+        },
+        {
+          "token": "intention",
+          "token_id": 118385,
+          "logprob": -8.5625,
+          "prob": 0.0002
+        }
+      ],
+      "target_token_prediction": {
+        "token": "ang",
+        "token_id": 698,
+        "logprob": -0.0698,
+        "prob": 0.9336
+      },
+      "target_prob": 0.9336,
+      "target_logprob": -0.0698,
+      "loss": 0.0698
+    },
+    {
+      "step": 16,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698
+      ],
+      "target_token": "lais",
+      "target_token_id": 42350,
+      "predictions": [
+        {
+          "token": "lais",
+          "token_id": 42350,
+          "logprob": -0.0006,
+          "prob": 1.0
+        },
+        {
+          "token": "lic",
+          "token_id": 788,
+          "logprob": -7.5,
+          "prob": 0.0006
+        },
+        {
+          "token": "la",
+          "token_id": 2149,
+          "logprob": -11.25,
+          "prob": 0.0
+        },
+        {
+          "token": "lois",
+          "token_id": 221966,
+          "logprob": -12.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "ois",
+          "token_id": 6958,
+          "logprob": -12.8125,
+          "prob": 0.0
+        },
+        {
+          "token": "ais",
+          "token_id": 2224,
+          "logprob": -14.3125,
+          "prob": 0.0
+        },
+        {
+          "token": "lo",
+          "token_id": 844,
+          "logprob": -14.4375,
+          "prob": 0.0
+        },
+        {
+          "token": "los",
+          "token_id": 16507,
+          "logprob": -14.9375,
+          "prob": 0.0
+        },
+        {
+          "token": "lish",
+          "token_id": 2605,
+          "logprob": -15.375,
+          "prob": 0.0
+        },
+        {
+          "token": "ail",
+          "token_id": 917,
+          "logprob": -15.625,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "lais",
+        "token_id": 42350,
+        "logprob": -0.0006,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0006,
+      "loss": 0.0006
+    },
+    {
+      "step": 17,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350
+      ],
+      "target_token": "Ġlarge",
+      "target_token_id": 2455,
+      "predictions": [
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -1.0781,
+          "prob": 0.3398
+        },
+        {
+          "token": "Ġ*",
+          "token_id": 808,
+          "logprob": -1.4531,
+          "prob": 0.2334
+        },
+        {
+          "token": "Ġ:",
+          "token_id": 1017,
+          "logprob": -2.3281,
+          "prob": 0.0972
+        },
+        {
+          "token": "Ġ\"",
+          "token_id": 623,
+          "logprob": -2.4531,
+          "prob": 0.0859
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -2.5781,
+          "prob": 0.0757
+        },
+        {
+          "token": "Ġ**",
+          "token_id": 5213,
+          "logprob": -3.3281,
+          "prob": 0.0356
+        },
+        {
+          "token": "ĠLarge",
+          "token_id": 25093,
+          "logprob": -3.3281,
+          "prob": 0.0356
+        },
+        {
+          "token": ":",
+          "token_id": 236787,
+          "logprob": -3.5781,
+          "prob": 0.0278
+        },
+        {
+          "token": "Ġpour",
+          "token_id": 2637,
+          "logprob": -3.9531,
+          "prob": 0.0192
+        },
+        {
+          "token": "ĠLanguage",
+          "token_id": 22160,
+          "logprob": -4.7188,
+          "prob": 0.009
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġlarge",
+        "token_id": 2455,
+        "logprob": -6.9688,
+        "prob": 0.001
+      },
+      "target_prob": 0.001,
+      "target_logprob": -6.9688,
+      "loss": 6.9688
+    },
+    {
+      "step": 18,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455
+      ],
+      "target_token": "Ġlanguage",
+      "target_token_id": 5192,
+      "predictions": [
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -0.4141,
+          "prob": 0.6602
+        },
+        {
+          "token": "Ġmodèle",
+          "token_id": 56667,
+          "logprob": -1.6641,
+          "prob": 0.1895
+        },
+        {
+          "token": "Ġlanguage",
+          "token_id": 5192,
+          "logprob": -2.9062,
+          "prob": 0.0542
+        },
+        {
+          "token": "Ġmodel",
+          "token_id": 2028,
+          "logprob": -3.6562,
+          "prob": 0.0256
+        },
+        {
+          "token": "),",
+          "token_id": 779,
+          "logprob": -4.0312,
+          "prob": 0.0176
+        },
+        {
+          "token": "Ġlangage",
+          "token_id": 158604,
+          "logprob": -4.0312,
+          "prob": 0.0176
+        },
+        {
+          "token": ").",
+          "token_id": 769,
+          "logprob": -4.2812,
+          "prob": 0.0137
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -5.7812,
+          "prob": 0.0031
+        },
+        {
+          "token": "Ġlangue",
+          "token_id": 51010,
+          "logprob": -5.9062,
+          "prob": 0.0027
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -6.0312,
+          "prob": 0.0024
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġlanguage",
+        "token_id": 5192,
+        "logprob": -2.9062,
+        "prob": 0.0542
+      },
+      "target_prob": 0.0542,
+      "target_logprob": -2.9062,
+      "loss": 2.9062
+    },
+    {
+      "step": 19,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192
+      ],
+      "target_token": "Ġmodel",
+      "target_token_id": 2028,
+      "predictions": [
+        {
+          "token": "Ġmodel",
+          "token_id": 2028,
+          "logprob": -0.0036,
+          "prob": 0.9961
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -6.125,
+          "prob": 0.0022
+        },
+        {
+          "token": "Ġmodels",
+          "token_id": 4681,
+          "logprob": -6.75,
+          "prob": 0.0012
+        },
+        {
+          "token": ").",
+          "token_id": 769,
+          "logprob": -9.625,
+          "prob": 0.0001
+        },
+        {
+          "token": "Ġmodeling",
+          "token_id": 21379,
+          "logprob": -10.5,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġmode",
+          "token_id": 5354,
+          "logprob": -10.875,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġmodèle",
+          "token_id": 56667,
+          "logprob": -10.875,
+          "prob": 0.0
+        },
+        {
+          "token": "ĠModel",
+          "token_id": 9483,
+          "logprob": -11.1875,
+          "prob": 0.0
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -11.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "),",
+          "token_id": 779,
+          "logprob": -11.5,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġmodel",
+        "token_id": 2028,
+        "logprob": -0.0036,
+        "prob": 0.9961
+      },
+      "target_prob": 0.9961,
+      "target_logprob": -0.0036,
+      "loss": 0.0036
+    },
+    {
+      "step": 20,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028
+      ],
+      "target_token": ")",
+      "target_token_id": 236768,
+      "predictions": [
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -0.0097,
+          "prob": 0.9922
+        },
+        {
+          "token": ").",
+          "token_id": 769,
+          "logprob": -5.125,
+          "prob": 0.0059
+        },
+        {
+          "token": "),",
+          "token_id": 779,
+          "logprob": -6.5,
+          "prob": 0.0015
+        },
+        {
+          "token": "Ġest",
+          "token_id": 1009,
+          "logprob": -7.5,
+          "prob": 0.0005
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -7.75,
+          "prob": 0.0004
+        },
+        {
+          "token": "Ġen",
+          "token_id": 696,
+          "logprob": -8.375,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -8.375,
+          "prob": 0.0002
+        },
+        {
+          "token": ")...",
+          "token_id": 53190,
+          "logprob": -8.625,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġet",
+          "token_id": 1008,
+          "logprob": -9.125,
+          "prob": 0.0001
+        },
+        {
+          "token": "Ġlinguistique",
+          "token_id": 190612,
+          "logprob": -10.25,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": ")",
+        "token_id": 236768,
+        "logprob": -0.0097,
+        "prob": 0.9922
+      },
+      "target_prob": 0.9922,
+      "target_logprob": -0.0097,
+      "loss": 0.0097
+    },
+    {
+      "step": 21,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768
+      ],
+      "target_token": "Ġest",
+      "target_token_id": 1009,
+      "predictions": [
+        {
+          "token": "Ġest",
+          "token_id": 1009,
+          "logprob": -0.0408,
+          "prob": 0.9609
+        },
+        {
+          "token": "Ġcomme",
+          "token_id": 9298,
+          "logprob": -3.6719,
+          "prob": 0.0256
+        },
+        {
+          "token": "Ġtel",
+          "token_id": 9517,
+          "logprob": -6.0312,
+          "prob": 0.0024
+        },
+        {
+          "token": "Ġutilise",
+          "token_id": 48887,
+          "logprob": -6.4062,
+          "prob": 0.0016
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -6.7812,
+          "prob": 0.0011
+        },
+        {
+          "token": "Ġbasé",
+          "token_id": 174225,
+          "logprob": -6.7812,
+          "prob": 0.0011
+        },
+        {
+          "token": "Ġa",
+          "token_id": 496,
+          "logprob": -7.1562,
+          "prob": 0.0008
+        },
+        {
+          "token": "Ġfait",
+          "token_id": 10426,
+          "logprob": -7.2812,
+          "prob": 0.0007
+        },
+        {
+          "token": "Ġrepose",
+          "token_id": 105125,
+          "logprob": -7.4062,
+          "prob": 0.0006
+        },
+        {
+          "token": "Ġreprésente",
+          "token_id": 90249,
+          "logprob": -7.9062,
+          "prob": 0.0004
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġest",
+        "token_id": 1009,
+        "logprob": -0.0408,
+        "prob": 0.9609
+      },
+      "target_prob": 0.9609,
+      "target_logprob": -0.0408,
+      "loss": 0.0408
+    },
+    {
+      "step": 22,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009
+      ],
+      "target_token": "Ġun",
+      "target_token_id": 723,
+      "predictions": [
+        {
+          "token": "Ġun",
+          "token_id": 723,
+          "logprob": -0.0625,
+          "prob": 0.9375
+        },
+        {
+          "token": "Ġune",
+          "token_id": 3037,
+          "logprob": -3.4375,
+          "prob": 0.0322
+        },
+        {
+          "token": "Ġentraî",
+          "token_id": 92537,
+          "logprob": -4.1875,
+          "prob": 0.0152
+        },
+        {
+          "token": "Ġconçu",
+          "token_id": 135802,
+          "logprob": -4.8125,
+          "prob": 0.0081
+        },
+        {
+          "token": "Ġutilisé",
+          "token_id": 61648,
+          "logprob": -7.4375,
+          "prob": 0.0006
+        },
+        {
+          "token": "Ġformé",
+          "token_id": 135262,
+          "logprob": -7.6875,
+          "prob": 0.0005
+        },
+        {
+          "token": "Ġbasé",
+          "token_id": 174225,
+          "logprob": -8.3125,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġfondamental",
+          "token_id": 223402,
+          "logprob": -8.3125,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġdéveloppé",
+          "token_id": 143103,
+          "logprob": -8.3125,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġdevenu",
+          "token_id": 118113,
+          "logprob": -8.4375,
+          "prob": 0.0002
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġun",
+        "token_id": 723,
+        "logprob": -0.0625,
+        "prob": 0.9375
+      },
+      "target_prob": 0.9375,
+      "target_logprob": -0.0625,
+      "loss": 0.0625
+    },
+    {
+      "step": 23,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723
+      ],
+      "target_token": "Ġmodèle",
+      "target_token_id": 56667,
+      "predictions": [
+        {
+          "token": "Ġprogramme",
+          "token_id": 12107,
+          "logprob": -0.332,
+          "prob": 0.7188
+        },
+        {
+          "token": "Ġtype",
+          "token_id": 1722,
+          "logprob": -1.7031,
+          "prob": 0.1816
+        },
+        {
+          "token": "Ġmodèle",
+          "token_id": 56667,
+          "logprob": -2.8281,
+          "prob": 0.0588
+        },
+        {
+          "token": "Ġsystème",
+          "token_id": 27387,
+          "logprob": -3.9531,
+          "prob": 0.0192
+        },
+        {
+          "token": "Ġalgorith",
+          "token_id": 6603,
+          "logprob": -4.2188,
+          "prob": 0.0149
+        },
+        {
+          "token": "Ġgrand",
+          "token_id": 4159,
+          "logprob": -6.0938,
+          "prob": 0.0023
+        },
+        {
+          "token": "Ġordinateur",
+          "token_id": 124981,
+          "logprob": -6.5938,
+          "prob": 0.0014
+        },
+        {
+          "token": "Ġréseau",
+          "token_id": 58167,
+          "logprob": -6.9688,
+          "prob": 0.001
+        },
+        {
+          "token": "Ġlogiciel",
+          "token_id": 104468,
+          "logprob": -7.2188,
+          "prob": 0.0007
+        },
+        {
+          "token": "Ġexemple",
+          "token_id": 32166,
+          "logprob": -7.5938,
+          "prob": 0.0005
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġmodèle",
+        "token_id": 56667,
+        "logprob": -2.8281,
+        "prob": 0.0588
+      },
+      "target_prob": 0.0588,
+      "target_logprob": -2.8281,
+      "loss": 2.8281
+    },
+    {
+      "step": 24,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667
+      ],
+      "target_token": "Ġde",
+      "target_token_id": 569,
+      "predictions": [
+        {
+          "token": "Ġd",
+          "token_id": 513,
+          "logprob": -0.0859,
+          "prob": 0.918
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -3.2031,
+          "prob": 0.0403
+        },
+        {
+          "token": "Ġinformatique",
+          "token_id": 181855,
+          "logprob": -3.7031,
+          "prob": 0.0244
+        },
+        {
+          "token": "Ġbasé",
+          "token_id": 174225,
+          "logprob": -5.2188,
+          "prob": 0.0055
+        },
+        {
+          "token": "Ġstatistique",
+          "token_id": 171839,
+          "logprob": -5.3438,
+          "prob": 0.0048
+        },
+        {
+          "token": "ĠIA",
+          "token_id": 51279,
+          "logprob": -6.3438,
+          "prob": 0.0018
+        },
+        {
+          "token": "Ġartific",
+          "token_id": 53627,
+          "logprob": -6.5938,
+          "prob": 0.0014
+        },
+        {
+          "token": "Ġpré",
+          "token_id": 8399,
+          "logprob": -6.7188,
+          "prob": 0.0012
+        },
+        {
+          "token": "Ġsoph",
+          "token_id": 17736,
+          "logprob": -7.0938,
+          "prob": 0.0008
+        },
+        {
+          "token": "Ġentraî",
+          "token_id": 92537,
+          "logprob": -7.7188,
+          "prob": 0.0004
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġde",
+        "token_id": 569,
+        "logprob": -3.2031,
+        "prob": 0.0403
+      },
+      "target_prob": 0.0403,
+      "target_logprob": -3.2031,
+      "loss": 3.2031
+    },
+    {
+      "step": 25,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569
+      ],
+      "target_token": "Ġlangage",
+      "target_token_id": 158604,
+      "predictions": [
+        {
+          "token": "Ġréseau",
+          "token_id": 58167,
+          "logprob": -0.6367,
+          "prob": 0.5312
+        },
+        {
+          "token": "IA",
+          "token_id": 5299,
+          "logprob": -2.2656,
+          "prob": 0.1045
+        },
+        {
+          "token": "Ġtype",
+          "token_id": 1722,
+          "logprob": -2.5156,
+          "prob": 0.0811
+        },
+        {
+          "token": "ĠIA",
+          "token_id": 51279,
+          "logprob": -2.5156,
+          "prob": 0.0811
+        },
+        {
+          "token": "Ġl",
+          "token_id": 537,
+          "logprob": -2.7656,
+          "prob": 0.0635
+        },
+        {
+          "token": "Ġmachine",
+          "token_id": 5464,
+          "logprob": -3.3906,
+          "prob": 0.0339
+        },
+        {
+          "token": "Ġintelligence",
+          "token_id": 14020,
+          "logprob": -3.6406,
+          "prob": 0.0264
+        },
+        {
+          "token": "Ġtransform",
+          "token_id": 4959,
+          "logprob": -4.25,
+          "prob": 0.0141
+        },
+        {
+          "token": "Ġdeep",
+          "token_id": 5268,
+          "logprob": -4.75,
+          "prob": 0.0085
+        },
+        {
+          "token": "Ġfond",
+          "token_id": 10667,
+          "logprob": -4.75,
+          "prob": 0.0085
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġlangage",
+        "token_id": 158604,
+        "logprob": -5.125,
+        "prob": 0.0059
+      },
+      "target_prob": 0.0059,
+      "target_logprob": -5.125,
+      "loss": 5.125
+    },
+    {
+      "step": 26,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604
+      ],
+      "target_token": "Ġposséd",
+      "target_token_id": 224603,
+      "predictions": [
+        {
+          "token": "Ġbasé",
+          "token_id": 174225,
+          "logprob": -0.8711,
+          "prob": 0.418
+        },
+        {
+          "token": "Ġartific",
+          "token_id": 53627,
+          "logprob": -1.375,
+          "prob": 0.2539
+        },
+        {
+          "token": "Ġentraî",
+          "token_id": 92537,
+          "logprob": -2.0,
+          "prob": 0.1357
+        },
+        {
+          "token": "Ġd",
+          "token_id": 513,
+          "logprob": -3.25,
+          "prob": 0.0388
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -3.75,
+          "prob": 0.0236
+        },
+        {
+          "token": "Ġneuronal",
+          "token_id": 60722,
+          "logprob": -4.125,
+          "prob": 0.0162
+        },
+        {
+          "token": "Ġstatistique",
+          "token_id": 171839,
+          "logprob": -4.125,
+          "prob": 0.0162
+        },
+        {
+          "token": "Ġinformatique",
+          "token_id": 181855,
+          "logprob": -4.25,
+          "prob": 0.0143
+        },
+        {
+          "token": "Ġpré",
+          "token_id": 8399,
+          "logprob": -4.75,
+          "prob": 0.0087
+        },
+        {
+          "token": "Ġtrès",
+          "token_id": 10427,
+          "logprob": -5.0,
+          "prob": 0.0067
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġposséd",
+        "token_id": 224603,
+        "logprob": -13.125,
+        "prob": 0.0
+      },
+      "target_prob": 0.0,
+      "target_logprob": -13.125,
+      "loss": 13.125
+    },
+    {
+      "step": 27,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603
+      ],
+      "target_token": "ant",
+      "target_token_id": 638,
+      "predictions": [
+        {
+          "token": "ant",
+          "token_id": 638,
+          "logprob": -0.0,
+          "prob": 1.0
+        },
+        {
+          "token": "é",
+          "token_id": 236859,
+          "logprob": -11.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "ANT",
+          "token_id": 9071,
+          "logprob": -12.5625,
+          "prob": 0.0
+        },
+        {
+          "token": "ée",
+          "token_id": 3190,
+          "logprob": -13.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "ées",
+          "token_id": 4382,
+          "logprob": -14.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "ants",
+          "token_id": 1639,
+          "logprob": -14.4375,
+          "prob": 0.0
+        },
+        {
+          "token": "és",
+          "token_id": 1875,
+          "logprob": -14.5625,
+          "prob": 0.0
+        },
+        {
+          "token": "issant",
+          "token_id": 31967,
+          "logprob": -14.875,
+          "prob": 0.0
+        },
+        {
+          "token": "ait",
+          "token_id": 1706,
+          "logprob": -15.375,
+          "prob": 0.0
+        },
+        {
+          "token": "an",
+          "token_id": 508,
+          "logprob": -15.4375,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "ant",
+        "token_id": 638,
+        "logprob": -0.0,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0,
+      "loss": 0.0
+    },
+    {
+      "step": 28,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638
+      ],
+      "target_token": "Ġun",
+      "target_token_id": 723,
+      "predictions": [
+        {
+          "token": "Ġune",
+          "token_id": 3037,
+          "logprob": -0.4473,
+          "prob": 0.6406
+        },
+        {
+          "token": "Ġun",
+          "token_id": 723,
+          "logprob": -1.0703,
+          "prob": 0.3418
+        },
+        {
+          "token": "Ġdes",
+          "token_id": 853,
+          "logprob": -4.6875,
+          "prob": 0.0091
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -4.9375,
+          "prob": 0.0071
+        },
+        {
+          "token": "Ġgénéralement",
+          "token_id": 57405,
+          "logprob": -7.0625,
+          "prob": 0.0008
+        },
+        {
+          "token": "Ġd",
+          "token_id": 513,
+          "logprob": -7.8125,
+          "prob": 0.0004
+        },
+        {
+          "token": "Ġplusieurs",
+          "token_id": 23158,
+          "logprob": -8.0625,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġpotent",
+          "token_id": 30199,
+          "logprob": -8.4375,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġsouvent",
+          "token_id": 29536,
+          "logprob": -8.6875,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġbeaucoup",
+          "token_id": 24590,
+          "logprob": -8.9375,
+          "prob": 0.0001
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġun",
+        "token_id": 723,
+        "logprob": -1.0703,
+        "prob": 0.3418
+      },
+      "target_prob": 0.3418,
+      "target_logprob": -1.0703,
+      "loss": 1.0703
+    },
+    {
+      "step": 29,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723
+      ],
+      "target_token": "Ġgrand",
+      "target_token_id": 4159,
+      "predictions": [
+        {
+          "token": "Ġtrès",
+          "token_id": 10427,
+          "logprob": -0.6367,
+          "prob": 0.5273
+        },
+        {
+          "token": "Ġnombre",
+          "token_id": 9062,
+          "logprob": -1.2656,
+          "prob": 0.2832
+        },
+        {
+          "token": "Ġgrand",
+          "token_id": 4159,
+          "logprob": -1.7656,
+          "prob": 0.1719
+        },
+        {
+          "token": "Ġvaste",
+          "token_id": 107113,
+          "logprob": -4.75,
+          "prob": 0.0085
+        },
+        {
+          "token": "Ġensemble",
+          "token_id": 26519,
+          "logprob": -5.875,
+          "prob": 0.0028
+        },
+        {
+          "token": "Ġvocab",
+          "token_id": 72061,
+          "logprob": -6.375,
+          "prob": 0.0017
+        },
+        {
+          "token": "Ġcorpus",
+          "token_id": 38974,
+          "logprob": -6.75,
+          "prob": 0.0012
+        },
+        {
+          "token": "Ġimmense",
+          "token_id": 36628,
+          "logprob": -7.875,
+          "prob": 0.0004
+        },
+        {
+          "token": "Ġentraî",
+          "token_id": 92537,
+          "logprob": -7.875,
+          "prob": 0.0004
+        },
+        {
+          "token": "Ġlarge",
+          "token_id": 2455,
+          "logprob": -8.75,
+          "prob": 0.0002
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġgrand",
+        "token_id": 4159,
+        "logprob": -1.7656,
+        "prob": 0.1719
+      },
+      "target_prob": 0.1719,
+      "target_logprob": -1.7656,
+      "loss": 1.7656
+    },
+    {
+      "step": 30,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159
+      ],
+      "target_token": "Ġnombre",
+      "target_token_id": 9062,
+      "predictions": [
+        {
+          "token": "Ġnombre",
+          "token_id": 9062,
+          "logprob": -0.0008,
+          "prob": 1.0
+        },
+        {
+          "token": "Ġensemble",
+          "token_id": 26519,
+          "logprob": -8.0,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġcorpus",
+          "token_id": 38974,
+          "logprob": -8.25,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġvolume",
+          "token_id": 5542,
+          "logprob": -8.875,
+          "prob": 0.0001
+        },
+        {
+          "token": "Ġappareil",
+          "token_id": 90683,
+          "logprob": -11.5625,
+          "prob": 0.0
+        },
+        {
+          "token": "nombre",
+          "token_id": 30020,
+          "logprob": -11.75,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġrépertoire",
+          "token_id": 193567,
+          "logprob": -11.875,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġpouvoir",
+          "token_id": 43156,
+          "logprob": -12.0,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġparam",
+          "token_id": 3312,
+          "logprob": -12.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġapprent",
+          "token_id": 41649,
+          "logprob": -12.5625,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġnombre",
+        "token_id": 9062,
+        "logprob": -0.0008,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0008,
+      "loss": 0.0008
+    },
+    {
+      "step": 31,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062
+      ],
+      "target_token": "Ġde",
+      "target_token_id": 569,
+      "predictions": [
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -0.0005,
+          "prob": 1.0
+        },
+        {
+          "token": "Ġd",
+          "token_id": 513,
+          "logprob": -7.625,
+          "prob": 0.0005
+        },
+        {
+          "token": "Ġdes",
+          "token_id": 853,
+          "logprob": -11.6875,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġparamètres",
+          "token_id": 101977,
+          "logprob": -11.8125,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġ(",
+          "token_id": 568,
+          "logprob": -11.8125,
+          "prob": 0.0
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -11.9375,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġet",
+          "token_id": 1008,
+          "logprob": -13.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġof",
+          "token_id": 529,
+          "logprob": -13.375,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġtotal",
+          "token_id": 2558,
+          "logprob": -13.5625,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġapproxim",
+          "token_id": 5926,
+          "logprob": -13.6875,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġde",
+        "token_id": 569,
+        "logprob": -0.0005,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0005,
+      "loss": 0.0005
+    },
+    {
+      "step": 32,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569
+      ],
+      "target_token": "Ġparamètres",
+      "target_token_id": 101977,
+      "predictions": [
+        {
+          "token": "Ġparamètres",
+          "token_id": 101977,
+          "logprob": -0.0007,
+          "prob": 1.0
+        },
+        {
+          "token": "Ġpoids",
+          "token_id": 65406,
+          "logprob": -7.625,
+          "prob": 0.0005
+        },
+        {
+          "token": "Ġcouches",
+          "token_id": 115130,
+          "logprob": -9.9375,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġ**",
+          "token_id": 5213,
+          "logprob": -10.5,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġmilliards",
+          "token_id": 123460,
+          "logprob": -10.9375,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġmodèles",
+          "token_id": 90672,
+          "logprob": -11.1875,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġ\"",
+          "token_id": 623,
+          "logprob": -11.4375,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġparam",
+          "token_id": 3312,
+          "logprob": -11.5625,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġconnex",
+          "token_id": 96474,
+          "logprob": -11.875,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġneur",
+          "token_id": 17209,
+          "logprob": -12.1875,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġparamètres",
+        "token_id": 101977,
+        "logprob": -0.0007,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0007,
+      "loss": 0.0007
+    },
+    {
+      "step": 33,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977
+      ],
+      "target_token": "Ġ(",
+      "target_token_id": 568,
+      "predictions": [
+        {
+          "token": "Ġet",
+          "token_id": 1008,
+          "logprob": -1.2266,
+          "prob": 0.293
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -1.2266,
+          "prob": 0.293
+        },
+        {
+          "token": ".",
+          "token_id": 236761,
+          "logprob": -1.2266,
+          "prob": 0.293
+        },
+        {
+          "token": "Ġqui",
+          "token_id": 2947,
+          "logprob": -2.9844,
+          "prob": 0.051
+        },
+        {
+          "token": "Ġentraî",
+          "token_id": 92537,
+          "logprob": -3.6094,
+          "prob": 0.0272
+        },
+        {
+          "token": "Ġ(",
+          "token_id": 568,
+          "logprob": -3.9844,
+          "prob": 0.0187
+        },
+        {
+          "token": "Ġappris",
+          "token_id": 152334,
+          "logprob": -5.8438,
+          "prob": 0.0029
+        },
+        {
+          "token": "Ġnumériques",
+          "token_id": 185940,
+          "logprob": -6.3438,
+          "prob": 0.0017
+        },
+        {
+          "token": "Ġajust",
+          "token_id": 36388,
+          "logprob": -6.3438,
+          "prob": 0.0017
+        },
+        {
+          "token": "Ġpour",
+          "token_id": 2637,
+          "logprob": -6.3438,
+          "prob": 0.0017
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġ(",
+        "token_id": 568,
+        "logprob": -3.9844,
+        "prob": 0.0187
+      },
+      "target_prob": 0.0187,
+      "target_logprob": -3.9844,
+      "loss": 3.9844
+    },
+    {
+      "step": 34,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ("
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568
+      ],
+      "target_token": "g",
+      "target_token_id": 236759,
+      "predictions": [
+        {
+          "token": "parameters",
+          "token_id": 19031,
+          "logprob": -1.4219,
+          "prob": 0.2412
+        },
+        {
+          "token": "large",
+          "token_id": 20619,
+          "logprob": -1.6719,
+          "prob": 0.1875
+        },
+        {
+          "token": "un",
+          "token_id": 602,
+          "logprob": -2.0469,
+          "prob": 0.1289
+        },
+        {
+          "token": "param",
+          "token_id": 2882,
+          "logprob": -2.4219,
+          "prob": 0.0889
+        },
+        {
+          "token": "par",
+          "token_id": 1215,
+          "logprob": -3.5469,
+          "prob": 0.0288
+        },
+        {
+          "token": "a",
+          "token_id": 236746,
+          "logprob": -3.6719,
+          "prob": 0.0254
+        },
+        {
+          "token": "plus",
+          "token_id": 13779,
+          "logprob": -3.7969,
+          "prob": 0.0225
+        },
+        {
+          "token": "LL",
+          "token_id": 2182,
+          "logprob": -3.7969,
+          "prob": 0.0225
+        },
+        {
+          "token": "nombre",
+          "token_id": 30020,
+          "logprob": -3.7969,
+          "prob": 0.0225
+        },
+        {
+          "token": "des",
+          "token_id": 3386,
+          "logprob": -4.1875,
+          "prob": 0.0154
+        }
+      ],
+      "target_token_prediction": {
+        "token": "g",
+        "token_id": 236759,
+        "logprob": -4.1875,
+        "prob": 0.0154
+      },
+      "target_prob": 0.0154,
+      "target_logprob": -4.1875,
+      "loss": 4.1875
+    },
+    {
+      "step": 35,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759
+      ],
+      "target_token": "én",
+      "target_token_id": 3383,
+      "predictions": [
+        {
+          "token": "én",
+          "token_id": 3383,
+          "logprob": -0.4512,
+          "prob": 0.6367
+        },
+        {
+          "token": "ros",
+          "token_id": 2550,
+          "logprob": -1.0781,
+          "prob": 0.3418
+        },
+        {
+          "token": "rosse",
+          "token_id": 58648,
+          "logprob": -4.4375,
+          "prob": 0.0117
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -5.0625,
+          "prob": 0.0063
+        },
+        {
+          "token": "iga",
+          "token_id": 8049,
+          "logprob": -7.6875,
+          "prob": 0.0005
+        },
+        {
+          "token": "Ġ=",
+          "token_id": 578,
+          "logprob": -7.8125,
+          "prob": 0.0004
+        },
+        {
+          "token": "éré",
+          "token_id": 31219,
+          "logprob": -7.8125,
+          "prob": 0.0004
+        },
+        {
+          "token": "érant",
+          "token_id": 107166,
+          "logprob": -8.5625,
+          "prob": 0.0002
+        },
+        {
+          "token": "arg",
+          "token_id": 1187,
+          "logprob": -8.5625,
+          "prob": 0.0002
+        },
+        {
+          "token": "),",
+          "token_id": 779,
+          "logprob": -8.5625,
+          "prob": 0.0002
+        }
+      ],
+      "target_token_prediction": {
+        "token": "én",
+        "token_id": 3383,
+        "logprob": -0.4512,
+        "prob": 0.6367
+      },
+      "target_prob": 0.6367,
+      "target_logprob": -0.4512,
+      "loss": 0.4512
+    },
+    {
+      "step": 36,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g",
+        "én"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759,
+        3383
+      ],
+      "target_token": "éral",
+      "target_token_id": 17651,
+      "predictions": [
+        {
+          "token": "éral",
+          "token_id": 17651,
+          "logprob": -0.0004,
+          "prob": 1.0
+        },
+        {
+          "token": "érant",
+          "token_id": 107166,
+          "logprob": -8.25,
+          "prob": 0.0003
+        },
+        {
+          "token": "uellement",
+          "token_id": 36394,
+          "logprob": -10.25,
+          "prob": 0.0
+        },
+        {
+          "token": "el",
+          "token_id": 535,
+          "logprob": -10.5,
+          "prob": 0.0
+        },
+        {
+          "token": "éraux",
+          "token_id": 60108,
+          "logprob": -10.625,
+          "prob": 0.0
+        },
+        {
+          "token": "ére",
+          "token_id": 41507,
+          "logprob": -11.4375,
+          "prob": 0.0
+        },
+        {
+          "token": "ial",
+          "token_id": 706,
+          "logprob": -11.4375,
+          "prob": 0.0
+        },
+        {
+          "token": "ère",
+          "token_id": 4580,
+          "logprob": -11.625,
+          "prob": 0.0
+        },
+        {
+          "token": "érer",
+          "token_id": 32220,
+          "logprob": -11.625,
+          "prob": 0.0
+        },
+        {
+          "token": "érale",
+          "token_id": 41590,
+          "logprob": -11.875,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "éral",
+        "token_id": 17651,
+        "logprob": -0.0004,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0004,
+      "loss": 0.0004
+    },
+    {
+      "step": 37,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g",
+        "én",
+        "éral"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759,
+        3383,
+        17651
+      ],
+      "target_token": "ement",
+      "target_token_id": 1155,
+      "predictions": [
+        {
+          "token": "ement",
+          "token_id": 1155,
+          "logprob": -0.0012,
+          "prob": 1.0
+        },
+        {
+          "token": "lement",
+          "token_id": 1487,
+          "logprob": -7.625,
+          "prob": 0.0005
+        },
+        {
+          "token": "isation",
+          "token_id": 5305,
+          "logprob": -8.0,
+          "prob": 0.0003
+        },
+        {
+          "token": "isé",
+          "token_id": 31800,
+          "logprob": -9.625,
+          "prob": 0.0001
+        },
+        {
+          "token": "iste",
+          "token_id": 9925,
+          "logprob": -10.625,
+          "prob": 0.0
+        },
+        {
+          "token": "istes",
+          "token_id": 35575,
+          "logprob": -10.625,
+          "prob": 0.0
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -10.75,
+          "prob": 0.0
+        },
+        {
+          "token": "ités",
+          "token_id": 15182,
+          "logprob": -10.875,
+          "prob": 0.0
+        },
+        {
+          "token": "nellement",
+          "token_id": 179010,
+          "logprob": -11.0,
+          "prob": 0.0
+        },
+        {
+          "token": "iser",
+          "token_id": 7648,
+          "logprob": -11.125,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "ement",
+        "token_id": 1155,
+        "logprob": -0.0012,
+        "prob": 1.0
+      },
+      "target_prob": 1.0,
+      "target_logprob": -0.0012,
+      "loss": 0.0012
+    },
+    {
+      "step": 38,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g",
+        "én",
+        "éral",
+        "ement"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759,
+        3383,
+        17651,
+        1155
+      ],
+      "target_token": "Ġplus",
+      "target_token_id": 2915,
+      "predictions": [
+        {
+          "token": "Ġdes",
+          "token_id": 853,
+          "logprob": -0.1631,
+          "prob": 0.8516
+        },
+        {
+          "token": "Ġdans",
+          "token_id": 2880,
+          "logprob": -2.4062,
+          "prob": 0.0894
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -4.1562,
+          "prob": 0.0156
+        },
+        {
+          "token": "Ġmilliards",
+          "token_id": 123460,
+          "logprob": -4.1562,
+          "prob": 0.0156
+        },
+        {
+          "token": "Ġplusieurs",
+          "token_id": 23158,
+          "logprob": -4.5312,
+          "prob": 0.0107
+        },
+        {
+          "token": "Ġen",
+          "token_id": 696,
+          "logprob": -5.2812,
+          "prob": 0.0051
+        },
+        {
+          "token": "Ġentraî",
+          "token_id": 92537,
+          "logprob": -6.2812,
+          "prob": 0.0019
+        },
+        {
+          "token": "Ġà",
+          "token_id": 1608,
+          "logprob": -6.4062,
+          "prob": 0.0016
+        },
+        {
+          "token": "Ġmis",
+          "token_id": 3930,
+          "logprob": -6.5312,
+          "prob": 0.0014
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -6.6562,
+          "prob": 0.0013
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġplus",
+        "token_id": 2915,
+        "logprob": -8.4375,
+        "prob": 0.0002
+      },
+      "target_prob": 0.0002,
+      "target_logprob": -8.4375,
+      "loss": 8.4375
+    },
+    {
+      "step": 39,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g",
+        "én",
+        "éral",
+        "ement",
+        "Ġplus"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759,
+        3383,
+        17651,
+        1155,
+        2915
+      ],
+      "target_token": "Ġd",
+      "target_token_id": 513,
+      "predictions": [
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -0.2559,
+          "prob": 0.7734
+        },
+        {
+          "token": "Ġd",
+          "token_id": 513,
+          "logprob": -1.5078,
+          "prob": 0.2217
+        },
+        {
+          "token": "ieurs",
+          "token_id": 19251,
+          "logprob": -6.625,
+          "prob": 0.0013
+        },
+        {
+          "token": "Ġdes",
+          "token_id": 853,
+          "logprob": -7.0,
+          "prob": 0.0009
+        },
+        {
+          "token": "Ġcent",
+          "token_id": 1605,
+          "logprob": -8.125,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġun",
+          "token_id": 723,
+          "logprob": -8.375,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġou",
+          "token_id": 3349,
+          "logprob": -8.625,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġgros",
+          "token_id": 35027,
+          "logprob": -8.75,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġgrand",
+          "token_id": 4159,
+          "logprob": -8.875,
+          "prob": 0.0001
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -9.5,
+          "prob": 0.0001
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġd",
+        "token_id": 513,
+        "logprob": -1.5078,
+        "prob": 0.2217
+      },
+      "target_prob": 0.2217,
+      "target_logprob": -1.5078,
+      "loss": 1.5078
+    },
+    {
+      "step": 40,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g",
+        "én",
+        "éral",
+        "ement",
+        "Ġplus",
+        "Ġd"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759,
+        3383,
+        17651,
+        1155,
+        2915,
+        513
+      ],
+      "target_token": "'",
+      "target_token_id": 236789,
+      "predictions": [
+        {
+          "token": "'",
+          "token_id": 236789,
+          "logprob": -0.0053,
+          "prob": 0.9961
+        },
+        {
+          "token": "’",
+          "token_id": 236858,
+          "logprob": -5.25,
+          "prob": 0.0052
+        },
+        {
+          "token": "Ġpo",
+          "token_id": 2099,
+          "logprob": -11.375,
+          "prob": 0.0
+        },
+        {
+          "token": "enses",
+          "token_id": 6740,
+          "logprob": -11.5625,
+          "prob": 0.0
+        },
+        {
+          "token": "ures",
+          "token_id": 1264,
+          "logprob": -11.625,
+          "prob": 0.0
+        },
+        {
+          "token": "'[",
+          "token_id": 164743,
+          "logprob": -12.0625,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -12.4375,
+          "prob": 0.0
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -12.75,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġé",
+          "token_id": 1559,
+          "logprob": -12.9375,
+          "prob": 0.0
+        },
+        {
+          "token": "outes",
+          "token_id": 6887,
+          "logprob": -13.1875,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "'",
+        "token_id": 236789,
+        "logprob": -0.0053,
+        "prob": 0.9961
+      },
+      "target_prob": 0.9961,
+      "target_logprob": -0.0053,
+      "loss": 0.0053
+    },
+    {
+      "step": 41,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g",
+        "én",
+        "éral",
+        "ement",
+        "Ġplus",
+        "Ġd",
+        "'"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759,
+        3383,
+        17651,
+        1155,
+        2915,
+        513,
+        236789
+      ],
+      "target_token": "un",
+      "target_token_id": 602,
+      "predictions": [
+        {
+          "token": "un",
+          "token_id": 602,
+          "logprob": -0.0053,
+          "prob": 0.9961
+        },
+        {
+          "token": "une",
+          "token_id": 2253,
+          "logprob": -5.25,
+          "prob": 0.0052
+        },
+        {
+          "token": "atte",
+          "token_id": 28878,
+          "logprob": -12.0,
+          "prob": 0.0
+        },
+        {
+          "token": "éto",
+          "token_id": 184357,
+          "logprob": -12.625,
+          "prob": 0.0
+        },
+        {
+          "token": "échelle",
+          "token_id": 170338,
+          "logprob": -12.625,
+          "prob": 0.0
+        },
+        {
+          "token": "1",
+          "token_id": 236770,
+          "logprob": -13.125,
+          "prob": 0.0
+        },
+        {
+          "token": "é",
+          "token_id": 236859,
+          "logprob": -13.25,
+          "prob": 0.0
+        },
+        {
+          "token": "align",
+          "token_id": 7341,
+          "logprob": -13.3125,
+          "prob": 0.0
+        },
+        {
+          "token": "autant",
+          "token_id": 106955,
+          "logprob": -13.375,
+          "prob": 0.0
+        },
+        {
+          "token": "au",
+          "token_id": 826,
+          "logprob": -13.5,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "un",
+        "token_id": 602,
+        "logprob": -0.0053,
+        "prob": 0.9961
+      },
+      "target_prob": 0.9961,
+      "target_logprob": -0.0053,
+      "loss": 0.0053
+    },
+    {
+      "step": 42,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g",
+        "én",
+        "éral",
+        "ement",
+        "Ġplus",
+        "Ġd",
+        "'",
+        "un"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759,
+        3383,
+        17651,
+        1155,
+        2915,
+        513,
+        236789,
+        602
+      ],
+      "target_token": "Ġmilliard",
+      "target_token_id": 221427,
+      "predictions": [
+        {
+          "token": "Ġmilliard",
+          "token_id": 221427,
+          "logprob": -0.0248,
+          "prob": 0.9766
+        },
+        {
+          "token": "Ġmillion",
+          "token_id": 3625,
+          "logprob": -3.9062,
+          "prob": 0.0203
+        },
+        {
+          "token": "Ġbillion",
+          "token_id": 7889,
+          "logprob": -5.5312,
+          "prob": 0.004
+        },
+        {
+          "token": "Ġou",
+          "token_id": 3349,
+          "logprob": -8.625,
+          "prob": 0.0002
+        },
+        {
+          "token": "Ġg",
+          "token_id": 549,
+          "logprob": -10.6875,
+          "prob": 0.0
+        },
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -11.3125,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġmilli",
+          "token_id": 61140,
+          "logprob": -11.3125,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġtrillion",
+          "token_id": 44721,
+          "logprob": -11.375,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġparam",
+          "token_id": 3312,
+          "logprob": -11.9375,
+          "prob": 0.0
+        },
+        {
+          "token": "Ġet",
+          "token_id": 1008,
+          "logprob": -12.625,
+          "prob": 0.0
+        }
+      ],
+      "target_token_prediction": {
+        "token": "Ġmilliard",
+        "token_id": 221427,
+        "logprob": -0.0248,
+        "prob": 0.9766
+      },
+      "target_prob": 0.9766,
+      "target_logprob": -0.0248,
+      "loss": 0.0248
+    },
+    {
+      "step": 43,
+      "input_tokens": [
+        "<bos>",
+        "Un",
+        "Ġgrand",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġ(",
+        "abr",
+        "ég",
+        "é",
+        "ĠLL",
+        "M",
+        "Ġde",
+        "Ġl",
+        "'",
+        "ang",
+        "lais",
+        "Ġlarge",
+        "Ġlanguage",
+        "Ġmodel",
+        ")",
+        "Ġest",
+        "Ġun",
+        "Ġmodèle",
+        "Ġde",
+        "Ġlangage",
+        "Ġposséd",
+        "ant",
+        "Ġun",
+        "Ġgrand",
+        "Ġnombre",
+        "Ġde",
+        "Ġparamètres",
+        "Ġ(",
+        "g",
+        "én",
+        "éral",
+        "ement",
+        "Ġplus",
+        "Ġd",
+        "'",
+        "un",
+        "Ġmilliard"
+      ],
+      "input_token_ids": [
+        2,
+        2805,
+        4159,
+        56667,
+        569,
+        158604,
+        568,
+        61799,
+        6470,
+        236859,
+        32050,
+        236792,
+        569,
+        537,
+        236789,
+        698,
+        42350,
+        2455,
+        5192,
+        2028,
+        236768,
+        1009,
+        723,
+        56667,
+        569,
+        158604,
+        224603,
+        638,
+        723,
+        4159,
+        9062,
+        569,
+        101977,
+        568,
+        236759,
+        3383,
+        17651,
+        1155,
+        2915,
+        513,
+        236789,
+        602,
+        221427
+      ],
+      "target_token": ").",
+      "target_token_id": 769,
+      "predictions": [
+        {
+          "token": ")",
+          "token_id": 236768,
+          "logprob": -0.416,
+          "prob": 0.6602
+        },
+        {
+          "token": ").",
+          "token_id": 769,
+          "logprob": -1.4141,
+          "prob": 0.2422
+        },
+        {
+          "token": "Ġde",
+          "token_id": 569,
+          "logprob": -2.6719,
+          "prob": 0.0693
+        },
+        {
+          "token": ",",
+          "token_id": 236764,
+          "logprob": -4.1562,
+          "prob": 0.0155
+        },
+        {
+          "token": "),",
+          "token_id": 779,
+          "logprob": -4.7812,
+          "prob": 0.0083
+        },
+        {
+          "token": "Ġou",
+          "token_id": 3349,
+          "logprob": -5.9062,
+          "prob": 0.0027
+        },
+        {
+          "token": "Ġpour",
+          "token_id": 2637,
+          "logprob": -7.2812,
+          "prob": 0.0007
+        },
+        {
+          "token": "Ġet",
+          "token_id": 1008,
+          "logprob": -8.0625,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġdans",
+          "token_id": 2880,
+          "logprob": -8.1875,
+          "prob": 0.0003
+        },
+        {
+          "token": "Ġd",
+          "token_id": 513,
+          "logprob": -9.1875,
+          "prob": 0.0001
+        }
+      ],
+      "target_token_prediction": {
+        "token": ").",
+        "token_id": 769,
+        "logprob": -1.4141,
+        "prob": 0.2422
+      },
+      "target_prob": 0.2422,
+      "target_logprob": -1.4141,
+      "loss": 1.4141
+    }
+  ]
+}

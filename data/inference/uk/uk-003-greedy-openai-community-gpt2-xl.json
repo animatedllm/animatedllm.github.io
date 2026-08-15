@@ -1,5 +1,5 @@
 {
-  "id": "generated_20251211_084943",
+  "id": "generated_20260815_231006",
   "prompt": "Столиця України це",
   "language": "uk",
   "temperature": 0.0,
@@ -63,6 +63,7 @@
         228,
         16843
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -131,7 +132,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -187,6 +189,7 @@
         16843,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -255,7 +258,8 @@
       "selected_token": {
         "token": "т",
         "token_id": 20375,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -313,6 +317,7 @@
         22177,
         20375
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -381,7 +386,8 @@
       "selected_token": {
         "token": "р",
         "token_id": 21169,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -441,6 +447,7 @@
         20375,
         21169
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -509,7 +516,8 @@
       "selected_token": {
         "token": "а",
         "token_id": 16142,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -571,6 +579,7 @@
         21169,
         16142
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -639,7 +648,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 141,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -703,6 +713,7 @@
         16142,
         141
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -721,7 +732,7 @@
           {
             "token": "�",
             "token_id": 226,
-            "logprob": -1.6311,
+            "logprob": -1.6312,
             "prob": 0.1957
           },
           {
@@ -771,7 +782,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 245,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -837,6 +849,7 @@
         141,
         245
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -849,7 +862,7 @@
           {
             "token": "в",
             "token_id": 38857,
-            "logprob": -4.2418,
+            "logprob": -4.2417,
             "prob": 0.0144
           },
           {
@@ -885,7 +898,7 @@
           {
             "token": "а",
             "token_id": 16142,
-            "logprob": -6.9609,
+            "logprob": -6.9608,
             "prob": 0.0009
           },
           {
@@ -905,7 +918,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -973,6 +987,7 @@
         245,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -1041,7 +1056,8 @@
       "selected_token": {
         "token": "и",
         "token_id": 18849,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -1111,6 +1127,7 @@
         22177,
         18849
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -1159,7 +1176,7 @@
           {
             "token": "�",
             "token_id": 140,
-            "logprob": -4.0877,
+            "logprob": -4.0878,
             "prob": 0.0168
           },
           {
@@ -1179,7 +1196,8 @@
       "selected_token": {
         "token": "Ġ�",
         "token_id": 12466,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -1251,6 +1269,7 @@
         18849,
         12466
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -1319,7 +1338,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 116,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -1393,6 +1413,7 @@
         12466,
         116
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -1405,7 +1426,7 @@
           {
             "token": "Ġ",
             "token_id": 220,
-            "logprob": -1.7517,
+            "logprob": -1.7516,
             "prob": 0.1735
           },
           {
@@ -1423,7 +1444,7 @@
           {
             "token": "л",
             "token_id": 30143,
-            "logprob": -3.5032,
+            "logprob": -3.5033,
             "prob": 0.0301
           },
           {
@@ -1435,13 +1456,13 @@
           {
             "token": "м",
             "token_id": 43108,
-            "logprob": -3.828,
+            "logprob": -3.8281,
             "prob": 0.0218
           },
           {
             "token": "�",
             "token_id": 141,
-            "logprob": -4.2439,
+            "logprob": -4.244,
             "prob": 0.0144
           },
           {
@@ -1461,7 +1482,8 @@
       "selected_token": {
         "token": "Ġ�",
         "token_id": 12466,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -1537,6 +1559,7 @@
         116,
         12466
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -1605,7 +1628,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 123,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -1683,6 +1707,7 @@
         12466,
         123
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -1751,7 +1776,8 @@
       "selected_token": {
         "token": "р",
         "token_id": 21169,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -1831,6 +1857,7 @@
         123,
         21169
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -1867,7 +1894,7 @@
           {
             "token": "я",
             "token_id": 40623,
-            "logprob": -4.7509,
+            "logprob": -4.7508,
             "prob": 0.0086
           },
           {
@@ -1899,7 +1926,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -1981,6 +2009,7 @@
         21169,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -2049,7 +2078,8 @@
       "selected_token": {
         "token": "и",
         "token_id": 18849,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -2133,6 +2163,7 @@
         15166,
         18849
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -2187,7 +2218,7 @@
           {
             "token": "Ġ�",
             "token_id": 12466,
-            "logprob": -7.5627,
+            "logprob": -7.5628,
             "prob": 0.0005
           },
           {
@@ -2201,7 +2232,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 140,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -2287,6 +2319,7 @@
         18849,
         140
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -2335,7 +2368,7 @@
           {
             "token": "�",
             "token_id": 119,
-            "logprob": -12.0077,
+            "logprob": -12.0078,
             "prob": 0.0
           },
           {
@@ -2355,7 +2388,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 115,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -2443,6 +2477,7 @@
         140,
         115
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -2485,7 +2520,7 @@
           {
             "token": "-",
             "token_id": 12,
-            "logprob": -6.3575,
+            "logprob": -6.3576,
             "prob": 0.0017
           },
           {
@@ -2511,7 +2546,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -2601,6 +2637,7 @@
         115,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -2669,7 +2706,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -2761,6 +2799,7 @@
         38857,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -2773,13 +2812,13 @@
           {
             "token": "�",
             "token_id": 119,
-            "logprob": -4.7484,
+            "logprob": -4.7485,
             "prob": 0.0087
           },
           {
             "token": "�",
             "token_id": 110,
-            "logprob": -7.5792,
+            "logprob": -7.5793,
             "prob": 0.0005
           },
           {
@@ -2797,7 +2836,7 @@
           {
             "token": "�",
             "token_id": 123,
-            "logprob": -8.3474,
+            "logprob": -8.3475,
             "prob": 0.0002
           },
           {
@@ -2821,7 +2860,7 @@
           {
             "token": "�",
             "token_id": 109,
-            "logprob": -10.4069,
+            "logprob": -10.407,
             "prob": 0.0
           }
         ]
@@ -2829,7 +2868,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 112,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -2923,6 +2963,7 @@
         25443,
         112
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -2941,7 +2982,7 @@
           {
             "token": "н",
             "token_id": 22177,
-            "logprob": -3.5426,
+            "logprob": -3.5427,
             "prob": 0.0289
           },
           {
@@ -2991,7 +3032,8 @@
       "selected_token": {
         "token": "с",
         "token_id": 21727,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -3087,6 +3129,7 @@
         112,
         21727
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -3155,7 +3198,8 @@
       "selected_token": {
         "token": "т",
         "token_id": 20375,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -3253,6 +3297,7 @@
         21727,
         20375
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -3321,7 +3366,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -3421,6 +3467,7 @@
         20375,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -3433,7 +3480,7 @@
           {
             "token": "а",
             "token_id": 16142,
-            "logprob": -1.4424,
+            "logprob": -1.4425,
             "prob": 0.2363
           },
           {
@@ -3489,7 +3536,8 @@
       "selected_token": {
         "token": "е",
         "token_id": 16843,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -3591,6 +3639,7 @@
         38857,
         16843
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -3603,7 +3652,7 @@
           {
             "token": "Ġ",
             "token_id": 220,
-            "logprob": -3.1084,
+            "logprob": -3.1083,
             "prob": 0.0447
           },
           {
@@ -3659,7 +3708,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -3763,6 +3813,7 @@
         16843,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -3831,7 +3882,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -3937,6 +3989,7 @@
         22177,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -3991,7 +4044,7 @@
           {
             "token": "Ġ�",
             "token_id": 12466,
-            "logprob": -7.2455,
+            "logprob": -7.2456,
             "prob": 0.0007
           },
           {
@@ -4005,7 +4058,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -4113,6 +4167,7 @@
         22177,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -4132,7 +4187,7 @@
             "token": "�",
             "token_id": 120,
             "logprob": -2.2279,
-            "prob": 0.1078
+            "prob": 0.1077
           },
           {
             "token": "�",
@@ -4181,7 +4236,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 111,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -4291,6 +4347,7 @@
         25443,
         111
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -4333,7 +4390,7 @@
           {
             "token": "Ġ�",
             "token_id": 12466,
-            "logprob": -13.2615,
+            "logprob": -13.2614,
             "prob": 0.0
           },
           {
@@ -4359,7 +4416,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -4471,6 +4529,7 @@
         111,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -4495,7 +4554,7 @@
           {
             "token": ",",
             "token_id": 11,
-            "logprob": -5.4349,
+            "logprob": -5.4348,
             "prob": 0.0044
           },
           {
@@ -4539,7 +4598,8 @@
       "selected_token": {
         "token": "Ġ�",
         "token_id": 12466,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -4653,6 +4713,7 @@
         15166,
         12466
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -4721,7 +4782,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 123,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -4837,6 +4899,7 @@
         12466,
         123
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -4849,7 +4912,7 @@
           {
             "token": "о�",
             "token_id": 25443,
-            "logprob": -1.4112,
+            "logprob": -1.4111,
             "prob": 0.2439
           },
           {
@@ -4905,7 +4968,8 @@
       "selected_token": {
         "token": "р",
         "token_id": 21169,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -5023,6 +5087,7 @@
         123,
         21169
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -5091,7 +5156,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -5211,6 +5277,7 @@
         21169,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -5279,7 +5346,8 @@
       "selected_token": {
         "token": "и",
         "token_id": 18849,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -5401,6 +5469,7 @@
         15166,
         18849
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -5449,7 +5518,7 @@
           {
             "token": "к",
             "token_id": 31583,
-            "logprob": -6.118,
+            "logprob": -6.1181,
             "prob": 0.0022
           },
           {
@@ -5469,7 +5538,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 140,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -5593,6 +5663,7 @@
         18849,
         140
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -5611,7 +5682,7 @@
           {
             "token": "�",
             "token_id": 109,
-            "logprob": -4.5755,
+            "logprob": -4.5754,
             "prob": 0.0103
           },
           {
@@ -5635,7 +5706,7 @@
           {
             "token": "�",
             "token_id": 112,
-            "logprob": -9.6277,
+            "logprob": -9.6278,
             "prob": 0.0001
           },
           {
@@ -5661,7 +5732,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 115,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -5787,6 +5859,7 @@
         140,
         115
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -5855,7 +5928,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -5983,6 +6057,7 @@
         115,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -6007,7 +6082,7 @@
           {
             "token": "и",
             "token_id": 18849,
-            "logprob": -5.467,
+            "logprob": -5.4669,
             "prob": 0.0042
           },
           {
@@ -6051,7 +6126,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -6181,6 +6257,7 @@
         38857,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -6217,7 +6294,7 @@
           {
             "token": "�",
             "token_id": 123,
-            "logprob": -9.2814,
+            "logprob": -9.2813,
             "prob": 0.0001
           },
           {
@@ -6249,7 +6326,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 112,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -6381,6 +6459,7 @@
         25443,
         112
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -6423,7 +6502,7 @@
           {
             "token": "т",
             "token_id": 20375,
-            "logprob": -5.011,
+            "logprob": -5.0111,
             "prob": 0.0067
           },
           {
@@ -6441,7 +6520,7 @@
           {
             "token": "Ġ",
             "token_id": 220,
-            "logprob": -5.1901,
+            "logprob": -5.1902,
             "prob": 0.0056
           }
         ]
@@ -6449,7 +6528,8 @@
       "selected_token": {
         "token": "с",
         "token_id": 21727,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -6583,6 +6663,7 @@
         112,
         21727
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -6619,7 +6700,7 @@
           {
             "token": "Ġ�",
             "token_id": 12466,
-            "logprob": -9.7643,
+            "logprob": -9.7644,
             "prob": 0.0001
           },
           {
@@ -6651,7 +6732,8 @@
       "selected_token": {
         "token": "т",
         "token_id": 20375,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -6787,6 +6869,7 @@
         21727,
         20375
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -6799,37 +6882,37 @@
           {
             "token": "а",
             "token_id": 16142,
-            "logprob": -12.0806,
+            "logprob": -12.0807,
             "prob": 0.0
           },
           {
             "token": "и",
             "token_id": 18849,
-            "logprob": -12.6303,
+            "logprob": -12.6304,
             "prob": 0.0
           },
           {
             "token": "р",
             "token_id": 21169,
-            "logprob": -12.6413,
+            "logprob": -12.6414,
             "prob": 0.0
           },
           {
             "token": "с",
             "token_id": 21727,
-            "logprob": -13.0646,
+            "logprob": -13.0647,
             "prob": 0.0
           },
           {
             "token": "�",
             "token_id": 110,
-            "logprob": -13.3164,
+            "logprob": -13.3165,
             "prob": 0.0
           },
           {
             "token": "о�",
             "token_id": 25443,
-            "logprob": -13.5437,
+            "logprob": -13.5438,
             "prob": 0.0
           },
           {
@@ -6855,7 +6938,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -6993,6 +7077,7 @@
         20375,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -7029,7 +7114,7 @@
           {
             "token": "у",
             "token_id": 35072,
-            "logprob": -4.8286,
+            "logprob": -4.8287,
             "prob": 0.008
           },
           {
@@ -7041,7 +7126,7 @@
           {
             "token": "�",
             "token_id": 141,
-            "logprob": -6.0754,
+            "logprob": -6.0755,
             "prob": 0.0023
           },
           {
@@ -7061,7 +7146,8 @@
       "selected_token": {
         "token": "е",
         "token_id": 16843,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -7201,6 +7287,7 @@
         38857,
         16843
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -7269,7 +7356,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -7411,6 +7499,7 @@
         16843,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -7453,7 +7542,7 @@
           {
             "token": "ы",
             "token_id": 45035,
-            "logprob": -6.925,
+            "logprob": -6.9249,
             "prob": 0.001
           },
           {
@@ -7479,7 +7568,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -7623,6 +7713,7 @@
         22177,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -7677,7 +7768,7 @@
           {
             "token": "н",
             "token_id": 22177,
-            "logprob": -8.326,
+            "logprob": -8.3259,
             "prob": 0.0002
           },
           {
@@ -7691,7 +7782,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -7837,6 +7929,7 @@
         22177,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -7905,7 +7998,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 111,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -8053,6 +8147,7 @@
         25443,
         111
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -8107,7 +8202,7 @@
           {
             "token": "е",
             "token_id": 16843,
-            "logprob": -12.7098,
+            "logprob": -12.7097,
             "prob": 0.0
           },
           {
@@ -8121,7 +8216,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -8271,6 +8367,7 @@
         111,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -8339,7 +8436,8 @@
       "selected_token": {
         "token": "Ġ�",
         "token_id": 12466,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -8491,6 +8589,7 @@
         15166,
         12466
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -8559,7 +8658,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 123,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -8713,6 +8813,7 @@
         12466,
         123
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -8749,7 +8850,7 @@
           {
             "token": "а",
             "token_id": 16142,
-            "logprob": -5.5946,
+            "logprob": -5.5945,
             "prob": 0.0037
           },
           {
@@ -8781,7 +8882,8 @@
       "selected_token": {
         "token": "р",
         "token_id": 21169,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -8937,6 +9039,7 @@
         123,
         21169
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -9005,7 +9108,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -9163,6 +9267,7 @@
         21169,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -9231,7 +9336,8 @@
       "selected_token": {
         "token": "и",
         "token_id": 18849,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -9391,6 +9497,7 @@
         15166,
         18849
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -9403,7 +9510,7 @@
           {
             "token": "в",
             "token_id": 38857,
-            "logprob": -6.9365,
+            "logprob": -6.9366,
             "prob": 0.001
           },
           {
@@ -9421,7 +9528,7 @@
           {
             "token": "м",
             "token_id": 43108,
-            "logprob": -7.9256,
+            "logprob": -7.9257,
             "prob": 0.0004
           },
           {
@@ -9459,7 +9566,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 140,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -9621,6 +9729,7 @@
         18849,
         140
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -9633,7 +9742,7 @@
           {
             "token": "�",
             "token_id": 111,
-            "logprob": -5.0856,
+            "logprob": -5.0857,
             "prob": 0.0062
           },
           {
@@ -9675,7 +9784,7 @@
           {
             "token": "�",
             "token_id": 118,
-            "logprob": -10.6681,
+            "logprob": -10.6682,
             "prob": 0.0
           },
           {
@@ -9689,7 +9798,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 115,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -9853,6 +9963,7 @@
         140,
         115
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -9921,7 +10032,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -10087,6 +10199,7 @@
         115,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -10111,13 +10224,13 @@
           {
             "token": "о",
             "token_id": 15166,
-            "logprob": -6.289,
+            "logprob": -6.2891,
             "prob": 0.0019
           },
           {
             "token": "и",
             "token_id": 18849,
-            "logprob": -6.3508,
+            "logprob": -6.3509,
             "prob": 0.0017
           },
           {
@@ -10135,7 +10248,7 @@
           {
             "token": "л",
             "token_id": 30143,
-            "logprob": -7.2239,
+            "logprob": -7.224,
             "prob": 0.0007
           },
           {
@@ -10155,7 +10268,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -10323,6 +10437,7 @@
         38857,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -10391,7 +10506,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 112,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -10561,6 +10677,7 @@
         25443,
         112
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -10629,7 +10746,8 @@
       "selected_token": {
         "token": "с",
         "token_id": 21727,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -10801,6 +10919,7 @@
         112,
         21727
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -10869,7 +10988,8 @@
       "selected_token": {
         "token": "т",
         "token_id": 20375,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -11043,6 +11163,7 @@
         21727,
         20375
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -11111,7 +11232,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -11287,6 +11409,7 @@
         20375,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -11329,7 +11452,7 @@
           {
             "token": "я",
             "token_id": 40623,
-            "logprob": -8.0897,
+            "logprob": -8.0898,
             "prob": 0.0003
           },
           {
@@ -11355,7 +11478,8 @@
       "selected_token": {
         "token": "е",
         "token_id": 16843,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -11533,6 +11657,7 @@
         38857,
         16843
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -11557,7 +11682,7 @@
           {
             "token": ",",
             "token_id": 11,
-            "logprob": -10.8335,
+            "logprob": -10.8336,
             "prob": 0.0
           },
           {
@@ -11569,7 +11694,7 @@
           {
             "token": "\n",
             "token_id": 198,
-            "logprob": -11.016,
+            "logprob": -11.0161,
             "prob": 0.0
           },
           {
@@ -11587,7 +11712,7 @@
           {
             "token": "Ġ�",
             "token_id": 12466,
-            "logprob": -11.2671,
+            "logprob": -11.2672,
             "prob": 0.0
           },
           {
@@ -11601,7 +11726,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -11781,6 +11907,7 @@
         16843,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -11849,7 +11976,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -12031,6 +12159,7 @@
         22177,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -12099,7 +12228,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -12283,6 +12413,7 @@
         22177,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -12331,7 +12462,7 @@
           {
             "token": "�",
             "token_id": 109,
-            "logprob": -8.0202,
+            "logprob": -8.0203,
             "prob": 0.0003
           },
           {
@@ -12351,7 +12482,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 111,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -12537,6 +12669,7 @@
         25443,
         111
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -12605,7 +12738,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -12793,6 +12927,7 @@
         111,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -12861,7 +12996,8 @@
       "selected_token": {
         "token": "Ġ�",
         "token_id": 12466,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -13051,6 +13187,7 @@
         15166,
         12466
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -13119,7 +13256,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 123,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -13311,6 +13449,7 @@
         12466,
         123
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -13341,7 +13480,7 @@
           {
             "token": "а",
             "token_id": 16142,
-            "logprob": -6.4575,
+            "logprob": -6.4576,
             "prob": 0.0016
           },
           {
@@ -13379,7 +13518,8 @@
       "selected_token": {
         "token": "р",
         "token_id": 21169,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -13573,6 +13713,7 @@
         123,
         21169
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -13597,7 +13738,7 @@
           {
             "token": "и",
             "token_id": 18849,
-            "logprob": -5.063,
+            "logprob": -5.0631,
             "prob": 0.0063
           },
           {
@@ -13641,7 +13782,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -13837,6 +13979,7 @@
         21169,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -13867,7 +14010,7 @@
           {
             "token": "о",
             "token_id": 15166,
-            "logprob": -7.4372,
+            "logprob": -7.4373,
             "prob": 0.0006
           },
           {
@@ -13905,7 +14048,8 @@
       "selected_token": {
         "token": "и",
         "token_id": 18849,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -14103,6 +14247,7 @@
         15166,
         18849
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -14171,7 +14316,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 140,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -14371,6 +14517,7 @@
         18849,
         140
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -14425,7 +14572,7 @@
           {
             "token": "�",
             "token_id": 110,
-            "logprob": -11.4991,
+            "logprob": -11.499,
             "prob": 0.0
           },
           {
@@ -14439,7 +14586,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 115,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -14641,6 +14789,7 @@
         140,
         115
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -14671,7 +14820,7 @@
           {
             "token": "и",
             "token_id": 18849,
-            "logprob": -10.417,
+            "logprob": -10.4169,
             "prob": 0.0
           },
           {
@@ -14709,7 +14858,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -14913,6 +15063,7 @@
         115,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -14981,7 +15132,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -15187,6 +15339,7 @@
         38857,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -15255,7 +15408,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 112,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -15463,6 +15617,7 @@
         25443,
         112
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -15487,7 +15642,7 @@
           {
             "token": "�",
             "token_id": 141,
-            "logprob": -8.8944,
+            "logprob": -8.8945,
             "prob": 0.0001
           },
           {
@@ -15499,7 +15654,7 @@
           {
             "token": "и",
             "token_id": 18849,
-            "logprob": -9.0058,
+            "logprob": -9.0059,
             "prob": 0.0001
           },
           {
@@ -15511,19 +15666,19 @@
           {
             "token": "т",
             "token_id": 20375,
-            "logprob": -9.2018,
+            "logprob": -9.2019,
             "prob": 0.0001
           },
           {
             "token": "\n",
             "token_id": 198,
-            "logprob": -9.3125,
+            "logprob": -9.3126,
             "prob": 0.0001
           },
           {
             "token": "Ġ",
             "token_id": 220,
-            "logprob": -9.7367,
+            "logprob": -9.7368,
             "prob": 0.0001
           }
         ]
@@ -15531,7 +15686,8 @@
       "selected_token": {
         "token": "с",
         "token_id": 21727,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -15741,6 +15897,7 @@
         112,
         21727
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -15789,13 +15946,13 @@
           {
             "token": "Ġthe",
             "token_id": 262,
-            "logprob": -11.9476,
+            "logprob": -11.9475,
             "prob": 0.0
           },
           {
             "token": ".",
             "token_id": 13,
-            "logprob": -12.1201,
+            "logprob": -12.12,
             "prob": 0.0
           },
           {
@@ -15809,7 +15966,8 @@
       "selected_token": {
         "token": "т",
         "token_id": 20375,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -16021,6 +16179,7 @@
         21727,
         20375
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -16089,7 +16248,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -16303,6 +16463,7 @@
         20375,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -16371,7 +16532,8 @@
       "selected_token": {
         "token": "е",
         "token_id": 16843,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -16587,6 +16749,7 @@
         38857,
         16843
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -16629,7 +16792,7 @@
           {
             "token": ".",
             "token_id": 13,
-            "logprob": -11.5181,
+            "logprob": -11.518,
             "prob": 0.0
           },
           {
@@ -16655,7 +16818,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -16873,6 +17037,7 @@
         16843,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -16915,7 +17080,7 @@
           {
             "token": ".",
             "token_id": 13,
-            "logprob": -8.8501,
+            "logprob": -8.8502,
             "prob": 0.0001
           },
           {
@@ -16927,7 +17092,7 @@
           {
             "token": "а",
             "token_id": 16142,
-            "logprob": -9.0387,
+            "logprob": -9.0388,
             "prob": 0.0001
           },
           {
@@ -16941,7 +17106,8 @@
       "selected_token": {
         "token": "н",
         "token_id": 22177,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -17161,6 +17327,7 @@
         22177,
         22177
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -17229,7 +17396,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -17451,6 +17619,7 @@
         22177,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -17519,7 +17688,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 111,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -17743,6 +17913,7 @@
         25443,
         111
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -17811,7 +17982,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -18037,6 +18209,7 @@
         111,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -18105,7 +18278,8 @@
       "selected_token": {
         "token": "Ġ�",
         "token_id": 12466,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -18333,6 +18507,7 @@
         15166,
         12466
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -18401,7 +18576,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 123,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -18631,6 +18807,7 @@
         12466,
         123
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -18699,7 +18876,8 @@
       "selected_token": {
         "token": "р",
         "token_id": 21169,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -18931,6 +19109,7 @@
         123,
         21169
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -18999,7 +19178,8 @@
       "selected_token": {
         "token": "о",
         "token_id": 15166,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -19233,6 +19413,7 @@
         21169,
         15166
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -19269,7 +19450,7 @@
           {
             "token": "я",
             "token_id": 40623,
-            "logprob": -8.0055,
+            "logprob": -8.0056,
             "prob": 0.0003
           },
           {
@@ -19301,7 +19482,8 @@
       "selected_token": {
         "token": "и",
         "token_id": 18849,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -19537,6 +19719,7 @@
         15166,
         18849
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -19605,7 +19788,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 140,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -19843,6 +20027,7 @@
         18849,
         140
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -19911,7 +20096,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 115,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -20151,6 +20337,7 @@
         140,
         115
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -20205,7 +20392,7 @@
           {
             "token": "д",
             "token_id": 43666,
-            "logprob": -11.7412,
+            "logprob": -11.7411,
             "prob": 0.0
           },
           {
@@ -20219,7 +20406,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -20461,6 +20649,7 @@
         115,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -20529,7 +20718,8 @@
       "selected_token": {
         "token": "о�",
         "token_id": 25443,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -20773,6 +20963,7 @@
         38857,
         25443
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -20785,7 +20976,7 @@
           {
             "token": "�",
             "token_id": 114,
-            "logprob": -9.9106,
+            "logprob": -9.9105,
             "prob": 0.0
           },
           {
@@ -20841,7 +21032,8 @@
       "selected_token": {
         "token": "�",
         "token_id": 112,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -21087,6 +21279,7 @@
         25443,
         112
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -21155,7 +21348,8 @@
       "selected_token": {
         "token": "с",
         "token_id": 21727,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -21403,6 +21597,7 @@
         112,
         21727
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -21471,7 +21666,8 @@
       "selected_token": {
         "token": "т",
         "token_id": 20375,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -21721,6 +21917,7 @@
         21727,
         20375
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -21745,7 +21942,7 @@
           {
             "token": "Ġon",
             "token_id": 319,
-            "logprob": -12.5623,
+            "logprob": -12.5622,
             "prob": 0.0
           },
           {
@@ -21789,7 +21986,8 @@
       "selected_token": {
         "token": "в",
         "token_id": 38857,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     },
     {
@@ -22041,6 +22239,7 @@
         20375,
         38857
       ],
+      "special_idx": [],
       "output_distribution": {
         "top_k": 10,
         "candidates": [
@@ -22109,7 +22308,8 @@
       "selected_token": {
         "token": "е",
         "token_id": 16843,
-        "selection_method": "greedy"
+        "selection_method": "greedy",
+        "special": false
       }
     }
   ]
